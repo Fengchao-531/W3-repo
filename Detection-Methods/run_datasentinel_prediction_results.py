@@ -104,7 +104,7 @@ def validate_ft_path(ft_path: str) -> None:
         return
 
     path = Path(ft_path).expanduser()
-    if path.is_absolute() or "/" in ft_path:
+    if path.is_absolute() or ft_path.startswith((".", "~")) or path.exists():
         adapter_config = path / "adapter_config.json"
         if not path.exists():
             raise FileNotFoundError(
