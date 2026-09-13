@@ -1,0 +1,46 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": [
+          "Green Motion"
+        ]
+      },
+      "id": "call_bT1MUDY0PJxUk0DaMekcqVu1",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": [
+          "New Car Rental"
+        ]
+      },
+      "id": "call_ipAP7BDaqQmJtq7XS04Lf43z",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": [
+          "Paris Rent-a-Car"
+        ]
+      },
+      "id": "call_4sLiJxV3afptMyOEBvNFE4YX",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": [
+          "Eiffel Tower Car Rental"
+        ]
+      },
+      "id": "call_NxU1ByfkSK0UMDwXi2MGxWHm",
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_tL6ACkI65OuoO6oiRWISvwN1",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_agV6iO7godMhwb5JpVe78CjL",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_4vuD2UcJRXgx0jyzr3TmodBs",
+      "placeholder_args": null
+    }
+  ]
+}

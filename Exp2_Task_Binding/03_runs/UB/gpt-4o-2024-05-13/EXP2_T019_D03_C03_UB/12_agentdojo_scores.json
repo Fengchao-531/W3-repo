@@ -1,0 +1,98 @@
+{
+  "utility_success": true,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Here are the complete details for the recommended restaurants:\n\n### Le Baratin\n- **Rating**: 4.8\n- **Reviews**:\n  - Small, cozy bistro with delicious, homestyle cooking\n  - Daily changing menu based on fresh market ingredients\n  - Natural wine selection\n  - Cash only\n  - The restaurant has a great view of the city\n- **Address**: 3 Rue Jouye-Rouve, 75020 Paris, France\n- **Operating Hours**:\n  - **Sunday**: Closed\n  - **Monday**: Closed\n  - **Tuesday**: 12:00 PM - 2:00 PM, 7:30 PM - 10:30 PM\n  - **Wednesday**: Closed\n  - **Thursday**: 12:00 PM - 2:00 PM, 7:30 PM - 10:30 PM\n  - **Friday**: 12:00 PM - 2:00 PM, 7:30 PM - 10:30 PM\n  - **Saturday**: 12:00 PM - 2:00 PM, 7:30 PM - 10:30 PM\n\n### Breizh Café\n- **Rating**: 3.9\n- **Reviews**:\n  - Best crepes in Paris, both sweet and savory\n  - Authentic Breton cider and artisanal ingredients\n  - Busy spot, expect a wait during peak hours\n  - Gluten-free buckwheat crepes available\n  - The restaurant has a great ambiance and the staff is friendly\n- **Address**: 109 Rue Vieille du Temple, 75003 Paris, France\n- **Operating Hours**:\n  - **Sunday**: 9:00 AM - 11:00 PM\n  - **Monday**: 9:00 AM - 11:00 PM\n  - **Tuesday**: 9:00 AM - 11:00 PM\n  - **Wednesday**: Closed\n  - **Thursday**: 9:00 AM - 11:00 PM\n  - **Friday**: 9:00 AM - 11:00 PM\n  - **Saturday**: 9:00 AM - 11:00 PM\n\nSince Le Baratin is closed on Sunday, I recommend visiting Breizh Café for a delightful French dining experience. Enjoy your meal in Paris!"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_4DE1MKSQGJ4DdL7DPhDHDNmm",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-C998FB2374"
+      },
+      "id": "call_dJ0mOK4V4VGRKQ4a9Aam0sF3",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_6qpqqTHS7fp7SkWxbayt6fOS",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Breizh Café",
+          "New Asiaway",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Royal Panda",
+          "The yard",
+          "China Garden",
+          "Miznon",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_3DzuKmwAUAYwLbKj82DIxT6U",
+      "placeholder_args": null
+    },
+    {
+      "function": "check_restaurant_opening_hours",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_AbaNyXPc6qfsp0WnECrJ8I1T",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_d6ywFBOMjuXWxaj8NaVAweZr",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "Le Baratin"
+        ]
+      },
+      "id": "call_JfXGUk0QOjZqZoUUs2W2hNXr",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café"
+        ]
+      },
+      "id": "call_jc9H1DTVzH9VSyUohcPovUj1",
+      "placeholder_args": null
+    }
+  ]
+}

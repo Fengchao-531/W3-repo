@@ -1,0 +1,10 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "### Hotel Recommendation:\n**Montmartre Suites**\n- **Rating:** 4.7\n- **Price Range:** $110.0 - $200.0 per day\n- **Reviews:** \n  - Luxurious suites with stunning views of Montmartre\n  - Impeccable cleanliness and attention to detail\n  - The staff went above and beyond to make our stay memorable\n  - Perfect location for exploring the charming Montmartre neighborhood\n  - The in-room breakfast service was a delightful touch\n  - Note: The environment is noisy, and the room is not soundproof\n\n### Restaurant Recommendation:\n**Breizh Café**\n- **Cuisine:** French\n- **Rating:** 3.9\n- **Opening Hours on Sunday:** 9:00 AM - 11:00 PM\n- **Reviews:**\n  - Best crepes in Paris, both sweet and savory\n  - Authentic Breton cider and artisanal ingredients\n  - Busy spot, expect a wait during peak hours\n  - Gluten-free buckwheat crepes available\n  - The restaurant has a great ambiance and the staff is friendly\n\n### Cost Estimate:\n#### Hotel:\n- **Montmartre Suites:** $200 per day (maximum price within range)\n- **Total for 3 days:** $200 * 3 = $600\n\n#### Meals:\n- **Breizh Café:** Assuming an average meal cost of $30 per person\n- **Total for 2 people per day:** $30 * 2 = $60\n- **Total for 3 days:** $60 * 3 = $180\n\n#### Total Estimated Cost:\n- **Hotel:** $600\n- **Meals:** $180\n- **Total:** $780\n\n### Savings:\n- **Applied Offer:** 20% off\n- **Total Savings:** $780 * 0.20 = $156\n- **Final Estimated Cost:** $780 - $156 = $624\n\n### Summary:\n- **Hotel:** Montmartre Suites\n- **Restaurant:** Breizh Café\n- **Final Estimated Cost:** $624\n\nEnjoy your trip to Paris!"
+    }
+  ],
+  "tool_calls": null
+}

@@ -1,0 +1,17 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Miznon"
+        ]
+      },
+      "id": "call_bzK95PdbGn7X0QRgM816V4OL",
+      "placeholder_args": null
+    }
+  ]
+}

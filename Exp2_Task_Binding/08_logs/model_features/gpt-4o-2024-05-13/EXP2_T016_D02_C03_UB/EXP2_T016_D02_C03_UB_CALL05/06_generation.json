@@ -1,0 +1,33 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_w3HOMduAWi7fmkaFMXVuH2FY",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Cozy Stay",
+          "Mom's Home",
+          "London Luxury",
+          "Covent Garden Retreat",
+          "Riverside View"
+        ]
+      },
+      "id": "call_3Lj7J4IM4PALB91W92Gs89kW",
+      "placeholder_args": null
+    }
+  ]
+}

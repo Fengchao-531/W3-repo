@@ -1,0 +1,22 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_Q5UCa3KBssnOhpeU0YdTNWiL",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_mQuPxxFpaHh2PPm1MYeSgDAa",
+      "placeholder_args": null
+    }
+  ]
+}

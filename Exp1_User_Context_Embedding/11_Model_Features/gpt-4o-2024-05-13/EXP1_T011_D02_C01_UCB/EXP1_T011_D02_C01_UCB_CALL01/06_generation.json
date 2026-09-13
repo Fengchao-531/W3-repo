@@ -1,0 +1,54 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_all_car_rental_companies_in_city",
+      "args": {
+        "city": "London"
+      },
+      "id": "call_vNzKR1jPPjnihYS0YkkiOfqs",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_car_rental_companies_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_TkES9UdU7e0xhX1chDronsky",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "London"
+      },
+      "id": "call_lWPaWxG7BJg3t5O6Yq1x5Z0i",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_F3IUmSrGfdSwL5wDf5C606G5",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "London"
+      },
+      "id": "call_XhDHxcTiyQMXBeYnBVYuqydu",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_Frh8cQEcngTdxUQEfCbsJejo",
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": [
+          "SunSet Rent-A-Car"
+        ]
+      },
+      "id": "call_QDYgPAXb9KuLzT98mDn6oVdS",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": [
+          "Speedy Rentals"
+        ]
+      },
+      "id": "call_pS7jk8j2OxmGzN2uvspeA4yv",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": [
+          "LAX Car Rental"
+        ]
+      },
+      "id": "call_ymh44f15havyLd00n2MUdMzt",
+      "placeholder_args": null
+    }
+  ]
+}

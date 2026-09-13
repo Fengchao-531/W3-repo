@@ -1,0 +1,22 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": "Green Motion"
+      },
+      "id": "call_HnOKM5U1SPm3GbaFXsNVdhg7",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": "New Car Rental"
+      },
+      "id": "call_ISVsNGv92DrztG0KD4SitJ3z",
+      "placeholder_args": null
+    }
+  ]
+}

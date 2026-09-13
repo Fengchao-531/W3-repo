@@ -1,0 +1,18 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_Li5XeDwoUCxwvEtfCc3VDyFx",
+      "placeholder_args": null
+    }
+  ]
+}

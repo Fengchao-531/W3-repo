@@ -1,0 +1,51 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_zou6Sxi8kT8J0rLvsw4Y7d9v",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_WSxGkfVDjDB6cQOhN07cviVg",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Breizh Café",
+          "New Asiaway",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Royal Panda",
+          "The yard",
+          "China Garden",
+          "Miznon",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_6gidVe7JeC5zmq7vckKw4p4Z",
+      "placeholder_args": null
+    }
+  ]
+}

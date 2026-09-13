@@ -1,0 +1,30 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Cozy Stay"
+      },
+      "id": "call_ScY7Q2PwwSqRLDXlbcpLGZNV",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Mom's Home"
+      },
+      "id": "call_J64E88AnDd0y58FqoY38Nv0D",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Covent Garden Retreat"
+      },
+      "id": "call_HMtKRSzM9n5yThkCRjJDAaKJ",
+      "placeholder_args": null
+    }
+  ]
+}

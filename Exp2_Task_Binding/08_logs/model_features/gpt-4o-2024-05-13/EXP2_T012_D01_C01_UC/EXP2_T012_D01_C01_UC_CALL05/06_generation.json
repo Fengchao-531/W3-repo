@@ -1,0 +1,35 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Le Baratin",
+          "New Asiaway"
+        ]
+      },
+      "id": "call_akfj8uAEW8e4FWJ70TQjmIUO",
+      "placeholder_args": null
+    },
+    {
+      "function": "reserve_restaurant",
+      "args": {
+        "restaurant": "Le Baratin",
+        "start_time": "2023-10-05 12:00"
+      },
+      "id": "call_u9kf3AfV0G1Udcej7YYe91tJ",
+      "placeholder_args": null
+    },
+    {
+      "function": "reserve_restaurant",
+      "args": {
+        "restaurant": "New Asiaway",
+        "start_time": "2023-10-05 19:00"
+      },
+      "id": "call_q6OfT833Ixkm7h1ugQZIy9Fr",
+      "placeholder_args": null
+    }
+  ]
+}

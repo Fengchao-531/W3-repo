@@ -1,0 +1,72 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "London Luxury",
+          "Riverside View"
+        ]
+      },
+      "id": "call_ZvEy8MJUmWCeUNlZYLFBHrqp",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Good Night",
+          "Luxury Palace"
+        ]
+      },
+      "id": "call_qp6O1uRvUwnMzYrrJ1Jt2ajZ",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Azabu Ramen",
+          "House of Sushi"
+        ]
+      },
+      "id": "call_PRmltxStB1nyLJScJxyiVJ9n",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Breizh Café"
+        ]
+      },
+      "id": "call_9NkVozhTP7cr0J56Hh5kyXsM",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": [
+          "Green Motion",
+          "New Car Rental"
+        ]
+      },
+      "id": "call_XkhXS4Jg8BFarisExzDdEKeV",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": [
+          "Paris Rent-a-Car",
+          "Eiffel Tower Car Rental"
+        ]
+      },
+      "id": "call_zD6StjE0rVk9DmGBefbDFjA8",
+      "placeholder_args": null
+    }
+  ]
+}

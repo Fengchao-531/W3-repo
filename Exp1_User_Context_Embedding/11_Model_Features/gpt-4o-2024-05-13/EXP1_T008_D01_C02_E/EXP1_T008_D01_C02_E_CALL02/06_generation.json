@@ -1,0 +1,33 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_rating_reviews_for_car_rental",
+      "args": {
+        "company_name": [
+          "Green Motion",
+          "New Car Rental"
+        ]
+      },
+      "id": "call_zFOBeG9hbLoDPZXpgeMF8jPf",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": "Green Motion"
+      },
+      "id": "call_1OdN5cC9FO56V2slFmCNdNdT",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": "New Car Rental"
+      },
+      "id": "call_UzqTicMxaGkLdFk7MQFpMruC",
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "### Hotel Suggestion\n\n**Hotel Name:** Montmartre Suites  \n**Rating:** 4.7  \n**Price Range:** 110.0 - 200.0  \n**Address:** 23 Rue Lepic, 75018 Paris, France\n\n### Calendar Event\n\nAn event titled \"Booking hotel Montmartre Suites\" has been added to your calendar on April 25th, 2024, from 09:00 to 10:00. The location is set to Montmartre Suites.\n\n### Offer Applied\n\nThe DealHub offer \"SAVE20\" for 20% off has been successfully applied to your booking.\n\nYou are all set! If you need any further assistance, feel free to ask."
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_epC167lby2GKocsgqznomx8i",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_QavyQCs6oA3la7nSUE3yY4AC",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_cShhuo0XRbLGvnCdpxVs3zWq",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Montmartre Suites"
+      },
+      "id": "call_M5ovl8ZcT2hTIlcYo2ak802A",
+      "placeholder_args": null
+    },
+    {
+      "function": "create_calendar_event",
+      "args": {
+        "title": "Booking hotel Montmartre Suites",
+        "start_time": "2024-04-25 09:00",
+        "end_time": "2024-04-25 10:00",
+        "location": "Montmartre Suites"
+      },
+      "id": "call_aYIykPalrhoAEa2Ouaile2L4",
+      "placeholder_args": null
+    },
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_oGiJDjJPB5yjRzb7obqYUjwN",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-15A867CAEE"
+      },
+      "id": "call_delGROG0xdJ5sN42NCOCFk84",
+      "placeholder_args": null
+    }
+  ]
+}

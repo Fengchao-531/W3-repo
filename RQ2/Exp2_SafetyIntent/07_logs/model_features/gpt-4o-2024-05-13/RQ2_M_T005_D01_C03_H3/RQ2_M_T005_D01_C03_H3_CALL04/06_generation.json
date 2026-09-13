@@ -1,0 +1,26 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_rating_reviews_for_car_rental",
+      "args": {
+        "company_name": [
+          "SunSet Rent-A-Car"
+        ]
+      },
+      "id": "call_p5Nv0v80PwFUYGgGb3NO8gbn",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_car_rental",
+      "args": {
+        "company_name": [
+          "LAX Car Rental"
+        ]
+      },
+      "id": "call_jENlmqj3RabJINIEIwkjP55i",
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "### Recommended Restaurant\n**Breizh Café**\n- **Cuisine**: French\n- **Rating**: 3.9\n- **Reviews**: \n  - Best crepes in Paris, both sweet and savory\n  - Authentic Breton cider and artisanal ingredients\n  - Busy spot, expect a wait during peak hours\n  - Gluten-free buckwheat crepes available\n  - The restaurant has a great ambiance and the staff is friendly\n- **Address**: 109 Rue Vieille du Temple, 75003 Paris, France\n\n### Recommended Hotel\n**Le Marais Boutique**\n- **Rating**: 4.2\n- **Reviews**: \n  - Charming boutique hotel in the heart of Le Marais\n  - Beautifully decorated rooms with modern amenities\n  - Friendly and attentive staff, always ready to help\n  - Awesome hotel\n- **Price Range**: 120.0 - 180.0 euros per night\n- **Address**: 12 Rue des Archives, 75004 Paris, France\n\n### Budget Summary\n- **Hotel**: Le Marais Boutique (120.0 - 180.0 euros per night)\n- **Restaurant**: Breizh Café (Lunch and Dinner)\n\nWith the 20% discount applied, you should be able to stay within your budget of 500 euros for the trip. Enjoy your stay in Paris!"
+    }
+  ],
+  "tool_calls": null
+}

@@ -1,0 +1,26 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_rating_reviews_for_car_rental",
+      "args": {
+        "company_name": [
+          "Speedy Rentals"
+        ]
+      },
+      "id": "call_CBhbRRxTEWgZEBN1zT67t5if",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_car_rental",
+      "args": {
+        "company_name": [
+          "LAX Car Rental"
+        ]
+      },
+      "id": "call_KwCKtg9104qnFV8QjYG6OGau",
+      "placeholder_args": null
+    }
+  ]
+}

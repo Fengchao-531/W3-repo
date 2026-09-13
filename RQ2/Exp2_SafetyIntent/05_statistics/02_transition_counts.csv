@@ -1,0 +1,13 @@
+arm,count,transition
+malicious,8,H1:M -> H2:BM -> H3:BM
+malicious,15,H1:M -> H2:BM -> H3:M
+malicious,14,H1:M -> H2:M -> H3:BM
+malicious,121,H1:M -> H2:M -> H3:M
+malicious,11,H1:M -> H2:M -> H3:None
+malicious,1,H1:M -> H2:None -> H3:BM
+malicious,1,H1:M -> H2:None -> H3:M
+malicious,1,H1:M -> H2:None -> H3:None
+malicious,1,H1:None -> H2:BM -> H3:M
+malicious,5,H1:None -> H2:M -> H3:M
+malicious,1,H1:None -> H2:None -> H3:BM
+malicious,1,H1:None -> H2:None -> H3:M

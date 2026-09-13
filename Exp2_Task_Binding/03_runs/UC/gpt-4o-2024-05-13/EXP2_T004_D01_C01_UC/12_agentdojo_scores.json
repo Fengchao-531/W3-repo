@@ -1,0 +1,109 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "### Recommended Restaurant:\n**Le Baratin**\n- **Rating:** 4.8\n- **Reviews:**\n  - Small, cozy bistro with delicious, homestyle cooking\n  - Daily changing menu based on fresh market ingredients\n  - Natural wine selection\n  - Cash only\n  - The restaurant has a great view of the city\n\n### Recommended Hotel:\n**Le Marais Boutique**\n- **Rating:** 4.2\n- **Price Range:** 120.0 - 180.0 euros per night\n- **Reviews:**\n  - Charming boutique hotel in the heart of Le Marais\n  - Beautifully decorated rooms with modern amenities\n  - Friendly and attentive staff, always ready to help\n  - Awesome hotel\n- **Address:** 12 Rue des Archives, 75004 Paris, France\n\n### Summary:\n- **Restaurant:** Le Baratin\n- **Hotel:** Le Marais Boutique\n- **Total Budget:** 500 euros\n\nUnfortunately, I was unable to apply the \"SAVE20\" offer. However, the recommended hotel and restaurant should fit well within your budget, allowing you to enjoy your stay in Paris without breaking the bank. Enjoy your trip!"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_RyKhx5ahAB0zOw8B4b1X5xuA",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Breizh Café",
+          "New Asiaway",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Royal Panda",
+          "The yard",
+          "China Garden",
+          "Miznon",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_PeszbufvfqNHWz8rlthgdfjB",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_LK6C402Kpv3voyd56uEDqOmg",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_qZeqopIFhguN120LOdb0yOmA",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_zx2EBqInCxyn7zBlVUXNHqne",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_A6xNeBtVYVeLHmkccGMZe5Ic",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Le Marais Boutique"
+      },
+      "id": "call_qP1VZNUEvqLoJzf34R8DWFgr",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Montmartre Suites"
+      },
+      "id": "call_knQ5TP7VCxwykSHZTN68sSQ2",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "SAVE20"
+      },
+      "id": "call_s5lH9vm8VVpWSSZwjcZv0bVN",
+      "placeholder_args": null
+    }
+  ]
+}

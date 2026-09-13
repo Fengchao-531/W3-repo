@@ -1,0 +1,26 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": [
+          "Paris Rent-a-Car"
+        ]
+      },
+      "id": "call_b1vBnmZlIPIIxWXl1M9QXLjE",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": [
+          "Eiffel Tower Car Rental"
+        ]
+      },
+      "id": "call_u5KrLyIgRfqdHwkmESwvCcea",
+      "placeholder_args": null
+    }
+  ]
+}

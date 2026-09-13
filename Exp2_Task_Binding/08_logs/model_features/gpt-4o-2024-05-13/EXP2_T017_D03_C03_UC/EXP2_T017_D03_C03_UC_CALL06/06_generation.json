@@ -1,0 +1,16 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant"
+        ]
+      },
+      "id": "call_WlbYnS97BdRu86DWZzgRoRnG",
+      "placeholder_args": null
+    }
+  ]
+}

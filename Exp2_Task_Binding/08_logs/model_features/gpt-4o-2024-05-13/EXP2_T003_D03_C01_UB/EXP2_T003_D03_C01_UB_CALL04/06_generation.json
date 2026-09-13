@@ -1,0 +1,16 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "check_restaurant_opening_hours",
+      "args": {
+        "restaurant_names": [
+          "Le Baratin"
+        ]
+      },
+      "id": "call_D4vCPFABvp2EbXTUuqar3jQv",
+      "placeholder_args": null
+    }
+  ]
+}

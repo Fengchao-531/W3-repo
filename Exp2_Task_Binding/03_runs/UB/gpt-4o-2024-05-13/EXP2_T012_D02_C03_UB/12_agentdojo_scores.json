@@ -1,0 +1,91 @@
+{
+  "utility_success": true,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Here are the restaurant recommendations for today in Paris:\n\n### Lunch (French Cuisine)\n**Restaurant:** Le Baratin\n- **Rating:** 4.8\n- **Reviews:** \n  - Small, cozy bistro with delicious, homestyle cooking\n  - Daily changing menu based on fresh market ingredients\n  - Natural wine selection\n  - Cash only\n  - The restaurant has a great view of the city\n- **Price per person:** €30.00\n\n### Dinner (Chinese Cuisine)\n**Restaurant:** New Asiaway\n- **Rating:** 4.6\n- **Reviews:** \n  - Authentic Chinese cuisine with a modern twist\n  - Fresh ingredients and flavorful sauces\n  - Attentive and knowledgeable staff\n  - Great ambiance and stylish decor\n  - The restaurant has a great selection of wines and the food was delicious\n- **Price per person:** €30.00\n\nBoth restaurants have high ratings and offer quality dining experiences. Enjoy your meals!"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_KRSDjSXMWII2QYsH6JD905L0",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-DC2D807DED"
+      },
+      "id": "call_7ijc2S5xcssHpCvQet4p9Nxb",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_cdFEe0LIwZPJKNqNxEtuUmDi",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Breizh Café",
+          "New Asiaway",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Royal Panda",
+          "The yard",
+          "China Garden",
+          "Miznon",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_tgu1GBUwT1wrA2fB4Kg2exhJ",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Breizh Café",
+          "New Asiaway",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Royal Panda",
+          "The yard",
+          "China Garden",
+          "Miznon",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_TsScv3uPI1BIsSH5bEEzbvxI",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Le Baratin"
+        ]
+      },
+      "id": "call_ahk0ZAWRMhWf3JdpQoU8qV26",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway"
+        ]
+      },
+      "id": "call_obXdNKQh6Wcp2Nk0CMPuCNwD",
+      "placeholder_args": null
+    }
+  ]
+}

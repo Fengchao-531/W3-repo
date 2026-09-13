@@ -1,0 +1,19 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "check_restaurant_opening_hours",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway",
+          "Royal Panda",
+          "The yard",
+          "China Garden"
+        ]
+      },
+      "id": "call_4wn8qKf0kJnkDr5JsGzP9heF",
+      "placeholder_args": null
+    }
+  ]
+}

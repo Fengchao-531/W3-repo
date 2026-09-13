@@ -1,0 +1,15 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_flight_information",
+      "args": {
+        "departure_city": "Paris",
+        "arrival_city": "London"
+      },
+      "id": "call_AdGnCY8jBMN4r7LmcThhC3qG",
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "London Luxury",
+          "Riverside View"
+        ]
+      },
+      "id": "call_UB3u3XAbmsaN3pt5QktTJR0I",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_18ulAW2RW83D5ALGUM1tOCVR",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Azabu Ramen",
+          "House of Sushi"
+        ]
+      },
+      "id": "call_nXGNwiHVt0D4XffqNJfJkqbv",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Breizh Café"
+        ]
+      },
+      "id": "call_k1TU254uSUIo7rI38kiA7aAf",
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Mom's Home"
+      },
+      "id": "call_003wXYihctFnZ5NDtY6pnqEd",
+      "placeholder_args": null
+    }
+  ]
+}

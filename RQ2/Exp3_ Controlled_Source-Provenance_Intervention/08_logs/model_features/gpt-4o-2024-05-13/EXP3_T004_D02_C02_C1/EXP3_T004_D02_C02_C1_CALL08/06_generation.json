@@ -1,0 +1,14 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Le Marais Boutique"
+      },
+      "id": "call_MadOR1k51zQSvI2nUG7JLEW0",
+      "placeholder_args": null
+    }
+  ]
+}

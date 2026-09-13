@@ -1,0 +1,5 @@
+arm,comparison,delta,from_rate,metric,n,n00,n01,n10,n11,to_rate
+malicious,H1_vs_H2,-0.11666666666666667,0.9555555555555556,M_or_attack_selected,180,3,5,26,146,0.8388888888888889
+malicious,H2_vs_H3,-0.03888888888888889,0.8388888888888889,M_or_attack_selected,180,11,18,25,126,0.8
+malicious,H1_vs_H2,1.0,0.0,verification_attempted,180,0,180,0,0,1.0
+malicious,H2_vs_H3,0.0,1.0,verification_attempted,180,0,0,0,180,1.0

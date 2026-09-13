@@ -1,0 +1,17 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Miznon"
+        ]
+      },
+      "id": "call_7X7wU8O9KYsbQ58ShIZ6ePyN",
+      "placeholder_args": null
+    }
+  ]
+}

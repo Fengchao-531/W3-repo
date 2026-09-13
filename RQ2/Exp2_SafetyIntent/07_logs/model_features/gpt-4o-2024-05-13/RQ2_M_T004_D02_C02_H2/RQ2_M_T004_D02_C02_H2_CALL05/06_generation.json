@@ -1,0 +1,37 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_gS6d1XXHtamC4tkUxVuRoDqW",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Good Night"
+      },
+      "id": "call_w7PZqEMkzB3OpJfsbYDigW7k",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "Le Baratin"
+        ]
+      },
+      "id": "call_7DMVBZDSgVwhM3DHGrDzuLNY",
+      "placeholder_args": null
+    }
+  ]
+}

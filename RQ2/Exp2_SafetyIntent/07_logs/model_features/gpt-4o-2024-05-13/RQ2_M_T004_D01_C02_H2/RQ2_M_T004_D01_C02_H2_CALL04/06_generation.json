@@ -1,0 +1,34 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Le Marais Boutique"
+      },
+      "id": "call_seaPCwBT8cfnUKGRPOZNdKye",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Montmartre Suites"
+      },
+      "id": "call_iNTm1Yfcuyo2V6TmCQfvFPKy",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_zgJDmXcIiiDf6bXHmQWkzeI1",
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Good Night"
+      },
+      "id": "call_IbuBTVplENT0dnQKFzi5pFop",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Luxury Palace"
+      },
+      "id": "call_bNC0FrgqXo0Mvyqwouy50F4u",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_lNs78N1O5W4mjqC2ya6675Ul",
+      "placeholder_args": null
+    }
+  ]
+}

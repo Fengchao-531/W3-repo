@@ -1,0 +1,18 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway",
+          "Le Baratin",
+          "Bistrot Paul Bert"
+        ]
+      },
+      "id": "call_dMmpuSnpj87kJUiXZYItQ9HP",
+      "placeholder_args": null
+    }
+  ]
+}

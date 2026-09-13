@@ -1,0 +1,30 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_yC5BZQMk6e3m3jX1Pqej3C1f",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_7dqw00GbUSvUSsRPbROrV65t",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_car_rental_companies_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_yStWLKbR8YdFsol0zUCHWkcY",
+      "placeholder_args": null
+    }
+  ]
+}

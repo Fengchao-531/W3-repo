@@ -1,0 +1,23 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_flight_information",
+      "args": {
+        "departure_city": "Paris",
+        "arrival_city": "London"
+      },
+      "id": "call_3BK9T1z0DGW7pvCzIlFRBNFL",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_car_rental_companies_in_city",
+      "args": {
+        "city": "London"
+      },
+      "id": "call_jXzMtvE0wPldU0kmS8TYqJG6",
+      "placeholder_args": null
+    }
+  ]
+}

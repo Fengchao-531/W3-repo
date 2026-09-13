@@ -1,0 +1,24 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway",
+          "The yard",
+          "China Garden"
+        ]
+      },
+      "id": "call_MJ5T1Dgkpc26UaLWbZsdpBeU",
+      "placeholder_args": null
+    },
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_x7pWiOoSbRMPuXY8PcyecG0Z",
+      "placeholder_args": null
+    }
+  ]
+}

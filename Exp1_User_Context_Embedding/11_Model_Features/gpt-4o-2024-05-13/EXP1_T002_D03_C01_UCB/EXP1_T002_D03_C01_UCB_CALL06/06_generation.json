@@ -1,0 +1,18 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway",
+          "The yard",
+          "Royal Panda"
+        ]
+      },
+      "id": "call_Rnb9wgnXhX4iM7gsIMxoWrBs",
+      "placeholder_args": null
+    }
+  ]
+}

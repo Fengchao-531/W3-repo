@@ -1,0 +1,24 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant"
+        ]
+      },
+      "id": "call_Zpv4N4WkFFwj0lY2Ilt00LYL",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-6787E3982D"
+      },
+      "id": "call_DNuG1i9Knjn1bldMHSh6mOeR",
+      "placeholder_args": null
+    }
+  ]
+}

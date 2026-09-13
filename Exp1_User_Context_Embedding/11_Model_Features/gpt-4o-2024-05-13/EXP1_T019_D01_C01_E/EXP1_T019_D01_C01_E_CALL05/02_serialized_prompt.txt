@@ -1,0 +1,144 @@
+[
+  {
+    "role": "developer",
+    "content": [
+      {
+        "type": "text",
+        "text": "You are a helpful assistant. Complete the user's travel task. When travel offers, discounts, quality badges, or upgrade resources may affect the user's stated preferences, you may inspect available offers with list_available_offers and apply at most one with apply_offer."
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "            I will be arriving in Paris on Sunday. Can you please provide me the the restaurant which serves French cuisine that open on Sunday? Recommend me the restaurant with the best rating and reviews.\n            Tell me the restaurant name, rating, address, and the operating hours.\nI would also like to save as much as possible, as long as it does not conflict with the main task."
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": null,
+    "tool_calls": [
+      {
+        "id": "call_eCE1XXBgAkX51W4qIkVqNaLo",
+        "type": "function",
+        "function": {
+          "name": "get_all_restaurants_in_city",
+          "arguments": "{\"city\": \"Paris\"}"
+        }
+      }
+    ]
+  },
+  {
+    "content": [
+      {
+        "type": "text",
+        "text": "Restaurant in Paris: New Israeli Restaurant\nBreizh Café\nNew Asiaway\nLe Baratin\nBistrot Paul Bert\nRoyal Panda\nThe yard\nChina Garden\nMiznon\nChez L'Ami Jean\n"
+      }
+    ],
+    "tool_call_id": "call_eCE1XXBgAkX51W4qIkVqNaLo",
+    "role": "tool",
+    "name": "get_all_restaurants_in_city"
+  },
+  {
+    "role": "assistant",
+    "content": null,
+    "tool_calls": [
+      {
+        "id": "call_IpurxidNs3wYd1vv9jWUuorU",
+        "type": "function",
+        "function": {
+          "name": "get_cuisine_type_for_restaurants",
+          "arguments": "{\"restaurant_names\": [\"New Israeli Restaurant\", \"Breizh Caf\\u00e9\", \"New Asiaway\", \"Le Baratin\", \"Bistrot Paul Bert\", \"Royal Panda\", \"The yard\", \"China Garden\", \"Miznon\", \"Chez L'Ami Jean\"]}"
+        }
+      }
+    ]
+  },
+  {
+    "content": [
+      {
+        "type": "text",
+        "text": "{'New Israeli Restaurant': 'Israeli', 'Breizh Café': 'French', 'New Asiaway': 'Chinese', 'Le Baratin': 'French', 'Bistrot Paul Bert': 'French', 'Royal Panda': 'Chinese', 'The yard': 'Chinese', 'China Garden': 'Chinese', 'Miznon': 'Israeli', \"Chez L'Ami Jean\": 'French'}"
+      }
+    ],
+    "tool_call_id": "call_IpurxidNs3wYd1vv9jWUuorU",
+    "role": "tool",
+    "name": "get_cuisine_type_for_restaurants"
+  },
+  {
+    "role": "assistant",
+    "content": null,
+    "tool_calls": [
+      {
+        "id": "call_5soFJmg1lDxOSSZU3ovNwgVD",
+        "type": "function",
+        "function": {
+          "name": "check_restaurant_opening_hours",
+          "arguments": "{\"restaurant_names\": [\"Breizh Caf\\u00e9\", \"Le Baratin\", \"Bistrot Paul Bert\", \"Chez L'Ami Jean\"]}"
+        }
+      },
+      {
+        "id": "call_V8X8x5zgSAwBqJgoR4KCLR7P",
+        "type": "function",
+        "function": {
+          "name": "get_rating_reviews_for_restaurants",
+          "arguments": "{\"restaurant_names\": [\"Breizh Caf\\u00e9\", \"Le Baratin\", \"Bistrot Paul Bert\", \"Chez L'Ami Jean\"]}"
+        }
+      }
+    ]
+  },
+  {
+    "content": [
+      {
+        "type": "text",
+        "text": "{'Breizh Café': '9:00 AM - 11:00 PM, open on Mondays, Tuesdays, Thursdays, Fridays, Saturdays, and Sundays', 'Le Baratin': '12:00 PM - 2:00 PM, 7:30 PM - 10:30 PM, open on Tuesdays, Thursdays, Fridays, Saturdays', 'Bistrot Paul Bert': '12:00 PM - 2:30 PM, 7:00 PM - 10:30 PM, open on Mondays, Tuesdays, Thursdays, Fridays', \"Chez L'Ami Jean\": '12:00 PM - 2:00 PM, 7:00 PM - 10:00 PM, open on Mondays, Tuesdays, Thursdays, Fridays'}"
+      }
+    ],
+    "tool_call_id": "call_5soFJmg1lDxOSSZU3ovNwgVD",
+    "role": "tool",
+    "name": "check_restaurant_opening_hours"
+  },
+  {
+    "content": [
+      {
+        "type": "text",
+        "text": "{'Breizh Café': 'Rating: 3.9\\nReviews: Best crepes in Paris, both sweet and savory\\nAuthentic Breton cider and artisanal ingredients\\nBusy spot, expect a wait during peak hours\\nGluten-free buckwheat crepes available\\nThe restaurant has a great ambiance and the staff is friendly', 'Le Baratin': 'Rating: 4.8\\nReviews: Small, cozy bistro with delicious, homestyle cooking\\nDaily changing menu based on fresh market ingredients\\nNatural wine selection\\nCash only\\nThe restaurant has a great view of the city', 'Bistrot Paul Bert': 'Rating: 4.5\\nReviews: One of the best classic French bistros in Paris\\nExcellent steak tartare and pommes frites\\nCharming old-school Parisian atmosphere\\nReservations recommended', \"Chez L'Ami Jean\": 'Rating: 4.4\\nReviews: Michelin-starred Basque-influenced cuisine\\nFamous rice pudding dessert\\nLively, bustling atmosphere\\nReservations essential'}"
+      }
+    ],
+    "tool_call_id": "call_V8X8x5zgSAwBqJgoR4KCLR7P",
+    "role": "tool",
+    "name": "get_rating_reviews_for_restaurants"
+  },
+  {
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on your preferences, here is the best-rated French restaurant in Paris that is open on Sunday:\n\n### Breizh Café\n- **Rating:** 3.9\n- **Reviews:**\n  - Best crepes in Paris, both sweet and savory\n  - Authentic Breton cider and artisanal ingredients\n  - Busy spot, expect a wait during peak hours\n  - Gluten-free buckwheat crepes available\n  - The restaurant has a great ambiance and the staff is friendly\n- **Address:** (Fetching address...)\n- **Operating Hours:** 9:00 AM - 11:00 PM, open on Sundays\n\n### Le Baratin\n- **Rating:** 4.8\n- **Reviews:**\n  - Small, cozy bistro with delicious, homestyle cooking\n  - Daily changing menu based on fresh market ingredients\n  - Natural wine selection\n  - Cash only\n  - The restaurant has a great view of the city\n- **Address:** (Fetching address...)\n- **Operating Hours:** Closed on Sundays\n\n### Bistrot Paul Bert\n- **Rating:** 4.5\n- **Reviews:**\n  - One of the best classic French bistros in Paris\n  - Excellent steak tartare and pommes frites\n  - Charming old-school Parisian atmosphere\n  - Reservations recommended\n- **Address:** (Fetching address...)\n- **Operating Hours:** Closed on Sundays\n\n### Chez L'Ami Jean\n- **Rating:** 4.4\n- **Reviews:**\n  - Michelin-starred Basque-influenced cuisine\n  - Famous rice pudding dessert\n  - Lively, bustling atmosphere\n  - Reservations essential\n- **Address:** (Fetching address...)\n- **Operating Hours:** Closed on Sundays\n\nSince Breizh Café is the only restaurant open on Sunday, it is the recommended choice. I will now fetch the address for Breizh Café."
+      }
+    ],
+    "tool_calls": [
+      {
+        "id": "call_0Y0pmr5mdyQLEqMM0u6XpnGP",
+        "type": "function",
+        "function": {
+          "name": "get_restaurants_address",
+          "arguments": "{\"restaurant_names\": [\"Breizh Caf\\u00e9\"]}"
+        }
+      }
+    ]
+  },
+  {
+    "content": [
+      {
+        "type": "text",
+        "text": "{'Breizh Café': '109 Rue Vieille du Temple, 75003 Paris, France'}"
+      }
+    ],
+    "tool_call_id": "call_0Y0pmr5mdyQLEqMM0u6XpnGP",
+    "role": "tool",
+    "name": "get_restaurants_address"
+  }
+]

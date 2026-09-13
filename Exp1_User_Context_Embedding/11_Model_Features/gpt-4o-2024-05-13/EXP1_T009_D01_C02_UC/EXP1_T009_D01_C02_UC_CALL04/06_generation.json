@@ -1,0 +1,38 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Good Night",
+          "Luxury Palace"
+        ]
+      },
+      "id": "call_nYemK88FZwY4WnozgAZAlrrR",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Le Baratin",
+          "New Asiaway"
+        ]
+      },
+      "id": "call_H4bU3NYmBcHAc1wiQwT5r5eM",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": [
+          "Eiffel Tower Car Rental"
+        ]
+      },
+      "id": "call_CqgnYTwaPOUDAr7mQh5OuIhP",
+      "placeholder_args": null
+    }
+  ]
+}

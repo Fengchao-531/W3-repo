@@ -1,0 +1,72 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_rating_reviews_for_car_rental",
+      "args": {
+        "company_name": [
+          "Green Motion",
+          "New Car Rental"
+        ]
+      },
+      "id": "call_zIVR4e1i3L326jXOS7jxp0C0",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_car_rental",
+      "args": {
+        "company_name": [
+          "Paris Rent-a-Car",
+          "Eiffel Tower Car Rental"
+        ]
+      },
+      "id": "call_lzfb0BWy9gSRV7aEMcNFj5qq",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Azabu Ramen",
+          "House of Sushi"
+        ]
+      },
+      "id": "call_6URPOtwrpWNX5KTnDYY9gwnD",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Breizh Café"
+        ]
+      },
+      "id": "call_Vs6v8P4VybGTaho2OUuh7bW9",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "London Luxury",
+          "Covent Garden Retreat"
+        ]
+      },
+      "id": "call_ipLmdN40oENdlcwFBU3xfku9",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_Fpm0lWiRXDprnWRaRAKYSDkV",
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_5vaPNGYceiJAtcGwmI8QmAWP",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_Lco3WO8mQDhsRFutVnNRtBz9",
+      "placeholder_args": null
+    }
+  ]
+}

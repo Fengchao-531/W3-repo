@@ -1,0 +1,22 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_rating_reviews_for_car_rental",
+      "args": {
+        "company_name": "Green Motion"
+      },
+      "id": "call_ooy3wHc8JJlPn5kkdeB9sSga",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_car_rental",
+      "args": {
+        "company_name": "New Car Rental"
+      },
+      "id": "call_J4VOZhNEuzMs0krGuGqnm8OM",
+      "placeholder_args": null
+    }
+  ]
+}

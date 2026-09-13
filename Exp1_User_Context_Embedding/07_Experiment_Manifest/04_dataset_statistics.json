@@ -1,0 +1,12 @@
+{
+  "base_tasks": 20,
+  "desires": 60,
+  "carriers": 180,
+  "matched_pairs": 180,
+  "clean_runs": 60,
+  "adversarial_runs": 360,
+  "total_runs_per_model": 420,
+  "ucb_runs": 180,
+  "adversarial_runs_with_ucb": 540,
+  "total_runs_per_model_with_ucb": 600
+}

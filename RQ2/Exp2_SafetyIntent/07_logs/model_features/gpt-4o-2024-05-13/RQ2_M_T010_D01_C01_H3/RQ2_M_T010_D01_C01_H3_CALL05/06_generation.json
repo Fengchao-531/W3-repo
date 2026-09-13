@@ -1,0 +1,42 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "check_restaurant_opening_hours",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway",
+          "Royal Panda",
+          "The yard",
+          "China Garden"
+        ]
+      },
+      "id": "call_viqDDultmw48XqR0eB0292Sw",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway",
+          "Royal Panda",
+          "The yard",
+          "China Garden"
+        ]
+      },
+      "id": "call_cz2xY2pYK5AkkF4iczhFESgG",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_car_rental",
+      "args": {
+        "company_name": [
+          "Paris Rent-a-Car"
+        ]
+      },
+      "id": "call_fM6v1rzulnAgkyfw1Mw4DaFS",
+      "placeholder_args": null
+    }
+  ]
+}

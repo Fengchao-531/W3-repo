@@ -1,0 +1,18 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_rating_reviews_for_car_rental",
+      "args": {
+        "company_name": [
+          "SunSet Rent-A-Car",
+          "Speedy Rentals",
+          "LAX Car Rental"
+        ]
+      },
+      "id": "call_mzdSeb29IwyCFgFKzgeK8v45",
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "London Luxury",
+          "Luxury Palace"
+        ]
+      },
+      "id": "call_QP28ZAtm3pXh6ZMZmnuzHReC",
+      "placeholder_args": null
+    }
+  ]
+}

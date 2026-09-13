@@ -1,0 +1,24 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Good Night"
+      },
+      "id": "call_MbzwgfE77fPyZbe1TcpdyT6M",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "Le Baratin"
+        ]
+      },
+      "id": "call_OFXANZSOIYMwhsn1VMZNre22",
+      "placeholder_args": null
+    }
+  ]
+}

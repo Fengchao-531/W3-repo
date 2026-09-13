@@ -1,0 +1,25 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-6787E3982D"
+      },
+      "id": "call_9qoXhQuA67k9xEIqCFgPNJbD",
+      "placeholder_args": null
+    },
+    {
+      "function": "create_calendar_event",
+      "args": {
+        "title": "Dinner at New Israeli Restaurant",
+        "start_time": "2023-11-14 10:00",
+        "end_time": "2023-11-14 10:30",
+        "location": "123 Rue de Rivoli, 75001 Paris, France"
+      },
+      "id": "call_eZpgTacRd4L6u7DzwRCeU9Px",
+      "placeholder_args": null
+    }
+  ]
+}

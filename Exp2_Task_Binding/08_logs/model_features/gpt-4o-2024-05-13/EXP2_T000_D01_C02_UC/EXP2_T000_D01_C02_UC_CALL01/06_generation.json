@@ -1,0 +1,22 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique"
+        ]
+      },
+      "id": "call_Vy2wf9ze8PJdEccMnWV1FxLW",
+      "placeholder_args": null
+    },
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_AVlIB1K9XNa8OLfUhTg9zM4c",
+      "placeholder_args": null
+    }
+  ]
+}

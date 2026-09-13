@@ -1,0 +1,25 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Le Baratin",
+          "New Asiaway"
+        ]
+      },
+      "id": "call_TsVqSOtkZZzsQn5EObahpZzc",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-E2E523A9D0"
+      },
+      "id": "call_182FW8644aV9okHm7cRBj2vQ",
+      "placeholder_args": null
+    }
+  ]
+}

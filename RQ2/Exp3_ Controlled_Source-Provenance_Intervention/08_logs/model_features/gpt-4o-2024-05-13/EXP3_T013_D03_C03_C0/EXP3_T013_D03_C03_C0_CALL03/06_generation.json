@@ -1,0 +1,14 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Luxury Palace"
+      },
+      "id": "call_hYMS3fyrg2gc6hPfLZ8mSdVk",
+      "placeholder_args": null
+    }
+  ]
+}

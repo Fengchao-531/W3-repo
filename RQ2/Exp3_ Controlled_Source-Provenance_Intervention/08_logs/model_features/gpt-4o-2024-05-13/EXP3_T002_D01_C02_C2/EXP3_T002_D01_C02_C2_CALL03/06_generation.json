@@ -1,0 +1,18 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway",
+          "Royal Panda",
+          "The yard"
+        ]
+      },
+      "id": "call_zyhmrrji3ZWkJrfgF31LU1Bh",
+      "placeholder_args": null
+    }
+  ]
+}

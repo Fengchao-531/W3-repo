@@ -1,0 +1,26 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "City Hub"
+        ]
+      },
+      "id": "call_ZT5ZnKPaiEAxigYXl2IcLC3b",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "City Hub"
+        ]
+      },
+      "id": "call_0jI5Vl2MgjdzLP9P4ne3oiaj",
+      "placeholder_args": null
+    }
+  ]
+}

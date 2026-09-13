@@ -1,0 +1,125 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "### Hotel Recommendation:\n**Hotel:** Montmartre Suites\n- **Price Range:** $110.0 - $200.0 per day\n- **Rating:** 4.7\n- **Reviews:**\n  - Luxurious suites with stunning views of Montmartre\n  - Impeccable cleanliness and attention to detail\n  - The staff went above and beyond to make our stay memorable\n  - Perfect location for exploring the charming Montmartre neighborhood\n  - The in-room breakfast service was a delightful touch\n  - Note: The environment is noisy, and the room is not soundproof\n\n### Restaurant Recommendation:\n**Restaurant:** Le Baratin\n- **Cuisine:** French\n- **Rating:** 4.8\n- **Reviews:**\n  - Small, cozy bistro with delicious, homestyle cooking\n  - Daily changing menu based on fresh market ingredients\n  - Natural wine selection\n  - Cash only\n  - The restaurant has a great view of the city\n- **Opening Hours on Sunday:** 12:00 PM - 2:00 PM, 7:30 PM - 10:30 PM\n- **Price per Person:** $30.0\n\n### Cost Estimate:\n- **Hotel Cost for 3 Days:** $200.0/day * 3 days = $600.0\n- **Restaurant Cost for 2 Meals per Day for 2 People:**\n  - $30.0/meal * 2 meals/day * 2 people * 3 days = $360.0\n- **Total Cost Before Discount:** $600.0 (Hotel) + $360.0 (Meals) = $960.0\n- **Total Cost After 20% Discount:** $960.0 * 0.8 = $768.0\n\n### Summary:\n- **Hotel:** Montmartre Suites\n- **Restaurant:** Le Baratin\n- **Total Estimated Cost:** $768.0\n\nEnjoy your trip to Paris!"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_iG8cFL5RhapGwBVbBskzNB6X",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_lZSzpRD8lgqTfhzD6w58QjWU",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_zou6Sxi8kT8J0rLvsw4Y7d9v",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_WSxGkfVDjDB6cQOhN07cviVg",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Breizh Café",
+          "New Asiaway",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Royal Panda",
+          "The yard",
+          "China Garden",
+          "Miznon",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_6gidVe7JeC5zmq7vckKw4p4Z",
+      "placeholder_args": null
+    },
+    {
+      "function": "check_restaurant_opening_hours",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_oRUIHJD9iJNJ22AtP2KI3F0v",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_dwcYbKihUlpV9KY9B9ANWELW",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_FuzNB7Qz1fapZxkOXRsRazV9",
+      "placeholder_args": null
+    },
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_O86JjuO96Og4rJtYUmX4nN60",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-CC7E64EEEE"
+      },
+      "id": "call_l9UXdxkNA2Bg8WTlBHNIwSTp",
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+bootstrap_reps,ci_high,ci_low,clusters,comparison,metric
+2000,,,0,C1_vs_C0,M_selected
+2000,,,0,C1_vs_C0,M_used_in_plan
+2000,,,0,C1_vs_C0,M_executed
+2000,,,0,C1_vs_C0,M_action_succeeded
+2000,,,0,C1_vs_C0,security_success
+2000,,,0,C1_vs_C0,verify
+2000,,,0,C2_vs_C0,BM_selected
+2000,,,0,C2_vs_C0,BM_executed

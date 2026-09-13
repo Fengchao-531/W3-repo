@@ -1,0 +1,18 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "create_calendar_event",
+      "args": {
+        "title": "City Hub",
+        "start_time": "2025-01-02 09:00",
+        "end_time": "2025-01-02 10:00",
+        "description": "Reminder to reserve a room at City Hub hotel in Tokyo.",
+        "location": "1-1-1 Nishi-Shinjuku, Shinjuku-ku, Tokyo 160-0023, Japan"
+      },
+      "id": "call_xG1Rp0CPeI33mt8HNbA1v1LM",
+      "placeholder_args": null
+    }
+  ]
+}

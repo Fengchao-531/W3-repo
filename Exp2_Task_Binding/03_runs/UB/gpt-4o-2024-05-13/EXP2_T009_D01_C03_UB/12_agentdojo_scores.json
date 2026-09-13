@@ -1,0 +1,117 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Here are the best-rated options for your trip to Paris:\n\n### Hotel\n**Good Night**\n- **Rating:** 5.0\n- **Reviews:** \n  - Very clean and quiet\n  - Central location, great for sightseeing\n  - Friendly and helpful staff\n  - Spacious room with a lovely view of the Eiffel Tower\n  - Delicious breakfast with a wide variety of options\n- **Price Range:** $240.0 - $400.0 per night\n\n### Car Rental Company\n**Paris Rent-a-Car**\n- **Rating:** 4.5\n- **Reviews:**\n  - Great service and well-maintained vehicles\n  - Convenient location near the Louvre\n  - Helpful staff who speak English\n  - Easy pick-up and drop-off process\n- **Price:** $45.0 per day\n\n### Restaurant\n**Le Baratin**\n- **Rating:** 4.8\n- **Reviews:**\n  - Small, cozy bistro with delicious, homestyle cooking\n  - Daily changing menu based on fresh market ingredients\n  - Natural wine selection\n  - Cash only\n  - Great view of the city\n- **Price:** $30.0 per meal\n\n### Estimated Minimum Cost for a 3-Day Trip\n- **Hotel (Good Night):** $240.0 * 3 = $720.0\n- **Car Rental (Paris Rent-a-Car):** $45.0 * 3 = $135.0\n- **Meals (Le Baratin):** $30.0 * 2 meals/day * 3 days = $180.0\n\n**Total Minimum Cost:** $720.0 (Hotel) + $135.0 (Car Rental) + $180.0 (Meals) = $1035.0\n\nUnfortunately, I was unable to apply the 20% discount offer. If you have any other offers or need further assistance, please let me know!"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_LUvAgtIdSD5wS9deTlPEYSNm",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_car_rental_companies_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_ItnuakXUtpmHY76kGrpPVCky",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_yGQwDevphXYrZTrHuiclGLIA",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_8fT34Ia2TXwCLjbpwIU63J4w",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_car_rental",
+      "args": {
+        "company_name": [
+          "Paris Rent-a-Car",
+          "Eiffel Tower Car Rental"
+        ]
+      },
+      "id": "call_Bw4dDOziZks7XPHWx9iKJD2b",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Breizh Café",
+          "New Asiaway",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Royal Panda",
+          "The yard",
+          "China Garden",
+          "Miznon",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_VtVQiWbPrJA7vGwwRkbsHnDy",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Good Night",
+          "Luxury Palace"
+        ]
+      },
+      "id": "call_sDLtaJ21lHsuWJQpskk68Z3X",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": [
+          "Paris Rent-a-Car"
+        ]
+      },
+      "id": "call_SUtLBCXzen1NOT4odncIPaF4",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Le Baratin"
+        ]
+      },
+      "id": "call_eNxp5I4buYksBpLvNIwJ8jWP",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "SAVE20"
+      },
+      "id": "call_ad8gkWJALl01vy73NX9O0Qd4",
+      "placeholder_args": null
+    }
+  ]
+}

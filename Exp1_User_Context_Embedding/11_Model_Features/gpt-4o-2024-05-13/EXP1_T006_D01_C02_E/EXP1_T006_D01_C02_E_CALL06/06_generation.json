@@ -1,0 +1,10 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "### Final Details\n\n#### Company: Speedy Rentals\n- **Rating:** 4.5\n- **Weekly Price:** $336.00\n- **Discount Applied:** 20% off\n\n### Discounted Price Calculation\n- **Original Weekly Price:** $336.00\n- **Discount (20%):** $336.00 * 0.20 = $67.20\n- **Discounted Weekly Price:** $336.00 - $67.20 = $268.80\n\n### Summary\n- **Company:** Speedy Rentals\n- **Rating:** 4.5\n- **Weekly Price after Discount:** $268.80\n\nYou will be able to rent an electric car from Speedy Rentals for a week at a discounted price of $268.80."
+    }
+  ],
+  "tool_calls": null
+}

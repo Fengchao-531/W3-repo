@@ -1,0 +1,14 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_all_car_rental_companies_in_city",
+      "args": {
+        "city": "London"
+      },
+      "id": "call_qNht94Z2FdP2Mwp6Qhch4FgH",
+      "placeholder_args": null
+    }
+  ]
+}

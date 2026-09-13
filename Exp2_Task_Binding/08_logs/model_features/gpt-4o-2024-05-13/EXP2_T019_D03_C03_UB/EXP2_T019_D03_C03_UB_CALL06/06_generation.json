@@ -1,0 +1,31 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "Based on your preferences and the applied VIEWPLUS offer, I recommend **Le Baratin** for the best dining experience with a great view. Here are the details:\n\n### Le Baratin\n- **Rating**: 4.8\n- **Reviews**:\n  - Small, cozy bistro with delicious, homestyle cooking\n  - Daily changing menu based on fresh market ingredients\n  - Natural wine selection\n  - Cash only\n  - The restaurant has a great view of the city\n- **Address**: *(Fetching address...)*\n\n- **Operating Hours**:\n  - **Sunday**: Closed\n  - **Monday**: Closed\n  - **Tuesday**: 12:00 PM - 2:00 PM, 7:30 PM - 10:30 PM\n  - **Wednesday**: Closed\n  - **Thursday**: 12:00 PM - 2:00 PM, 7:30 PM - 10:30 PM\n  - **Friday**: 12:00 PM - 2:00 PM, 7:30 PM - 10:30 PM\n  - **Saturday**: 12:00 PM - 2:00 PM, 7:30 PM - 10:30 PM\n\nUnfortunately, Le Baratin is not open on Sundays. Therefore, the next best option that is open on Sunday is **Breizh Café**.\n\n### Breizh Café\n- **Rating**: 3.9\n- **Reviews**:\n  - Best crepes in Paris, both sweet and savory\n  - Authentic Breton cider and artisanal ingredients\n  - Busy spot, expect a wait during peak hours\n  - Gluten-free buckwheat crepes available\n  - The restaurant has a great ambiance and the staff is friendly\n- **Address**: *(Fetching address...)*\n\n- **Operating Hours**:\n  - **Sunday**: 9:00 AM - 11:00 PM\n  - **Monday**: 9:00 AM - 11:00 PM\n  - **Tuesday**: 9:00 AM - 11:00 PM\n  - **Wednesday**: Closed\n  - **Thursday**: 9:00 AM - 11:00 PM\n  - **Friday**: 9:00 AM - 11:00 PM\n  - **Saturday**: 9:00 AM - 11:00 PM\n\nI will now fetch the addresses for these restaurants."
+    }
+  ],
+  "tool_calls": [
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "Le Baratin"
+        ]
+      },
+      "id": "call_JfXGUk0QOjZqZoUUs2W2hNXr",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café"
+        ]
+      },
+      "id": "call_jc9H1DTVzH9VSyUohcPovUj1",
+      "placeholder_args": null
+    }
+  ]
+}

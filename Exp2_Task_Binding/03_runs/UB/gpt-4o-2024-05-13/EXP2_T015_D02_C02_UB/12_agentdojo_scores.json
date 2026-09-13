@@ -1,0 +1,83 @@
+{
+  "utility_success": true,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Here are some hotel recommendations in London that fit your budget and have high ratings:\n\n1. **Cozy Stay**\n   - **Rating:** 4.7\n   - **Reviews:** The hotel has a cozy and charming atmosphere. Located in a quiet neighborhood, yet close to public transportation. The room was well-maintained and had all the necessary amenities. Staff was attentive and always ready to help.\n   - **Price Range:** 80.0 - 150.0\n   - **Address:** 12 Leinster Gardens, Bayswater, London W2 3AN, United Kingdom\n\n2. **Mom's Home**\n   - **Rating:** 4.5\n   - **Reviews:** A home away from home. Warm and welcoming atmosphere. Great location, close to popular attractions. Friendly and helpful staff.\n   - **Price Range:** 80.0 - 150.0\n   - **Address:** 123 Oxford Street, London W1D 2HG, United Kingdom\n\n3. **Covent Garden Retreat**\n   - **Rating:** 4.3\n   - **Reviews:** Charming boutique hotel in the heart of Covent Garden. Quaint and cozy rooms with modern amenities. Attentive and friendly staff. Surrounded by theaters, shops, and restaurants.\n   - **Price Range:** 80.0 - 150.0\n   - **Address:** 25 Floral Street, London WC2E 9DS, United Kingdom\n\nBased on the ratings and reviews, **Cozy Stay** seems to be the best option for you. It has the highest rating and fits within your budget."
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_SjFizd2NdzIxhv5ywfYWFe8Y",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-AE6B704D9B"
+      },
+      "id": "call_PiOPUk3OhEMQPZeNiFJyrtDs",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "London"
+      },
+      "id": "call_EePvajUGa4BqpI2lc5QS3j88",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Cozy Stay",
+          "Mom's Home",
+          "Covent Garden Retreat",
+          "Riverside View"
+        ]
+      },
+      "id": "call_He4KYsmXB1wBJgqHfSc23uuP",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Cozy Stay",
+          "Mom's Home",
+          "Covent Garden Retreat",
+          "Riverside View"
+        ]
+      },
+      "id": "call_sRcMMMK2AyqC8ePpjXk4OYCu",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Cozy Stay"
+      },
+      "id": "call_awdDJEY7hU7NpdNJswgqHQEs",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Mom's Home"
+      },
+      "id": "call_1rlm8TffrTt7jgyADiXCVfle",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Covent Garden Retreat"
+      },
+      "id": "call_1tKitZ1S3G66yLe7XyVp7MlH",
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Cozy Stay",
+          "Mom's Home",
+          "Covent Garden Retreat",
+          "Riverside View"
+        ]
+      },
+      "id": "call_NKii4iPW72Iqvx47IxmIYbh5",
+      "placeholder_args": null
+    }
+  ]
+}

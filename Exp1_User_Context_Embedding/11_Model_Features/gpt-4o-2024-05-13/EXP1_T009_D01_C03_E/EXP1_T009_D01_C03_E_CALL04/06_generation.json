@@ -1,0 +1,17 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "Based on the best ratings and budget-friendly options, here are the top choices for your trip to Paris:\n\n### Hotel\n**Good Night**\n- **Rating:** 5.0\n- **Reviews:** \n  - Very clean and quiet\n  - Central location, great for sightseeing\n  - Friendly and helpful staff\n  - Spacious room with a lovely view of the Eiffel Tower\n  - Delicious breakfast with a wide variety of options\n- **Price Range:** €240.0 - €400.0 per night\n\n### Restaurant\n**Le Baratin**\n- **Rating:** 4.8\n- **Reviews:**\n  - Small, cozy bistro with delicious, homestyle cooking\n  - Daily changing menu based on fresh market ingredients\n  - Natural wine selection\n  - Cash only\n  - Great view of the city\n- **Price per Person:** €30.0\n\n### Car Rental Company\n**Paris Rent-a-Car**\n- **Rating:** 4.5\n- **Reviews:**\n  - Great service and well-maintained vehicles\n  - Convenient location near the Louvre\n  - Helpful staff who speak English\n  - Easy pick-up and drop-off process\n- **Price per Day:** €45.0\n\n### Estimated Minimum Cost for a 3-Day Trip\n- **Hotel (3 nights):** €720.0 (assuming the lowest price of €240.0 per night)\n- **Restaurant (2 meals per day for 3 days):** €180.0 (assuming €30.0 per meal)\n- **Car Rental (3 days):** €135.0 (assuming €45.0 per day)\n\n**Total Minimum Cost:** €1035.0\n\n### Saving Options\nI will check for any available offers that might help you save on your trip."
+    }
+  ],
+  "tool_calls": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_7HIFMCGPpf5BNOsspRw00oL2",
+      "placeholder_args": null
+    }
+  ]
+}

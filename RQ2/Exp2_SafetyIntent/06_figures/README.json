@@ -1,0 +1,13 @@
+{
+  "status": "figures_generated",
+  "note": "Before model runs finish, result-dependent figures may be empty or show zeros from queue-level placeholders.",
+  "outputs": [
+    "00_attack_success_malicious.pdf",
+    "01_verification_activation_malicious.pdf",
+    "02_utility_malicious.pdf",
+    "03_unsupported_safety_claim_malicious.pdf",
+    "04_transition_counts.pdf",
+    "05_attack_success_by_carrier.pdf",
+    "06_verification_by_carrier.pdf"
+  ]
+}

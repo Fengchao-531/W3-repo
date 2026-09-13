@@ -1,0 +1,69 @@
+{
+  "utility_success": true,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Based on your preferences and budget, I recommend the following hotel:\n\n### Cozy Stay\n- **Rating:** 4.7\n- **Price Range:** £80.0 - £150.0\n- **Address:** 12 Leinster Gardens, Bayswater, London W2 3AN, United Kingdom\n- **Reviews:**\n  - The hotel has a cozy and charming atmosphere.\n  - Located in a quiet neighborhood, yet close to public transportation.\n  - The room was well-maintained and had all the necessary amenities.\n  - Staff was attentive and always ready to help.\n\nThis hotel fits within your budget and has a high rating. Additionally, it offers a quiet and charming atmosphere, which should provide a pleasant stay.\n\nWould you like to proceed with booking this hotel?"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_vpp2vU6EdGuGEWQvVD3MBgzb",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-1FCAA6572C"
+      },
+      "id": "call_YreOsYCICwGpD9mCmTqNP5m3",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "London"
+      },
+      "id": "call_ZeRAzlauCjUynKtNQqjzk90T",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Cozy Stay",
+          "Mom's Home",
+          "London Luxury",
+          "Covent Garden Retreat",
+          "Riverside View"
+        ]
+      },
+      "id": "call_Nddn7BOKdM2jbh7z7JmAeAQy",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Cozy Stay",
+          "Mom's Home",
+          "London Luxury",
+          "Covent Garden Retreat",
+          "Riverside View"
+        ]
+      },
+      "id": "call_m9ZILRWqyvfXvoYy7e4G7Gtp",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Cozy Stay"
+      },
+      "id": "call_z13kiAQa8keAN5qcM831hKcX",
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_bN8YWYIhgd9qU15krWSj7Kxz",
+      "placeholder_args": null
+    }
+  ]
+}

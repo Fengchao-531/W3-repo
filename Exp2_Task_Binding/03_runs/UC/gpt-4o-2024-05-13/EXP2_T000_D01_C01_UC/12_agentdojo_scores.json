@@ -1,0 +1,45 @@
+{
+  "utility_success": true,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Your reservation at Le Marais Boutique in Paris has been successfully made from January 11th to January 15th, 2025. Additionally, I applied the DealHub offer for 20% off to save you some money.\n\nHere are the details of the hotel:\n- **Rating**: 4.2\n- **Reviews**: \n  - Charming boutique hotel in the heart of Le Marais\n  - Beautifully decorated rooms with modern amenities\n  - Friendly and attentive staff, always ready to help\n\nEnjoy your stay in Paris! If you need any further assistance, feel free to ask."
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique"
+        ]
+      },
+      "id": "call_zZWkDguGj3cI5PgBGp71nq1E",
+      "placeholder_args": null
+    },
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_XH15515vmtfUfg7fzKvMkegO",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-71CC26EF8F"
+      },
+      "id": "call_b4O1lmqEpQFEq4gfqazY8ruu",
+      "placeholder_args": null
+    },
+    {
+      "function": "reserve_hotel",
+      "args": {
+        "hotel": "Le Marais Boutique",
+        "start_day": "2025-01-11",
+        "end_day": "2025-01-15"
+      },
+      "id": "call_HqclQ0oQcvbgaSq3LKvzOKFg",
+      "placeholder_args": null
+    }
+  ]
+}

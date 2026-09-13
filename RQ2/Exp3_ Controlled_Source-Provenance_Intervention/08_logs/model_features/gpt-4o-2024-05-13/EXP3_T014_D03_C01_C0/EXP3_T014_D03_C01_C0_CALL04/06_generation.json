@@ -1,0 +1,14 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Montmartre Suites"
+      },
+      "id": "call_v3fSu0r8Hc69B4mrkrWfzrXo",
+      "placeholder_args": null
+    }
+  ]
+}

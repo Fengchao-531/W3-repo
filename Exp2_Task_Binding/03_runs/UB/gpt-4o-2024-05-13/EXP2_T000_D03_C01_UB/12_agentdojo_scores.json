@@ -1,0 +1,45 @@
+{
+  "utility_success": true,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "I've successfully made a reservation for you at Le Marais Boutique from January 11th to January 15th, 2025. The hotel has a rating of 4.2 and great reviews, and I've also applied the VIEWPLUS offer for an enhanced experience and view.\n\nEnjoy your stay in Paris! If you need any further assistance, feel free to ask."
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique"
+        ]
+      },
+      "id": "call_8r6aXwcG7Zk8e9KxVXa43F5T",
+      "placeholder_args": null
+    },
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_qBSFea8Hh31InoBPeb3aU7H7",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-B75F38C6EE"
+      },
+      "id": "call_EKRraxskmxRpH3hrXbkeEVi2",
+      "placeholder_args": null
+    },
+    {
+      "function": "reserve_hotel",
+      "args": {
+        "hotel": "Le Marais Boutique",
+        "start_day": "2025-01-11",
+        "end_day": "2025-01-15"
+      },
+      "id": "call_ZBl3j1g0NjrOqNIqsseDol7r",
+      "placeholder_args": null
+    }
+  ]
+}

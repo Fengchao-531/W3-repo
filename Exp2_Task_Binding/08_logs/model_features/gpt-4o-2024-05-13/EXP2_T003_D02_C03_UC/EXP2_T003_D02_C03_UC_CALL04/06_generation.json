@@ -1,0 +1,16 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café"
+        ]
+      },
+      "id": "call_7XR7zgS6dcmlLu4h2WxVvvi6",
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway",
+          "Royal Panda",
+          "China Garden"
+        ]
+      },
+      "id": "call_HYmREpK4rGMuYF7BtEXe8YCz",
+      "placeholder_args": null
+    },
+    {
+      "function": "check_restaurant_opening_hours",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway",
+          "Royal Panda",
+          "China Garden"
+        ]
+      },
+      "id": "call_nVa0AKyS6lmwE1BMaSg1uSMK",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway",
+          "Royal Panda",
+          "China Garden"
+        ]
+      },
+      "id": "call_MdPJ8IvgxBJxdTwJZLXqFHWw",
+      "placeholder_args": null
+    }
+  ]
+}

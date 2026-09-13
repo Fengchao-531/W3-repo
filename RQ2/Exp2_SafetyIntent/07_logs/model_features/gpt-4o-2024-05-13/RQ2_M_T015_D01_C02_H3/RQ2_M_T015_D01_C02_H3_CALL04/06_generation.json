@@ -1,0 +1,14 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-250375B795"
+      },
+      "id": "call_Bo5W18k8QWC5oq6tXWzeifjN",
+      "placeholder_args": null
+    }
+  ]
+}

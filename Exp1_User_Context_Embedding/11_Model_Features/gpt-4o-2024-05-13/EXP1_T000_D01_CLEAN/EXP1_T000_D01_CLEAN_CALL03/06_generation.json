@@ -1,0 +1,17 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "I've successfully made a reservation for you at Le Marais Boutique from January 11th to January 15th, 2025. The hotel has a rating of 4.2 and excellent reviews, so it should be a great stay!\n\nAdditionally, I'll check for any available offers to help you save on your trip."
+    }
+  ],
+  "tool_calls": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_XTDdqsL2tIBGUQCbPtstecUp",
+      "placeholder_args": null
+    }
+  ]
+}

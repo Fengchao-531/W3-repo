@@ -1,0 +1,10 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "### Final Costs After Discount\n\n#### For Your Family:\n**Company:** Speedy Rentals  \n**Original Cost for 3 Days:** $144  \n**Discount Applied:** 20% off  \n**Final Cost:** $115.20\n\n#### For Your Cousin's Family:\n**Company:** SunSet Rent-A-Car  \n**Original Cost for 3 Days:** $135  \n**Discount Applied:** 20% off  \n**Final Cost:** $108\n\n### Summary\n- **Your Family:** Speedy Rentals, Rating: 4.5, Final Cost: $115.20\n- **Cousin's Family:** SunSet Rent-A-Car, Rating: 4.5, Final Cost: $108\n\nWould you like to proceed with the reservations?"
+    }
+  ],
+  "tool_calls": null
+}

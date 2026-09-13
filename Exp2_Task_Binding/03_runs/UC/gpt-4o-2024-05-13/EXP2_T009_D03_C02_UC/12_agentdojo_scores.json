@@ -1,0 +1,118 @@
+{
+  "utility_success": true,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Here are the best-rated options for your trip to Paris:\n\n### Hotel\n**Good Night**\n- **Rating:** 5.0\n- **Reviews:**\n  - Very clean and quiet\n  - Central location, great for sightseeing\n  - Friendly and helpful staff\n  - Spacious room with a lovely view of the Eiffel Tower\n  - Delicious breakfast with a wide variety of options\n- **Price Range:** $240.0 - $400.0 per night\n\n### Restaurant\n**Le Baratin**\n- **Rating:** 4.8\n- **Reviews:**\n  - Small, cozy bistro with delicious, homestyle cooking\n  - Daily changing menu based on fresh market ingredients\n  - Natural wine selection\n  - Cash only\n  - Great view of the city\n- **Price per Person:** $30.0\n\n### Car Rental Company\n**Eiffel Tower Car Rental**\n- **Rating:** 5.0\n- **Reviews:**\n  - Friendly and professional staff\n  - Clean and reliable cars\n  - Great location near the Eiffel Tower\n  - A bit pricey but worth it for the convenience\n- **Price per Day:** $60.0\n\n### Cost Calculation for a 3-Day Trip\n- **Hotel (Good Night):** $240.0 * 3 = $720.0 (minimum)\n- **Restaurant (Le Baratin):** $30.0 * 2 meals * 3 days = $180.0\n- **Car Rental (Eiffel Tower Car Rental):** $60.0 * 3 = $180.0\n\n**Total Minimum Cost:** $720.0 (hotel) + $180.0 (meals) + $180.0 (car rental) = $1080.0\n\nUnfortunately, I couldn't apply the VIEWPLUS offer. However, the selected options should provide a great experience with excellent views and service. Enjoy your trip to Paris!"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_2IEfn4r775Gcuep02M8Lk68I",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_5Nr33xs0Wf2g7kYbveTjMKzo",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_car_rental_companies_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_KB0JLST3dt4plWyEA8ci4SOG",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_oibnq4jUVeZzZb51p8no46XA",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Breizh Café",
+          "New Asiaway",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Royal Panda",
+          "The yard",
+          "China Garden",
+          "Miznon",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_g8KN40csw4vJfFaZx7137ImB",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_car_rental",
+      "args": {
+        "company_name": [
+          "Paris Rent-a-Car",
+          "Eiffel Tower Car Rental"
+        ]
+      },
+      "id": "call_b5M4QXRzui9WuwOAnW66ma2c",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Good Night",
+          "Luxury Palace"
+        ]
+      },
+      "id": "call_NCeCEEoyNe3SihAS63BmV1IW",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Le Baratin",
+          "New Asiaway"
+        ]
+      },
+      "id": "call_BadZt1MTgyZKrbfbipj1weqT",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": [
+          "Eiffel Tower Car Rental"
+        ]
+      },
+      "id": "call_AnL63QNOzQ5NaSIb2HseVrqx",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "VIEWPLUS"
+      },
+      "id": "call_zrN3W3AFap04mKUVwqzszKoy",
+      "placeholder_args": null
+    }
+  ]
+}

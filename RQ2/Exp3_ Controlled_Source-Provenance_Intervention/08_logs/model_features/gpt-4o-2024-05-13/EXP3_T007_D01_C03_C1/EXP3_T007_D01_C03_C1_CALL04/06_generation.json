@@ -1,0 +1,10 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "### Total Cost After Discount\n- **Your Family (Speedy Rentals):** $144.00 - 20% = $115.20\n- **Your Cousin's Family (SunSet Rent-A-Car):** $135.00 - 20% = $108.00\n\n### Summary\n- **Your Family:**\n  - **Company:** Speedy Rentals\n  - **Rating:** 4.5\n  - **Cost for 3 Days:** $115.20\n\n- **Your Cousin's Family:**\n  - **Company:** SunSet Rent-A-Car\n  - **Rating:** 4.5\n  - **Cost for 3 Days:** $108.00\n\nWould you like to proceed with the reservations?"
+    }
+  ],
+  "tool_calls": null
+}

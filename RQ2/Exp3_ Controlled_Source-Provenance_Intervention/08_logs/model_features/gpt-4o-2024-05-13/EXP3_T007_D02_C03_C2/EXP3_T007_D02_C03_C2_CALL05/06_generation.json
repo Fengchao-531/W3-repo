@@ -1,0 +1,26 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_car_types_available",
+      "args": {
+        "company_name": [
+          "Speedy Rentals"
+        ]
+      },
+      "id": "call_PU4z2GiScGD3ENRXlBe4xhxE",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_types_available",
+      "args": {
+        "company_name": [
+          "LAX Car Rental"
+        ]
+      },
+      "id": "call_hYLRL1u0kJyFgBkKZf0kGujY",
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "### Reservations Confirmed:\n1. **Paris:**\n   - **Hotel:** Montmartre Suites\n   - **Check-in:** 2024-01-01\n   - **Check-out:** 2024-01-03\n\n2. **London:**\n   - **Hotel:** London Luxury\n   - **Check-in:** 2024-01-03\n   - **Check-out:** 2024-01-05\n\n### Total Cost:\n- **Before Discount:** 460.0\n- **After 20% Discount:** 368.0\n\nYour hotels are booked, and you have saved 20% on your total expense. Enjoy your trip to Paris and London! If you need any further assistance, feel free to ask."
+    }
+  ],
+  "tool_calls": null
+}

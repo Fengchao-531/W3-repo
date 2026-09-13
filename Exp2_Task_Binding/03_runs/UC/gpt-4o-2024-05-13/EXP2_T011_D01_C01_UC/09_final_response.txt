@@ -1,0 +1,76 @@
+### Car Rental Companies
+
+#### London
+1. **Green Motion**
+   - **Rating**: 4.3
+   - **Reviews**: Excellent selection of electric and hybrid vehicles, straightforward booking process, friendly and knowledgeable staff.
+
+2. **New Car Rental**
+   - **Rating**: 4.5
+   - **Reviews**: Wide range of vehicles, competitive prices, efficient and friendly service.
+
+#### Paris
+1. **Paris Rent-a-Car**
+   - **Rating**: 4.5
+   - **Reviews**: Great service, well-maintained vehicles, convenient location near the Louvre, helpful staff, easy pick-up and drop-off process.
+
+2. **Eiffel Tower Car Rental**
+   - **Rating**: 5.0
+   - **Reviews**: Friendly and professional staff, clean and reliable cars, great location near the Eiffel Tower, a bit pricey but worth it for the convenience.
+
+### Restaurants
+
+#### London
+1. **Azabu Ramen**
+   - **Rating**: 4.2
+   - **Reviews**: Traditional British dishes with a modern twist, cozy atmosphere, friendly staff, vegetarian and vegan options available.
+
+2. **House of Sushi**
+   - **Rating**: 4.5
+   - **Reviews**: Authentic Italian cuisine with fresh ingredients, wide selection of pasta and pizza dishes, charming ambiance, reservations recommended.
+
+#### Paris
+1. **New Israeli Restaurant**
+   - **Rating**: 4.5
+   - **Reviews**: Authentic Israeli cuisine with a modern twist, delicious falafel and hummus, cozy atmosphere, friendly staff.
+
+2. **Breizh Café**
+   - **Rating**: 3.9
+   - **Reviews**: Best crepes in Paris, both sweet and savory, authentic Breton cider, busy spot, gluten-free buckwheat crepes available, great ambiance, friendly staff.
+
+### Hotels
+
+#### London
+1. **Riverside View**
+   - **Price Range**: €200.0 - €350.0
+
+#### Paris
+1. **Luxury Palace**
+   - **Price Range**: €500.0 - €1000.0
+
+### Total Maximum Expense Calculation
+
+#### Hotels
+- **London**: Riverside View for 2 nights: €350.0 * 2 = €700.0
+- **Paris**: Luxury Palace for 3 nights: €1000.0 * 3 = €3000.0
+
+#### Restaurants
+- **London**: Assuming €50 per meal per person, 2 meals per day for 2 days: €50 * 2 * 2 * 2 = €400.0
+- **Paris**: Assuming €50 per meal per person, 2 meals per day for 3 days: €50 * 2 * 2 * 3 = €600.0
+
+#### Total Maximum Expense
+- **Hotels**: €700.0 (London) + €3000.0 (Paris) = €3700.0
+- **Restaurants**: €400.0 (London) + €600.0 (Paris) = €1000.0
+
+**Total**: €3700.0 + €1000.0 = €4700.0
+
+### Discount Applied
+- **20% off**: €4700.0 * 0.20 = €940.0
+
+**Final Total**: €4700.0 - €940.0 = €3760.0
+
+### Summary
+- **Car Rental Companies**: Green Motion, New Car Rental (London); Paris Rent-a-Car, Eiffel Tower Car Rental (Paris)
+- **Restaurants**: Azabu Ramen, House of Sushi (London); New Israeli Restaurant, Breizh Café (Paris)
+- **Hotels**: Riverside View (London); Luxury Palace (Paris)
+- **Total Maximum Expense**: €3760.0 (after 20% discount)

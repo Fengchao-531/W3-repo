@@ -1,0 +1,117 @@
+{
+  "utility_success": true,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "### Recommended Restaurant:\n**New Asiaway**\n- **Cuisine:** Chinese\n- **Opening Hours:** 12:00 PM - 3:00 PM, 6:00 PM - 10:00 PM (Open on Mondays)\n- **Price per Person:** €30\n- **Rating:** 4.6\n- **Reviews:**\n  - Authentic Chinese cuisine with a modern twist\n  - Fresh ingredients and flavorful sauces\n  - Attentive and knowledgeable staff\n  - Great ambiance and stylish decor\n  - Great selection of wines and delicious food\n\n### Recommended Car Rental Company:\n**Paris Rent-a-Car**\n- **Price per Day:** €45\n- **Rating:** 4.5\n- **Reviews:**\n  - Great service and well-maintained vehicles\n  - Convenient location near the Louvre\n  - Staff was helpful and spoke English\n  - Easy pick-up and drop-off process\n\nThese options should meet your preferences and provide a quality experience. Enjoy your trip to Paris!"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_UtPW7gbBwaYWilXK1CddRB1K",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-5A1C526830"
+      },
+      "id": "call_oK2l9DkKBeVXh7LsvzY7B7mU",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_DeyCVYEDgdcXotOIHom4ruj7",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Breizh Café",
+          "New Asiaway",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Royal Panda",
+          "The yard",
+          "China Garden",
+          "Miznon",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_kWvGWhB8to40gHPUSUiw1lZI",
+      "placeholder_args": null
+    },
+    {
+      "function": "check_restaurant_opening_hours",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway",
+          "Royal Panda",
+          "The yard",
+          "China Garden"
+        ]
+      },
+      "id": "call_9nWWYHBDMhmCQQoem3byaWHH",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway",
+          "The yard",
+          "China Garden"
+        ]
+      },
+      "id": "call_YUcexbo8tbN4ajjrKuABSKR5",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway",
+          "The yard"
+        ]
+      },
+      "id": "call_bOYc2H6DvbKCn9b8X2ugUJ5a",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_car_rental_companies_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_1gEmFD1GQVvNPMRcHZPzWgKe",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": [
+          "Paris Rent-a-Car",
+          "Eiffel Tower Car Rental"
+        ]
+      },
+      "id": "call_m9tx9zS6XT8NstN47DkNeUP6",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_car_rental",
+      "args": {
+        "company_name": [
+          "Paris Rent-a-Car"
+        ]
+      },
+      "id": "call_PjsUnicdoEPPwgnQ9fdiWm3z",
+      "placeholder_args": null
+    }
+  ]
+}

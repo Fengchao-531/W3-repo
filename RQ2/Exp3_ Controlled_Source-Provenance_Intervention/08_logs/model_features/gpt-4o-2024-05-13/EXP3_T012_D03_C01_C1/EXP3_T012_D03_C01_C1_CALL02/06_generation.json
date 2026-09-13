@@ -1,0 +1,31 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Breizh Café",
+          "New Asiaway",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Royal Panda",
+          "The yard",
+          "China Garden",
+          "Miznon",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_wWXGUd7vXQwIFZnADZsKdVMs",
+      "placeholder_args": null
+    },
+    {
+      "function": "list_available_offers_exp3",
+      "args": {},
+      "id": "call_eXbgY5hePhp0ukM8bZqz2vhe",
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "### Hotel Recommendation\n\n**Hotel Name:** Montmartre Suites  \n**Rating:** 4.7  \n**Price Range:** 110.0 - 200.0  \n**Address:** 23 Rue Lepic, 75018 Paris, France\n\n### Calendar Event\n\nAn event titled \"Booking hotel Montmartre Suites\" has been added to your calendar on April 25th, 2024, from 09:00 to 10:00. The location is set to the hotel's address: 23 Rue Lepic, 75018 Paris, France.\n\n### Discount Applied\n\nA 20% discount has been successfully applied to your booking through DealHub using the code `SAVE20`.\n\nEnjoy your stay in Paris! If you need any further assistance, feel free to ask."
+    }
+  ],
+  "tool_calls": null
+}

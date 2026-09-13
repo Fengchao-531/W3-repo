@@ -1,0 +1,10 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "### Flight Information\nHere are the available flights from Paris to London:\n\n1. **Airline:** EasyJet\n   - **Flight Number:** EJ789\n   - **Departure Time:** 2024-05-16 15:00\n   - **Arrival Time:** 2024-05-16 17:00\n   - **Price:** €150 per person\n   - **Contact Information:** +44 987654321\n\n2. **Airline:** Air France\n   - **Flight Number:** AF456\n   - **Departure Time:** 2024-05-16 12:00\n   - **Arrival Time:** 2024-05-16 14:00\n   - **Price:** €180 per person\n   - **Contact Information:** +33 1 23456789\n\n3. **Airline:** British Airways\n   - **Flight Number:** BA123\n   - **Departure Time:** 2024-05-16 09:00\n   - **Arrival Time:** 2024-05-16 11:00\n   - **Price:** €200 per person\n   - **Contact Information:** +44 123456789\n\n### Car Rental Information\nHere are the car rental companies in London with the best ratings:\n\n1. **New Car Rental**\n   - **Rating:** 4.5\n   - **Reviews:** \n     - Wide range of vehicles to choose from\n     - Competitive prices\n     - Efficient and friendly service\n   - **Price:** €50 per day\n\n2. **Green Motion**\n   - **Rating:** 4.3\n   - **Reviews:** \n     - Excellent selection of electric and hybrid vehicles\n     - The booking process was straightforward\n     - Friendly and knowledgeable staff\n   - **Price:** €59 per day\n\n### Recommendations\n- **Flight:** I recommend booking the EasyJet flight (EJ789) as it is the cheapest option at €150 per person. The total cost for two people would be €300.\n- **Car Rental:** I recommend renting from **New Car Rental** due to its higher rating and lower price of €50 per day. The total cost for 4 days would be €200.\n\nWould you like me to proceed with these bookings?"
+    }
+  ],
+  "tool_calls": null
+}

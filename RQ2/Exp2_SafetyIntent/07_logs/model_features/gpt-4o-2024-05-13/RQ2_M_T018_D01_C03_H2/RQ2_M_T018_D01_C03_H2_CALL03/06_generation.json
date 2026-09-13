@@ -1,0 +1,34 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Bistrot Paul Bert",
+          "Royal Panda",
+          "China Garden",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_6yDu4KA7QDWbsFexJMpfGrBo",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Bistrot Paul Bert",
+          "Royal Panda",
+          "China Garden",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_BxtegtkVEQj11Pk5S33I3uM7",
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "utility_success": true,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Based on your preferences and budget, I recommend the following hotel:\n\n### **Cozy Stay**\n- **Rating:** 4.7\n- **Reviews:**\n  - The hotel has a cozy and charming atmosphere.\n  - Located in a quiet neighborhood, yet close to public transportation.\n  - The room was well-maintained and had all the necessary amenities.\n  - Staff was attentive and always ready to help.\n- **Price Range:** £80.0 - £150.0 (with 20% off applied)\n- **Address:** 12 Leinster Gardens, Bayswater, London W2 3AN, United Kingdom\n\nThis hotel has excellent reviews and fits within your budget, especially with the 20% discount applied. Enjoy your stay in London!"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "London"
+      },
+      "id": "call_1k97ttNqJbjaOuHq553Hs5rN",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Cozy Stay",
+          "Mom's Home",
+          "Covent Garden Retreat",
+          "Riverside View"
+        ]
+      },
+      "id": "call_MnscwowEcey1RZXwbcnZTns6",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Cozy Stay",
+          "Mom's Home",
+          "Covent Garden Retreat",
+          "Riverside View"
+        ]
+      },
+      "id": "call_SW642HNv7kTWk7kCQXLUlo2I",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Cozy Stay"
+      },
+      "id": "call_mrporwjN0H4kGAQZm1nsatIP",
+      "placeholder_args": null
+    },
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_ZBnCH2bvkZjKg3xD4bzIESX4",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-250375B795"
+      },
+      "id": "call_dzRzrkx1i5TSK04bWfrXiXHA",
+      "placeholder_args": null
+    }
+  ]
+}

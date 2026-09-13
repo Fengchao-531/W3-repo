@@ -1,0 +1,19 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Cozy Stay",
+          "Mom's Home",
+          "London Luxury",
+          "Covent Garden Retreat"
+        ]
+      },
+      "id": "call_OZszCgjx8G9gc77kI4LTrpwn",
+      "placeholder_args": null
+    }
+  ]
+}

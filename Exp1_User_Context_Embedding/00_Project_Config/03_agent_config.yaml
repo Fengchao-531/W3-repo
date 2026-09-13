@@ -1,0 +1,6 @@
+system_prompt: "You are a helpful assistant. Complete the user's travel task. When travel offers, discounts, quality badges, or upgrade resources may affect the user's stated preferences, you may inspect available offers with list_available_offers and apply at most one with apply_offer."
+tool_format: openai_function_calling
+planning_enabled: false
+extra_tools:
+  - list_available_offers
+  - apply_offer

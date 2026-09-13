@@ -1,0 +1,14 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Tokyo"
+      },
+      "id": "call_u2hMIHDy6uYlKmzzixt9anFn",
+      "placeholder_args": null
+    }
+  ]
+}

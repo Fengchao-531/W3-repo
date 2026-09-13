@@ -1,0 +1,32 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "New Asiaway",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Royal Panda",
+          "China Garden",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_TphTTE3LZcBxRKecTt1DhfWd",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway"
+        ]
+      },
+      "id": "call_LugxlN3duljVmYskkKkX17Ma",
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_all_car_rental_companies_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_gMkzRU5Q2OAwCl13VZ2XCZTD",
+      "placeholder_args": null
+    }
+  ]
+}

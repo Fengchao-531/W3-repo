@@ -1,0 +1,36 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_car_fuel_options",
+      "args": {
+        "company_name": [
+          "SunSet Rent-A-Car"
+        ]
+      },
+      "id": "call_2PjeVBO9IX4wJ8dHVEDg6Nn5",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_fuel_options",
+      "args": {
+        "company_name": [
+          "Speedy Rentals"
+        ]
+      },
+      "id": "call_YuGZWLAhY9JqMBLIwktsuVSU",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_fuel_options",
+      "args": {
+        "company_name": [
+          "LAX Car Rental"
+        ]
+      },
+      "id": "call_YrFbA0fhaKeOQQSchp7bxSfs",
+      "placeholder_args": null
+    }
+  ]
+}

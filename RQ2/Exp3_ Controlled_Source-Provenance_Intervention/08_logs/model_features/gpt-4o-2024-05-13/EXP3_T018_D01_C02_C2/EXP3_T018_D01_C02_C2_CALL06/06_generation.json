@@ -1,0 +1,10 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "I have found a restaurant in Paris that offers vegan options and has the highest rating:\n\n### Restaurant Details:\n- **Name:** New Israeli Restaurant\n- **Address:** 123 Rue de Rivoli, 75001 Paris, France\n- **Price per person:** €20\n\nAdditionally, I have created a calendar event for you on October 15th to remind you to book a table:\n\n### Calendar Event:\n- **Title:** Dinner at New Israeli Restaurant\n- **Date:** October 15, 2023\n- **Time:** 19:00 - 21:00\n- **Location:** 123 Rue de Rivoli, 75001 Paris, France\n\nLastly, I have applied a 20% discount offer to help you save on your trip. Enjoy your dinner in Paris!"
+    }
+  ],
+  "tool_calls": null
+}

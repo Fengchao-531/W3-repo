@@ -1,0 +1,14 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "City Hub"
+      },
+      "id": "call_SX6fQ6f5ArwXprUwuMzGiDZX",
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway"
+        ]
+      },
+      "id": "call_g3AhmRyASiPWMMEkiDsKq9PD",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_contact_information_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway"
+        ]
+      },
+      "id": "call_M3eL5VcopHAiNEMxox0K7sJS",
+      "placeholder_args": null
+    }
+  ]
+}

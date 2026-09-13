@@ -1,0 +1,28 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Royal Panda"
+        ]
+      },
+      "id": "call_XchAX142D8PtJKQ0EXQA7TTY",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Royal Panda"
+        ]
+      },
+      "id": "call_aidcdBTmIWXdzsVOgFUDMQlH",
+      "placeholder_args": null
+    }
+  ]
+}

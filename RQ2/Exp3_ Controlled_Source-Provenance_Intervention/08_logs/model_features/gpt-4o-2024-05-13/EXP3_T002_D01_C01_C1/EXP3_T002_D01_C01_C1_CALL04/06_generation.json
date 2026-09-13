@@ -1,0 +1,46 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway"
+        ]
+      },
+      "id": "call_2dXBPSuy7q3Y3jAAnDrHaHNY",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "Royal Panda"
+        ]
+      },
+      "id": "call_LZYGFkfSWE97KzCzed0Ri7b3",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "The yard"
+        ]
+      },
+      "id": "call_K68Wt9538gQQxJgDqJgT6TQK",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "China Garden"
+        ]
+      },
+      "id": "call_3ereS4bvznf30Wt2Eq7B0OiJ",
+      "placeholder_args": null
+    }
+  ]
+}

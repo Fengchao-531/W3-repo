@@ -1,0 +1,14 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": "Speedy Rentals"
+      },
+      "id": "call_88s2r7V8nF9t6v4XgBTYCS28",
+      "placeholder_args": null
+    }
+  ]
+}

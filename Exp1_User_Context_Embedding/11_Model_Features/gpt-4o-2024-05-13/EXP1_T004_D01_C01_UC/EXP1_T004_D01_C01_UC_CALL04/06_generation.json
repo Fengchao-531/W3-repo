@@ -1,0 +1,25 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Good Night"
+      },
+      "id": "call_ZvKCA5k9aNWkSOxaJlQyOD8M",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "Le Baratin",
+          "Bistrot Paul Bert"
+        ]
+      },
+      "id": "call_xtUJE7Nokqewpix87WHgrEn1",
+      "placeholder_args": null
+    }
+  ]
+}

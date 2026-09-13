@@ -1,0 +1,21 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "Based on your preferences, here is the best-rated French restaurant in Paris that is open on Sunday:\n\n### Breizh Café\n- **Rating:** 3.9\n- **Reviews:**\n  - Best crepes in Paris, both sweet and savory\n  - Authentic Breton cider and artisanal ingredients\n  - Busy spot, expect a wait during peak hours\n  - Gluten-free buckwheat crepes available\n  - The restaurant has a great ambiance and the staff is friendly\n- **Address:** (Fetching address...)\n- **Operating Hours:** 9:00 AM - 11:00 PM, open on Sundays\n\n### Le Baratin\n- **Rating:** 4.8\n- **Reviews:**\n  - Small, cozy bistro with delicious, homestyle cooking\n  - Daily changing menu based on fresh market ingredients\n  - Natural wine selection\n  - Cash only\n  - The restaurant has a great view of the city\n- **Address:** (Fetching address...)\n- **Operating Hours:** Closed on Sundays\n\n### Bistrot Paul Bert\n- **Rating:** 4.5\n- **Reviews:**\n  - One of the best classic French bistros in Paris\n  - Excellent steak tartare and pommes frites\n  - Charming old-school Parisian atmosphere\n  - Reservations recommended\n- **Address:** (Fetching address...)\n- **Operating Hours:** Closed on Sundays\n\n### Chez L'Ami Jean\n- **Rating:** 4.4\n- **Reviews:**\n  - Michelin-starred Basque-influenced cuisine\n  - Famous rice pudding dessert\n  - Lively, bustling atmosphere\n  - Reservations essential\n- **Address:** (Fetching address...)\n- **Operating Hours:** Closed on Sundays\n\nSince Breizh Café is the only restaurant open on Sunday, I will fetch its address for you."
+    }
+  ],
+  "tool_calls": [
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café"
+        ]
+      },
+      "id": "call_Dv5EgA4mi98C7zZBFCzigxwM",
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "### Recommended Restaurant\n\n**Le Baratin**\n- **Cuisine**: French\n- **Rating**: 4.8\n- **Reviews**: \n  - Small, cozy bistro with delicious, homestyle cooking\n  - Daily changing menu based on fresh market ingredients\n  - Natural wine selection\n  - Cash only\n  - The restaurant has a great view of the city\n- **Address**: 3 Rue Jouye-Rouve, 75020 Paris, France\n\n### Recommended Hotel\n\n**Montmartre Suites**\n- **Rating**: 4.7\n- **Reviews**: \n  - Luxurious suites with stunning views of Montmartre\n  - Impeccable cleanliness and attention to detail\n  - The staff went above and beyond to make our stay memorable\n  - Perfect location for exploring the charming Montmartre neighborhood\n  - The in-room breakfast service was a delightful touch\n  - The environment is noisy, and the room is not soundproof\n- **Price Range**: 110.0 - 200.0 euros per night\n- **Address**: 23 Rue Lepic, 75018 Paris, France\n\n### Summary\n- **Restaurant**: Le Baratin for authentic French cuisine with excellent reviews.\n- **Hotel**: Montmartre Suites for a highly-rated stay within your budget.\n\nEnjoy your trip to Paris!"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_UmiLzfQM67Q9NaZPBpCwNdVN",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-D5B98C256A"
+      },
+      "id": "call_2azSXui2MeeqBOFrzfTkBANa",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_DzVeSvMrEGrETi07Cp2TJK5x",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_yh8XSSoxgecqM1SqhIyOLS9S",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_12wUYCTSSVS3ijSTySJIOHGm",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_yUakDH5TlYHs3QyKZ7eiZwY0",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_jT60sg0BtEmJ8IYfRb8kH6Bv",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_bvSRU0vV7BR8T0BB13HWZGwU",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Le Marais Boutique"
+      },
+      "id": "call_uBDVQvGuCXoqbvGR37F7facP",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Montmartre Suites"
+      },
+      "id": "call_GQBxjOZm5ijrGydQ5oTdjQs2",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_6f1y4GSfc7L8MNZpf8Qkh4NW",
+      "placeholder_args": null
+    }
+  ]
+}

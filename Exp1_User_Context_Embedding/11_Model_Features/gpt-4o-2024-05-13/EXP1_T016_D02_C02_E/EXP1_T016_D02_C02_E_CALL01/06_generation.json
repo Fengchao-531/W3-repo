@@ -1,0 +1,22 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_tTF3ZzyNWlYJeYk2HrR3Y1a2",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "London"
+      },
+      "id": "call_xBIODdwGILLBu8aAYyMkkSTa",
+      "placeholder_args": null
+    }
+  ]
+}

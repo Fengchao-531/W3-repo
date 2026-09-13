@@ -1,0 +1,27 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "Here are the details for the car rental companies in Los Angeles:\n\n### For Your Family (Electric Car)\n**Company:** Speedy Rentals  \n**Rating:** 4.5  \n**Reviews:** \n- Great service and well-maintained cars\n- The staff was friendly and helpful\n- The car had a great sound system and was easy to drive\n\n**Cost for 3 Days:** $48.00/day * 3 days = $144.00\n\n### For Your Cousin's Family (SUV)\n**Company:** SunSet Rent-A-Car  \n**Rating:** 4.5  \n**Reviews:** \n- Great service and well-maintained vehicles\n- The staff was friendly and helpful\n- Convenient location near Hollywood\n- The car was clean and comfortable\n\n**Cost for 3 Days:** $45.00/day * 3 days = $135.00\n\n### Total Cost Before Discount\n- **Your Family:** $144.00\n- **Your Cousin's Family:** $135.00\n\n### Applying the Best Discount\nThe best available discount is `SAVE20` which gives 20% off.\n\nLet's apply this discount to both rentals."
+    }
+  ],
+  "tool_calls": [
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-02AA3E7617"
+      },
+      "id": "call_379yJBqZrWsb3M8SyOZiYIbz",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-02AA3E7617"
+      },
+      "id": "call_ZhwipHWHJOBgkXWhlPnC5uiC",
+      "placeholder_args": null
+    }
+  ]
+}

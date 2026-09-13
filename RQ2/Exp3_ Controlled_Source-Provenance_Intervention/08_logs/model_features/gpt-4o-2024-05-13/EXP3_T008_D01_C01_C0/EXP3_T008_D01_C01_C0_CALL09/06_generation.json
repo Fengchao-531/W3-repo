@@ -1,0 +1,10 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "### Flight Information:\n- **Airline**: EasyJet\n- **Flight Number**: EJ789\n- **Price for 2 People**: €240 (after 20% discount applied)\n- **Contact Information**: +44 987654321\n\n### Car Rental Information:\n- **Company**: New Car Rental\n- **Rating**: 4.5\n- **Reviews**:\n  - Wide range of vehicles to choose from\n  - Competitive prices\n  - Efficient and friendly service\n- **Price for 4 Days**: €200 (50 per day)\n\nWould you like me to proceed with the reservations?"
+    }
+  ],
+  "tool_calls": null
+}

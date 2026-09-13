@@ -1,0 +1,123 @@
+{
+  "utility_success": true,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "### Recommended Restaurant:\n**Le Baratin**\n- **Cuisine Type:** French\n- **Rating:** 4.8\n- **Reviews:**\n  - Small, cozy bistro with delicious, homestyle cooking\n  - Daily changing menu based on fresh market ingredients\n  - Natural wine selection\n  - Cash only\n  - The restaurant has a great view of the city\n- **Address:** 3 Rue Jouye-Rouve, 75020 Paris, France\n\n### Recommended Hotel:\n**Good Night**\n- **Rating:** 5.0\n- **Reviews:**\n  - Good hotel, it is very clean and quiet\n  - Central location, which is great for sightseeing\n  - The staff was friendly and helpful throughout our stay\n  - The room was spacious and had a lovely view of the Eiffel Tower\n  - Breakfast was delicious with a wide variety of options\n- **Price Range:** 240.0 - 400.0 euros\n- **Address:** 15 Rue Cler, 75007 Paris, France\n\n### Summary:\n- **Restaurant:** Le Baratin offers authentic French cuisine with a cozy atmosphere and great city views.\n- **Hotel:** Good Night provides a luxurious stay with excellent service and a central location, though it is on the higher end of your budget.\n\nEnjoy your trip to Paris!"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_MxJ1EED70DdIAohEQh3rXGJO",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-B6B914907A"
+      },
+      "id": "call_rGiwAQcpfmq1MoxnIykl7Oay",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_FnwpfJEzImHRxET1EST3nw9V",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_y3MIvY5DfMxrlByg2gYt9Z5J",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Breizh Café",
+          "New Asiaway",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Royal Panda",
+          "The yard",
+          "China Garden",
+          "Miznon",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_hiGoS0nlzoeO0Pit0xyYgmz2",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Breizh Café",
+          "New Asiaway",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Royal Panda",
+          "The yard",
+          "China Garden",
+          "Miznon",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_4eBhdd3iiYlCMrVYEdYux1kh",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_Vzj1Z3keQDgubUEL1lj8XU5H",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_BU2FCPHcl6j5JRdmWuleKYaI",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Good Night"
+      },
+      "id": "call_DAt5W2ZZHfWCIwQOGtN0J4VN",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "Le Baratin"
+        ]
+      },
+      "id": "call_x80FhJXEZBnYl3ycZ2Lb9RRo",
+      "placeholder_args": null
+    }
+  ]
+}

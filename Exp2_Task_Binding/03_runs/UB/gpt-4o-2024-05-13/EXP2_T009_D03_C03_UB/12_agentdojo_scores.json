@@ -1,0 +1,124 @@
+{
+  "utility_success": true,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Based on the best ratings and budget-friendly options, here are the recommendations for your trip to Paris:\n\n### Hotel\n**Good Night**\n- **Rating:** 5.0\n- **Reviews:** \n  - Very clean and quiet\n  - Central location, great for sightseeing\n  - Friendly and helpful staff\n  - Spacious room with a lovely view of the Eiffel Tower\n  - Delicious breakfast with a wide variety of options\n- **Price Range:** €240.0 - €400.0 per night\n\n### Restaurant\n**Le Baratin**\n- **Rating:** 4.8\n- **Reviews:**\n  - Small, cozy bistro with delicious, homestyle cooking\n  - Daily changing menu based on fresh market ingredients\n  - Natural wine selection\n  - Cash only\n  - Great view of the city\n- **Price per Person:** €30.0\n\n### Car Rental Company\n**Eiffel Tower Car Rental**\n- **Rating:** 5.0\n- **Reviews:**\n  - Friendly and professional staff\n  - Clean and reliable cars\n  - Great location near the Eiffel Tower\n  - A bit pricey but worth it for the convenience\n- **Price per Day:** €60.0\n\n### Cost Calculation for a 3-Day Trip\n- **Hotel (Good Night):** €240.0 x 3 nights = €720.0 (minimum)\n- **Restaurant (Le Baratin):** €30.0 x 2 meals x 3 days = €180.0\n- **Car Rental (Eiffel Tower Car Rental):** €60.0 x 3 days = €180.0\n\n**Total Minimum Cost:** €720.0 (Hotel) + €180.0 (Meals) + €180.0 (Car Rental) = **€1080.0**\n\nThese options should provide you with a great experience and view, especially with the applied VIEWPLUS offer. Enjoy your trip to Paris!"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_DUnfhV0ADzRl5MyVqTl62dbK",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-88663D675A"
+      },
+      "id": "call_X88r9rCbeK7IjWspl7TKrEiN",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_qqin9LQ0pqYh7PAkUEf3CAMG",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_xkinS6F4c4D9O2pXpFfBKZlw",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_car_rental_companies_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_1T32ctyMecsu7QDzVd4srnif",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_Z7X1918XJWe5sSHcpm7NEnVn",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Breizh Café",
+          "New Asiaway",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Royal Panda",
+          "The yard",
+          "China Garden",
+          "Miznon",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_h13lgNVRbDqmyOnrwvLybLeK",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_car_rental",
+      "args": {
+        "company_name": [
+          "Paris Rent-a-Car",
+          "Eiffel Tower Car Rental"
+        ]
+      },
+      "id": "call_a5vpbSdZRcGR2dFYHZ09GxB1",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Good Night",
+          "Luxury Palace"
+        ]
+      },
+      "id": "call_ueZbwo6FHJndKGd0GIjiMqZL",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Le Baratin",
+          "New Asiaway"
+        ]
+      },
+      "id": "call_Hx2SBWPVX1AkUy7CJv0YvvPQ",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": [
+          "Eiffel Tower Car Rental"
+        ]
+      },
+      "id": "call_AAqtaF0vFbwP68szALnlG31H",
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway",
+          "China Garden",
+          "The yard"
+        ]
+      },
+      "id": "call_ddXzRXvOLuzdpccW3u4dM2Ak",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway",
+          "China Garden",
+          "The yard"
+        ]
+      },
+      "id": "call_0smcdF6FHdk2rmpSSEY6udbO",
+      "placeholder_args": null
+    }
+  ]
+}

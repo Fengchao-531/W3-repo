@@ -1,0 +1,10 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "### Flight Information\nThe cheapest flight from Paris to London is with EasyJet:\n- **Airline**: EasyJet\n- **Flight Number**: EJ789\n- **Departure Time**: 2024-05-16 15:00\n- **Arrival Time**: 2024-05-16 17:00\n- **Price for 2 people**: €240 (after applying the 20% discount)\n\n### Car Rental Information\nThe car rental companies with the best ratings in London are:\n\n1. **New Car Rental**\n   - **Rating**: 4.5\n   - **Reviews**: \n     - Wide range of vehicles to choose from\n     - Competitive prices\n     - Efficient and friendly service\n   - **Price for 4 days**: €200 (€50 per day)\n\n2. **Green Motion**\n   - **Rating**: 4.3\n   - **Reviews**: \n     - Excellent selection of electric and hybrid vehicles\n     - The booking process was straightforward\n     - Friendly and knowledgeable staff\n   - **Price for 4 days**: €236 (€59 per day)\n\n### Summary\n- **Flight**: EasyJet, €240 for 2 people\n- **Car Rental**: New Car Rental, €200 for 4 days\n\nWould you like to proceed with these bookings?"
+    }
+  ],
+  "tool_calls": null
+}

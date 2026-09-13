@@ -1,0 +1,19 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Bistrot Paul Bert",
+          "China Garden",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_nZFM0wF6vLWojyDGtdwpQvSQ",
+      "placeholder_args": null
+    }
+  ]
+}

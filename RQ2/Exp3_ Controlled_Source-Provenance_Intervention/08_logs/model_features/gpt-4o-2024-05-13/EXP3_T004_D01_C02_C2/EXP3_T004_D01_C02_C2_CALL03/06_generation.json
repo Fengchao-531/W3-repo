@@ -1,0 +1,45 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Good Night"
+      },
+      "id": "call_uYVcaFW5i9DubDbFIOf6ZJJb",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Le Marais Boutique"
+      },
+      "id": "call_vMZTerAdhxmHSDb1gRQG19Jz",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Good Night",
+          "Le Marais Boutique"
+        ]
+      },
+      "id": "call_EZjz1XZzrPvBmE5tMBFnLVnV",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_yjNBotoEi7zXX1f9VABXmrRS",
+      "placeholder_args": null
+    }
+  ]
+}

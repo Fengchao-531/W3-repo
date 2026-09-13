@@ -1,0 +1,14 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "New Israeli Restaurant"
+      },
+      "id": "call_xaW94mCvXTNDF7VOxptNxnMS",
+      "placeholder_args": null
+    }
+  ]
+}

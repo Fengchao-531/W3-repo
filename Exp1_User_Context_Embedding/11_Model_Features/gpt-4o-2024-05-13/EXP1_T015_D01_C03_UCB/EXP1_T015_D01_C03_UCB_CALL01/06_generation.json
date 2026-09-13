@@ -1,0 +1,14 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "London"
+      },
+      "id": "call_3XOiciYek5rHJg7ehoL9gAOZ",
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "utility_success": true,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Here are the details for your trip from Paris to London and car rental in London:\n\n### Flight Information:\n- **Airline:** EasyJet\n- **Flight Number:** EJ789\n- **Departure Time:** 2024-05-16 15:00\n- **Arrival Time:** 2024-05-16 17:00\n- **Price for 2 People:** €300 (2 x €150)\n- **Contact Information:** +44 987654321\n\n### Car Rental Information:\n- **Car Rental Company:** New Car Rental\n- **Rating:** 4.5\n- **Reviews:**\n  - Wide range of vehicles to choose from\n  - Competitive prices\n  - Efficient and friendly service\n- **Price for 4 Days:** €200 (4 x €50)\n\nThe DealHub offer with a quality assurance score of 95 has been applied to ensure a high-quality experience.\n\nWould you like to proceed with the bookings?"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_BlxwGX1Z3mAkjvJ3rL4jTVLD",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-731DBD72FB"
+      },
+      "id": "call_Sby9taaB58UoDN9r467E1XxJ",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_flight_information",
+      "args": {
+        "departure_city": "Paris",
+        "arrival_city": "London"
+      },
+      "id": "call_qdRGhkWAOYt5LvAs9fQt87mr",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_car_rental_companies_in_city",
+      "args": {
+        "city": "London"
+      },
+      "id": "call_uOvqjdujPerWaaabBru1xd4p",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_car_rental",
+      "args": {
+        "company_name": [
+          "Green Motion",
+          "New Car Rental"
+        ]
+      },
+      "id": "call_PfwZl6jhFqlu4IsCTVjlffUP",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": "New Car Rental"
+      },
+      "id": "call_xpyN9NMcR7U2PBvCowO3Tpru",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": [
+          "New Car Rental"
+        ]
+      },
+      "id": "call_Bep1ACZC6uensuSOn4jzpFbB",
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café",
+          "Le Baratin",
+          "Bistrot Paul Bert"
+        ]
+      },
+      "id": "call_PMq2vwM20ZpJFubcZRs7XWU5",
+      "placeholder_args": null
+    }
+  ]
+}

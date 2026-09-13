@@ -1,0 +1,16 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_car_types_available",
+      "args": {
+        "company_name": [
+          "LAX Car Rental"
+        ]
+      },
+      "id": "call_Os03EIPZhd8RZRCNZ5vgq9Xc",
+      "placeholder_args": null
+    }
+  ]
+}

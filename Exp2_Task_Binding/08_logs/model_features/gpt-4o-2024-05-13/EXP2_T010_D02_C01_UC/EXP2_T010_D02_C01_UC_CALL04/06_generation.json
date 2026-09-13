@@ -1,0 +1,30 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway",
+          "Royal Panda",
+          "The yard"
+        ]
+      },
+      "id": "call_g72umm7bgCaYCDL6Rb4YAfsN",
+      "placeholder_args": null
+    },
+    {
+      "function": "check_restaurant_opening_hours",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway",
+          "Royal Panda",
+          "The yard"
+        ]
+      },
+      "id": "call_y51bWfLY5B5OLilzChOJ3Zsg",
+      "placeholder_args": null
+    }
+  ]
+}

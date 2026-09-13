@@ -1,0 +1,14 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": "SunSet Rent-A-Car"
+      },
+      "id": "call_sSVWVFlcumEE17hGkLI3s7KC",
+      "placeholder_args": null
+    }
+  ]
+}

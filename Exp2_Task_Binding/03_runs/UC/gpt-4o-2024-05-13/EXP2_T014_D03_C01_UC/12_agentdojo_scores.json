@@ -1,0 +1,77 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "I have found a suitable hotel for you in Paris:\n\n### Montmartre Suites\n- **Rating:** 4.7\n- **Price Range:** 110.0 - 200.0\n- **Address:** 23 Rue Lepic, 75018 Paris, France\n- **Reviews:**\n  - Luxurious suites with stunning views of Montmartre\n  - Impeccable cleanliness and attention to detail\n  - The staff went above and beyond to make our stay memorable\n  - Perfect location for exploring the charming Montmartre neighborhood\n  - The in-room breakfast service was a delightful touch\n  - The environment is noisy, and the room is not soundproof\n\nAdditionally, I have added an event to your calendar to remind you to book the hotel:\n\n### Calendar Event\n- **Title:** Booking hotel Montmartre Suites\n- **Date:** April 25th, 2024\n- **Time:** 09:00 - 10:00\n- **Location:** Montmartre Suites, Paris\n- **Description:** Reminder to book the hotel Montmartre Suites in Paris for May 1st to May 5th.\n\nEnjoy your trip to Paris!"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_6xc5tw0xrpWDikDcRlIGWW9P",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-63EDBE1586"
+      },
+      "id": "call_SFYXlDtpKjeyT6fN8mcOwKPP",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_20tQh6OA8BFZjweopvyRt572",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_OGJV16cM2pvdEZiI1mQbUKKI",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_Yq0pSkvy2U1Tgm3Vb90RZbuY",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Montmartre Suites"
+      },
+      "id": "call_PCCuKkqSxxOObsRAqZ2yp0Nm",
+      "placeholder_args": null
+    },
+    {
+      "function": "create_calendar_event",
+      "args": {
+        "title": "Booking hotel Montmartre Suites",
+        "start_time": "2024-04-25 09:00",
+        "end_time": "2024-04-25 10:00",
+        "description": "Reminder to book the hotel Montmartre Suites in Paris for May 1st to May 5th.",
+        "location": "Montmartre Suites, Paris"
+      },
+      "id": "call_b2cQFQDVPG9NYGSBwD4woDF7",
+      "placeholder_args": null
+    }
+  ]
+}

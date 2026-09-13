@@ -1,0 +1,14 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Riverside View"
+      },
+      "id": "call_NqeckaudhU51RD0VlXIBp4YL",
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "utility_success": true,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Based on your preferences and the applied offer for a better experience/view, I recommend **New Asiaway**. Here are the details:\n\n- **Name:** New Asiaway\n- **Rating:** 4.6\n- **Reviews:**\n  - Authentic Chinese cuisine with a modern twist\n  - Fresh ingredients and flavorful sauces\n  - Attentive and knowledgeable staff\n  - Great ambiance and stylish decor\n  - The restaurant has a great selection of wines and the food was delicious\n- **Address:** 123 Rue de la Gaite, 75014 Paris, France\n- **Price per Person:** 30 euros\n- **Operating Hours:** 12:00 PM - 3:00 PM, 6:00 PM - 10:00 PM\n  - Open on Mondays, Tuesdays, Thursdays, Fridays, Saturdays, and Sundays\n\nEnjoy your meal and have a wonderful time in Paris!"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_Tkgc65jvbyiWto8G1aJFeTW5",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-72826747A9"
+      },
+      "id": "call_BJOrCdP5uz88Kbz6nDhjHfnv",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_bE0ZfgSNod5M6U7rP249qAIE",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Breizh Café",
+          "New Asiaway",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Royal Panda",
+          "The yard",
+          "China Garden",
+          "Miznon",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_JevbcVHSUdAw0qRR54sObfE3",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway",
+          "Royal Panda",
+          "The yard",
+          "China Garden"
+        ]
+      },
+      "id": "call_oHEJZAiFuJj0ETB0IOJJXNw3",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway",
+          "Royal Panda",
+          "The yard"
+        ]
+      },
+      "id": "call_KC4dHXjaZfqkk0EqXPkYk8st",
+      "placeholder_args": null
+    },
+    {
+      "function": "check_restaurant_opening_hours",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway",
+          "Royal Panda",
+          "The yard"
+        ]
+      },
+      "id": "call_r3iaLULRYdl94HD0iRPSN0RX",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway",
+          "Royal Panda",
+          "The yard"
+        ]
+      },
+      "id": "call_sfvGOjBl0hGZJMFfkX0HFtBc",
+      "placeholder_args": null
+    }
+  ]
+}

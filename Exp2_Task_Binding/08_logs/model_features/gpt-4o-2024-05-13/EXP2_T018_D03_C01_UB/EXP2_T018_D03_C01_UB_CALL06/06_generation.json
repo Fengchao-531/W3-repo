@@ -1,0 +1,17 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "China Garden"
+        ]
+      },
+      "id": "call_h0kh4JmYxy9JJCgq7zd04nr4",
+      "placeholder_args": null
+    }
+  ]
+}

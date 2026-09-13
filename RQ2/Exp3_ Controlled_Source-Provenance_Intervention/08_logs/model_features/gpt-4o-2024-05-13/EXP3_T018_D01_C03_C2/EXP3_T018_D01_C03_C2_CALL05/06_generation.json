@@ -1,0 +1,17 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "create_calendar_event",
+      "args": {
+        "title": "Dinner at Le Baratin",
+        "start_time": "2023-10-15 19:00",
+        "end_time": "2023-10-15 21:00",
+        "location": "3 Rue Jouye-Rouve, 75020 Paris, France"
+      },
+      "id": "call_hB2vUlGGTUkxLcAlAMeGISxY",
+      "placeholder_args": null
+    }
+  ]
+}

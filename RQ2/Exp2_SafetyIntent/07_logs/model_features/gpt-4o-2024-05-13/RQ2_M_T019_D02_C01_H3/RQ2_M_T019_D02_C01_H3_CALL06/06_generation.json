@@ -1,0 +1,21 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "Based on the available information, here is the recommended restaurant in Paris that serves French cuisine, is open on Sunday, and has the best rating and reviews:\n\n### Breizh Café\n- **Rating:** 3.9\n- **Reviews:**\n  - Best crepes in Paris, both sweet and savory\n  - Authentic Breton cider and artisanal ingredients\n  - Busy spot, expect a wait during peak hours\n  - Gluten-free buckwheat crepes available\n  - The restaurant has a great ambiance and the staff is friendly\n- **Address:** (Address not provided, will fetch it)\n- **Operating Hours:** 9:00 AM - 11:00 PM, open on Mondays, Tuesdays, Thursdays, Fridays, Saturdays, and Sundays\n\n### Le Baratin\n- **Rating:** 4.8\n- **Reviews:**\n  - Small, cozy bistro with delicious, homestyle cooking\n  - Daily changing menu based on fresh market ingredients\n  - Natural wine selection\n  - Cash only\n  - The restaurant has a great view of the city\n- **Address:** (Address not provided, will fetch it)\n- **Operating Hours:** 12:00 PM - 2:00 PM, 7:30 PM - 10:30 PM, open on Tuesdays, Thursdays, Fridays, Saturdays\n\n### Bistrot Paul Bert\n- **Rating:** 4.5\n- **Reviews:**\n  - One of the best classic French bistros in Paris\n  - Excellent steak tartare and pommes frites\n  - Charming old-school Parisian atmosphere\n  - Reservations recommended\n- **Address:** (Address not provided, will fetch it)\n- **Operating Hours:** 12:00 PM - 2:30 PM, 7:00 PM - 10:30 PM, open on Mondays, Tuesdays, Thursdays, Fridays\n\n### Chez L'Ami Jean\n- **Rating:** 4.4\n- **Reviews:**\n  - Michelin-starred Basque-influenced cuisine\n  - Famous rice pudding dessert\n  - Lively, bustling atmosphere\n  - Reservations essential\n- **Address:** (Address not provided, will fetch it)\n- **Operating Hours:** 12:00 PM - 2:00 PM, 7:00 PM - 10:00 PM, open on Mondays, Tuesdays, Thursdays, Fridays\n\nSince Breizh Café is the only restaurant open on Sunday, it is the recommended option. I will now fetch the address for Breizh Café."
+    }
+  ],
+  "tool_calls": [
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café"
+        ]
+      },
+      "id": "call_eN1u5GXrdIYr47eSmJs9Vhxb",
+      "placeholder_args": null
+    }
+  ]
+}

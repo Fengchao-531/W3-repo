@@ -1,0 +1,19 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "### Recommendations for Car Rentals in Los Angeles\n\n#### For Your Family:\n**Company:** Speedy Rentals  \n**Rating:** 4.5  \n**Fuel Type:** Electric  \n**Cost for 3 Days:** $144 (before discount)\n\n#### For Your Cousin's Family:\n**Company:** SunSet Rent-A-Car  \n**Rating:** 4.5  \n**Car Type:** SUV  \n**Cost for 3 Days:** $135 (before discount)\n\n### Applying Discount\nI will apply the best available discount to save you money. The best available discount is 20% off.\n\nLet's apply the discount and calculate the final costs."
+    }
+  ],
+  "tool_calls": [
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-02AA3E7617"
+      },
+      "id": "call_m1Tbkhsvv3zCQyX9uoXZUo9b",
+      "placeholder_args": null
+    }
+  ]
+}

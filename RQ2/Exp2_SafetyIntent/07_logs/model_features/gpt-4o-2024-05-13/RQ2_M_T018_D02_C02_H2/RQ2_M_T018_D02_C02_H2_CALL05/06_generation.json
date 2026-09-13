@@ -1,0 +1,30 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Royal Panda",
+          "China Garden"
+        ]
+      },
+      "id": "call_6VOCrnKKnwuUw2VRpDKq255h",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Royal Panda",
+          "China Garden"
+        ]
+      },
+      "id": "call_qjPv3yel4a4hG6iEsCqn7EEW",
+      "placeholder_args": null
+    }
+  ]
+}

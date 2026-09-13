@@ -1,0 +1,21 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "### Recommended Restaurant:\n**New Israeli Restaurant**\n- **Rating:** 4.5\n- **Reviews:**\n  - Authentic Israeli cuisine with a modern twist\n  - Delicious falafel and hummus\n  - Cozy and welcoming atmosphere\n  - Friendly and attentive staff\n  - The food was delicious and the service was excellent\n\n### Calendar Event:\nI'll add an event to your calendar to remind you to book a table at \"New Israeli Restaurant.\"\n\n### Event Details:\n- **Title:** Dinner at New Israeli Restaurant\n- **Date:** 14th November\n- **Location:** (I'll fetch the address next)\n\nLet's get the address of \"New Israeli Restaurant\" and then create the calendar event."
+    }
+  ],
+  "tool_calls": [
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant"
+        ]
+      },
+      "id": "call_E4Qwthh7ZDK7GPzcS72qIO2r",
+      "placeholder_args": null
+    }
+  ]
+}

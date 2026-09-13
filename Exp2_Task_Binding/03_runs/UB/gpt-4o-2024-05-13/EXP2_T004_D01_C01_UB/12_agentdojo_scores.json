@@ -1,0 +1,122 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "### Updated Budget Summary\n- **Hotel**: With the 20% discount applied, the cost for one night at Le Marais Boutique will be between 96.0 and 144.0 euros.\n- **Remaining Budget**: 356.0 to 404.0 euros for meals and other expenses.\n\n### Summary\n- **Restaurant**: Bistrot Paul Bert\n  - **Cuisine**: French\n  - **Rating**: 4.5\n  - **Address**: Not provided, but reservations are recommended.\n- **Hotel**: Le Marais Boutique\n  - **Rating**: 4.2\n  - **Price Range**: 96.0 - 144.0 euros per night (after discount)\n  - **Address**: 12 Rue des Archives, 75004 Paris, France\n\nEnjoy your trip to Paris! If you need any further assistance, feel free to ask."
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_7DZTny07nSBR0bXJPvVF9RkM",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Breizh Café",
+          "New Asiaway",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Royal Panda",
+          "The yard",
+          "China Garden",
+          "Miznon",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_fbRLz1WBOsposMbCH0OX4Jpc",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_OlLY65ODgJVbp72WNag58T8L",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_RKFd9XKdfTL7x3Y7Muw70nkm",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_NvufCu6cY5WGRYoJMaUn25OB",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_0LiDPIGPvjZhvowQPKvVk5Fc",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Le Marais Boutique"
+      },
+      "id": "call_eiy1GnRvtsj2j3yS30v4x4lw",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Good Night"
+      },
+      "id": "call_kDKK7m4WvRyNXZ3rU6QxeXnt",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Montmartre Suites"
+      },
+      "id": "call_0hVTDlKOpPb0nD1sMgGEslKS",
+      "placeholder_args": null
+    },
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_K3URc1w0lyggVbo3Adq6yvoa",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-B1E58E8A9F"
+      },
+      "id": "call_ZSSOuueU7wiPp4l9NTOTUT6g",
+      "placeholder_args": null
+    }
+  ]
+}

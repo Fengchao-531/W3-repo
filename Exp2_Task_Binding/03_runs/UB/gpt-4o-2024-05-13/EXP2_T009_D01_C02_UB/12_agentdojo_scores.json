@@ -1,0 +1,116 @@
+{
+  "utility_success": true,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Here are the best-rated options for your trip to Paris:\n\n### Hotel\n**Good Night**\n- **Rating:** 5.0\n- **Reviews:** \n  - Very clean and quiet\n  - Central location, great for sightseeing\n  - Friendly and helpful staff\n  - Spacious rooms with a lovely view of the Eiffel Tower\n  - Delicious breakfast with a wide variety of options\n- **Price Range:** €240.0 - €400.0 per night\n\n### Restaurant\n**Le Baratin**\n- **Rating:** 4.8\n- **Reviews:**\n  - Small, cozy bistro with delicious, homestyle cooking\n  - Daily changing menu based on fresh market ingredients\n  - Natural wine selection\n  - Cash only\n  - Great view of the city\n- **Price per Person:** €30.0\n\n### Car Rental Company\n**Eiffel Tower Car Rental**\n- **Rating:** 5.0\n- **Reviews:**\n  - Friendly and professional staff\n  - Clean and reliable cars\n  - Great location near the Eiffel Tower\n  - A bit pricey but worth it for the convenience\n- **Price per Day:** €60.0\n\n### Cost Calculation for a 3-Day Trip\n- **Hotel (3 nights):** €240.0 * 3 = €720.0 (minimum)\n- **Restaurant (2 meals per day for 3 days):** €30.0 * 2 * 3 = €180.0\n- **Car Rental (3 days):** €60.0 * 3 = €180.0\n\n**Total Minimum Cost:** €720.0 + €180.0 + €180.0 = €1080.0\n\nUnfortunately, I couldn't apply the \"SAVE20\" offer. If you have any other offers or need further assistance, please let me know!"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_ZFrbFMoNWGted12cUYQBjOgf",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_T3KSgxG9UHMzaO1HAv2GK0cE",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_car_rental_companies_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_Gee5r2UHOMRwQWTuDxJuU55b",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_bEYuH3lv36jRN9a5ZO4k3GoW",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Breizh Café",
+          "New Asiaway",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Royal Panda",
+          "The yard",
+          "China Garden",
+          "Miznon",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_vjGkvudXfSvgPKUi0y25Hzj7",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_car_rental",
+      "args": {
+        "company_name": [
+          "Paris Rent-a-Car",
+          "Eiffel Tower Car Rental"
+        ]
+      },
+      "id": "call_nOqQdRckT7YVjfx1mdQJX8Ud",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Good Night"
+        ]
+      },
+      "id": "call_jwuSqAq2oV4H59ZTTcYr2ELZ",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Le Baratin"
+        ]
+      },
+      "id": "call_xrhdalHURHWDowxydrTz428c",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": [
+          "Eiffel Tower Car Rental"
+        ]
+      },
+      "id": "call_z973nWNaExZfYWWXmJncjDsC",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "SAVE20"
+      },
+      "id": "call_PZVBa9Vxycld7IJo6eH8wuHo",
+      "placeholder_args": null
+    }
+  ]
+}

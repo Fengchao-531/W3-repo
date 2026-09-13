@@ -1,0 +1,17 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café",
+          "Le Baratin"
+        ]
+      },
+      "id": "call_83MJp2BQqCsxVF5jyxlbN4EN",
+      "placeholder_args": null
+    }
+  ]
+}

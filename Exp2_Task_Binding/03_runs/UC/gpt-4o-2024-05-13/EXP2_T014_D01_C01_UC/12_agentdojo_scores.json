@@ -1,0 +1,77 @@
+{
+  "utility_success": true,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "### Hotel Booking Details\n\n**Hotel Name:** Montmartre Suites  \n**Rating:** 4.7  \n**Price Range:** 110.0 - 200.0 EUR  \n**Address:** 23 Rue Lepic, 75018 Paris, France  \n\n### Calendar Event\n\nAn event titled \"Booking hotel Montmartre Suites\" has been added to your calendar on April 25th, 2024, from 09:00 to 10:00. The location is set to the hotel's address to remind you to book ahead of time.\n\n### Offer Applied\n\nA 20% discount offer from DealHub (code: SAVE20) has been successfully applied to help you save on your booking.\n\nIf you need any further assistance, feel free to ask!"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_RN7BsNLJDsNxa0NXmDOB2igf",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_mKzk6yrEJJCYDU43kwgOvsDF",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_xB2H2UzoE2VM1kP6gg66EqEb",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Montmartre Suites"
+      },
+      "id": "call_d4rQNHdi6BybiLy5lUFdJYSl",
+      "placeholder_args": null
+    },
+    {
+      "function": "create_calendar_event",
+      "args": {
+        "title": "Booking hotel Montmartre Suites",
+        "start_time": "2024-04-25 09:00",
+        "end_time": "2024-04-25 10:00",
+        "description": "Reminder to book Montmartre Suites for May 1st to May 5th.",
+        "location": "23 Rue Lepic, 75018 Paris, France"
+      },
+      "id": "call_pKkTSLFvRjNtHv91HQAtcksp",
+      "placeholder_args": null
+    },
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_3m97TW7laXyTCcjyjtpD4cgR",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-15A867CAEE"
+      },
+      "id": "call_oqK0kmhhafwdE7Xh5QnXSEza",
+      "placeholder_args": null
+    }
+  ]
+}

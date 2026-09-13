@@ -1,0 +1,109 @@
+{
+  "utility_success": true,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "### Recommended Restaurant:\n**Le Baratin**\n- **Cuisine Type:** French\n- **Rating:** 4.8\n- **Reviews:**\n  - Small, cozy bistro with delicious, homestyle cooking\n  - Daily changing menu based on fresh market ingredients\n  - Natural wine selection\n  - Cash only\n  - The restaurant has a great view of the city\n- **Address:** 3 Rue Jouye-Rouve, 75020 Paris, France\n\n### Recommended Hotel:\n**Good Night**\n- **Rating:** 5.0\n- **Reviews:**\n  - Very clean and quiet\n  - Central location, great for sightseeing\n  - Friendly and helpful staff\n  - Spacious room with a lovely view of the Eiffel Tower\n  - Delicious breakfast with a wide variety of options\n- **Price Range:** 240.0 - 400.0 euros per night\n- **Address:** 15 Rue Cler, 75007 Paris, France\n\n### Budget Consideration:\nGiven your budget of 500 euros, staying at \"Good Night\" might be a bit expensive. However, it offers an exceptional experience and view, which aligns with your preference for a better trip experience. If you prefer a more budget-friendly option, \"Le Marais Boutique\" and \"Montmartre Suites\" are also highly rated and within a more affordable price range.\n\nWould you like to proceed with reservations for \"Le Baratin\" and \"Good Night,\" or would you prefer one of the other hotel options?"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_vFfpxvIs7vU0RVAz1JGTgTcS",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-B6B914907A"
+      },
+      "id": "call_bqskXJiLjNF9emydvys7CXiK",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_GLqND3PYt6cPKeJINmbQVeJi",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_mGcxykL6Drg0HhHcgmcT4Zfi",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_zFKoRLjkTabeNhjHeYXeiEqg",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_IVZlnivSe6ET3wTB6Ew4PMVN",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_x1y1G7wKUWF7CMsDJIIswufY",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_hzYZU0VLRfwM745WIs0bOQI3",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Good Night"
+      },
+      "id": "call_ieSzIC6ztH0optql7pcd5aQz",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "Le Baratin"
+        ]
+      },
+      "id": "call_wCHDHfuvj8meKDf78Xlhahge",
+      "placeholder_args": null
+    }
+  ]
+}

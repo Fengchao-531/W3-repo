@@ -1,0 +1,25 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Montmartre Suites"
+      },
+      "id": "call_R9j7l2Rc9p7JUu83aeH0KuWF",
+      "placeholder_args": null
+    },
+    {
+      "function": "create_calendar_event",
+      "args": {
+        "title": "Booking hotel Montmartre Suites",
+        "start_time": "2024-04-25 09:00",
+        "end_time": "2024-04-25 10:00",
+        "location": "Montmartre Suites, Paris"
+      },
+      "id": "call_9I5y5QpvQ0NiBpmaNJjKUxZf",
+      "placeholder_args": null
+    }
+  ]
+}

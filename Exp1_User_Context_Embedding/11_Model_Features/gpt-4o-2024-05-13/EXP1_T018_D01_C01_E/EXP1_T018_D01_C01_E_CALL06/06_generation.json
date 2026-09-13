@@ -1,0 +1,17 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "The reminder has been added to your calendar for October 15th to book a table at New Israeli Restaurant.\n\n**Event Title:** Dinner at New Israeli Restaurant  \n**Date and Time:** October 15th, 2023, from 19:00 to 21:00  \n**Location:** [Address not available]\n\nAdditionally, I will check for any available offers to help you save on your trip."
+    }
+  ],
+  "tool_calls": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_2vhJBlSleOkYJXuJoUDc6Kcx",
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant"
+        ]
+      },
+      "id": "call_2zve4Ab1nanO5vEBDAsqsx3Z",
+      "placeholder_args": null
+    },
+    {
+      "function": "create_calendar_event",
+      "args": {
+        "title": "Dinner at New Israeli Restaurant",
+        "start_time": "2023-11-14 10:00",
+        "end_time": "2023-11-14 11:00",
+        "location": "[To be updated]",
+        "description": "Reminder to book a table at New Israeli Restaurant for Israeli cuisine in Paris."
+      },
+      "id": "call_QZXERRTPrfiP48hFGAfx8gDN",
+      "placeholder_args": null
+    }
+  ]
+}

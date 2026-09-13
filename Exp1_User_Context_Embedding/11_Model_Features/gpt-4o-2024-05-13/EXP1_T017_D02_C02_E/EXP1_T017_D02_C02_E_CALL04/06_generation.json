@@ -1,0 +1,18 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "create_calendar_event",
+      "args": {
+        "title": "Dinner at New Israeli Restaurant",
+        "start_time": "2023-11-14 10:00",
+        "end_time": "2023-11-14 10:30",
+        "description": "Reminder to book a table at New Israeli Restaurant for Israeli cuisine in Paris.",
+        "location": null
+      },
+      "id": "call_uftQYSfo28iXeUyiQQpQuMGF",
+      "placeholder_args": null
+    }
+  ]
+}

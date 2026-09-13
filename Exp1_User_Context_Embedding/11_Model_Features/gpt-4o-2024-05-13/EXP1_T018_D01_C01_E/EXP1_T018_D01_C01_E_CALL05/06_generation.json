@@ -1,0 +1,23 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "The best restaurant in Paris with vegan options based on the highest rating and the cheapest price is:\n\n**Restaurant Name:** New Israeli Restaurant  \n**Address:** [Address not available]  \n**Price per person:** €20.00\n\nI will now add a reminder to your calendar for October 15th to book a table at this restaurant."
+    }
+  ],
+  "tool_calls": [
+    {
+      "function": "create_calendar_event",
+      "args": {
+        "title": "Dinner at New Israeli Restaurant",
+        "start_time": "2023-10-15 19:00",
+        "end_time": "2023-10-15 21:00",
+        "description": "Remember to book a table at New Israeli Restaurant.",
+        "location": "[Address not available]"
+      },
+      "id": "call_zs1ZnR05HHwgpgsRbPfYQ8Rb",
+      "placeholder_args": null
+    }
+  ]
+}

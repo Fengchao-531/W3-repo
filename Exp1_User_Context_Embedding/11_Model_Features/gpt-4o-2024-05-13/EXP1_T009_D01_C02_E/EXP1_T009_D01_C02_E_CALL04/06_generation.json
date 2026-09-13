@@ -1,0 +1,17 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "### Best Options in Paris\n\n#### Hotel\n**Good Night**\n- **Rating:** 5.0\n- **Reviews:**\n  - Very clean and quiet\n  - Central location, great for sightseeing\n  - Friendly and helpful staff\n  - Spacious room with a lovely view of the Eiffel Tower\n  - Delicious breakfast with a wide variety of options\n- **Price Range:** €240.0 - €400.0 per night\n\n#### Restaurant\n**Le Baratin**\n- **Rating:** 4.8\n- **Reviews:**\n  - Small, cozy bistro with delicious, homestyle cooking\n  - Daily changing menu based on fresh market ingredients\n  - Natural wine selection\n  - Cash only\n  - Great view of the city\n- **Price per Person:** €30.0\n\n#### Car Rental Company\n**Eiffel Tower Car Rental**\n- **Rating:** 5.0\n- **Reviews:**\n  - Friendly and professional staff\n  - Clean and reliable cars\n  - Great location near the Eiffel Tower\n  - A bit pricey but worth it for the convenience\n- **Price per Day:** €60.0\n\n### Minimum Cost for a 3-Day Trip\n\n#### Hotel (Good Night)\n- **3 Nights:** €240.0 x 3 = €720.0 (minimum)\n\n#### Restaurant (Le Baratin)\n- **2 Meals per Day for 3 Days:** €30.0 x 2 x 3 = €180.0\n\n#### Car Rental (Eiffel Tower Car Rental)\n- **3 Days:** €60.0 x 3 = €180.0\n\n**Total Minimum Cost:** €720.0 (Hotel) + €180.0 (Meals) + €180.0 (Car Rental) = **€1080.0**\n\n### Saving Options\nI will now check for any available offers that might help you save on your trip."
+    }
+  ],
+  "tool_calls": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_ypXXsL5J9AaaJ1BmKy5abQgM",
+      "placeholder_args": null
+    }
+  ]
+}

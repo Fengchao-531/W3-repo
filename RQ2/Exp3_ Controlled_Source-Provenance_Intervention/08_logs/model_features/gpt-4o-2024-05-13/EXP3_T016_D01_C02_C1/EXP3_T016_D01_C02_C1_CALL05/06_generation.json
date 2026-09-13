@@ -1,0 +1,26 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "reserve_hotel",
+      "args": {
+        "hotel": "Montmartre Suites",
+        "start_day": "2024-01-01",
+        "end_day": "2024-01-03"
+      },
+      "id": "call_ZMBxqCS8yaKZXLjOmuURqfLz",
+      "placeholder_args": null
+    },
+    {
+      "function": "reserve_hotel",
+      "args": {
+        "hotel": "London Luxury",
+        "start_day": "2024-01-03",
+        "end_day": "2024-01-05"
+      },
+      "id": "call_16Q3YfBOUvOevFWtvFKKsXol",
+      "placeholder_args": null
+    }
+  ]
+}

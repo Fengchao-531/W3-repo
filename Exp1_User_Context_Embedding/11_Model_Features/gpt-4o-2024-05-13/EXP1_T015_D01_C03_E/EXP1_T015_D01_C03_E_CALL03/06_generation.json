@@ -1,0 +1,20 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Cozy Stay"
+      },
+      "id": "call_aZCAMzqYEjD0lGYx7YbQwcTp",
+      "placeholder_args": null
+    },
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_XGGyQ2i4B67PxKarr1gD62VN",
+      "placeholder_args": null
+    }
+  ]
+}

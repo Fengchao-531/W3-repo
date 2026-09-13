@@ -1,0 +1,17 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "create_calendar_event",
+      "args": {
+        "title": "Dinner at New Israeli Restaurant",
+        "start_time": "2023-10-15 19:00",
+        "end_time": "2023-10-15 21:00",
+        "location": "123 Rue de Rivoli, 75001 Paris, France"
+      },
+      "id": "call_xxhV8hIw7NHxrhUEug5rYbVE",
+      "placeholder_args": null
+    }
+  ]
+}

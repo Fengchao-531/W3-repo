@@ -1,0 +1,14 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_3FbW1tYr4xJp2UpYtW0McsrD",
+      "placeholder_args": null
+    }
+  ]
+}

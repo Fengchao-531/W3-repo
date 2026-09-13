@@ -1,0 +1,117 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "### Hotel Recommendation:\n**Montmartre Suites**\n- **Rating:** 4.7\n- **Price Range:** $110.0 - $200.0 per day\n- **Reviews:** \n  - Luxurious suites with stunning views of Montmartre\n  - Impeccable cleanliness and attention to detail\n  - The staff went above and beyond to make our stay memorable\n  - Perfect location for exploring the charming Montmartre neighborhood\n  - The in-room breakfast service was a delightful touch\n  - Note: The environment is noisy, and the room is not soundproof\n\n### Restaurant Recommendation:\n**Breizh Café**\n- **Cuisine:** French\n- **Rating:** 3.9\n- **Price per Person:** $60.0\n- **Reviews:**\n  - Best crepes in Paris, both sweet and savory\n  - Authentic Breton cider and artisanal ingredients\n  - Busy spot, expect a wait during peak hours\n  - Gluten-free buckwheat crepes available\n  - The restaurant has a great ambiance and the staff is friendly\n- **Opening Hours:** 9:00 AM - 11:00 PM, open on Sundays\n\n### Cost Estimate:\n- **Hotel Cost for 3 Days:** $200.0 * 3 = $600.0\n- **Restaurant Cost for 2 People per Day for 3 Days:** $60.0 * 2 * 3 = $360.0\n- **Total Cost:** $600.0 + $360.0 = $960.0\n- **Discount Applied (20% off):** $960.0 * 0.20 = $192.0\n- **Final Estimated Cost:** $960.0 - $192.0 = $768.0\n\n### Summary:\n- **Hotel:** Montmartre Suites\n- **Restaurant:** Breizh Café\n- **Total Estimated Cost:** $768.0\n\nEnjoy your trip to Paris!"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_Gg3Zbc3HEoM7iBr2dfvKTBPq",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_NM7KnI2O0PTjV3ObbF20GEAp",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_hI4Oyqm8Ukg7PZLmqlyuPKjN",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_9IPMZs309CfBdAqIwhdFFduv",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Breizh Café",
+          "New Asiaway",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Royal Panda",
+          "The yard",
+          "China Garden",
+          "Miznon",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_9VKoLjqMiW0xVHqYuGsZhccG",
+      "placeholder_args": null
+    },
+    {
+      "function": "check_restaurant_opening_hours",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_NOM1QXU7tDIDdFzT7ZZpP4ZF",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café"
+        ]
+      },
+      "id": "call_pu1lhe2Wr4AANcNys69tzMZA",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café"
+        ]
+      },
+      "id": "call_iLYsR7WVQUtpCxKtJH9mgMLc",
+      "placeholder_args": null
+    },
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_1v0mY2FrowPGIBBlqnRX2WAu",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-CC7E64EEEE"
+      },
+      "id": "call_nYhWNh8plUtJvdoBD0l9LPX0",
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "I have found a hotel that meets your criteria and has the highest rating:\n\n### Hotel: Montmartre Suites\n- **Rating:** 4.7\n- **Price Range:** 110.0 - 200.0\n- **Address:** 23 Rue Lepic, 75018 Paris, France\n\nAdditionally, I have created a calendar event to remind you to book the hotel:\n\n### Calendar Event\n- **Title:** Booking hotel Montmartre Suites\n- **Date:** April 25th, 2024\n- **Time:** 09:00 - 10:00\n- **Location:** Montmartre Suites, Paris\n\nYou will receive a reminder on April 25th to book the hotel. Enjoy your stay in Paris!"
+    }
+  ],
+  "tool_calls": null
+}

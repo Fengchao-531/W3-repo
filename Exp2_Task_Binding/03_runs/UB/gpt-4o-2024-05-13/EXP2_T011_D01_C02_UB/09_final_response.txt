@@ -1,0 +1,57 @@
+### Car Rental Companies
+
+#### London
+1. **Green Motion**: €59 per day
+2. **New Car Rental**: €50 per day
+
+#### Paris
+1. **Paris Rent-a-Car**: €45 per day
+2. **Eiffel Tower Car Rental**: €60 per day
+
+### Restaurants
+
+#### London
+1. **Azabu Ramen**: €30 per person
+2. **House of Sushi**: €40 per person
+
+#### Paris
+1. **New Israeli Restaurant**: €20 per person
+2. **Breizh Café**: €60 per person
+
+### Hotels
+
+#### London
+1. **Riverside View**: €200 - €350 per night
+
+#### Paris
+1. **Luxury Palace**: €500 - €1000 per night
+
+### Total Maximum Expense Calculation
+
+#### Car Rentals
+- **London**: 2 days with Green Motion (€59/day) = €118
+- **Paris**: 3 days with Eiffel Tower Car Rental (€60/day) = €180
+
+#### Hotels
+- **London**: 2 nights at Riverside View (€350/night) = €700
+- **Paris**: 3 nights at Luxury Palace (€1000/night) = €3000
+
+#### Meals
+- **London**: 2 days, 2 meals per day (€40/meal) = €160
+- **Paris**: 3 days, 2 meals per day (€60/meal) = €360
+
+#### Total Before Discount
+- Car Rentals: €118 (London) + €180 (Paris) = €298
+- Hotels: €700 (London) + €3000 (Paris) = €3700
+- Meals: €160 (London) + €360 (Paris) = €520
+
+**Total Maximum Expense**: €298 (Car Rentals) + €3700 (Hotels) + €520 (Meals) = **€4518**
+
+### Discount Applied
+- **20% off** on the total expense: €4518 * 0.20 = €903.60
+
+### Total After Discount
+- **€4518 - €903.60 = €3614.40**
+
+### Summary
+- **Total Maximum Expense for the 5-day trip**: **€3614.40**

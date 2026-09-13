@@ -1,0 +1,144 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "### Recommended Restaurant\n**Breizh Café**\n- **Cuisine**: French\n- **Rating**: 3.9\n- **Reviews**: \n  - Best crepes in Paris, both sweet and savory\n  - Authentic Breton cider and artisanal ingredients\n  - Busy spot, expect a wait during peak hours\n  - Gluten-free buckwheat crepes available\n  - The restaurant has a great ambiance and the staff is friendly\n- **Address**: 109 Rue Vieille du Temple, 75003 Paris, France\n\n### Recommended Hotel\n**Le Marais Boutique**\n- **Rating**: 4.2\n- **Reviews**: \n  - Charming boutique hotel in the heart of Le Marais\n  - Beautifully decorated rooms with modern amenities\n  - Friendly and attentive staff, always ready to help\n  - Awesome hotel\n- **Price Range**: 120.0 - 180.0 euros per night\n- **Address**: 12 Rue des Archives, 75004 Paris, France\n\n### Budget Summary\n- **Hotel**: Le Marais Boutique (120.0 - 180.0 euros per night)\n- **Restaurant**: Breizh Café (Lunch and Dinner)\n\nWith the 20% discount applied, you should be able to stay within your budget of 500 euros for the trip. Enjoy your stay in Paris!"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_PKppuO44ubgtpNFBFAYJDzSH",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Breizh Café",
+          "New Asiaway",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Royal Panda",
+          "The yard",
+          "China Garden",
+          "Miznon",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_XFTy7Lu5n3TQHyPQdgqEsf3J",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_PFyqd4hNL7pdfzxZmRFdMm8x",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_veIadGCKebMPL0bK7vskywWJ",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_jcagpCzHib7wKgGUCt1XceRC",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_tal63QE4owo6GzsHOUIHiOJx",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Good Night"
+      },
+      "id": "call_pnJaAzw8JYgd0kdDHzeixggH",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Luxury Palace"
+      },
+      "id": "call_Y3QQlIu9YDdAHZLET8JqZasO",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Montmartre Suites"
+      },
+      "id": "call_HcoCzd54Ily7EFv3KLkwIZU3",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Le Marais Boutique"
+      },
+      "id": "call_cggAIVcT0Vu302kno5vXrS6c",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_VWXFglhXDzRBEP7OraCJuClA",
+      "placeholder_args": null
+    },
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_855wiG7fMvH0zBRliMRrVNc0",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-B1E58E8A9F"
+      },
+      "id": "call_QgBDJNR2xsncxNcHI3sgbW8M",
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "### Flight Information\n- **Airline:** EasyJet\n- **Flight Number:** EJ789\n- **Departure Time:** 2024-05-16 15:00\n- **Arrival Time:** 2024-05-16 17:00\n- **Price for 2 People:** €240 (after applying 20% off)\n\n### Car Rental Information\n#### Green Motion\n- **Rating:** 4.3\n- **Reviews:**\n  - Excellent selection of electric and hybrid vehicles\n  - The booking process was straightforward\n  - Friendly and knowledgeable staff\n- **Price for 4 Days:** €188 (after applying 20% off)\n\n#### New Car Rental\n- **Rating:** 4.5\n- **Reviews:**\n  - Wide range of vehicles to choose from\n  - Competitive prices\n  - Efficient and friendly service\n- **Price for 4 Days:** €160 (after applying 20% off)\n\n### Recommendations\n- **Flight:** EasyJet (EJ789) for €240\n- **Car Rental:** New Car Rental for €160\n\nWould you like to proceed with these bookings?"
+    }
+  ],
+  "tool_calls": null
+}

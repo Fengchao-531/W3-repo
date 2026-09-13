@@ -1,0 +1,41 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_cXJ5UP1XRo5LdbDtVP2ruapq",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Le Baratin",
+          "New Asiaway",
+          "Bistrot Paul Bert"
+        ]
+      },
+      "id": "call_kpAwu58RRf6F0DkJhzJQ0k6p",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": [
+          "Paris Rent-a-Car",
+          "Eiffel Tower Car Rental"
+        ]
+      },
+      "id": "call_uu8nlisjG6qmy7odeLIQDsct",
+      "placeholder_args": null
+    }
+  ]
+}

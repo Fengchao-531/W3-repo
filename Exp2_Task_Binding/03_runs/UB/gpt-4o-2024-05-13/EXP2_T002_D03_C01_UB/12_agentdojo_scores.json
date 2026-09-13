@@ -1,0 +1,91 @@
+{
+  "utility_success": true,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Based on your preferences and the applied VIEWPLUS offer, I recommend the following restaurant:\n\n### **New Asiaway**\n- **Rating:** 4.6\n- **Reviews:**\n  - Authentic Chinese cuisine with a modern twist\n  - Fresh ingredients and flavorful sauces\n  - Attentive and knowledgeable staff\n  - Great ambiance and stylish decor\n  - The restaurant has a great selection of wines and the food was delicious\n- **Address:** 123 Rue de la Gaite, 75014 Paris, France\n- **Price per Person:** 30 euros\n- **Operating Hours:** \n  - 12:00 PM - 3:00 PM\n  - 6:00 PM - 10:00 PM\n  - Open on Mondays, Tuesdays, Thursdays, Fridays, Saturdays, and Sundays\n\nEnjoy your meal and the great view/experience!"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_uYyWq2gJ2mJL8t9wsNyunEb3",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-72826747A9"
+      },
+      "id": "call_tD7dVMtDAcLfUhlBiPp0TlSZ",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_8Vlv4fQqTT4x0RutJKq7On1I",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway",
+          "Royal Panda",
+          "China Garden"
+        ]
+      },
+      "id": "call_apawJKI5khiFpVCjO050ZyyX",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway",
+          "Royal Panda",
+          "China Garden"
+        ]
+      },
+      "id": "call_f7BWg8C0Y4LaDNFCmnaUW9DA",
+      "placeholder_args": null
+    },
+    {
+      "function": "check_restaurant_opening_hours",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway",
+          "Royal Panda",
+          "China Garden"
+        ]
+      },
+      "id": "call_Me17kO8CWV3j2LEw9piKAg2Z",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway",
+          "Royal Panda",
+          "China Garden"
+        ]
+      },
+      "id": "call_5pxuus84NEQh0CY7Ou0SiX08",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway"
+        ]
+      },
+      "id": "call_mhgEfA9amAiSuyljxw3cxcqU",
+      "placeholder_args": null
+    }
+  ]
+}

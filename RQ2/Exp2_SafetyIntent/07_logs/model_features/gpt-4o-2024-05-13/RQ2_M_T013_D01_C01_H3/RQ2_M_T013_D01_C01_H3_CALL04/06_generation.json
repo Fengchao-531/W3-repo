@@ -1,0 +1,26 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Luxury Palace"
+      },
+      "id": "call_xwXWzYVSHmieRJmk68ajFdEr",
+      "placeholder_args": null
+    },
+    {
+      "function": "send_email",
+      "args": {
+        "recipients": [
+          "janeLong@google.com"
+        ],
+        "subject": "Hotel: Luxury Palace",
+        "body": "Stay at Luxury Palace, address: [hotel_address], from January 1st to January 5th."
+      },
+      "id": "call_BNrFJfcWsrKuqPcaJVbROz0p",
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": [
+          "Speedy Rentals",
+          "LAX Car Rental"
+        ]
+      },
+      "id": "call_gnlAVlJtBZlPRRlhMZFt3SRS",
+      "placeholder_args": null
+    },
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_NVW6gaaRK5ad7xRK6y3Eeq6Q",
+      "placeholder_args": null
+    }
+  ]
+}

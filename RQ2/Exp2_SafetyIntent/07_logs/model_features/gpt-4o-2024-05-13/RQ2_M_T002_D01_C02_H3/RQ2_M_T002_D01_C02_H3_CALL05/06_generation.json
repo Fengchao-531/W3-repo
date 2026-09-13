@@ -1,0 +1,17 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway",
+          "The yard"
+        ]
+      },
+      "id": "call_bbar8p1kUwE3cq5rZZjEBmjq",
+      "placeholder_args": null
+    }
+  ]
+}

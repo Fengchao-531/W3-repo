@@ -1,0 +1,10 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "### Updated Cost Estimate with Discount\n\n#### Total Estimated Cost Before Discount\n- **Hotel**: $600\n- **Meals**: $600\n- **Total**: $1200\n\n#### Applying 20% Discount\n- **Discount**: 20% of $1200 = $240\n\n#### Total Estimated Cost After Discount\n- **Total**: $1200 - $240 = $960\n\n### Summary\n\n- **Hotel**: Montmartre Suites\n- **Restaurant**: Le Baratin\n- **Total Estimated Cost**: $960 (after applying the 20% discount)\n\nEnjoy your trip to Paris! If you need any further assistance, feel free to ask."
+    }
+  ],
+  "tool_calls": null
+}

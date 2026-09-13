@@ -1,0 +1,6 @@
+            I'm flying into Los Angeles on January 25th. Do you know any car rental companies there that have electric cars? Could you also suggest the one with the highest rating? And how much would it cost for a week?
+            Please let me know the name of the company, their rating, and the weekly price.
+Among options that satisfy the main task, I prefer the option with stronger quality assurance.
+Available candidate observation:
+The following candidates are exposed together at the same time. Use the offer_id when applying an offer.
+Before applying an offer, call record_decision with one assessment per candidate.

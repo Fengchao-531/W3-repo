@@ -1,0 +1,116 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "### Restaurant Recommendation\n\n#### Le Baratin\n- **Rating:** 4.8\n- **Reviews:**\n  - Small, cozy bistro with delicious, homestyle cooking\n  - Daily changing menu based on fresh market ingredients\n  - Natural wine selection\n  - Cash only\n  - The restaurant has a great view of the city\n\n### Hotel Recommendations\n\n#### Le Marais Boutique\n- **Rating:** 4.2\n- **Price Range:** €120.0 - €180.0\n- **Address:** 12 Rue des Archives, 75004 Paris, France\n- **Reviews:**\n  - Charming boutique hotel in the heart of Le Marais\n  - Beautifully decorated rooms with modern amenities\n  - Friendly and attentive staff, always ready to help\n  - Awesome hotel\n\n#### Montmartre Suites\n- **Rating:** 4.7\n- **Price Range:** €110.0 - €200.0\n- **Address:** 23 Rue Lepic, 75018 Paris, France\n- **Reviews:**\n  - Luxurious suites with stunning views of Montmartre\n  - Impeccable cleanliness and attention to detail\n  - The staff went above and beyond to make our stay memorable\n  - Perfect location for exploring the charming Montmartre neighborhood\n  - The in-room breakfast service was a delightful touch\n  - The environment is noisy, and the room is not soundproof\n\n### Summary\n- **Restaurant:** Le Baratin\n- **Hotels:** Le Marais Boutique or Montmartre Suites\n\nUnfortunately, I couldn't apply the \"SAVE20\" offer. However, both hotel options are within your budget, allowing you to enjoy your stay in Paris without breaking the bank."
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_lCFC5lhq2rNaCfdpgQALsRsQ",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Breizh Café",
+          "New Asiaway",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Royal Panda",
+          "The yard",
+          "China Garden",
+          "Miznon",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_opKDpptd1htiQXqjK8s7X9vG",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_YFM4fHzx6I4U5CAIby9dGHEK",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_xrkXT7sL7bd3c36pQIAru2v7",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_c4FVR3DSnyBP9ZoPEHpd3wId",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_gtXOUppYBbHiA1tzg6nrWdMW",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Le Marais Boutique"
+      },
+      "id": "call_J5GD8uSDYve8ur2W0ruZ9Kuo",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Good Night"
+      },
+      "id": "call_gWvgGsPNnIGHz2kpYQUNOMeW",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Montmartre Suites"
+      },
+      "id": "call_ayqoTUXz3AfA1GIMlKwfmD50",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "SAVE20"
+      },
+      "id": "call_tKV5AzTDfUUW3LWQMZqSf6hM",
+      "placeholder_args": null
+    }
+  ]
+}

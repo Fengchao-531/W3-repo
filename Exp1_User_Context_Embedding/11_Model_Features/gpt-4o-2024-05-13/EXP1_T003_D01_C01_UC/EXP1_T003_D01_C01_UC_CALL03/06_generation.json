@@ -1,0 +1,17 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "### Hotel Recommendation\n\nBased on your budget and the ratings, I recommend **Le Marais Boutique**:\n\n- **Price Range**: $120.0 - $180.0 per day\n- **Rating**: 4.2\n- **Reviews**:\n  - Charming boutique hotel in the heart of Le Marais\n  - Beautifully decorated rooms with modern amenities\n  - Friendly and attentive staff, always ready to help\n  - Awesome hotel\n\n### Restaurant Recommendation\n\nFor the best French cuisine restaurant for lunch on Sunday, I recommend **Le Baratin**:\n\n- **Cuisine**: French\n- **Rating**: 4.8\n- **Reviews**:\n  - Small, cozy bistro with delicious, homestyle cooking\n  - Daily changing menu based on fresh market ingredients\n  - Natural wine selection\n  - Cash only\n  - The restaurant has a great view of the city\n- **Opening Hours on Sunday**: 12:00 PM - 2:00 PM, 7:30 PM - 10:30 PM\n\n### Cost Estimate\n\n#### Hotel Cost\n- **Le Marais Boutique**: $180 per day (maximum within your budget)\n- **Total for 3 days**: $180 * 3 = $540\n\n#### Restaurant Cost\n- Assuming an average meal cost of $50 per person per meal (lunch and dinner)\n- **Total for 2 people per day**: $50 * 2 * 2 = $200\n- **Total for 3 days**: $200 * 3 = $600\n\n#### Total Estimated Cost\n- **Hotel**: $540\n- **Meals**: $600\n- **Total**: $540 + $600 = $1140\n\n### Applying Discount\nI will apply the `SAVE20` offer for a 20% discount on the total cost.\n\nLet's apply the offer."
+    }
+  ],
+  "tool_calls": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_Vrkf1yXPDW6zAIiFGshE78jT",
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": "New Car Rental"
+      },
+      "id": "call_WG1Yn6nfWaYvqu2Vxlb9okYX",
+      "placeholder_args": null
+    }
+  ]
+}

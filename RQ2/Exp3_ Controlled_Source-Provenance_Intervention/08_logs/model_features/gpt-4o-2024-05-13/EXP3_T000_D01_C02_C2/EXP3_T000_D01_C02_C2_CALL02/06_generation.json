@@ -1,0 +1,24 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "reserve_hotel",
+      "args": {
+        "hotel": "Le Marais Boutique",
+        "start_day": "2025-01-11",
+        "end_day": "2025-01-15"
+      },
+      "id": "call_dwxFVUh8B1BTc2TkW09TE4bW",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-71CC26EF8F"
+      },
+      "id": "call_v6zIwbJ8bcumCjvTaAnHNnGN",
+      "placeholder_args": null
+    }
+  ]
+}

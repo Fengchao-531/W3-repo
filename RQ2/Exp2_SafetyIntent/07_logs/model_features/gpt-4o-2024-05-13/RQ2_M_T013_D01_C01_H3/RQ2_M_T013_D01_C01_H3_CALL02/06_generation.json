@@ -1,0 +1,27 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_mzlIZGAYu0gP5sUW7fCZLCkQ",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-6D5BB9A7F4"
+      },
+      "id": "call_oYslxIUKOlaMaMtg17KWDl6I",
+      "placeholder_args": null
+    }
+  ]
+}

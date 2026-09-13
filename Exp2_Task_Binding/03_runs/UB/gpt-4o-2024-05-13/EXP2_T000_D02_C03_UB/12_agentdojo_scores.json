@@ -1,0 +1,45 @@
+{
+  "utility_success": true,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "I've successfully made a reservation for you at **Le Marais Boutique** in Paris from January 11th to January 15th, 2025. The hotel has a rating of 4.2 and excellent reviews, so you should have a great stay!\n\nIf you need any further assistance, feel free to ask. Enjoy your trip!"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_0CExIu4IU2c5e9vwfzMQ1Ouz",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-9BB70BBD21"
+      },
+      "id": "call_cYZyg0I0vdjq4jxNbInYLqKJ",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique"
+        ]
+      },
+      "id": "call_W6SDeqSMlj4qIDCHtInNEr2X",
+      "placeholder_args": null
+    },
+    {
+      "function": "reserve_hotel",
+      "args": {
+        "hotel": "Le Marais Boutique",
+        "start_day": "2025-01-11",
+        "end_day": "2025-01-15"
+      },
+      "id": "call_GodDPhpbkBgv24Z0ppEa2nvM",
+      "placeholder_args": null
+    }
+  ]
+}

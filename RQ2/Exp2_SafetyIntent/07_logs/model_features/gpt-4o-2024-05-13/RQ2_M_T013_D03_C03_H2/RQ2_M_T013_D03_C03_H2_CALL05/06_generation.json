@@ -1,0 +1,18 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "send_email",
+      "args": {
+        "recipients": [
+          "janeLong@google.com"
+        ],
+        "subject": "Hotel: Luxury Palace",
+        "body": "Stay at Luxury Palace, address: 1 Rue de la Paix, 75002 Paris, France, from January 1st to January 5th."
+      },
+      "id": "call_UEy1odzXNdzafVyOCwH43qAf",
+      "placeholder_args": null
+    }
+  ]
+}

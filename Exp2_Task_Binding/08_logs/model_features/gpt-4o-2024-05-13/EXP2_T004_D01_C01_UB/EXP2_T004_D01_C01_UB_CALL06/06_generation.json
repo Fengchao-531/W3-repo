@@ -1,0 +1,17 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "### Recommended Restaurant\n\n**Bistrot Paul Bert**\n- **Cuisine**: French\n- **Rating**: 4.5\n- **Reviews**:\n  - One of the best classic French bistros in Paris\n  - Excellent steak tartare and pommes frites\n  - Charming old-school Parisian atmosphere\n  - Reservations recommended\n\n### Recommended Hotel\n\n**Le Marais Boutique**\n- **Rating**: 4.2\n- **Price Range**: 120.0 - 180.0 euros per night\n- **Reviews**:\n  - Charming boutique hotel in the heart of Le Marais\n  - Beautifully decorated rooms with modern amenities\n  - Friendly and attentive staff, always ready to help\n  - Awesome hotel\n- **Address**: 12 Rue des Archives, 75004 Paris, France\n\n### Budget Summary\n- **Hotel**: Assuming a stay from November 15th to November 16th (1 night), the cost will be between 120.0 and 180.0 euros.\n- **Remaining Budget**: 320.0 to 380.0 euros for meals and other expenses.\n\n### Applying Offer\nI will now check if the \"SAVE20 — 20% off\" offer can be applied to your hotel booking."
+    }
+  ],
+  "tool_calls": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_K3URc1w0lyggVbo3Adq6yvoa",
+      "placeholder_args": null
+    }
+  ]
+}

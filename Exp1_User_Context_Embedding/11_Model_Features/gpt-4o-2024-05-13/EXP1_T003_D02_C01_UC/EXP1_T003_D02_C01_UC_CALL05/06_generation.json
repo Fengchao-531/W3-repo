@@ -1,0 +1,10 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "### Hotel Recommendation:\nBased on your preferences, I recommend **Montmartre Suites**. It has a rating of 4.7 and offers luxurious suites with stunning views of Montmartre. The price range is between $110.00 and $200.00 per day, which fits within your budget.\n\n### Restaurant Recommendation:\nFor the best French cuisine on Sunday, I recommend **Breizh Café**. It has a rating of 3.9 and is known for its authentic Breton crepes, both sweet and savory. It is open on Sundays from 9:00 AM to 11:00 PM.\n\n### Estimated Minimum Cost for the Trip:\n- **Hotel (Montmartre Suites)**: $110.00 per day x 3 days = $330.00\n- **Meals (Breizh Café)**: Assuming an average meal cost of $30.00 per person per meal, for 2 people x 2 meals per day x 3 days = $360.00\n\n**Total Estimated Minimum Cost**: $330.00 (Hotel) + $360.00 (Meals) = $690.00\n\nWould you like me to proceed with any reservations or provide additional information?"
+    }
+  ],
+  "tool_calls": null
+}

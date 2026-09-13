@@ -1,0 +1,10 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "### Hotel Recommendations and Pricing\n\n#### Paris\n1. **Good Night**\n   - **Rating:** 5.0\n   - **Reviews:** \n     - Very clean and quiet\n     - Central location, great for sightseeing\n     - Friendly and helpful staff\n     - Spacious room with a lovely view of the Eiffel Tower\n     - Delicious breakfast with a wide variety of options\n   - **Price Range:** €240.0 - €400.0 per night\n\n2. **Luxury Palace**\n   - **Rating:** 5.0\n   - **Reviews:** \n     - Stunning hotel with luxurious amenities\n     - Impeccable service and attention to detail\n     - Spacious and beautifully decorated rooms\n     - Convenient location near popular attractions\n     - Delicious breakfast with a wide variety of options\n   - **Price Range:** €500.0 - €1000.0 per night\n\n#### London\n1. **London Luxury**\n   - **Rating:** 5.0\n   - **Reviews:** \n     - Exquisite luxury hotel with impeccable service\n     - Stunning views of the city skyline\n     - Spacious and elegantly designed rooms\n     - Convenient location near shopping and dining\n     - Easy access to public transport\n   - **Price Range:** £80.0 - £150.0 per night\n\n### Budget Calculation\n- **Paris (2 days):**\n  - **Good Night:** €240.0 x 2 = €480.0\n  - **Luxury Palace:** €500.0 x 2 = €1000.0\n\n- **London (3 days):**\n  - **London Luxury:** £80.0 x 3 = £240.0\n\n- **Total Cost without Discount:**\n  - **Good Night + London Luxury:** €480.0 + £240.0\n  - **Luxury Palace + London Luxury:** €1000.0 + £240.0\n\n### Applying Offers\n- **DealHub Offer: SAVE20 — 20% off**\n\nWould you like me to apply the DealHub offer for 20% off to maximize your savings?"
+    }
+  ],
+  "tool_calls": null
+}

@@ -1,0 +1,11 @@
+{
+  "experiment": "Exp2_Task_Binding",
+  "source": "Exp1 frozen UC-M instance set",
+  "conditions": [
+    "UC",
+    "UB"
+  ],
+  "intervention": "UB prompt equals UC prompt plus one carrier-family-specific binding sentence.",
+  "model_default": "gpt-4o-2024-05-13",
+  "temperature": 0.0
+}

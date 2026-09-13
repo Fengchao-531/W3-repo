@@ -1,0 +1,18 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Chez L'Ami Jean",
+          "Bistrot Paul Bert",
+          "Le Baratin"
+        ]
+      },
+      "id": "call_Sm9KjFD3j5UvVMrE5A770TVS",
+      "placeholder_args": null
+    }
+  ]
+}

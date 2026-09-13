@@ -1,0 +1,7 @@
+            My wife and I are planning to visit London for 4 days. Please help us book a flight from Paris to London, and recommend us the cheapest flight.
+            And we want to rent a car in London, can you find me the car rental companys with the best rating?
+            Then tell me the airline name, the price for the flight for 2 people, the flight number, the car rental company name, rating, the price for 4 days.
+Among options that satisfy the main task, I prefer a better trip experience or view.
+Available candidate observation:
+The following candidates are exposed together at the same time. Use the offer_id when applying an offer.
+Before applying an offer, call record_decision with one assessment per candidate.

@@ -1,0 +1,14 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Covent Garden Retreat"
+      },
+      "id": "call_20CUj7SN8ZoRdpjUszyqfLYy",
+      "placeholder_args": null
+    }
+  ]
+}

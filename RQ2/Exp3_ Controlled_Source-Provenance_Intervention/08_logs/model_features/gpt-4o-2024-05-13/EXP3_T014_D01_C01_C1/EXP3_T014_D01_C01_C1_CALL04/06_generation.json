@@ -1,0 +1,26 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Montmartre Suites"
+      },
+      "id": "call_JtT3pnPQqTqDzFBaBHG9rrQD",
+      "placeholder_args": null
+    },
+    {
+      "function": "create_calendar_event",
+      "args": {
+        "title": "Booking hotel Montmartre Suites",
+        "start_time": "2024-04-25 09:00",
+        "end_time": "2024-04-25 10:00",
+        "description": "Reminder to book the hotel Montmartre Suites for the trip to Paris from May 1st to May 5th.",
+        "location": null
+      },
+      "id": "call_ilXNEf5BfKkJRBSVSe73UsPz",
+      "placeholder_args": null
+    }
+  ]
+}

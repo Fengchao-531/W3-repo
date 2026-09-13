@@ -1,0 +1,23 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "create_calendar_event",
+      "args": {
+        "title": "Booking hotel Montmartre Suites",
+        "start_time": "2024-04-25 09:00",
+        "end_time": "2024-04-25 10:00",
+        "location": "23 Rue Lepic, 75018 Paris, France"
+      },
+      "id": "call_4JonjNE9hqtb54GykqyzNfKR",
+      "placeholder_args": null
+    },
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_BzN3h1AX4W9uq2pFQdZIF33q",
+      "placeholder_args": null
+    }
+  ]
+}

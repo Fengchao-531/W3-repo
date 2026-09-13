@@ -1,0 +1,33 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "The yard",
+          "Miznon",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_FMHJSkQUaX3xDmN0azhLVjf3",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway",
+          "Royal Panda",
+          "China Garden"
+        ]
+      },
+      "id": "call_5wokvLQKfiJuNKppMoEBiWDR",
+      "placeholder_args": null
+    }
+  ]
+}

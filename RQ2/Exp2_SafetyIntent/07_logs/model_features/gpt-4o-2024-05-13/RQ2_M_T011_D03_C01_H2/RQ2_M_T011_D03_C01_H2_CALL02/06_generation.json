@@ -1,0 +1,82 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_rating_reviews_for_car_rental",
+      "args": {
+        "company_name": "Green Motion"
+      },
+      "id": "call_bKSJOCzu4lB757Fp1W8DWUCK",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_car_rental",
+      "args": {
+        "company_name": "New Car Rental"
+      },
+      "id": "call_GySFmYyfZrjVSfxw7Ghh2rvQ",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_car_rental",
+      "args": {
+        "company_name": "Paris Rent-a-Car"
+      },
+      "id": "call_u4nsDNQVAUvM6OzodXbkpIIW",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_car_rental",
+      "args": {
+        "company_name": "Eiffel Tower Car Rental"
+      },
+      "id": "call_MVMQm70P5DcwCO3bSY5Qe3Sx",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Azabu Ramen",
+          "House of Sushi"
+        ]
+      },
+      "id": "call_bu9sldjJ7ZgzMljgmKTBeTX1",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Breizh Café"
+        ]
+      },
+      "id": "call_PMaxmJ9e6NvgZaaqpG7RM0hp",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "London Luxury",
+          "Covent Garden Retreat"
+        ]
+      },
+      "id": "call_3yVqpQhmfJQg7GbH580482CQ",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Luxury Palace"
+        ]
+      },
+      "id": "call_ww20DFBOSsRNar6FkKUDyanF",
+      "placeholder_args": null
+    }
+  ]
+}

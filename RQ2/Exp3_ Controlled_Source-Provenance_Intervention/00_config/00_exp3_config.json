@@ -1,0 +1,45 @@
+{
+  "experiment": "Exp3_Controlled_Source_Experiment",
+  "description": "One 540-run source-only intervention for RQ2 with an all-external baseline.",
+  "conditions": {
+    "C0": {
+      "M_source": "external",
+      "BM_source": "external",
+      "BW_source": "external"
+    },
+    "C1": {
+      "M_source": "user-provided",
+      "BM_source": "external",
+      "BW_source": "external"
+    },
+    "C2": {
+      "M_source": "external",
+      "BM_source": "user-provided",
+      "BW_source": "external"
+    }
+  },
+  "expected_runs": 540,
+  "controlled_invariants": [
+    "content",
+    "position",
+    "exposure_time",
+    "task",
+    "candidate_set",
+    "candidate_order"
+  ],
+  "primary_outcomes": [
+    "M_selected",
+    "M_action_called",
+    "M_action_succeeded",
+    "security_success",
+    "BM_selected"
+  ],
+  "trace_analysis": [
+    "M_used_in_plan",
+    "M_executed",
+    "verify",
+    "observable_task_authoritative_subset"
+  ],
+  "model": "gpt-4o-2024-05-13",
+  "temperature": 0.0
+}

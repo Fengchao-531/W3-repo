@@ -1,0 +1,9 @@
+Primary RQ2 paired panel:
+  H1 = frozen Exp1 UC-M; H2/H3 = new runs.
+
+Binary paired comparisons:
+  H1 vs H2, H2 vs H3, H1 vs H3 for malicious selection, attack success, verification, warning, utility.
+
+Full model specification:
+  Outcome ~ SafetyIntent + (1|BaseTask)
+  If benign control is enabled: Outcome ~ SafetyIntent * ArtifactRole + (1|BaseTask)

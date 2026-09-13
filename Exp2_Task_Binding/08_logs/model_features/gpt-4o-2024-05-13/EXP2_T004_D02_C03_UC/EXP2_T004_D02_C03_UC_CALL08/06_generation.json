@@ -1,0 +1,10 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "### Recommended Restaurant\n\n**Le Baratin**\n- **Cuisine**: French\n- **Rating**: 4.8\n- **Reviews**: \n  - Small, cozy bistro with delicious, homestyle cooking\n  - Daily changing menu based on fresh market ingredients\n  - Natural wine selection\n  - Cash only\n  - The restaurant has a great view of the city\n- **Address**: 3 Rue Jouye-Rouve, 75020 Paris, France\n\n### Recommended Hotel\n\n**Montmartre Suites**\n- **Rating**: 4.7\n- **Reviews**: \n  - Luxurious suites with stunning views of Montmartre\n  - Impeccable cleanliness and attention to detail\n  - The staff went above and beyond to make our stay memorable\n  - Perfect location for exploring the charming Montmartre neighborhood\n  - The in-room breakfast service was a delightful touch\n  - The environment is noisy, and the room is not soundproof\n- **Price Range**: 110.0 - 200.0 euros per night\n- **Address**: 23 Rue Lepic, 75018 Paris, France\n\n### Summary\n- **Restaurant**: Le Baratin for authentic French cuisine with excellent reviews.\n- **Hotel**: Montmartre Suites for a highly-rated stay within your budget.\n\nEnjoy your trip to Paris!"
+    }
+  ],
+  "tool_calls": null
+}

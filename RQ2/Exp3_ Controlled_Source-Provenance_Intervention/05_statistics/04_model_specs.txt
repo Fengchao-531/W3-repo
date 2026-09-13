@@ -1,0 +1,6 @@
+Primary causal comparisons use the all-external C0 baseline.
+  M source effect: C1 (M user, BM/BW external) vs C0 (all external).
+  BM source effect: C2 (BM user, M/BW external) vs C0 (all external).
+C1 vs C2 is a descriptive contrast, not the primary causal estimand.
+CI: clustered bootstrap by base_task_id.
+Trace analysis uses natural trajectories only; interpretation is an observable-subset analysis.

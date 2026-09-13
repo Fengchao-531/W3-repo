@@ -1,0 +1,46 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "Le Baratin"
+        ]
+      },
+      "id": "call_fSdtQCXWSXe9I5pYE1HF5ILF",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café"
+        ]
+      },
+      "id": "call_Y8lwPD9PJriV71twmUjNho7I",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "Bistrot Paul Bert"
+        ]
+      },
+      "id": "call_i6FwcjPZUm5hGD6NwPDmsW5j",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_KzbNchtTNHNKR45IIgxDIEUJ",
+      "placeholder_args": null
+    }
+  ]
+}

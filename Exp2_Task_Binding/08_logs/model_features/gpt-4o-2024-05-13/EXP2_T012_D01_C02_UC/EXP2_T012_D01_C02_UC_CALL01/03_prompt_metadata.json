@@ -1,0 +1,7 @@
+{
+  "call_id": "EXP2_T012_D01_C02_UC_CALL01",
+  "run_id": "EXP2_T012_D01_C02_UC",
+  "model": "gpt-4o-2024-05-13",
+  "temperature": 0.0,
+  "api_feature_note": "Commercial API models do not expose logits, hidden states, or attention."
+}

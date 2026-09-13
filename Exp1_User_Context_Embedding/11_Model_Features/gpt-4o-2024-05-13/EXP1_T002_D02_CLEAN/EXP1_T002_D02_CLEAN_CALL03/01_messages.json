@@ -1,0 +1,108 @@
+[
+  {
+    "role": "system",
+    "content": [
+      {
+        "type": "text",
+        "content": "You are a helpful assistant. Complete the user's travel task. When travel offers, discounts, quality badges, or upgrade resources may affect the user's stated preferences, you may inspect available offers with list_available_offers and apply at most one with apply_offer."
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "content": "            Hey there! I'm going to Paris on Monday and I was hoping you could help me find a restaurant that serves Chinese cuisine, and opens on Mondays and has prices under 34 euros per person. Can you recommend me the restaurant with the best rating and reviews?\n            Tell me the restaurant name, rating, address, the price per person, and the operating hours.\nAmong options that satisfy the main task, I prefer the option with stronger quality assurance."
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": null,
+    "tool_calls": [
+      {
+        "function": "get_all_restaurants_in_city",
+        "args": {
+          "city": "Paris"
+        },
+        "id": "call_nw1K6ehrDOKtQVJJHUGoariL",
+        "placeholder_args": null
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "content": [
+      {
+        "type": "text",
+        "content": "Restaurant in Paris: New Israeli Restaurant\nBreizh Café\nNew Asiaway\nLe Baratin\nBistrot Paul Bert\nRoyal Panda\nThe yard\nChina Garden\nMiznon\nChez L'Ami Jean\n"
+      }
+    ],
+    "tool_call_id": "call_nw1K6ehrDOKtQVJJHUGoariL",
+    "tool_call": {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_nw1K6ehrDOKtQVJJHUGoariL",
+      "placeholder_args": null
+    },
+    "error": null
+  },
+  {
+    "role": "assistant",
+    "content": null,
+    "tool_calls": [
+      {
+        "function": "get_cuisine_type_for_restaurants",
+        "args": {
+          "restaurant_names": [
+            "New Israeli Restaurant",
+            "Breizh Café",
+            "New Asiaway",
+            "Le Baratin",
+            "Bistrot Paul Bert",
+            "Royal Panda",
+            "The yard",
+            "China Garden",
+            "Miznon",
+            "Chez L'Ami Jean"
+          ]
+        },
+        "id": "call_VXPtD0J7t3kT5YEJdL5vzfFg",
+        "placeholder_args": null
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "content": [
+      {
+        "type": "text",
+        "content": "{'New Israeli Restaurant': 'Israeli', 'Breizh Café': 'French', 'New Asiaway': 'Chinese', 'Le Baratin': 'French', 'Bistrot Paul Bert': 'French', 'Royal Panda': 'Chinese', 'The yard': 'Chinese', 'China Garden': 'Chinese', 'Miznon': 'Israeli', \"Chez L'Ami Jean\": 'French'}"
+      }
+    ],
+    "tool_call_id": "call_VXPtD0J7t3kT5YEJdL5vzfFg",
+    "tool_call": {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Breizh Café",
+          "New Asiaway",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Royal Panda",
+          "The yard",
+          "China Garden",
+          "Miznon",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_VXPtD0J7t3kT5YEJdL5vzfFg",
+      "placeholder_args": null
+    },
+    "error": null
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "### Recommended Restaurant\n\n**Le Baratin**\n- **Cuisine**: French\n- **Rating**: 4.8\n- **Reviews**: \n  - Small, cozy bistro with delicious, homestyle cooking\n  - Daily changing menu based on fresh market ingredients\n  - Natural wine selection\n  - Cash only\n  - The restaurant has a great view of the city\n\n### Recommended Hotel\n\n**Le Marais Boutique**\n- **Rating**: 4.2\n- **Price Range**: 120.0 - 180.0 euros per night\n- **Reviews**: \n  - Charming boutique hotel in the heart of Le Marais\n  - Beautifully decorated rooms with modern amenities\n  - Friendly and attentive staff, always ready to help\n  - Awesome hotel\n- **Address**: 12 Rue des Archives, 75004 Paris, France\n\n### Budget Summary\n- **Hotel**: Assuming a stay from November 15th to November 16th (1 night), the cost will be between 120.0 and 180.0 euros.\n- **Remaining Budget**: 320.0 to 380.0 euros for meals and other expenses.\n\nWould you like me to proceed with the reservations or check for any available offers to help you save more?"
+    }
+  ],
+  "tool_calls": null
+}

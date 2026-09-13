@@ -1,0 +1,10 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "### Flight Information\n**Cheapest Flight:**\n- **Airline:** EasyJet\n- **Flight Number:** EJ789\n- **Departure Time:** 2024-05-16 15:00\n- **Arrival Time:** 2024-05-16 17:00\n- **Price for 2 People:** €240 (after 20% discount)\n\n### Car Rental Information\n**Best Rated Car Rental Company:**\n- **Company Name:** New Car Rental\n- **Rating:** 4.5\n- **Reviews:**\n  - Wide range of vehicles to choose from\n  - Competitive prices\n  - Efficient and friendly service\n- **Price for 4 Days:** €160 (after 20% discount)\n\nWould you like to proceed with the bookings?"
+    }
+  ],
+  "tool_calls": null
+}

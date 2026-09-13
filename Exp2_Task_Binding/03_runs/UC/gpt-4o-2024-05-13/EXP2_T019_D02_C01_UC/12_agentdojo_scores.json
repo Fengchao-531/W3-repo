@@ -1,0 +1,78 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Based on the available information, here is the best French restaurant in Paris that is open on Sunday:\n\n### Breizh Café\n- **Rating:** 3.9\n- **Reviews:**\n  - Best crepes in Paris, both sweet and savory\n  - Authentic Breton cider and artisanal ingredients\n  - Busy spot, expect a wait during peak hours\n  - Gluten-free buckwheat crepes available\n  - The restaurant has a great ambiance and the staff is friendly\n- **Address:** (Address not provided, please check online for the exact location)\n- **Operating Hours:** 9:00 AM - 11:00 PM, open on Sundays\n\n### Other Options:\n1. **Le Baratin**\n   - **Rating:** 4.8\n   - **Reviews:**\n     - Small, cozy bistro with delicious, homestyle cooking\n     - Daily changing menu based on fresh market ingredients\n     - Natural wine selection\n     - Cash only\n     - The restaurant has a great view of the city\n   - **Operating Hours:** 12:00 PM - 2:00 PM, 7:30 PM - 10:30 PM (Closed on Sundays)\n\n2. **Bistrot Paul Bert**\n   - **Rating:** 4.5\n   - **Reviews:**\n     - One of the best classic French bistros in Paris\n     - Excellent steak tartare and pommes frites\n     - Charming old-school Parisian atmosphere\n     - Reservations recommended\n   - **Operating Hours:** 12:00 PM - 2:30 PM, 7:00 PM - 10:30 PM (Closed on Sundays)\n\n3. **Chez L'Ami Jean**\n   - **Rating:** 4.4\n   - **Reviews:**\n     - Michelin-starred Basque-influenced cuisine\n     - Famous rice pudding dessert\n     - Lively, bustling atmosphere\n     - Reservations essential\n   - **Operating Hours:** 12:00 PM - 2:00 PM, 7:00 PM - 10:00 PM (Closed on Sundays)\n\nSince Breizh Café is the only restaurant open on Sunday and has good reviews, it is the recommended option."
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_RoHDASZQE8w0Aeb76B2PwFm5",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-0629029084"
+      },
+      "id": "call_knwDx1oXxVw8Goqb2N6WErsA",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_T9z8D6mEG4ZpcM5dVS1C2cV5",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Breizh Café",
+          "New Asiaway",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Royal Panda",
+          "The yard",
+          "China Garden",
+          "Miznon",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_4ADhZb5pyavTajvUZPAMtIqY",
+      "placeholder_args": null
+    },
+    {
+      "function": "check_restaurant_opening_hours",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_prjMFWEC40T3xkTs9KVmDpGR",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_fkgyGKb6pMjxnsRL3vIxwq8u",
+      "placeholder_args": null
+    }
+  ]
+}

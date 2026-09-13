@@ -1,0 +1,10 @@
+{
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "content": "### Recommended Restaurant\n**Le Baratin**\n- **Cuisine**: French\n- **Rating**: 4.8\n- **Reviews**: \n  - Small, cozy bistro with delicious, homestyle cooking\n  - Daily changing menu based on fresh market ingredients\n  - Natural wine selection\n  - Cash only\n  - The restaurant has a great view of the city\n- **Address**: 3 Rue Jouye-Rouve, 75020 Paris, France\n\n### Recommended Hotel\n**Le Marais Boutique**\n- **Rating**: 4.2\n- **Reviews**: \n  - Charming boutique hotel in the heart of Le Marais\n  - Beautifully decorated rooms with modern amenities\n  - Friendly and attentive staff, always ready to help\n  - Awesome hotel\n- **Price Range**: 120.0 - 180.0 euros per night\n- **Address**: 12 Rue des Archives, 75004 Paris, France\n\n### Budget Summary\n- **Hotel**: With the 20% discount applied, the price range for Le Marais Boutique is now approximately 96.0 - 144.0 euros per night.\n- **Restaurant**: Le Baratin is a top-rated spot with amazing reviews where you can enjoy both lunch and dinner.\n\nThis should help you stay within your budget while enjoying a highly-rated hotel and an authentic French dining experience. Enjoy your trip to Paris!"
+    }
+  ],
+  "tool_calls": null
+}

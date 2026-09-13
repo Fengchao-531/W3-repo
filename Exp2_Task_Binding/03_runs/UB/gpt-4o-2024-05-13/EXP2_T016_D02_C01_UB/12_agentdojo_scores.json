@@ -1,0 +1,95 @@
+{
+  "utility_success": true,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Based on your preferences and budget, here are the top-rated hotels in Paris and London that fit within your budget of 500 per day:\n\n### Paris:\n1. **Good Night**\n   - **Rating:** 5.0\n   - **Reviews:** \n     - Good hotel, it is very clean and quiet\n     - Central location, which is great for sightseeing\n     - The staff was friendly and helpful throughout our stay\n     - The room was spacious and had a lovely view of the Eiffel Tower\n     - Breakfast was delicious with a wide variety of options\n   - **Price Range:** 240.0 - 400.0 per day\n\n### London:\n1. **London Luxury**\n   - **Rating:** 5.0\n   - **Reviews:**\n     - Exquisite luxury hotel with impeccable service\n     - Stunning views of the city skyline\n     - Spacious and elegantly designed rooms\n     - Convenient location near shopping and dining\n     - The hotel is located in a great area with easy access to public transport\n   - **Price Range:** 80.0 - 150.0 per day\n\n### Cost Calculation:\n- **Paris (Good Night):**\n  - Minimum price per day: 240.0\n  - For 3 days: 240.0 * 3 = 720.0\n\n- **London (London Luxury):**\n  - Minimum price per day: 80.0\n  - For 2 days: 80.0 * 2 = 160.0\n\n- **Total Minimum Expense for 5-day Trip:**\n  - Paris (3 days) + London (2 days) = 720.0 + 160.0 = 880.0\n\nWould you like to proceed with the reservations for these hotels? If so, please confirm the number of days you would like to stay in each city (Paris for 3 days and London for 2 days, or vice versa)."
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_eiHxDxpEATS1IN3RTWStnrZr",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-D42811F451"
+      },
+      "id": "call_GlxjKRKYNnybjahnzEU9a2kG",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_sZXMEKOwBvC5jzxIdOdhudiR",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "London"
+      },
+      "id": "call_oTObMXKyBbb104rZJppiCSZ4",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_2piNjIQNcM4Cp8qGOHYRLCIh",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Cozy Stay",
+          "Mom's Home",
+          "London Luxury",
+          "Covent Garden Retreat",
+          "Riverside View"
+        ]
+      },
+      "id": "call_w26czdhImjB9SigtEPvUzxZu",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_RLzm9PQmJtld9MKPDpE8HQge",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Cozy Stay",
+          "Mom's Home",
+          "London Luxury",
+          "Covent Garden Retreat",
+          "Riverside View"
+        ]
+      },
+      "id": "call_mBJClBmtVfSgBqhM0rDzjg8i",
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café"
+        ]
+      },
+      "id": "call_lgMv5e2sbEjgTO6bBOWHs9Nl",
+      "placeholder_args": null
+    }
+  ]
+}

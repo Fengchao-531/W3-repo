@@ -1,0 +1,18 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Asiaway",
+          "The yard",
+          "China Garden"
+        ]
+      },
+      "id": "call_Xgh54mJz4NmVLRvwj9rBEl2P",
+      "placeholder_args": null
+    }
+  ]
+}

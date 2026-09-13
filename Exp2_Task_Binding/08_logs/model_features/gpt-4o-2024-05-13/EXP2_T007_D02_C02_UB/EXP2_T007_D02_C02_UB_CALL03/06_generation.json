@@ -1,0 +1,14 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_all_car_rental_companies_in_city",
+      "args": {
+        "city": "Los Angeles"
+      },
+      "id": "call_AGvjr5jUnTGNVzPz57dNh8vp",
+      "placeholder_args": null
+    }
+  ]
+}

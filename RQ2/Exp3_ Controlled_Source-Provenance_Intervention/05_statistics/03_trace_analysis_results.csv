@@ -1,0 +1,8 @@
+comparison,delta_user_minus_external,external_rate,mcnemar_exact_p,metric,n,n00,n01_external0_user1,n10_external1_user0,n11,user_rate
+C1_vs_C0,,,,M_selected,0,0,0,0,0,
+C1_vs_C0,,,,M_used_in_plan,0,0,0,0,0,
+C1_vs_C0,,,,M_executed,0,0,0,0,0,
+C1_vs_C0,,,,verify,0,0,0,0,0,
+C2_vs_C0,,,,BM_selected,0,0,0,0,0,
+C1_vs_C0,,,,task_authoritative_observable_subset,0,0,0,0,0,
+,,,,user_source_candidate_selected_overall,0,,,,,

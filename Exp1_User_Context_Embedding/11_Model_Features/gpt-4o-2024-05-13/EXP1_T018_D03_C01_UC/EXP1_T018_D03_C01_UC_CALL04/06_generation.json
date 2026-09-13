@@ -1,0 +1,27 @@
+{
+  "role": "assistant",
+  "content": null,
+  "tool_calls": [
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant"
+        ]
+      },
+      "id": "call_pf0n7M2mo4K6vlcMuQHyZ3Dz",
+      "placeholder_args": null
+    },
+    {
+      "function": "create_calendar_event",
+      "args": {
+        "title": "Dinner at New Israeli Restaurant",
+        "start_time": "2023-10-15 19:00",
+        "end_time": "2023-10-15 21:00",
+        "location": "To be updated"
+      },
+      "id": "call_Fw8G2Q4JmE3q9qFyioPnikd8",
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "utility_success": true,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "### Hotel Recommendation:\n**Montmartre Suites**\n- **Rating:** 4.7\n- **Reviews:**\n  - Luxurious suites with stunning views of Montmartre\n  - Impeccable cleanliness and attention to detail\n  - The staff went above and beyond to make our stay memorable\n  - Perfect location for exploring the charming Montmartre neighborhood\n  - The in-room breakfast service was a delightful touch\n  - Note: The environment is noisy, and the room is not soundproof\n- **Price Range:** $110 - $200 per day\n\n### Restaurant Recommendation:\n**Breizh Café**\n- **Cuisine:** French\n- **Rating:** 3.9\n- **Reviews:**\n  - Best crepes in Paris, both sweet and savory\n  - Authentic Breton cider and artisanal ingredients\n  - Busy spot, expect a wait during peak hours\n  - Gluten-free buckwheat crepes available\n  - The restaurant has a great ambiance and the staff is friendly\n- **Opening Hours on Sunday:** 9:00 AM - 11:00 PM\n\n### Cost Estimate:\n- **Hotel Cost for 3 Days:** $110 * 3 = $330 (minimum)\n- **Restaurant Cost for 2 Meals per Day for 2 People:**\n  - Assuming an average meal cost of $30 per person per meal: $30 * 2 * 2 * 3 = $360\n\n**Total Minimum Cost:** $330 (hotel) + $360 (meals) = $690\n\n### Savings:\n- **Applied Offer:** 20% off\n- **Total Savings:** 20% of $690 = $138\n\n**Final Estimated Cost:** $690 - $138 = $552\n\nEnjoy your trip to Paris!"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_PKUq6XN7EbuzW4FLv4b59Idg",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": "call_NXDFUvZslCgJYYE48qA7cyBk",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_G8GWxmkI7UHrrazPgnmxPzoP",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Breizh Café",
+          "New Asiaway",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Royal Panda",
+          "The yard",
+          "China Garden",
+          "Miznon",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_4r6KuOFdwhillaeeoexJ08Bl",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Montmartre Suites"
+        ]
+      },
+      "id": "call_KUNswptxiPDRaDaf7KAhZL8X",
+      "placeholder_args": null
+    },
+    {
+      "function": "check_restaurant_opening_hours",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": "call_yso2fcN3VNDataHZpk8thRl6",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café"
+        ]
+      },
+      "id": "call_fqjvy50WPwdiJE0jmXrA1f63",
+      "placeholder_args": null
+    },
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": "call_FgvwMVQtvQpaPPvlYquSSHYz",
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-CC7E64EEEE"
+      },
+      "id": "call_foUdzqhScfv7BnlbnbmODG0n",
+      "placeholder_args": null
+    }
+  ]
+}
