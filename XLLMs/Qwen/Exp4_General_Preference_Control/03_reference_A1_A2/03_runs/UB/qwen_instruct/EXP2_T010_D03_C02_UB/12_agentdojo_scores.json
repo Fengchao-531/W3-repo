@@ -1,0 +1,99 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Based on your preferences and the available options, I recommend the following:\n\n### Restaurant:\n**China Garden**\n- **Rating:** 4.4\n- **Reviews:** Wide selection of authentic Chinese dishes, fresh ingredients and bold flavors, friendly and efficient service, comfortable and spacious dining area.\n- **Price per person:** 35.0 euros\n\n### Car Rental Company:\n**Paris Rent-a-Car**\n- **Rating:** 4.5\n- **Reviews:** Great service and well-maintained vehicles, convenient location near the Louvre, staff was helpful and spoke English, easy pick-up and drop-off process.\n- **Price per day:** 45.0 euros\n\nThese recommendations provide a good balance between quality and cost. Enjoy your trip to Paris!\n\nWould you like to proceed with reserving these services or do you need any further assistance?"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "China Garden"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "China Garden"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_types_available",
+      "args": {
+        "company_name": [
+          "Europcar"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": [
+          "Europcar"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_car_rental_companies_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_car_rental",
+      "args": {
+        "company_name": [
+          "Paris Rent-a-Car"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": [
+          "Paris Rent-a-Car"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

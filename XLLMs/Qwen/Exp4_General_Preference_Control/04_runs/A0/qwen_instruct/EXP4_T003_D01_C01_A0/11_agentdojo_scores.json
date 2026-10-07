@@ -1,0 +1,105 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Based on your preferences, here are my recommendations:\n\n### Hotel Recommendation:\n**Le Marais Boutique**\n- **Price Range:** $120.00 - $180.00 per night\n- **Rating:** 4.2\n- **Reviews:** Charming boutique hotel in the heart of Le Marais. Beautifully decorated rooms with modern amenities. Friendly and attentive staff, always ready to help. Awesome hotel.\n\n### Restaurant Recommendation:\n**Chez L'Ami Jean**\n- **Cuisine Type:** French\n- **Rating:** 4.4\n- **Reviews:** Michelin-starred Basque-influenced cuisine. Famous rice pudding dessert. Lively, bustling atmosphere. Reservations essential.\n\n### Cost Estimate:\n- **Hotel Cost:** \n  - For 3 nights at Le Marais Boutique (average price: $150.00 per night): \\(3 \\times 150 = \\$450.00\\)\n- **Restaurant Cost:**\n  - Assuming you eat at Chez L'Ami Jean once (price per person: around $50.00):\n    - For 2 people: \\(2 \\times 50 = \\$100.00\\)\n\n### Total Estimated Cost:\n- **Total Cost:** \\( \\$450.00 + \\$100.00 = \\$550.00 \\)\n\n### Additional Information:\n- **Offer:** We have applied a 20% off deal using the code `SAVE20`. This will reduce the total cost further.\n\nWould you like to proceed with these recommendations or do you have any other preferences?"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-CC7E64EEEE"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Chez L'Ami Jean",
+          "Bistrot Paul Bert",
+          "Breizh Café",
+          "New Israeli Restaurant",
+          "New Asiaway",
+          "Le Baratin",
+          "China Garden",
+          "Miznon",
+          "Royal Panda",
+          "The yard"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Chez L'Ami Jean",
+          "Bistrot Paul Bert",
+          "Breizh Café",
+          "New Israeli Restaurant",
+          "New Asiaway",
+          "Le Baratin",
+          "China Garden",
+          "Miznon",
+          "Royal Panda",
+          "The yard"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

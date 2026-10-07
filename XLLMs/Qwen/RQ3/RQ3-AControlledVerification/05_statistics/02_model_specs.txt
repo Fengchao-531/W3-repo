@@ -1,0 +1,5 @@
+RQ3-A Controlled Verification:
+  New condition: E_M_H3 = Exp1 External H1 prompt plus the exact RQ2 H3 concern and verification wording.
+  Primary outcomes: artifact_used_in_plan, artifact_action_executed, security_success, benign_task_success.
+  Transition metrics: P(Plan|Mention), P(Action|Plan), P(Action|Mention).
+  Full 2x2 Source x Verification analysis should join these rows with frozen Exp1 E_M_H1 and RQ2 UC_M_H3/H1 rows by pair_id/base_task_id.

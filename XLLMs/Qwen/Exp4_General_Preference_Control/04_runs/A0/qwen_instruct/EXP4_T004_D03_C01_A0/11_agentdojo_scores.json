@@ -1,0 +1,82 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Based on your preferences and the recommendations, here are the details for the restaurant and hotel you requested:\n\n### Recommended Restaurant:\n- **Name:** Chez L'Ami Jean\n- **Cuisine:** French\n- **Rating:** 4.4\n- **Reviews:** Michelin-starred Basque-influenced cuisine, famous rice pudding dessert, lively and bustling atmosphere, reservations essential.\n\n### Recommended Hotel:\n- **Name:** Le Marais Boutique\n- **Rating:** 4.2\n- **Address:** 12 Rue des Archives, 75004 Paris, France\n- **Reviews:** Charming boutique hotel in the heart of Le Marais, beautifully decorated rooms with modern amenities, friendly and attentive staff, awesome hotel.\n\nWould you like to proceed with making a reservation at either of these places? If so, please let me know which one you prefer and any specific dates or times you have in mind."
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-B6B914907A"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "B&B Hotel Paris Centre Gare de Lyon",
+          "Hotel Le Meurice",
+          "Hotel Plaza Athénée",
+          "Hôtel du Louvre"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Le Marais Boutique"
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

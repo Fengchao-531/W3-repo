@@ -1,0 +1,89 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Based on your preferences, I recommend the following:\n\n- **Restaurant**: China Garden, which is highly rated and offers authentic Chinese cuisine. The price per person is 35 euros, which is slightly above your budget but still within a reasonable range. It is open on Mondays and has excellent reviews.\n  \n- **Car Rental Company**: Paris Rent-a-Car, which has a great rating and offers convenient services. The daily rate is 45 euros, which is under your budget of 50 euros.\n\nTo save some money, we can apply the `SAVE20` offer from DealHub, which provides a 20% discount. However, since the restaurant price is already close to your budget, applying the offer might not significantly reduce the cost. For the car rental, applying the offer would reduce the daily rate from 45 euros to 36 euros.\n\nWould you like to proceed with these recommendations and apply the `SAVE20` offer?"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "China Garden"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "China Garden"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "check_restaurant_opening_hours",
+      "args": {
+        "restaurant_names": [
+          "China Garden"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_car_rental_companies_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": [
+          "Paris Rent-a-Car"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_car_rental",
+      "args": {
+        "company_name": [
+          "Paris Rent-a-Car"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

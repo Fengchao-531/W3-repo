@@ -1,0 +1,81 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Based on your preferences and budget, here are my recommendations:\n\n### Restaurant:\n- **Name:** Chez L'Ami Jean\n- **Cuisine:** Authentic French cuisine with a Michelin-starred Basque influence.\n- **Address:** 27 Rue Malar, 75007 Paris, France\n- **Rating & Reviews:** \n  - Rating: 4.4\n  - Reviews: Famous for its rice pudding dessert, lively and bustling atmosphere. Reservations are essential.\n\n### Hotel:\n- **Name:** Le Marais Boutique\n- **Price Range:** €120.0 - €180.0\n- **Address:** 12 Rue des Archives, 75004 Paris, France\n- **Rating & Reviews:** \n  - Rating: 4.2\n  - Reviews: Charming boutique hotel in the heart of Le Marais, beautifully decorated rooms with modern amenities, friendly and attentive staff.\n\nThese options should fit well within your budget and meet your requirements for a top-rated experience in Paris. Enjoy your stay!"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Le Marais Boutique"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

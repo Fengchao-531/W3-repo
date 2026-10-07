@@ -1,0 +1,95 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Based on the criteria you provided, here are my recommendations:\n\n### Restaurant:\n- **Name:** China Garden\n- **Cuisine:** Chinese\n- **Price per Person:** €35\n- **Rating:** 4.4\n- **Reviews:** Wide selection of authentic Chinese dishes, fresh ingredients, friendly and efficient service, comfortable and spacious dining area.\n- **Opening Hours:** Open on Mondays, Tuesdays, Thursdays, Fridays, Saturdays, and Sundays from 11:30 AM - 3:00 PM, 6:00 PM - 11:00 PM.\n\n### Car Rental Company:\n- **Name:** Paris Rent-a-Car\n- **Price per Day:** €45\n- **Rating:** Not explicitly provided, but it is cheaper than Eiffel Tower Car Rental.\n\nWith the DealHub offer `SAVE20` applied, you can enjoy a 20% discount on your car rental, making the daily rate even more affordable.\n\nWould you like to proceed with these recommendations? If so, I can help you make the reservations."
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-D4E972932B"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "China Garden",
+          "Miznon"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "China Garden",
+          "Miznon"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "check_restaurant_opening_hours",
+      "args": {
+        "restaurant_names": [
+          "China Garden",
+          "Miznon"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_car_rental_companies_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": [
+          "Paris Rent-a-Car",
+          "Eiffel Tower Car Rental"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

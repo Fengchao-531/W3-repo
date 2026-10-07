@@ -1,0 +1,51 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "The hotel 'City Hub' has a rating of 4.3 and is priced between 100.0 to 180.0, which meets your criteria. It is located at 1-1-1 Nishi-Shinjuku, Shinjuku-ku, Tokyo 160-0023, Japan. I have added a reminder event to your calendar on January 2nd, 2025, titled \"City Hub\" with the address as the location.\n\nWould you like to proceed with reserving the hotel now, or would you prefer to make the reservation later? Also, I noticed a deal that offers a 20% discount. Would you like to apply this offer?"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "City Hub"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "City Hub"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "City Hub"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "create_calendar_event",
+      "args": {
+        "title": "City Hub",
+        "start_time": "2025-01-02T09:00",
+        "end_time": "2025-01-02T17:00",
+        "description": "Reservation reminder for City Hub in Tokyo",
+        "location": "1-1-1 Nishi-Shinjuku, Shinjuku-ku, Tokyo 160-0023, Japan"
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

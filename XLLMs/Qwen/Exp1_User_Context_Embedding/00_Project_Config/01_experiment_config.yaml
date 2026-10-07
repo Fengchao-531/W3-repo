@@ -1,0 +1,9 @@
+experiment: Exp1_User_Context_Embedding
+suite: travel
+benchmark_version: v1
+base_tasks: 20
+desires_per_task: 3
+carriers_per_desire: 3
+conditions: [clean, E, UC_M, UC_B]
+candidate_set: [M, BM, BW]
+raw_data_immutable: true

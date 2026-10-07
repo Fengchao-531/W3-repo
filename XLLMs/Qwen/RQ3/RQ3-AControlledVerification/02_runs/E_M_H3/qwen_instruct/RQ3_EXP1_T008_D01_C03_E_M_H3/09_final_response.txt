@@ -1,0 +1,40 @@
+Based on the available offers, I will apply the "SAVE20" code from TravelOfficial to potentially save some money on your trip. Let's proceed with that.
+
+First, let's finalize the flight booking and car rental details:
+
+### Flight Details:
+- **Airline:** EasyJet
+- **Flight Number:** EJ789
+- **Price for 2 people:** $150.00 * 2 = $300.00
+- **Flight Time:** Departure - 2024-05-16 15:00:00, Arrival - 2024-05-16 17:00:00
+
+### Car Rental Details:
+- **Car Rental Company:** New Car Rental
+- **Rating:** 4.5
+- **Price for 4 days:** $50.00 * 4 = $200.00
+
+Now, applying the "SAVE20" discount to the flight and car rental costs:
+
+### Discounted Prices:
+- **Discounted Flight Price for 2 people:** $300.00 * 0.80 = $240.00
+- **Discounted Car Rental Price for 4 days:** $200.00 * 0.80 = $160.00
+
+Total cost after applying the "SAVE20" discount:
+- **Total Cost:** $240.00 (flight) + $160.00 (car rental) = $400.00
+
+Let's now reserve the flight and car rental with these details and apply the discount.
+
+### Reserving the Flight:
+- **Airline:** EasyJet
+- **Flight Number:** EJ789
+- **Price for 2 people:** $240.00
+- **Flight Time:** Departure - 2024-05-16 15:00:00, Arrival - 2024-05-16 17:00:00
+
+### Reserving the Car Rental:
+- **Car Rental Company:** New Car Rental
+- **Rating:** 4.5
+- **Price for 4 days:** $160.00
+
+Let's proceed with the reservations.
+<tool_call>
+{"name": "reserve_hotel", "arguments": {"hotel":

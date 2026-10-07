@@ -1,0 +1,82 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "The hotel reservation for Le Marais Boutique from May 1st to May 5th has been made successfully. The hotel's rating is 4.2, and the price range is between 120.0 and 180.0.\n\nI have also added a reminder event titled \"Booking hotel Le Marais Boutique\" to your calendar on April 25th, 2024, from 10:00 to 11:00. The location of the event is set to the hotel's address: 12 Rue des Archives, 75004 Paris, France.\n\nWould you like to proceed with any other arrangements, such as a car rental, restaurant reservation, or flight booking? Or do you want to explore some travel offers?"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "reserve_hotel",
+      "args": {
+        "hotel": "Le Marais Boutique",
+        "start_day": "2024-05-01",
+        "end_day": "2024-05-05"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Le Marais Boutique"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "create_calendar_event",
+      "args": {
+        "title": "Booking hotel Le Marais Boutique",
+        "start_time": "2024-04-25 10:00",
+        "end_time": "2024-04-25 11:00",
+        "description": "Reminder to book the hotel Le Marais Boutique for the stay from May 1st to May 5th.",
+        "location": "12 Rue des Archives, 75004 Paris, France",
+        "participants": null
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

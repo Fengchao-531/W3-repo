@@ -1,0 +1,99 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Based on your preferences, I recommend the following:\n\n### Hotel:\n**Le Marais Boutique**\n- **Price Range:** $120.00 - $180.00 per night\n- **Rating:** 4.2\n- **Reviews:** Charming boutique hotel in the heart of Le Marais. Beautifully decorated rooms with modern amenities. Friendly and attentive staff, always ready to help. Awesome hotel.\n\n### Restaurant:\n**Breizh Café**\n- **Cuisine Type:** French\n- **Rating:** 3.9\n- **Reviews:** Best crepes in Paris, both sweet and savory. Authentic Breton cider and artisanal ingredients. Busy spot, expect a wait during peak hours. Gluten-free buckwheat crepes available. The restaurant has a great ambiance and the staff is friendly.\n\n### Cost Estimate:\n- **Hotel Cost:** Assuming a mid-range price of $150 per night, for 3 nights, the total cost would be $450.\n- **Restaurant Cost:** Assuming an average cost of $50 per meal for 2 people, for 2 meals, the total cost would be $100.\n- **Total Estimated Cost:** $450 (hotel) + $100 (meals) = $550.\n\nWith the 20% discount from the DealHub offer, the estimated cost would be reduced to approximately $440.\n\nWould you like to proceed with these recommendations or do you have any other preferences?"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-CC7E64EEEE"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "The yard",
+          "China Garden",
+          "Miznon",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "The yard",
+          "China Garden",
+          "Miznon",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

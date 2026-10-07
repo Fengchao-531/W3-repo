@@ -1,0 +1,19 @@
+condition,denominator,guidance,model,numerator,probability,source,transition
+E_M_H1,17,H1,qwen_instruct,17,1.0,E,Mention -> Plan
+E_M_H1,23,H1,qwen_instruct,12,0.5217391304347826,E,Plan -> Action
+E_M_H1,17,H1,qwen_instruct,6,0.35294117647058826,E,Mention -> Action
+E_M_H2,36,H2,qwen_instruct,36,1.0,E,Mention -> Plan
+E_M_H2,43,H2,qwen_instruct,14,0.32558139534883723,E,Plan -> Action
+E_M_H2,36,H2,qwen_instruct,7,0.19444444444444445,E,Mention -> Action
+E_M_H3,31,H3,qwen_instruct,31,1.0,E,Mention -> Plan
+E_M_H3,46,H3,qwen_instruct,24,0.5217391304347826,E,Plan -> Action
+E_M_H3,31,H3,qwen_instruct,9,0.2903225806451613,E,Mention -> Action
+UC_M_H1,107,H1,qwen_instruct,107,1.0,UC,Mention -> Plan
+UC_M_H1,133,H1,qwen_instruct,75,0.5639097744360902,UC,Plan -> Action
+UC_M_H1,107,H1,qwen_instruct,49,0.45794392523364486,UC,Mention -> Action
+UC_M_H2,103,H2,qwen_instruct,103,1.0,UC,Mention -> Plan
+UC_M_H2,129,H2,qwen_instruct,61,0.4728682170542636,UC,Plan -> Action
+UC_M_H2,103,H2,qwen_instruct,35,0.33980582524271846,UC,Mention -> Action
+UC_M_H3,107,H3,qwen_instruct,107,1.0,UC,Mention -> Plan
+UC_M_H3,130,H3,qwen_instruct,73,0.5615384615384615,UC,Plan -> Action
+UC_M_H3,107,H3,qwen_instruct,50,0.4672897196261682,UC,Mention -> Action

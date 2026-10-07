@@ -1,0 +1,59 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Chez L'Ami Jean is a highly rated French restaurant in Paris with a rating of 4.4. It is known for its Michelin-starred Basque-influenced cuisine and famous rice pudding dessert. The restaurant has a lively and bustling atmosphere, and reservations are essential. \n\nThe operating hours for Chez L'Ami Jean are from 12:00 PM to 2:00 PM and from 7:00 PM to 10:00 PM, and it is open on Mondays, Tuesdays, Thursdays, and Fridays.\n\nThe address for Chez L'Ami Jean is 27 Rue Malar, 75007 Paris, France. \n\nWould you like to make a reservation for this restaurant?"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "check_restaurant_opening_hours",
+      "args": {
+        "restaurant_names": [
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "For lunch, based on the ratings and reviews, **Breizh Café** is highly recommended. It has a rating of 3.9 and is known for its best crepes in Paris, both sweet and savory. The restaurant uses authentic Breton cider and artisanal ingredients. However, it can get quite busy, especially during peak hours, so you might want to consider arriving early. They also offer gluten-free buckwheat crepes. The price per person is around €60.\n\nFor dinner, **Chez L'Ami Jean** is a great choice. It has a rating of 4.4 and is famous for its Michelin-starred Basque-influenced cuisine, including their famous rice pudding dessert. The atmosphere is lively and bustling, but reservations are essential. The price per person is around €24.\n\nWould you like to proceed with these reservations? If so, I can help you make the reservations now."
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

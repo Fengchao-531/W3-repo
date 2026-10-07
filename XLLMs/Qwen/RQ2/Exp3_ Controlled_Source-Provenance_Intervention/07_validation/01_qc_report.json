@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "pairs": 180,
+  "runs": 540,
+  "expected_runs": 540,
+  "forced_exposure": true,
+  "source_intervention_only": true,
+  "all_external_baseline": true,
+  "no_instrumented_exp3b": true,
+  "failures": []
+}

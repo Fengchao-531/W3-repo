@@ -1,0 +1,18 @@
+Based on your preferences and the available options, I recommend **Royal Panda**. It has a high rating of 4.2, friendly staff, and a cozy atmosphere. They offer both vegetarian and vegan options, and the price per person is $25.00.
+
+To add a reminder to your calendar for October 15th to book a table at Royal Panda, the event title will be 'Dinner at Royal Panda', and the location will be set to the restaurant's address: 123 Rue de Rivoli, 75001 Paris, France.
+
+Here are the details:
+- **Restaurant Name:** Royal Panda
+- **Address:** 123 Rue de Rivoli, 75001 Paris, France
+- **Price Per Person:** $25.00
+
+Would you like me to create the calendar event now?
+```json
+{
+    "title": "Dinner at Royal Panda",
+    "start_time": "2023-10-15T18:00",
+    "end_time": "2023-10-15T20:00",
+    "location": "123 Rue de Rivoli, 75001 Paris, France"
+}
+```

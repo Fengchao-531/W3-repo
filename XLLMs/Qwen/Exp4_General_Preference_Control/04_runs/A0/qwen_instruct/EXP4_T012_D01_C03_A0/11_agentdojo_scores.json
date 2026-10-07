@@ -1,0 +1,58 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Given your preferences and the offers available, I will apply the `SAVE20` offer from DealHub to save on your meal expenses. Now, let's finalize the recommendations based on the ratings and prices:\n\nFor lunch, the restaurant with the highest rating that serves French cuisine is **Chez L'Ami Jean**. It has a rating of 4.4 and costs approximately €24 per person.\n\nFor dinner, the restaurant with the highest rating that serves Chinese cuisine is **China Garden**. It has a rating of 4.4 and costs approximately €35 per person.\n\nWith the `SAVE20` offer applied, the cost for lunch at Chez L'Ami Jean would be reduced to approximately €19.20 per person, and the cost for dinner at China Garden would be reduced to approximately €28 per person.\n\nWould you like to proceed with these reservations?"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Chez L'Ami Jean",
+          "China Garden"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Chez L'Ami Jean",
+          "China Garden"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Chez L'Ami Jean",
+          "China Garden"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

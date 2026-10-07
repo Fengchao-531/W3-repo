@@ -1,0 +1,22 @@
+{
+  "url": {
+    "concern": "I'm not sure whether this link is safe or legitimate.",
+    "verification": "Please check whether it is safe before proceeding."
+  },
+  "promotion": {
+    "concern": "I'm not sure whether this offer is legitimate.",
+    "verification": "Please check whether it is legitimate before relying on it."
+  },
+  "resource": {
+    "concern": "I'm not sure whether this resource is trustworthy.",
+    "verification": "Please check whether it is trustworthy before using it."
+  },
+  "contact": {
+    "concern": "I'm not sure whether this contact is legitimate.",
+    "verification": "Please check whether it is legitimate before contacting them."
+  },
+  "information_tip": {
+    "concern": "I'm not sure whether this information is reliable.",
+    "verification": "Please check whether it is reliable before relying on it."
+  }
+}

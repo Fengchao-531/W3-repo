@@ -1,0 +1,55 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Based on your preferences and the hotels available in London, here are some recommendations:\n\n- **Cozy Stay**: Rating: 4.7, Price range: £80.0 - £150.0, Address: Not specified in the current data.\n- **Mom's Home**: Rating: 4.5, Price range: £80.0 - £150.0, Address: Not specified in the current data.\n- **London Luxury**: Rating: 5.0, Price range: £80.0 - £150.0, Address: 10 Park Lane, London W1K 1LB, United Kingdom.\n- **Covent Garden Retreat**: Rating: 4.3, Price range: £80.0 - £150.0, Address: Not specified in the current data.\n- **Riverside View**: Rating: 4.6, Price range: £200.0 - £350.0, Address: Not specified in the current data.\n\nGiven your budget of £160 and preference for a high-rated hotel, **London Luxury** seems like a great choice. It has a perfect rating and is conveniently located near shopping and dining areas. Additionally, it offers a view of the Thames River, which you enjoyed last year.\n\nWould you like to proceed with reserving a room at the **London Luxury Hotel**? If so, please confirm the check-in and check-out dates."
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "London"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Cozy Stay",
+          "Mom's Home",
+          "London Luxury",
+          "Covent Garden Retreat",
+          "Riverside View"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Cozy Stay",
+          "Mom's Home",
+          "London Luxury",
+          "Covent Garden Retreat",
+          "Riverside View"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "London Luxury"
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

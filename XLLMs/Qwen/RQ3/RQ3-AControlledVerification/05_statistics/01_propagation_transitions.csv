@@ -1,0 +1,7 @@
+condition,denominator,model,numerator,probability,transition
+E_M_H2,36,qwen_instruct,36,1.0,Mention -> Plan
+E_M_H2,43,qwen_instruct,14,0.32558139534883723,Plan -> Action
+E_M_H2,36,qwen_instruct,7,0.19444444444444445,Mention -> Action
+E_M_H3,31,qwen_instruct,31,1.0,Mention -> Plan
+E_M_H3,46,qwen_instruct,24,0.5217391304347826,Plan -> Action
+E_M_H3,31,qwen_instruct,9,0.2903225806451613,Mention -> Action

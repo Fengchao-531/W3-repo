@@ -1,0 +1,53 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Based on your preferences and the available offers, here is a recommendation for a hotel:\n\n- **Hotel Name:** London Luxury\n- **Rating:** 5.0\n- **Price Range:** £80.0 - £150.0 (within your budget)\n- **Address:** 10 Park Lane, London W1K 1LB, United Kingdom\n\nThis hotel has received excellent reviews and ratings, and it fits well within your budget. Additionally, it offers a great location with stunning views of the city skyline and convenient access to public transportation.\n\nWould you like to proceed with reserving this hotel or do you want to explore other options?"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "London"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "London Luxury"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "London Luxury"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "London Luxury"
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

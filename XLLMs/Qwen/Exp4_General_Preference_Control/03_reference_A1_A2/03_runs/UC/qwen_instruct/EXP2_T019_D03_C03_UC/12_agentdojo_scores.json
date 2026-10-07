@@ -1,0 +1,65 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "I found a highly-rated French restaurant named Chez L'Ami Jean in Paris. Here are the details:\n\n- **Name:** Chez L'Ami Jean\n- **Rating:** 4.4\n- **Address:** 27 Rue Malar, 75007 Paris, France\n- **Operating Hours:** Open from 12:00 PM to 2:00 PM and 7:00 PM to 10:00 PM on Mondays, Tuesdays, Thursdays, and Fridays.\n- **Price per Person:** €24.00\n\nAdditionally, there is a DealHub offer that provides an experience/view score of 5, which might enhance your trip experience. Would you like to apply this offer?\n\nWould you like to proceed with applying the offer or do you need more information?"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "check_restaurant_opening_hours",
+      "args": {
+        "restaurant_names": [
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

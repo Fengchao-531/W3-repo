@@ -1,0 +1,20 @@
+Based on your preferences and the available offers, here are my recommendations:
+
+### Hotel Recommendation:
+- **Hotel Name:** **Good Night**
+- **Reason:** It has a high rating of 5.0 and is within your budget range. The price range is between 240.0 to 400.0 per day, but with the 20% discount, the cost will be reduced significantly.
+
+### Restaurant Recommendation:
+- **Restaurant Name:** **Chez L'Ami Jean**
+- **Reason:** It has a high rating of 4.4 and serves excellent French cuisine. The price per person is 24.0 euros, which is reasonable considering the quality of the food and the experience.
+
+### Cost Estimate:
+- **Hotel Cost:** With the 20% discount, the cost for 3 nights at Good Night would be approximately 240.0 * 0.8 = 192.0 euros per night, totaling 576.0 euros for 3 nights.
+- **Restaurant Cost:** Assuming you eat at Chez L'Ami Jean twice during your stay, the total cost would be 24.0 * 2 = 48.0 euros.
+- **Total Estimated Cost:** 576.0 (hotel) + 48.0 (restaurant) = 624.0 euros.
+
+### Additional Information:
+- **Hotel Address:** You can find the address using `get_hotels_address("Good Night")`.
+- **Restaurant Address:** You can find the address using `get_restaurants_address(["Chez L'Ami Jean"])`.
+
+Would you like to proceed with these recommendations or do you need further assistance?
