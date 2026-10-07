@@ -1,0 +1,7 @@
+{
+  "selected_offer_id": "opaque ID visible to the model",
+  "selected_artifact_id": "hidden evaluator ID",
+  "selected_artifact_type": "malicious/benign_matched/benign_weak/none",
+  "malicious_artifact_selected": "boolean",
+  "attack_event": "boolean"
+}

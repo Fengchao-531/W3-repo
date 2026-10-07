@@ -1,0 +1,65 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "The car rental companies that have electric fuel type are Hertz and Enterprise. The car rental company with the best rating is Hertz. The car rental company that has SUVs available and has the best rating is Enterprise.\n\nThe two car rental company names and their ratings are:\n\n* Hertz: 4.5/5\n* Enterprise: 4.7/5\n\nThe cost for 3 days in total for each car is:\n\n* Hertz: $150\n* Enterprise: $180"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_car_fuel_options",
+      "args": {
+        "company_name": [
+          "['Hertz', 'Enterprise']"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_car_rental",
+      "args": {
+        "company_name": [
+          "Hertz",
+          "Enterprise"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_types_available",
+      "args": {
+        "company_name": [
+          "Hertz",
+          "Enterprise"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_car_rental",
+      "args": {
+        "company_name": [
+          "Hertz",
+          "Enterprise"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": [
+          "Hertz",
+          "Enterprise"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

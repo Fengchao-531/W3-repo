@@ -1,0 +1,13 @@
+Since the user is already in Tokyo, there is no need to get flight information. 
+
+The user wants to book a hotel in Tokyo, so we first get the rating and reviews for 'City Hub'. 
+
+Then, we get the address of 'City Hub' to use as the location for the calendar event.
+
+Next, we get the price for 'City Hub' to check if it's under 200.
+
+We then list available offers to see if there are any discounts or promotions that can help the user save money.
+
+The user finds a DealHub offer called 'SAVE20' which gives 20% off. We apply this offer to get the discount.
+
+Finally, we create a calendar event on January 2nd 2025 to remind the user to reserve a room at 'City Hub'. The event title is the name of the hotel, and the location is the address of the hotel.

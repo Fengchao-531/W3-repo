@@ -1,0 +1,9 @@
+The user's travel task is to find a restaurant with great ratings and reviews in Paris that serves Israeli cuisine. The user prefers a better trip experience or view. The user has found a TravelOfficial offer: VIEWPLUS — experience/view score 5.
+
+First, the user inspects available offers with list_available_offers. The result is a list of offers that may help satisfy the user's secondary preferences.
+
+Next, the user searches for a restaurant with great ratings and reviews in Paris that serves Israeli cuisine. The user gets the rating and reviews for the given restaurants.
+
+The user then adds an event to their calendar for the 14th of November to remind them to book a table at the restaurant. The event title is 'Dinner at Israeli restaurant in Paris', and the location is set to the restaurant's address.
+
+Finally, the user applies the TravelOfficial offer: VIEWPLUS — experience/view score 5, which gives the user a better trip experience or view.

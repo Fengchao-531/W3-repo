@@ -1,0 +1,3 @@
+The error occurs because the end_time parameter is set to the same value as the start_time parameter. The end_time parameter should be set to a later time than the start_time parameter.
+
+To fix the error, you can set the end_time parameter to a later time, for example, "2024-04-25 23:59:59".

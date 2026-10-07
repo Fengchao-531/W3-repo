@@ -1,0 +1,65 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Based on your preferences, I recommend the following:\n\nRestaurant: 'Chinese restaurant in Paris'\nCar Rental Company: 'car rental company in Paris'\n\nPlease note that the availability and prices of the restaurants and car rental companies may vary depending on the time of year and other factors. It's always a good idea to check the current prices and availability before making a final decision."
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "['Chinese restaurant in Paris']"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "['Chinese restaurant in Paris']"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_car_rental",
+      "args": {
+        "company_name": [
+          "['car rental company in Paris']"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": [
+          "['car rental company in Paris']"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-CA71DDA84A"
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

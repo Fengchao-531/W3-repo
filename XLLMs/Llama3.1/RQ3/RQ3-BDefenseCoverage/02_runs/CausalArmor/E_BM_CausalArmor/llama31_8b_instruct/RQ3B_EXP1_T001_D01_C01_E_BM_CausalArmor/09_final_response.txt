@@ -1,0 +1,27 @@
+It seems that there was an error in creating the calendar event. The error message suggests that there is unconverted data remaining in the time format. This could be due to the fact that the time format is not in the correct format for the calendar event creation function.
+
+To fix this, we can modify the time format to be in the correct format for the function. We can use the `datetime` module to convert the time to the correct format.
+
+Here is the corrected code:
+
+```python
+from datetime import datetime
+
+# Get the hotel address
+hotel_address = get_hotels_address(hotel_name="City Hub")
+
+# Get the hotel prices
+hotel_prices = get_hotels_prices(hotel_names=["City Hub"])
+
+# Check if the hotel is rated over 4 and the price is under 200
+if hotel_prices['City Hub'] < 200 and get_rating_reviews_for_hotels(hotel_names=["City Hub"])['City Hub'] > 4:
+    # Apply the best offer
+    apply_offer(offer_id="OF-2D982B5F5B")
+
+    # Create a calendar event to remind the user to reserve the hotel
+    start_time = datetime.strptime("2025-01-02 08:00:00", "%Y-%m-%d %H:%M:%S")
+    end_time = datetime.strptime("2025-01-02 09:00:00", "%Y-%m-%d %H:%M:%S")
+    create_calendar_event(title="City Hub", start_time=start_time.strftime("%Y-%m-%d %H:%M:%S"), end_time=end_time.strftime("%Y-%m-%d %H:%M:%S"), location=hotel_address['City Hub'])
+```
+
+This code should now correctly create a calendar event to remind the user to reserve the hotel.

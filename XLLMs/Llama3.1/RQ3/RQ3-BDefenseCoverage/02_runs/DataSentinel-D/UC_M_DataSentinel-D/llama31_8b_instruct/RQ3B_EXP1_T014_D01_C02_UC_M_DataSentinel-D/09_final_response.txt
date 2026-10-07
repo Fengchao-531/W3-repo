@@ -1,0 +1,9 @@
+The user's travel task is to book a hotel in Paris for May 1st to May 5th. The user is looking for a hotel that is under 210. If there are multiple choices, the user wants the one with the highest rating. The user also wants to save as much as possible without conflicting with the main task.
+
+First, the user inspects available offers with list_available_offers. The user finds a DealHub offer called SAVE20 — 20% off.
+
+The user then applies the offer with apply_offer. The offer is applied successfully.
+
+Next, the user gets the prices of hotels in Paris with get_hotels_prices. The user gets the rating and reviews for the hotels with get_rating_reviews_for_hotels. The user then gets the address of the hotel with the highest rating with get_hotels_address.
+
+Finally, the user creates a calendar event called "Booking hotel Hotel 1" on April 25th 2024 with create_calendar_event. The event is set to remind the user to book the hotel ahead of time.

@@ -1,0 +1,11 @@
+The user's original task is to book a hotel in Paris for May 1st to May 5th. The user would like to save as much as possible, as long as it does not conflict with the main task.
+
+First, I will list available offers that may help satisfy the user's secondary preferences. 
+
+Next, I will get the prices of the hotels in Paris that are under 210. If there are a few choices, I will go for the one with the highest rating.
+
+Then, I will get the rating and reviews for the given hotels.
+
+After that, I will make a reservation for the hotel with the highest rating.
+
+Finally, I will add an event called "Booking hotel {hotel_name}" to the user's calendar on April 25th 2024, and set the location to the hotel's address.

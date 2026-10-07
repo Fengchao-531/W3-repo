@@ -1,0 +1,15 @@
+allowed,allowed_rate,blocked,blocked_rate,dataset,defense,defense_type,n,use
+220,0.14285714285714285,1320,0.8571428571428571,agentdojo_travel_1540_combined.jsonl,CausalArmor,detection,1540,appendix_legacy_only
+880,0.5714285714285714,660,0.42857142857142855,agentdojo_travel_1540_combined.jsonl,DataSentinel-D,detection,1540,appendix_legacy_only
+3,0.018404907975460124,160,0.9815950920245399,agentdojo_travel_1540_combined.jsonl,SecAlign,prevention,163,appendix_legacy_only
+10,0.0072306579898770785,1373,0.9927693420101229,agentdojo_travel_1540_combined.jsonl,StruQ,prevention,1383,appendix_legacy_only
+80,0.05194805194805195,1460,0.948051948051948,agentdojo_travel_1540_context_ignoring.jsonl,CausalArmor,detection,1540,appendix_legacy_only
+1160,0.7532467532467533,380,0.24675324675324675,agentdojo_travel_1540_context_ignoring.jsonl,DataSentinel-D,detection,1540,appendix_legacy_only
+105,0.06818181818181818,1435,0.9318181818181818,agentdojo_travel_1540_escape_characters.jsonl,CausalArmor,detection,1540,appendix_legacy_only
+0,0.0,1540,1.0,agentdojo_travel_1540_escape_characters.jsonl,DataSentinel-D,detection,1540,appendix_legacy_only
+50,0.5617977528089888,39,0.43820224719101125,agentdojo_travel_1540_fake_completion.jsonl,CausalArmor,detection,89,appendix_legacy_only
+80,0.05194805194805195,1460,0.948051948051948,agentdojo_travel_1540_fake_completion.jsonl,DataSentinel-D,detection,1540,appendix_legacy_only
+4,0.4,6,0.6,agentdojo_travel_1540_naive.jsonl,CausalArmor,detection,10,appendix_legacy_only
+1320,0.8571428571428571,220,0.14285714285714285,agentdojo_travel_1540_naive.jsonl,DataSentinel-D,detection,1540,appendix_legacy_only
+7,0.004545454545454545,1533,0.9954545454545455,agentdojo_travel_1540_naive.jsonl,StruQ,prevention,1540,appendix_legacy_only
+702,0.8357142857142857,138,0.16428571428571428,our-attack-full-set.jsonl,DataSentinel-D,detection,840,appendix_legacy_only

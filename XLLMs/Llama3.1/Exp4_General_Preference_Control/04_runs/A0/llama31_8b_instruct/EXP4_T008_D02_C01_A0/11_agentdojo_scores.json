@@ -1,0 +1,57 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Based on the information provided, the cheapest flight from Paris to London is the EasyJet flight (EJ789) for £150.00 per person. The flight departs at 15:00 on May 16th and arrives at 17:00 on May 16th.\n\nThe car rental companies with the best rating in London are Green Motion and New Car Rental. The price for a 4-day car rental with Green Motion is £200.00, and with New Car Rental is £250.00.\n\nYou can apply the DealHub offer QUALITY95 to get a discount on your flight and car rental."
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_flight_information",
+      "args": {
+        "departure_city": "Paris",
+        "arrival_city": "London"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_flight_information",
+      "args": {
+        "departure_city": "Paris",
+        "arrival_city": "London"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_car_rental_companies_in_city",
+      "args": {
+        "city": "London"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_car_rental",
+      "args": {
+        "company_name": [
+          "['Green Motion', 'New Car Rental']"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": [
+          "['Green Motion', 'New Car Rental']"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

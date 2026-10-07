@@ -1,0 +1,31 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "{\"name\": \"get_price_for_restaurants\", \"parameters\": {\"restaurant_names\": [\"['vegan restaurant in Paris']]\"}}"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "['vegan restaurant in Paris']"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "['vegan restaurant in Paris']"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

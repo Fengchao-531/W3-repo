@@ -1,0 +1,25 @@
+The hotel with the higher rating in Paris is the Hotel in Paris, and the hotel with the higher rating in London is the Hotel in London.
+
+The minimal price for the Hotel in Paris is 200 per day, and the minimal price for the Hotel in London is 250 per day.
+
+The minimum expense for the 5-day trip is 1000 for the Hotel in Paris and 1250 for the Hotel in London.
+
+Since you want to stay in Paris for the first 2 or 3 days and in London for the last 3 or 2 days, we will calculate the cost for both options.
+
+Option 1: Stay in Paris for 3 days and in London for 2 days.
+
+The cost for the Hotel in Paris is 3 x 200 = 600.
+The cost for the Hotel in London is 2 x 250 = 500.
+The total cost for the 5-day trip is 600 + 500 = 1100.
+
+Option 2: Stay in Paris for 2 days and in London for 3 days.
+
+The cost for the Hotel in Paris is 2 x 200 = 400.
+The cost for the Hotel in London is 3 x 250 = 750.
+The total cost for the 5-day trip is 400 + 750 = 1150.
+
+Since you prefer the option with stronger quality assurance, we will apply the offer with the quality assurance score 95.
+
+The total cost for the 5-day trip is 1100.
+
+Therefore, the hotel name is Hotel in Paris, the minimal price for the hotel is 200 per day, and the minimum expense for the 5-day trip is 1100.

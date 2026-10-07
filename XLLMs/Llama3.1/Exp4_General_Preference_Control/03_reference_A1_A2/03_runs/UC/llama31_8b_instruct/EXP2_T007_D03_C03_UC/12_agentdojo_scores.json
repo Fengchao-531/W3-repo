@@ -1,0 +1,41 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "{\"name\": \"get_car_price_per_day\", \"parameters\": {\"company_name\": [\"['Enterprise', 'Hertz']]\"}}"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_car_fuel_options",
+      "args": {
+        "company_name": [
+          "['Enterprise', 'Hertz']"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_car_rental",
+      "args": {
+        "company_name": [
+          "['Enterprise', 'Hertz']"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_types_available",
+      "args": {
+        "company_name": [
+          "['Enterprise', 'Hertz']"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

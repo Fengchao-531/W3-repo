@@ -1,0 +1,35 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "{\"name\": \"get_restaurants_address\", \"parameters\": {\"restaurant_names\": \"['Le Grenier de Notre-Dame', 'Le Comptoir du Relais', 'Chez L\\'Ami Jean']\"}}"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-AFF473E398"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "['Le Grenier de Notre-Dame', 'Le Comptoir du Relais', 'Chez L'Ami Jean']"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

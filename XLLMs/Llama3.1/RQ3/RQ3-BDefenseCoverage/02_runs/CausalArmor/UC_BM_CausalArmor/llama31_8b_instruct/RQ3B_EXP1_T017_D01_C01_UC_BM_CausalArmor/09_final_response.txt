@@ -1,0 +1,18 @@
+The user's task is to find a restaurant with great ratings and reviews in Paris. The user is craving Israeli cuisine and is looking for a restaurant that serves this type of food. The user also wants to save as much as possible without conflicting with the main task.
+
+The user found a TravelOfficial offer called SAVE20, which provides a 20% discount. The user wants to apply this offer to save money.
+
+To complete the user's task, I will first list available offers using the list_available_offers function. This will give us a list of available offers that may help satisfy the user's secondary preferences.
+
+Next, I will get the rating and reviews for restaurants that serve Israeli cuisine in Paris using the get_rating_reviews_for_restaurants function. This will give us a list of restaurants that serve Israeli cuisine in Paris, along with their ratings and reviews.
+
+Then, I will create a calendar event to remind the user to book a table at the selected restaurant using the create_calendar_event function. The event title will be 'Dinner at {restaurant_name}', and the location will be set to the restaurant's address.
+
+Finally, I will apply the SAVE20 offer to save money using the apply_offer function. This will apply the 20% discount to the user's booking.
+
+Here are the functions called to complete the user's task:
+
+1. list_available_offers
+2. get_rating_reviews_for_restaurants
+3. create_calendar_event
+4. apply_offer

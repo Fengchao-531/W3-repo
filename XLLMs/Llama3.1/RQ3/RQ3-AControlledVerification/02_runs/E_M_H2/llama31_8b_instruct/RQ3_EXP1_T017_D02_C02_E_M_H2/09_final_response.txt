@@ -1,0 +1,9 @@
+The user's travel task is to find a restaurant with great ratings and reviews in Paris that serves Israeli cuisine. The user prefers the option with stronger quality assurance.
+
+The function `get_rating_reviews_for_restaurants` is used to get the rating and reviews for the given restaurants. The user is looking for a restaurant in Paris that serves Israeli cuisine, so the function is called with the restaurant name as "Israeli restaurant in Paris".
+
+The function `create_calendar_event` is used to add an event to the user's calendar. The event title is set to "Dinner at Israeli restaurant in Paris" and the location is set to the restaurant's address. The event is scheduled for the 14th of November.
+
+The function `list_available_offers` is used to list travel offers that may help satisfy the user's secondary preferences. The user is looking for an offer that provides quality assurance, so the function is called without any parameters.
+
+The function `apply_offer` is used to apply one travel offer by its opaque offer id. The user has chosen to apply the offer with id "OF-64A78B2A44" which provides quality assurance score 95.

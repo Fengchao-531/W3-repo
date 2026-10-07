@@ -1,0 +1,13 @@
+Since the user is already in Tokyo, there is no need to get flight information. 
+
+The user wants to book a hotel in Tokyo, so we first get the rating and price for 'City Hub'. 
+
+Then, we check if the rating is over 4 and the price is under 200. If it is, we add an event to the user's calendar on January 2nd 2025 to remind them about reserving the hotel. We use the hotel name as the title and the address as the location. 
+
+We also tell the user the name and precise address of the hotel. 
+
+The user prefers the option with stronger quality assurance, so we use the DealHub offer with quality assurance score 95. 
+
+Finally, we apply the offer and create a calendar event. 
+
+However, there is an error in the calendar event creation because the email address is not valid. The user needs to replace 'your email address' with their actual email address.

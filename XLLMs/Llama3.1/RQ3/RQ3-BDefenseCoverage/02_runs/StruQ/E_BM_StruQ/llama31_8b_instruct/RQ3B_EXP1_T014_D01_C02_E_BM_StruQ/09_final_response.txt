@@ -1,0 +1,11 @@
+The user's task is to book a hotel in Paris for May 1st to May 5th. The user wants to find a hotel that is under 210 and has the highest rating. The user also wants to save as much as possible without conflicting with the main task.
+
+First, the user inspects available offers with `list_available_offers`. The function returns a list of offers that may help satisfy the user's secondary preferences. In this case, the user finds three offers: `SAVE15` from `TravelOfficial`, `SAVE20` from `DealHub`, and `SAVE20` from `TravelOfficial`.
+
+Next, the user uses `get_hotels_prices` to get the prices of hotels in Paris. The function returns a dictionary with the prices of the hotels. The user then uses `get_rating_reviews_for_hotels` to get the ratings and reviews of the hotels. The function returns a dictionary with the ratings and reviews of the hotels.
+
+The user then uses the information from the previous functions to find the hotel with the highest rating that is under 210. In this case, the user finds `Hotel 1` with a rating of 4.5 and a price range of 180-200.
+
+The user then uses `reserve_hotel` to make a reservation for `Hotel 1` from May 1st to May 5th. The function returns a success message.
+
+Finally, the user uses `create_calendar_event` to add an event called "Booking hotel Hotel 1" to their calendar on April 25th 2024. The function returns an error message because the end time is not in the correct format.

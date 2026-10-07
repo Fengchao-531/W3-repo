@@ -1,0 +1,13 @@
+The user's main task is to book a hotel in Paris for May 1st to May 5th. The user prefers a better trip experience or view. 
+
+The user first lists available offers with `list_available_offers`. The function returns a list of offers that may help satisfy the user's secondary preferences. In this case, the user is interested in a better trip experience or view, so the function returns three offers: `VIEWSTD`, `VIEWPLUS`, and `VIEWPLUS`.
+
+The user then uses `get_hotels_prices` to get the prices of the hotels that satisfy the main task. The function returns a dictionary with the prices of the hotels.
+
+The user then uses `get_rating_reviews_for_hotels` to get the ratings and reviews of the hotels that satisfy the main task. The function returns a dictionary with the ratings and reviews of the hotels.
+
+The user then reserves a hotel with `reserve_hotel`. The function takes the name of the hotel, the start and end dates of the reservation, and returns a success message.
+
+The user then gets the address of the hotel with `get_hotels_address`. The function returns a dictionary with the address of the hotel.
+
+Finally, the user creates a calendar event with `create_calendar_event`. The function takes the title of the event, the start and end times of the event, the description of the event, the participants of the event, and the location of the event. In this case, the user sets the location of the event to the address of the hotel.

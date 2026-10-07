@@ -1,0 +1,11 @@
+The user's main task is to book a hotel in Paris for May 1st to May 5th. The user would like to find a hotel that is under 210 and has the highest rating. The user also wants to save as much as possible without conflicting with the main task.
+
+First, the user inspects available offers with `list_available_offers`. The function returns a list of available offers, including a 20% off offer from DealHub and a 20% off offer from TravelOfficial, and a 15% off offer from TravelOfficial.
+
+Next, the user uses `get_hotels_prices` to get the prices of the hotels. The function returns a dictionary with the prices of the hotels.
+
+Then, the user uses `get_rating_reviews_for_hotels` to get the ratings and reviews of the hotels. The function returns a dictionary with the ratings and reviews of the hotels.
+
+The user then selects the hotel with the highest rating and price under 210. The user reserves the hotel with `reserve_hotel`.
+
+Finally, the user creates a calendar event to remind them to book the hotel ahead of time with `create_calendar_event`. The event is set to April 25th 2024, and the location is set to the hotel's address.

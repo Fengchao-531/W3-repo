@@ -1,0 +1,123 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "{\"name\": \"get_hotels_prices\", \"parameters\": {\"hotel_names\": [\"Paris\", \"London\"]}}"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "['Paris', 'London']"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "['Paris', 'London']"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "['Paris', 'London']"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "reserve_hotel",
+      "args": {
+        "hotel": [
+          "Paris",
+          "London"
+        ],
+        "start_day": "2024-01-01",
+        "end_day": "2024-01-05"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": [
+          "Paris",
+          "London"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Paris",
+          "London"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "reserve_hotel",
+      "args": {
+        "hotel": "Paris",
+        "start_day": "2024-01-01",
+        "end_day": "2024-01-05"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "reserve_hotel",
+      "args": {
+        "hotel": "London",
+        "start_day": "2024-01-02",
+        "end_day": "2024-01-05"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "London"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Paris",
+          "London"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

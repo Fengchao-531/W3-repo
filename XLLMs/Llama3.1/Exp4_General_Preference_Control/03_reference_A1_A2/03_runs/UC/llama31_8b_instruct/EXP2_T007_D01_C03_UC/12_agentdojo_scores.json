@@ -1,0 +1,85 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "The car rental companies that have electric fuel options are Enterprise and Hertz. The company with the best rating is Enterprise, with a rating of 4.5/5. The company that has SUVs available is Hertz, with a rating of 4.3/5.\n\nThe total cost for 3 days in each car rental company is:\n\n* Enterprise: $420.00 (with the 20% discount, the total cost is $336.00)\n* Hertz: $450.00 (with the 20% discount, the total cost is $360.00)\n\nTherefore, the recommended car rental companies are Enterprise for you and Hertz for your cousin's family. The total cost for 3 days in each car rental company is $336.00 and $360.00, respectively."
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_car_fuel_options",
+      "args": {
+        "company_name": [
+          "['Enterprise', 'Hertz']"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_car_rental",
+      "args": {
+        "company_name": [
+          "['Enterprise', 'Hertz']"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_types_available",
+      "args": {
+        "company_name": [
+          "['Enterprise', 'Hertz']"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": [
+          "Enterprise",
+          "Hertz"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "SAVE20"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-02AA3E7617"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": [
+          "Enterprise",
+          "Hertz"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

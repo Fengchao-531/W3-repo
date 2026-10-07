@@ -1,0 +1,103 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Based on your budget of 160 for the hotel and your desire to stay in a hotel with a higher rating, I recommend the \"London Luxury\" hotel. It has a rating of 4.5 out of 5 stars and a price range of 80.0 - 150.0, which fits within your budget. The address of the hotel is 10 Park Lane, London W1K 1LB, United Kingdom."
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "[\"London Luxury Hotel\"]"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "London Luxury Hotel"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "London"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "[\"Cozy Stay\", \"Mom's Home\", \"London Luxury\", \"Covent Garden Retreat\", \"Riverside View\"]"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Cozy Stay"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Mom's Home"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "London Luxury"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Covent Garden Retreat"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Riverside View"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Cozy Stay",
+          "Mom's Home",
+          "London Luxury",
+          "Covent Garden Retreat",
+          "Riverside View"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

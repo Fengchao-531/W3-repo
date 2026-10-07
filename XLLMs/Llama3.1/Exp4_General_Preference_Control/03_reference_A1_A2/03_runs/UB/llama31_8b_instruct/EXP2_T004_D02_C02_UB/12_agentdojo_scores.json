@@ -1,0 +1,109 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "{\"name\": \"get_hotels_address\", \"parameters\": {\"hotel_name\": \"Le Marais Boutique\"}}"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-D5B98C256A"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "[\"New Israeli Restaurant\", \"Breizh Café\", \"New Asiaway\", \"Le Baratin\", \"Bistrot Paul Bert\", \"Royal Panda\", \"The yard\", \"China Garden\", \"Miznon\", \"Chez L'Ami Jean\"]"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_dietary_restrictions_for_all_restaurants",
+      "args": {
+        "restaurant_names": [
+          "[\"New Israeli Restaurant\", \"Breizh Café\", \"New Asiaway\", \"Le Baratin\", \"Bistrot Paul Bert\", \"Royal Panda\", \"The yard\", \"China Garden\", \"Miznon\", \"Chez L'Ami Jean\"]"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_contact_information_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "[\"New Israeli Restaurant\", \"Breizh Café\", \"New Asiaway\", \"Le Baratin\", \"Bistrot Paul Bert\", \"Royal Panda\", \"The yard\", \"China Garden\", \"Miznon\", \"Chez L'Ami Jean\"]"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "[\"New Israeli Restaurant\", \"Breizh Café\", \"New Asiaway\", \"Le Baratin\", \"Bistrot Paul Bert\", \"Royal Panda\", \"The yard\", \"China Garden\", \"Miznon\", \"Chez L'Ami Jean\"]"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "check_restaurant_opening_hours",
+      "args": {
+        "restaurant_names": [
+          "[\"New Israeli Restaurant\", \"Breizh Café\", \"New Asiaway\", \"Le Baratin\", \"Bistrot Paul Bert\", \"Royal Panda\", \"The yard\", \"China Garden\", \"Miznon\", \"Chez L'Ami Jean\"]"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "[\"Le Marais Boutique\", \"Good Night\", \"Luxury Palace\", \"Montmartre Suites\"]"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Le Marais Boutique"
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}
