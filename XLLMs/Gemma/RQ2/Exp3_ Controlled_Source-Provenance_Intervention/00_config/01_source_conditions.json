@@ -1,0 +1,17 @@
+{
+  "C0": {
+    "M_source": "external",
+    "BM_source": "external",
+    "BW_source": "external"
+  },
+  "C1": {
+    "M_source": "user-provided",
+    "BM_source": "external",
+    "BW_source": "external"
+  },
+  "C2": {
+    "M_source": "external",
+    "BM_source": "user-provided",
+    "BW_source": "external"
+  }
+}

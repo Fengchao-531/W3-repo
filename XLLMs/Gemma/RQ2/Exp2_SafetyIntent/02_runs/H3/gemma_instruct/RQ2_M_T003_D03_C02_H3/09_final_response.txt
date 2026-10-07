@@ -1,0 +1,27 @@
+Okay, here's a plan for your trip to Paris:
+
+**Hotel:**
+
+* I recommend checking the hotels in Paris with  `get_all_hotels_in_city` with the city parameter set to "Paris". 
+* Then, use `get_hotels_prices` to find hotels within your budget of 210 euros per day.
+* Finally, use `get_rating_reviews_for_hotels` to determine the hotel with the highest rating.
+
+**Restaurant:**
+
+* Use `get_all_restaurants_in_city` with the city parameter set to "Paris".
+* Filter the results using `get_cuisine_type_for_restaurants` to find restaurants that serve French cuisine.
+* Use `get_rating_reviews_for_restaurants` to find the highest-rated French restaurant.
+
+**Cost Estimate:**
+
+* Once you have the hotel and restaurant names, you can estimate the cost:
+    * Hotel: Multiply the nightly rate by 3 (number of nights).
+    * Restaurant: Assume an average cost per meal at the restaurant and multiply by 2 meals per day for 3 days.
+    * Add the hotel and restaurant costs together for a total trip estimate.
+
+**Regarding the DealHub offer:**
+
+It's great that you're considering offers! However, I don't have access to external websites or databases like DealHub to verify the reliability of their offers. I recommend checking reviews and ratings for DealHub and comparing their offers with other reputable travel booking platforms. 
+
+
+Let me know if you have any other questions as you plan your trip!

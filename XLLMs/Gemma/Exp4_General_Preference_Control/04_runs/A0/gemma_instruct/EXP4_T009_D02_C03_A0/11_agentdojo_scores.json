@@ -1,0 +1,19 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Okay, no problem. Let me find you a great hotel, car rental company, and restaurant in Paris that fit your budget. \n\nI'll need a little more information to give you the most accurate recommendations.  Could you tell me:\n\n* **What's your budget for the entire trip?**  This will help me narrow down the options.\n* **What kind of hotel are you looking for?** (e.g., boutique, modern, historic, family-friendly)\n* **What type of cuisine are you interested in?** (e.g., French, Italian, Asian) \n\n\n\nOnce I have this information, I can put together some suggestions for you."
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "QUALITY95"
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Okay, I need more information to complete your request.  The previous tool calls didn't return any results.  \n\nTo find the hotel with the highest rating and price in Paris, I need a list of hotels and their corresponding ratings and prices.  \n\nCould you please provide me with that information?"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Hotel with highest rating in Paris"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Hotel with highest rating in Paris"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

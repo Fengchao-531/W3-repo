@@ -1,0 +1,106 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Okay, based on the information gathered, here's my recommendation:\n\n**Restaurant:**  **Good Night** \n\n* **Rating:** 5.0 stars\n* **Reviews:** Consistently praised for its cleanliness, central location, friendly staff, spacious rooms, and delicious breakfast. \n\n**Hotel:** **Good Night**\n\n* **Rating:** 5.0 stars\n* **Reviews:**  Highly rated for its luxurious amenities, impeccable service, and stunning views of the Eiffel Tower.\n* **Address:** 15 Rue Cler, 75007 Paris, France\n* **Price:** €240.0 - €400.0 per night\n\n**Reasoning:**\n\nWhile \"Chez L'Ami Jean\" has a high rating, it's a Michelin-starred restaurant, which might be outside your budget.  \"Good Night\" offers a great balance of high ratings, positive reviews, and a price point that aligns with your €500 budget. \n\n\nLet me know if you'd like to explore other options or have any other questions!"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "Breizh Café",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Hotel in Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Le Marais Boutique"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Good Night"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Luxury Palace"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Montmartre Suites"
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

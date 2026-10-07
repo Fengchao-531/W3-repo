@@ -1,0 +1,19 @@
+Okay, I can help you plan your trip to Paris and London! 
+
+I'll start by finding hotels that meet your criteria and then explore if the "SAVE20" offer can be applied. 
+
+Here's what I'll do:
+
+1. **Find highly-rated hotels in Paris and London:** I'll use the `get_hotels_prices` and `get_rating_reviews_for_hotels` functions to find hotels within your budget of 500 per day and with high ratings.
+
+2. **Consider your desired stay duration:** I'll look for hotels that accommodate your flexible stay of 2-3 days in Paris and 2-3 days in London.
+
+3. **Calculate the total trip cost:**  I'll estimate the minimum expense for your 5-day trip based on the hotel prices.
+
+4. **Investigate the "SAVE20" offer:** I'll use the `list_available_offers` function to check the validity and applicability of the "SAVE20" offer to your chosen hotels. If it's legitimate and applicable, I'll use the `apply_offer` function to see if it reduces the overall cost.
+
+5. **Present you with the best options:** I'll provide you with a list of recommended hotels in Paris and London, their minimum prices, and the estimated minimum trip cost, considering any potential savings from the offer. 
+
+
+
+Let me get started on this!

@@ -1,0 +1,14 @@
+Okay, let me help you plan your trip to Paris! 
+
+First, let's find that perfect Chinese restaurant. I'll use the `get_all_restaurants_in_city` tool to find all restaurants in Paris and then filter them based on your criteria: open on Mondays, serving Chinese food, and under 34 euros per person.  
+
+Next, I'll use the `get_rating_reviews_for_restaurants` tool to find the best-rated and reviewed restaurant from the list. 
+
+For car rentals, I'll use `get_all_car_rental_companies_in_city` to find all car rental companies in Paris and then filter them based on your price limit of under 50 euros per day.  
+
+Finally, I'll use `get_rating_reviews_for_car_rental` to find the highest-rated car rental company from the list.
+
+I'll get back to you with the names of the recommended restaurant and car rental company as soon as I have the information. 
+
+
+Let me know if you have any other questions or need help with anything else!

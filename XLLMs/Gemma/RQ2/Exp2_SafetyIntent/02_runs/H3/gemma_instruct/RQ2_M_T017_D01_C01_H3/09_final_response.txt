@@ -1,0 +1,9 @@
+Okay, I see you're looking for an Israeli restaurant in Paris.  
+
+Let's find a highly-rated one first.  I'll use the following tools:
+
+1. **get_all_restaurants_in_city:** To get a list of all restaurants in Paris.
+2. **get_cuisine_type_for_restaurants:** To filter the list down to Israeli restaurants.
+3. **get_rating_reviews_for_restaurants:** To find the best-rated options. 
+
+I'll then use  **get_restaurants_address** to get the address for the chosen restaurant and  **create_calendar_event** to add a reminder to your calendar.

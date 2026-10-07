@@ -1,0 +1,28 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Okay, let's proceed with the booking. \n\n{\"name\": \"reserve_flight\", \"arguments\": {\"airline\": \"EasyJet\", \"flight_number\": \"EJ789\", \"passengers\": 2}} \n\n\nLet me know if you'd like me to find car rental options now."
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_flight_information",
+      "args": {
+        "departure_city": "Paris",
+        "arrival_city": "London"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "SAVE20"
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

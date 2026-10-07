@@ -1,0 +1,17 @@
+Okay, here's a plan for your trip to Paris:
+
+**1. Hotel:**
+
+*   I'll need to use the `get_all_hotels_in_city` tool with "Paris" as the city to find all available hotels. Then, I'll use `get_hotels_prices` to get the prices and `get_rating_reviews_for_hotels` to find the best-rated options within your budget.
+
+**2. Car Rental:**
+
+*   Similarly, I'll use `get_all_car_rental_companies_in_city` with "Paris" to find all car rental companies. Then, I'll use `get_car_types_available` and `get_car_price_per_day` to find the best car type and price.
+
+**3. Restaurant:**
+
+*   I'll use `get_all_restaurants_in_city` with "Paris" to find all restaurants. Then, I'll use `get_rating_reviews_for_restaurants` and `get_cuisine_type_for_restaurants` to find highly-rated restaurants with cuisines you might enjoy.
+
+Once I have this information, I can give you specific recommendations for a hotel, car rental company, and restaurant that fit your budget and preferences. 
+
+I'll also factor in the 20% discount from the "SAVE20" offer to make sure you get the best possible deal.

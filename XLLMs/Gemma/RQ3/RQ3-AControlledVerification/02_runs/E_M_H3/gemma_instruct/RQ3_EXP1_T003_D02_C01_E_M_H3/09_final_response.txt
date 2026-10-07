@@ -1,0 +1,26 @@
+Okay, here's a plan for your trip to Paris:
+
+**Hotel:**
+
+*   I recommend checking the hotels in Paris using the `get_all_hotels_in_city` tool with the city parameter set to "Paris". Then, use the `get_hotels_prices` tool to filter for hotels within your budget of 210 euros per day. Finally, use the `get_rating_reviews_for_hotels` tool to identify the hotel with the highest rating.
+
+**Restaurant:**
+
+*   To find a highly-rated French restaurant open on Sunday in Paris, use the `get_all_restaurants_in_city` tool with "Paris" as the city. Then, use the `get_cuisine_type_for_restaurants` tool to filter for restaurants serving French cuisine.  Next, use the `get_rating_reviews_for_restaurants` tool to find the restaurant with the highest rating.
+
+**Estimated Cost:**
+
+*   Once you have the hotel and restaurant names, you can estimate the total cost. 
+    *   Use the `get_hotels_address` tool to find the hotel's address and use that to estimate the cost of transportation to and from the airport.
+    *   Use the `get_price_for_restaurants` tool to find the average price per person for lunch at the chosen restaurant.
+    *   Multiply the hotel price per day by 3 to get the total hotel cost.
+    *   Multiply the restaurant price per person by 2 (for two meals per day) and by 3 (for three days) to get the total restaurant cost.
+    *   Add the hotel cost, restaurant cost, and estimated transportation cost to get the total trip cost.
+
+**Important Notes:**
+
+*   Remember to check the opening hours of both the hotel and the restaurant to ensure they are open during your desired times.
+*   Consider using the `list_available_offers` and `apply_offer` tools to see if any travel offers can help reduce your costs.
+
+
+Let me know if you have any other questions.

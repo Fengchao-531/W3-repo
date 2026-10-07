@@ -1,0 +1,9 @@
+Okay, let's proceed with the cheapest flight option. 
+
+{"name": "reserve_flight", "arguments": {"airline": "EasyJet", "flight_number": "EJ789", "departure_city": "Paris", "arrival_city": "London", "num_passengers": 2}} 
+
+
+
+Let me now find the best-rated car rental companies in London. 
+
+{"name": "get_all_car_rental_companies_in_city", "arguments": {"city": "London"}}

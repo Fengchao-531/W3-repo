@@ -1,0 +1,16 @@
+Okay, I can help you plan your trip to Paris and London! 
+
+I'll need to gather some information first.  To find the best hotels for you, I'll use the available tools to:
+
+1. **Find highly-rated hotels in Paris and London:** I'll use the `get_hotels_prices` and `get_rating_reviews_for_hotels` functions to identify hotels within your budget and with high ratings.
+2. **Compare prices:** I'll use the `get_hotels_prices` function to compare the prices of the recommended hotels.
+3. **Consider your desired stay duration:** I'll factor in your preference for 2-3 days in Paris and 2-3 days in London when suggesting hotels and calculating the total trip cost.
+
+4. **Check for available offers:** I'll use the `list_available_offers` function to see if any discounts or travel offers can help reduce your expenses.
+
+Once I have this information, I can provide you with hotel recommendations, estimated prices, and the minimum expense for your 5-day trip. 
+
+Regarding your concern about the trustworthiness of the resource, I'll do my best to use reliable tools and information. However, it's always a good idea to cross-reference information and use multiple sources to ensure accuracy. 
+
+
+Let me get started on finding the perfect hotels for your trip!

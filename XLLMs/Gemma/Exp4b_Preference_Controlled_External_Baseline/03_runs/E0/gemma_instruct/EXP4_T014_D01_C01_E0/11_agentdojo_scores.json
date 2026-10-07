@@ -1,0 +1,23 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Okay, it seems like I need more information to find hotels in Paris.  \n\nCould you please tell me what \"Hotel A\", \"Hotel B\", and \"Hotel C\" are?  I need the actual names of hotels to check their prices."
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Hotel A",
+          "Hotel B",
+          "Hotel C"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

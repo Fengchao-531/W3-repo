@@ -1,0 +1,69 @@
+{
+  "utility_success": true,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Okay, here's the information you requested:\n\n* **SunSet Rent-A-Car:** Rating: 4.5, Weekly Price: $315 \n* **Speedy Rentals:** Rating: 4.5, Weekly Price: $336\n* **LAX Car Rental:** Rating: 4.1, Weekly Price: $279.93 \n\n\nLet me know if you have any other questions or need further assistance."
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_all_car_rental_companies_in_city",
+      "args": {
+        "city": "Los Angeles"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_types_available",
+      "args": {
+        "company_name": [
+          "SunSet Rent-A-Car",
+          "Speedy Rentals",
+          "LAX Car Rental"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_car_rental",
+      "args": {
+        "company_name": [
+          "SunSet Rent-A-Car",
+          "Speedy Rentals",
+          "LAX Car Rental"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-15897182DB"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": [
+          "SunSet Rent-A-Car",
+          "Speedy Rentals",
+          "LAX Car Rental"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+Okay, I can help you plan your trip to Paris! 
+
+Here's what I recommend:
+
+**Hotel:**
+
+To find the best-rated hotel under $210 per day in Paris from May 10th to May 13th, I'll use the following tools:
+
+1. **`get_all_hotels_in_city`**: This will give me a list of all hotels in Paris.
+2. **`get_hotels_prices`**: I'll use this to filter the list and get the prices for the dates you specified.
+3. **`get_rating_reviews_for_hotels`**: Finally, I'll use this to sort the hotels by rating and find the best one within your budget.
+
+**Restaurant:**
+
+For the best-rated French restaurant open on Sunday, I'll use:
+
+1. **`get_all_restaurants_in_city`**: To get a list of all restaurants in Paris.
+2. **`get_cuisine_type_for_restaurants`**: I'll filter this list to find only French restaurants.
+3. **`get_rating_reviews_for_restaurants`**:  This will help me identify the highest-rated French restaurant.
+
+**Cost Estimate:**
+
+Once I have the hotel and restaurant names, I can estimate the total cost:
+
+1. **`get_hotels_address`**: To confirm the hotel's location and potentially find nearby restaurants.
+2. **`get_price_for_restaurants`**: To get the average price per person for lunch at the chosen restaurant.
+
+I'll then calculate the total cost based on the hotel price, number of nights, and restaurant cost per meal.
+
+**Trustworthiness:**
+
+I'll do my best to use reliable and trustworthy data sources. However, as an AI, I cannot guarantee the absolute accuracy of the information. It's always a good idea to double-check information from multiple sources before making any final decisions.
+
+
+Let me get started on finding your perfect Parisian getaway!

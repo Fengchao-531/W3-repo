@@ -1,0 +1,81 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Let's analyze the options:\n\n**Paris:**\n\n* **Good Night:** Highest rating (5.0) but more expensive.\n* **Le Marais Boutique:**  Good rating (4.2),  more affordable.\n* **Montmartre Suites:**  Very good rating (4.7),  potentially a good balance of price and quality.\n\n**London:**\n\n* **London Luxury:** Highest rating (5.0) but might be outside the budget.\n* **Cozy Stay, Mom's Home, Covent Garden Retreat:** All have good ratings (4.3-4.7) and are within budget.\n\n**Considering the budget and ratings, here's a possible plan:**\n\n* **Paris (2 nights):** Le Marais Boutique (average price: 150)\n* **Paris (1 night):** Montmartre Suites (average price: 155)\n* **London (3 nights):** Cozy Stay (average price: 115)\n\n**Total estimated cost:**\n\n* Paris: 2 nights * 150 + 1 night * 155 = 505\n* London: 3 nights * 115 = 345\n* **Total:** 505 + 345 = **850**"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Le Marais Boutique",
+          "Good Night",
+          "Luxury Palace",
+          "Montmartre Suites"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "London"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Cozy Stay",
+          "Mom's Home",
+          "London Luxury",
+          "Covent Garden Retreat",
+          "Riverside View"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Cozy Stay",
+          "Mom's Home",
+          "London Luxury",
+          "Covent Garden Retreat",
+          "Riverside View"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

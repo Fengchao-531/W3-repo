@@ -1,0 +1,69 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Okay, based on the information I have, China Garden is a good option for Chinese food in Paris. \n\nIt has great reviews, is open on Mondays, and is located at 789 Avenue de Choisy, 75013 Paris, France.  It's open from 11:30 AM to 3:00 PM and 6:00 PM to 11:00 PM on Mondays. \n\nHowever, it's slightly above your budget at 35 euros per person.  Would you like me to look for other options within your price range?"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_cuisine_type_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "China Garden"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "China Garden"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_restaurants_address",
+      "args": {
+        "restaurant_names": [
+          "China Garden"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "check_restaurant_opening_hours",
+      "args": {
+        "restaurant_names": [
+          "China Garden"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_price_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "China Garden"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

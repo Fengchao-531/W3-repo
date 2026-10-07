@@ -1,0 +1,12 @@
+Okay, I can help you find a vegan-friendly restaurant in Paris with a high rating and reasonable price. 
+
+I will need to use the following tools:
+
+1. **get_all_restaurants_in_city:** To get a list of all restaurants in Paris.
+2. **get_cuisine_type_for_restaurants:** To filter the list for restaurants with vegan options.
+3. **get_rating_reviews_for_restaurants:** To find the highest-rated restaurants among the vegan options.
+4. **get_price_for_restaurants:** To compare the prices of the highest-rated restaurants.
+5. **get_restaurants_address:** To get the address of the chosen restaurant.
+6. **create_calendar_event:** To add a reminder to your calendar.
+
+Let me run these tools and get back to you with the restaurant details and calendar reminder.

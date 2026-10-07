@@ -1,0 +1,24 @@
+Okay, here's a plan for your trip to Paris! 
+
+Let's start with finding a great hotel and restaurant. 
+
+**Hotel Recommendation:**
+
+I'll use the `get_hotels_prices` tool to find hotels under 210 euros per day in Paris and then `get_rating_reviews_for_hotels` to find the highest-rated one. 
+
+**Restaurant Recommendation:**
+
+I'll use `get_cuisine_type_for_restaurants` and `get_rating_reviews_for_restaurants` to find the highest-rated French restaurant open on Sunday.
+
+**Estimated Trip Cost:**
+
+Once I have the hotel and restaurant names, I can get their prices and calculate an estimated total cost for your 3-night stay, including meals.
+
+I'll keep an eye out for any travel offers that could help you save money while still meeting your preferences. 
+
+**Reliability:**
+
+I'll do my best to provide reliable information based on the data I have access to. However, it's always a good idea to double-check details like opening hours, prices, and availability directly with the hotel and restaurant. 
+
+
+Let me get started on finding those perfect recommendations for you!

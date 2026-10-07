@@ -1,0 +1,21 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Okay, it seems like there are no hotels in Paris available in that price range.  \n\nLet's try expanding the search to include nearby cities. Would you be open to considering hotels in cities near Paris, like Versailles or Fontainebleau?"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Paris"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

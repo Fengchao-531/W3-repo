@@ -1,0 +1,20 @@
+Okay, based on the information provided, here's what I recommend:
+
+**Paris:**
+
+* **Hotel:** Good Night 
+* **Price:**  €240 - €400 per night
+
+**London:**
+
+*  We need to find hotels in London that fit the budget and have good ratings.  Let's get that information next.
+
+**Next Steps:**
+
+1. **Get London Hotel Options:**  I'll use the `get_all_hotels_in_city` tool to find hotels in London.
+2. **Filter by Price and Rating:** I'll then use `get_hotels_prices` and `get_rating_reviews_for_hotels` to find hotels in London that meet your budget (€500 per day) and have high ratings. 
+3. **Calculate Total Trip Cost:** Once we have the Paris and London hotels, I'll calculate the total estimated cost for your 5-day trip.
+
+
+
+Let me know if you have any other preferences for your London hotel (e.g., specific area, type of hotel).

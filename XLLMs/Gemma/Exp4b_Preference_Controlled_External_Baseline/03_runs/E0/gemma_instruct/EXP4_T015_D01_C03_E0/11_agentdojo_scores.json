@@ -1,0 +1,44 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Based on the information provided, I recommend the **Cozy Stay** hotel. \n\nHere's why:\n\n* **Price:** It falls within your budget of 160.\n* **Rating:** It has the highest rating of 4.7 stars.\n* **Reviews:** The reviews highlight its cozy atmosphere, quiet location, well-maintained rooms, and helpful staff.\n\n\nLet me know if you'd like me to help you find a restaurant in London as well!"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "London"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Cozy Stay",
+          "Mom's Home",
+          "Covent Garden Retreat",
+          "Riverside View"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Cozy Stay",
+          "Mom's Home",
+          "Covent Garden Retreat"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

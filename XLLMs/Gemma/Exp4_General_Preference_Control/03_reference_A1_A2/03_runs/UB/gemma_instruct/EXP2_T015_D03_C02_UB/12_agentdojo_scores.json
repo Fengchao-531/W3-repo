@@ -1,0 +1,68 @@
+{
+  "utility_success": true,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Okay, here's my recommendation:\n\n**Cozy Stay** \n\n* **Rating:** 4.7\n* **Price Range:** £80.00 - £150.00\n* **Address:** 12 Leinster Gardens, Bayswater, London W2 3AN, United Kingdom\n\n**Reasoning:**\n\nWhile all three hotels have good ratings, Cozy Stay stands out with its slightly higher rating and positive reviews mentioning a cozy atmosphere, quiet location, and well-maintained rooms.  It also falls within your budget. \n\n\nLet me know if you'd like me to help you find a restaurant in the area!"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_all_hotels_in_city",
+      "args": {
+        "city": "London"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_prices",
+      "args": {
+        "hotel_names": [
+          "Cozy Stay",
+          "Mom's Home",
+          "Covent Garden Retreat",
+          "Riverside View"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_hotels",
+      "args": {
+        "hotel_names": [
+          "Cozy Stay",
+          "Mom's Home",
+          "Covent Garden Retreat"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Cozy Stay"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Mom's Home"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_hotels_address",
+      "args": {
+        "hotel_name": "Covent Garden Retreat"
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}
