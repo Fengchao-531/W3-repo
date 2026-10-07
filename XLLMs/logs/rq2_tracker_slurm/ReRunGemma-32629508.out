@@ -1,0 +1,63 @@
+[2026-09-20T00:44:19+10:00] tracker_job_start model=Gemma job=ReRunGemma id=32629508 node=g014
+[2026-09-20T00:44:19+10:00] NODE_STATUS job=ReRunGemma id=32629508 node=g014
+CUDA_VISIBLE_DEVICES=0
+MODEL_ROOT=/scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma
+TRACKER_DIR=/scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker
+             JOBID                     NAME      STATE         TIME TIME_LIMIT PARTITION     NODELIST                    NODELIST(REASON)
+          32629508               ReRunGemma    RUNNING         0:02    2:00:00     h2gpu         g014                                g014
+[2026-09-20T00:44:19+10:00] START spans
+0, NVIDIA H100, 0 MiB, 95830 MiB, 0 %
+Sun Sep 20 00:44:19 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.126.20             Driver Version: 580.126.20     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H100                    On  |   00000000:DC:00.0 Off |                    0 |
+| N/A   28C    P0             68W /  700W |       0MiB /  95830MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+  PID  PPID STAT     ELAPSED %CPU %MEM COMMAND
+45506 45354 Ss+        51:16  0.0  0.0 /bin/bash -l
+51016 50866 S          00:02  0.0  0.0 bash /cm/local/apps/slurm/var/spool/job32629508/slurm_script Gemma /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma
+51024 51016 S          00:00  0.0  0.0 bash /cm/local/apps/slurm/var/spool/job32629508/slurm_script Gemma /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma
+51034 51016 S          00:00  0.0  0.0 bash /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/run_tracker_full.sh /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker
+51041 51034 S          00:00  0.0  0.0 bash /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/run_tracker_full.sh /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker
+51042 51034 S          00:00  0.0  0.0 tee -a /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker/08_logs/full_resume.log
+51043 51041 I          00:00 14.2  0.0 /scratch3/che489/.conda/envs/W4/bin/python tracker_pipeline.py spans
+51048 51024 R          00:00  166  0.0 ps -u che489 -o pid,ppid,stat,etime,pcpu,pmem,args --sort=-pcpu
+51049 51024 S          00:00  0.0  0.0 head -40
+spans=1984
+[2026-09-20T00:45:32+10:00] DONE  spans
+[2026-09-20T00:45:32+10:00] START prefixes
+prefix_samples=1984 exact_roundtrip=1984
+[2026-09-20T00:46:20+10:00] DONE  prefixes
+[2026-09-20T00:46:20+10:00] START temporal_extract
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights:   0%|          | 1/464 [00:01<07:47,  1.01s/it]Loading weights:   1%|          | 5/464 [00:01<01:20,  5.72it/s]Loading weights:   3%|▎         | 14/464 [00:01<00:26, 17.23it/s]Loading weights:   4%|▍         | 19/464 [00:01<00:20, 22.13it/s]Loading weights:   5%|▌         | 25/464 [00:01<00:15, 27.51it/s]Loading weights:   6%|▋         | 30/464 [00:01<00:13, 31.17it/s]Loading weights:   8%|▊         | 36/464 [00:01<00:12, 35.01it/s]Loading weights:   9%|▉         | 41/464 [00:01<00:11, 37.09it/s]Loading weights:  10%|█         | 47/464 [00:02<00:10, 39.49it/s]Loading weights:  11%|█         | 52/464 [00:02<00:10, 40.44it/s]Loading weights:  12%|█▎        | 58/464 [00:02<00:09, 41.76it/s]Loading weights:  14%|█▎        | 63/464 [00:02<00:09, 42.42it/s]Loading weights:  15%|█▍        | 69/464 [00:02<00:09, 43.18it/s]Loading weights:  16%|█▌        | 74/464 [00:02<00:09, 43.22it/s]Loading weights:  17%|█▋        | 80/464 [00:02<00:09, 39.65it/s]Loading weights:  18%|█▊        | 85/464 [00:02<00:09, 40.09it/s]Loading weights:  20%|█▉        | 91/464 [00:03<00:08, 43.92it/s]Loading weights:  21%|██        | 96/464 [00:03<00:08, 44.47it/s]Loading weights:  22%|██▏       | 102/464 [00:03<00:08, 44.93it/s]Loading weights:  23%|██▎       | 107/464 [00:03<00:07, 45.88it/s]Loading weights:  24%|██▍       | 113/464 [00:03<00:08, 41.73it/s]Loading weights:  25%|██▌       | 118/464 [00:03<00:07, 43.39it/s]Loading weights:  27%|██▋       | 124/464 [00:03<00:07, 44.99it/s]Loading weights:  28%|██▊       | 129/464 [00:03<00:07, 45.09it/s]Loading weights:  29%|██▉       | 135/464 [00:03<00:07, 46.81it/s]Loading weights:  30%|███       | 140/464 [00:04<00:06, 47.11it/s]Loading weights:  31%|███▏      | 146/464 [00:04<00:06, 48.47it/s]Loading weights:  33%|███▎      | 151/464 [00:04<00:06, 48.13it/s]Loading weights:  34%|███▍      | 157/464 [00:04<00:06, 48.81it/s]Loading weights:  35%|███▍      | 162/464 [00:04<00:06, 48.96it/s]Loading weights:  36%|███▌      | 168/464 [00:04<00:05, 49.43it/s]Loading weights:  37%|███▋      | 173/464 [00:04<00:05, 49.18it/s]Loading weights:  39%|███▊      | 179/464 [00:04<00:05, 48.73it/s]Loading weights:  40%|███▉      | 184/464 [00:05<00:05, 46.87it/s]Loading weights:  41%|████      | 190/464 [00:05<00:05, 49.76it/s]Loading weights:  42%|████▏     | 196/464 [00:05<00:05, 44.96it/s]Loading weights:  44%|████▎     | 202/464 [00:05<00:05, 46.70it/s]Loading weights:  45%|████▍     | 208/464 [00:05<00:05, 48.72it/s]Loading weights:  46%|████▌     | 213/464 [00:05<00:05, 47.14it/s]Loading weights:  47%|████▋     | 219/464 [00:05<00:05, 48.44it/s]Loading weights:  48%|████▊     | 224/464 [00:05<00:05, 41.35it/s]Loading weights:  50%|█████     | 232/464 [00:06<00:04, 49.99it/s]Loading weights:  51%|█████▏    | 238/464 [00:06<00:05, 44.95it/s]Loading weights:  53%|█████▎    | 245/464 [00:06<00:04, 48.11it/s]Loading weights:  54%|█████▍    | 251/464 [00:06<00:04, 48.13it/s]Loading weights:  55%|█████▌    | 256/464 [00:06<00:04, 47.08it/s]Loading weights:  56%|█████▋    | 261/464 [00:06<00:04, 46.69it/s]Loading weights:  58%|█████▊    | 267/464 [00:06<00:04, 47.06it/s]Loading weights:  59%|█████▊    | 272/464 [00:06<00:04, 45.07it/s]Loading weights:  60%|█████▉    | 278/464 [00:07<00:03, 47.54it/s]Loading weights:  61%|██████    | 283/464 [00:07<00:03, 46.71it/s]Loading weights:  62%|██████▏   | 289/464 [00:07<00:03, 46.93it/s]Loading weights:  63%|██████▎   | 294/464 [00:07<00:03, 46.48it/s]Loading weights:  65%|██████▍   | 300/464 [00:07<00:03, 47.11it/s]Loading weights:  66%|██████▌   | 305/464 [00:07<00:03, 46.44it/s]Loading weights:  67%|██████▋   | 311/464 [00:07<00:03, 46.93it/s]Loading weights:  68%|██████▊   | 316/464 [00:07<00:03, 46.43it/s]Loading weights:  69%|██████▉   | 322/464 [00:07<00:03, 46.97it/s]Loading weights:  70%|███████   | 327/464 [00:08<00:02, 46.41it/s]Loading weights:  72%|███████▏  | 333/464 [00:08<00:02, 45.93it/s]Loading weights:  73%|███████▎  | 338/464 [00:08<00:02, 45.52it/s]Loading weights:  74%|███████▍  | 344/464 [00:08<00:02, 45.46it/s]Loading weights:  75%|███████▌  | 349/464 [00:08<00:02, 45.07it/s]Loading weights:  77%|███████▋  | 355/464 [00:08<00:02, 41.50it/s]Loading weights:  78%|███████▊  | 360/464 [00:08<00:02, 42.66it/s]Loading weights:  79%|███████▉  | 367/464 [00:08<00:02, 43.90it/s]Loading weights:  80%|████████  | 372/464 [00:09<00:02, 33.60it/s]Loading weights:  81%|████████▏ | 378/464 [00:09<00:02, 36.53it/s]Loading weights:  83%|████████▎ | 383/464 [00:09<00:02, 38.66it/s]Loading weights:  84%|████████▍ | 389/464 [00:09<00:01, 41.59it/s]Loading weights:  85%|████████▌ | 396/464 [00:09<00:01, 46.89it/s]Loading weights:  86%|████████▋ | 401/464 [00:09<00:01, 39.49it/s]Loading weights:  88%|████████▊ | 410/464 [00:10<00:01, 36.33it/s]Loading weights:  91%|█████████ | 421/464 [00:10<00:00, 47.78it/s]Loading weights:  92%|█████████▏| 427/464 [00:10<00:00, 46.75it/s]Loading weights:  93%|█████████▎| 433/464 [00:10<00:00, 46.40it/s]Loading weights:  95%|█████████▍| 440/464 [00:10<00:00, 49.60it/s]Loading weights:  96%|█████████▌| 446/464 [00:10<00:00, 45.78it/s]Loading weights:  98%|█████████▊| 454/464 [00:10<00:00, 50.90it/s]Loading weights:  99%|█████████▉| 460/464 [00:11<00:00, 51.52it/s]Loading weights: 100%|██████████| 464/464 [00:11<00:00, 41.77it/s]
+[1/1984] skip RQ1_Exp1__UC_M__EXP1_T000_D01_C01__M
+[2/1984] skip RQ1_Exp1__UC_BM__EXP1_T000_D01_C01__BM
+[3/1984] skip RQ1_Exp1__UC_M__EXP1_T000_D01_C02__M
+[4/1984] skip RQ1_Exp1__UC_BM__EXP1_T000_D01_C02__BM
+[5/1984] skip RQ1_Exp1__UC_M__EXP1_T000_D01_C03__M
+[6/1984] skip RQ1_Exp1__UC_BM__EXP1_T000_D01_C03__BM
+[7/1984] skip RQ1_Exp1__UC_M__EXP1_T000_D02_C01__M
+[8/1984] skip RQ1_Exp1__UC_BM__EXP1_T000_D02_C01__BM
+[9/1984] skip RQ1_Exp1__UC_M__EXP1_T000_D02_C02__M
+[10/1984] skip RQ1_Exp1__UC_BM__EXP1_T000_D02_C02__BM
+[11/1984] skip RQ1_Exp1__UC_M__EXP1_T000_D02_C03__M
+[12/1984] skip RQ1_Exp1__UC_BM__EXP1_T000_D02_C03__BM
+[13/1984] skip RQ1_Exp1__UC_M__EXP1_T000_D03_C01__M
+[14/1984] skip RQ1_Exp1__UC_BM__EXP1_T000_D03_C01__BM
+[15/1984] skip RQ1_Exp1__UC_M__EXP1_T000_D03_C02__M
+[16/1984] skip RQ1_Exp1__UC_BM__EXP1_T000_D03_C02__BM
+[17/1984] skip RQ1_Exp1__UC_M__EXP1_T000_D03_C03__M

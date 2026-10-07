@@ -1,0 +1,44 @@
+[2026-09-20T00:45:00+10:00] NODE_STATUS job=ReRunGemma id=32629512 node=g096
+[2026-09-20T00:45:00+10:00] tracker_job_start model=Gemma job=ReRunGemma id=32629512 node=g096
+CUDA_VISIBLE_DEVICES=0
+MODEL_ROOT=/scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma
+TRACKER_DIR=/scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker
+             JOBID                     NAME      STATE         TIME TIME_LIMIT PARTITION     NODELIST                    NODELIST(REASON)
+          32629512               ReRunGemma    RUNNING         0:02    2:00:00     h2gpu         g096                                g096
+[2026-09-20T00:45:00+10:00] START spans
+0, NVIDIA H100, 0 MiB, 95830 MiB, 0 %
+Sun Sep 20 00:45:00 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.126.20             Driver Version: 580.126.20     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H100                    On  |   00000000:CC:00.0 Off |                    0 |
+| N/A   28C    P0             69W /  700W |       0MiB /  95830MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+  PID  PPID STAT     ELAPSED %CPU %MEM COMMAND
+23923 23773 S          00:02  0.0  0.0 bash /cm/local/apps/slurm/var/spool/job32629512/slurm_script Gemma /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma
+23933 23923 S          00:00  0.0  0.0 bash /cm/local/apps/slurm/var/spool/job32629512/slurm_script Gemma /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma
+23939 23923 S          00:00  0.0  0.0 bash /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/run_tracker_full.sh /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker
+23946 23939 S          00:00  0.0  0.0 bash /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/run_tracker_full.sh /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker
+23947 23939 S          00:00  0.0  0.0 tee -a /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker/08_logs/full_resume.log
+23948 23946 R          00:00 15.3  0.0 /scratch3/che489/.conda/envs/W4/bin/python tracker_pipeline.py spans
+23952 23933 R          00:00  250  0.0 ps -u che489 -o pid,ppid,stat,etime,pcpu,pmem,args --sort=-pcpu
+23953 23933 S          00:00  0.0  0.0 head -40
+spans=1984
+[2026-09-20T00:46:14+10:00] DONE  spans
+[2026-09-20T00:46:14+10:00] START prefixes
+prefix_samples=1984 exact_roundtrip=1984
+[2026-09-20T00:47:03+10:00] DONE  prefixes
+[2026-09-20T00:47:03+10:00] START temporal_extract

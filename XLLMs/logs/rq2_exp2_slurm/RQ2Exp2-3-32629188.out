@@ -1,0 +1,4 @@
+[2026-09-20T00:13:16+10:00] job_start name=RQ2Exp2-3 id=32629188 group=3 node=g032
+CUDA_VISIBLE_DEVICES=0
+group=3 models=llama deepseek visible_gpus=1
+[2026-09-20T00:13:16+10:00] START group=3 model=llama device=cuda:0 log=/scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/logs/rq2_exp2_groups/group3_llama.log

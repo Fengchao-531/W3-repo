@@ -1,0 +1,13 @@
+{
+  "backend": "local_llama31_transformers",
+  "model_name": "local-llama-3.1-8b-instruct",
+  "model_path": "/scratch3/che489/FC-W2-SoK/model_cache/hub/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659",
+  "device": "auto",
+  "dtype": "bfloat16",
+  "max_new_tokens": 512,
+  "max_input_tokens": 8192,
+  "experiments": "all",
+  "limit": 1,
+  "force": false,
+  "analyze": false
+}

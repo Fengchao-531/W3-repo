@@ -1,0 +1,5 @@
+[2026-10-01T10:39:38+10:00] job_start name=Exp4A12-deepseek id=35195746 model=deepseek node=g084
+CUDA_VISIBLE_DEVICES=0
+[2026-10-01T10:39:38+10:00] START stage=exp4_a1a2 model=deepseek device=cuda:0 log=/scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/logs/exp4_a1a2_models/deepseek.log
+[2026-10-01T12:20:37+10:00] DONE  stage=exp4_a1a2 model=deepseek device=cuda:0
+[2026-10-01T12:20:37+10:00] job_done name=Exp4A12-deepseek id=35195746 model=deepseek

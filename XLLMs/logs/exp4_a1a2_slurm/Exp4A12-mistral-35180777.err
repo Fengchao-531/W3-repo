@@ -1,0 +1,45 @@
+Error processing line 1 of /scratch3/che489/anaconda3_new/lib/python3.12/site-packages/sphinxcontrib_applehelp-1.0.2-py3.9-nspkg.pth:
+
+  Traceback (most recent call last):
+    File "<frozen site>", line 206, in addpackage
+    File "<string>", line 1, in <module>
+    File "<frozen importlib._bootstrap>", line 810, in module_from_spec
+  AttributeError: 'NoneType' object has no attribute 'loader'
+
+Remainder of file ignored
+Error processing line 1 of /scratch3/che489/anaconda3_new/lib/python3.12/site-packages/sphinxcontrib_devhelp-1.0.2-py3.9-nspkg.pth:
+
+  Traceback (most recent call last):
+    File "<frozen site>", line 206, in addpackage
+    File "<string>", line 1, in <module>
+    File "<frozen importlib._bootstrap>", line 810, in module_from_spec
+  AttributeError: 'NoneType' object has no attribute 'loader'
+
+Remainder of file ignored
+Error processing line 1 of /scratch3/che489/anaconda3_new/lib/python3.12/site-packages/sphinxcontrib_htmlhelp-2.0.0-py3.9-nspkg.pth:
+
+  Traceback (most recent call last):
+    File "<frozen site>", line 206, in addpackage
+    File "<string>", line 1, in <module>
+    File "<frozen importlib._bootstrap>", line 810, in module_from_spec
+  AttributeError: 'NoneType' object has no attribute 'loader'
+
+Remainder of file ignored
+Error processing line 1 of /scratch3/che489/anaconda3_new/lib/python3.12/site-packages/sphinxcontrib_jsmath-1.0.1-py3.9-nspkg.pth:
+
+  Traceback (most recent call last):
+    File "<frozen site>", line 206, in addpackage
+    File "<string>", line 1, in <module>
+    File "<frozen importlib._bootstrap>", line 810, in module_from_spec
+  AttributeError: 'NoneType' object has no attribute 'loader'
+
+Remainder of file ignored
+Error processing line 1 of /scratch3/che489/anaconda3_new/lib/python3.12/site-packages/sphinxcontrib_qthelp-1.0.3-py3.9-nspkg.pth:
+
+  Traceback (most recent call last):
+    File "<frozen site>", line 206, in addpackage
+    File "<string>", line 1, in <module>
+    File "<frozen importlib._bootstrap>", line 810, in module_from_spec
+  AttributeError: 'NoneType' object has no attribute 'loader'
+
+Remainder of file ignored

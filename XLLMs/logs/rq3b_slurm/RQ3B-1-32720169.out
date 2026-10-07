@@ -1,0 +1,28 @@
+[2026-09-21T17:00:28+10:00] rq3b_job_start name=RQ3B-1 id=32720169 group=1 node=g025
+CUDA_VISIBLE_DEVICES=0
+RQ3B_FORCE_MODELS=deepseek
+MAX_NEW_TOKENS=2048
+Mon Sep 21 17:00:28 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.126.20             Driver Version: 580.126.20     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H100                    On  |   00000000:CC:00.0 Off |                    0 |
+| N/A   28C    P0             69W /  700W |       0MiB /  95830MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+rq3b_group=1 models=gemma qwen
+[2026-09-21T17:00:29+10:00] START RQ3B group=1 model=gemma device=cuda:0 log=/scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/logs/rq3b_groups/group1_gemma.log
+[2026-09-21T17:01:36+10:00] DONE  RQ3B group=1 model=gemma device=cuda:0
+[2026-09-21T17:01:36+10:00] START RQ3B group=1 model=qwen device=cuda:0 log=/scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/logs/rq3b_groups/group1_qwen.log

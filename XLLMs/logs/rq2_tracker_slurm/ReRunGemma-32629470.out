@@ -1,0 +1,103 @@
+[2026-09-20T00:38:29+10:00] tracker_job_start model=Gemma job=ReRunGemma id=32629470 node=g021
+[2026-09-20T00:38:29+10:00] NODE_STATUS job=ReRunGemma id=32629470 node=g021
+CUDA_VISIBLE_DEVICES=0
+MODEL_ROOT=/scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma
+TRACKER_DIR=/scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker
+             JOBID                     NAME      STATE         TIME TIME_LIMIT PARTITION     NODELIST                    NODELIST(REASON)
+          32629470               ReRunGemma    RUNNING         0:02    2:00:00     h2gpu         g021                                g021
+[2026-09-20T00:38:29+10:00] START spans
+0, NVIDIA H100, 0 MiB, 95830 MiB, 0 %
+Sun Sep 20 00:38:29 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.126.20             Driver Version: 580.126.20     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H100                    On  |   00000000:4C:00.0 Off |                    0 |
+| N/A   30C    P0             73W /  700W |       0MiB /  95830MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+  PID  PPID STAT     ELAPSED %CPU %MEM COMMAND
+11699 11523 Rl         11:56 95.3  0.6 /scratch3/che489/.conda/envs/W4/bin/python tracker_pipeline.py extract --device cuda:0
+11497 11347 S          13:49  0.0  0.0 bash /cm/local/apps/slurm/var/spool/job32629395/slurm_script OLMo /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/OLMo
+11523 11497 S          13:49  0.0  0.0 bash /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/run_tracker_full.sh /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/OLMo/RQ2Tracker
+11700 11523 S          11:56  0.0  0.0 tee -a /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/OLMo/RQ2Tracker/08_logs/full_resume.log
+13790 13640 S          00:02  0.0  0.0 bash /cm/local/apps/slurm/var/spool/job32629470/slurm_script Gemma /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma
+13822 13790 S          00:00  0.0  0.0 bash /cm/local/apps/slurm/var/spool/job32629470/slurm_script Gemma /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma
+13830 13790 S          00:00  0.0  0.0 bash /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/run_tracker_full.sh /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker
+13837 13830 S          00:00  0.0  0.0 bash /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/run_tracker_full.sh /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker
+13838 13830 S          00:00  0.0  0.0 tee -a /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker/08_logs/full_resume.log
+13839 13837 R          00:00  7.6  0.0 /scratch3/che489/.conda/envs/W4/bin/python tracker_pipeline.py spans
+13843 13822 R          00:00  133  0.0 ps -u che489 -o pid,ppid,stat,etime,pcpu,pmem,args --sort=-pcpu
+13844 13822 S          00:00  0.0  0.0 head -40
+spans=1984
+[2026-09-20T00:39:51+10:00] DONE  spans
+[2026-09-20T00:39:51+10:00] START prefixes
+prefix_samples=1984 exact_roundtrip=1984
+[2026-09-20T00:40:42+10:00] DONE  prefixes
+[2026-09-20T00:40:42+10:00] START temporal_extract
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights:   0%|          | 1/464 [00:00<06:26,  1.20it/s]Loading weights:   1%|          | 4/464 [00:00<01:25,  5.38it/s]Loading weights:   2%|▏         | 11/464 [00:01<00:28, 16.01it/s]Loading weights:   3%|▎         | 15/464 [00:01<00:22, 19.88it/s]Loading weights:   5%|▍         | 21/464 [00:01<00:16, 27.64it/s]Loading weights:   6%|▌         | 26/464 [00:01<00:13, 31.46it/s]Loading weights:   7%|▋         | 33/464 [00:01<00:11, 38.98it/s]Loading weights:   8%|▊         | 38/464 [00:01<00:11, 36.65it/s]Loading weights:  10%|█         | 47/464 [00:01<00:08, 46.36it/s]Loading weights:  11%|█▏        | 53/464 [00:01<00:09, 45.49it/s]Loading weights:  13%|█▎        | 59/464 [00:02<00:08, 45.07it/s]Loading weights:  14%|█▍        | 64/464 [00:02<00:08, 45.39it/s]Loading weights:  15%|█▌        | 70/464 [00:02<00:08, 47.12it/s]Loading weights:  16%|█▌        | 75/464 [00:02<00:08, 45.55it/s]Loading weights:  17%|█▋        | 80/464 [00:02<00:08, 43.70it/s]Loading weights:  18%|█▊        | 85/464 [00:02<00:08, 43.76it/s]Loading weights:  20%|█▉        | 92/464 [00:02<00:09, 39.29it/s]Loading weights:  22%|██▏       | 102/464 [00:03<00:07, 49.83it/s]Loading weights:  23%|██▎       | 108/464 [00:03<00:07, 49.61it/s]Loading weights:  25%|██▍       | 114/464 [00:03<00:08, 40.49it/s]Loading weights:  26%|██▌       | 120/464 [00:03<00:08, 42.80it/s]Loading weights:  27%|██▋       | 125/464 [00:03<00:08, 42.01it/s]Loading weights:  28%|██▊       | 130/464 [00:03<00:07, 43.32it/s]Loading weights:  29%|██▉       | 136/464 [00:03<00:07, 43.80it/s]Loading weights:  31%|███       | 142/464 [00:03<00:07, 44.71it/s]Loading weights:  32%|███▏      | 147/464 [00:04<00:07, 43.52it/s]Loading weights:  33%|███▎      | 152/464 [00:04<00:07, 42.66it/s]Loading weights:  34%|███▍      | 158/464 [00:04<00:06, 44.24it/s]Loading weights:  36%|███▌      | 165/464 [00:04<00:06, 46.83it/s]Loading weights:  37%|███▋      | 170/464 [00:04<00:07, 40.71it/s]Loading weights:  39%|███▊      | 179/464 [00:04<00:05, 48.74it/s]Loading weights:  40%|███▉      | 184/464 [00:04<00:05, 47.69it/s]Loading weights:  41%|████      | 190/464 [00:04<00:05, 47.31it/s]Loading weights:  42%|████▏     | 195/464 [00:05<00:05, 46.81it/s]Loading weights:  43%|████▎     | 201/464 [00:05<00:05, 45.98it/s]Loading weights:  44%|████▍     | 206/464 [00:05<00:05, 45.66it/s]Loading weights:  46%|████▌     | 212/464 [00:05<00:05, 45.80it/s]Loading weights:  47%|████▋     | 217/464 [00:05<00:05, 45.61it/s]Loading weights:  48%|████▊     | 223/464 [00:05<00:05, 41.07it/s]Loading weights:  49%|████▉     | 228/464 [00:05<00:05, 42.07it/s]Loading weights:  50%|█████     | 234/464 [00:06<00:05, 44.71it/s]Loading weights:  52%|█████▏    | 239/464 [00:06<00:05, 44.96it/s]Loading weights:  53%|█████▎    | 245/464 [00:06<00:04, 45.57it/s]Loading weights:  54%|█████▍    | 250/464 [00:06<00:04, 45.50it/s]Loading weights:  55%|█████▌    | 256/464 [00:06<00:04, 45.63it/s]Loading weights:  56%|█████▋    | 261/464 [00:06<00:04, 46.62it/s]Loading weights:  58%|█████▊    | 267/464 [00:06<00:04, 46.50it/s]Loading weights:  59%|█████▊    | 272/464 [00:06<00:04, 46.07it/s]Loading weights:  60%|█████▉    | 278/464 [00:06<00:03, 47.63it/s]Loading weights:  61%|██████    | 283/464 [00:07<00:03, 47.94it/s]Loading weights:  62%|██████▏   | 289/464 [00:07<00:03, 48.45it/s]Loading weights:  63%|██████▎   | 294/464 [00:07<00:03, 48.37it/s]Loading weights:  65%|██████▍   | 300/464 [00:07<00:03, 48.22it/s]Loading weights:  66%|██████▌   | 305/464 [00:07<00:03, 47.98it/s]Loading weights:  67%|██████▋   | 311/464 [00:07<00:03, 48.55it/s]Loading weights:  68%|██████▊   | 316/464 [00:07<00:03, 48.70it/s]Loading weights:  69%|██████▉   | 322/464 [00:07<00:02, 48.71it/s]Loading weights:  70%|███████   | 327/464 [00:07<00:02, 48.71it/s]Loading weights:  72%|███████▏  | 333/464 [00:08<00:07, 17.45it/s]Loading weights:  73%|███████▎  | 337/464 [00:08<00:06, 20.07it/s]Loading weights:  74%|███████▍  | 344/464 [00:08<00:04, 26.49it/s]Loading weights:  75%|███████▌  | 349/464 [00:09<00:03, 29.81it/s]Loading weights:  77%|███████▋  | 355/464 [00:09<00:03, 29.76it/s]Loading weights:  77%|███████▋  | 359/464 [00:09<00:03, 31.62it/s]Loading weights:  79%|███████▉  | 366/464 [00:09<00:02, 39.09it/s]Loading weights:  80%|███████▉  | 371/464 [00:09<00:02, 39.05it/s]Loading weights:  81%|████████▏ | 377/464 [00:09<00:02, 41.55it/s]Loading weights:  82%|████████▏ | 382/464 [00:10<00:02, 29.46it/s]Loading weights:  84%|████████▎ | 388/464 [00:10<00:02, 32.83it/s]Loading weights:  84%|████████▍ | 392/464 [00:10<00:02, 33.37it/s]Loading weights:  86%|████████▌ | 399/464 [00:10<00:01, 38.84it/s]Loading weights:  87%|████████▋ | 404/464 [00:10<00:01, 40.42it/s]Loading weights:  88%|████████▊ | 410/464 [00:10<00:01, 42.25it/s]Loading weights:  89%|████████▉ | 415/464 [00:10<00:01, 43.32it/s]Loading weights:  91%|█████████ | 421/464 [00:10<00:00, 44.59it/s]Loading weights:  92%|█████████▏| 426/464 [00:11<00:00, 43.99it/s]Loading weights:  93%|█████████▎| 432/464 [00:11<00:00, 44.95it/s]Loading weights:  94%|█████████▍| 437/464 [00:11<00:00, 45.19it/s]Loading weights:  95%|█████████▌| 443/464 [00:11<00:00, 45.74it/s]Loading weights:  97%|█████████▋| 448/464 [00:11<00:00, 45.93it/s]Loading weights:  98%|█████████▊| 454/464 [00:11<00:00, 46.58it/s]Loading weights:  99%|█████████▉| 459/464 [00:11<00:00, 47.35it/s]Loading weights: 100%|██████████| 464/464 [00:11<00:00, 39.36it/s]
+[1/1984] saved /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker/03_activations/01_rq1_exp1/RQ1_Exp1__UC_M__EXP1_T000_D01_C01__M.pt
+[2/1984] saved /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker/03_activations/01_rq1_exp1/RQ1_Exp1__UC_BM__EXP1_T000_D01_C01__BM.pt
+[3/1984] saved /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker/03_activations/01_rq1_exp1/RQ1_Exp1__UC_M__EXP1_T000_D01_C02__M.pt
+[4/1984] saved /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker/03_activations/01_rq1_exp1/RQ1_Exp1__UC_BM__EXP1_T000_D01_C02__BM.pt
+[5/1984] saved /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker/03_activations/01_rq1_exp1/RQ1_Exp1__UC_M__EXP1_T000_D01_C03__M.pt
+[6/1984] saved /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker/03_activations/01_rq1_exp1/RQ1_Exp1__UC_BM__EXP1_T000_D01_C03__BM.pt
+[7/1984] saved /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker/03_activations/01_rq1_exp1/RQ1_Exp1__UC_M__EXP1_T000_D02_C01__M.pt
+[8/1984] saved /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker/03_activations/01_rq1_exp1/RQ1_Exp1__UC_BM__EXP1_T000_D02_C01__BM.pt
+[9/1984] saved /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker/03_activations/01_rq1_exp1/RQ1_Exp1__UC_M__EXP1_T000_D02_C02__M.pt
+[10/1984] saved /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker/03_activations/01_rq1_exp1/RQ1_Exp1__UC_BM__EXP1_T000_D02_C02__BM.pt
+[11/1984] saved /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker/03_activations/01_rq1_exp1/RQ1_Exp1__UC_M__EXP1_T000_D02_C03__M.pt
+[12/1984] saved /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker/03_activations/01_rq1_exp1/RQ1_Exp1__UC_BM__EXP1_T000_D02_C03__BM.pt
+[13/1984] saved /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker/03_activations/01_rq1_exp1/RQ1_Exp1__UC_M__EXP1_T000_D03_C01__M.pt
+[2026-09-20T00:43:29+10:00] NODE_STATUS job=ReRunGemma id=32629470 node=g021
+             JOBID                     NAME      STATE         TIME TIME_LIMIT PARTITION     NODELIST                    NODELIST(REASON)
+          32629470               ReRunGemma    RUNNING         5:02    2:00:00     h2gpu         g021                                g021
+0, NVIDIA H100, 69367 MiB, 95830 MiB, 100 %
+Sun Sep 20 00:43:29 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.126.20             Driver Version: 580.126.20     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H100                    On  |   00000000:4C:00.0 Off |                    0 |
+| N/A   58C    P0            633W /  700W |   69367MiB /  95830MiB |    100%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A           14070      C   ...489/.conda/envs/W4/bin/python      69358MiB |
++-----------------------------------------------------------------------------------------+
+  PID  PPID STAT     ELAPSED %CPU %MEM COMMAND
+11699 11523 Rl         16:56 95.9  0.6 /scratch3/che489/.conda/envs/W4/bin/python tracker_pipeline.py extract --device cuda:0
+14070 14068 Rl         02:48 88.2  0.8 /scratch3/che489/.conda/envs/W4/bin/python tracker_pipeline.py extract --device cuda:0
+11497 11347 S          18:49  0.0  0.0 bash /cm/local/apps/slurm/var/spool/job32629395/slurm_script OLMo /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/OLMo
+11523 11497 S          18:49  0.0  0.0 bash /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/run_tracker_full.sh /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/OLMo/RQ2Tracker
+11700 11523 S          16:56  0.0  0.0 tee -a /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/OLMo/RQ2Tracker/08_logs/full_resume.log
+13790 13640 S          05:02  0.0  0.0 bash /cm/local/apps/slurm/var/spool/job32629470/slurm_script Gemma /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma
+13822 13790 S          05:00  0.0  0.0 bash /cm/local/apps/slurm/var/spool/job32629470/slurm_script Gemma /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma
+13830 13790 S          05:00  0.0  0.0 bash /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/run_tracker_full.sh /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker
+14068 13830 S          02:48  0.0  0.0 bash /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/run_tracker_full.sh /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker
+14069 13830 S          02:48  0.0  0.0 tee -a /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker/08_logs/full_resume.log
+14348 13822 R          00:00  133  0.0 ps -u che489 -o pid,ppid,stat,etime,pcpu,pmem,args --sort=-pcpu
+14349 13822 S          00:00  0.0  0.0 head -40
+[14/1984] saved /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker/03_activations/01_rq1_exp1/RQ1_Exp1__UC_BM__EXP1_T000_D03_C01__BM.pt
+[15/1984] saved /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker/03_activations/01_rq1_exp1/RQ1_Exp1__UC_M__EXP1_T000_D03_C02__M.pt
+[16/1984] saved /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker/03_activations/01_rq1_exp1/RQ1_Exp1__UC_BM__EXP1_T000_D03_C02__BM.pt
+[17/1984] saved /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ2Tracker/03_activations/01_rq1_exp1/RQ1_Exp1__UC_M__EXP1_T000_D03_C03__M.pt

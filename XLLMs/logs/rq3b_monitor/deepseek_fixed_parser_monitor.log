@@ -1,0 +1,4 @@
+[2026-09-21T12:54:01+10:00] MONITOR_START sleep=300s account=OD-237777 excluded=OLMo mode=deepseek_fixed_parser
+[2026-09-21T12:54:02+10:00] STATUS group=3 models=DeepSeek completed=0/2880 active_jobs=0
+[2026-09-21T12:54:02+10:00] ACTIVE group=3 none
+[2026-09-21T12:54:02+10:00] SUBMIT group=3 job=RQ3B-3 id=32693316

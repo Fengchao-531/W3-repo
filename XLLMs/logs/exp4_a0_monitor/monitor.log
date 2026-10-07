@@ -1,0 +1,20 @@
+
+[2026-09-30T23:26:56+10:00] monitor loop=1
+model        A0/180      A1A2/360       A0_csv combined_csv
+DeepSeek     4/180       18/360            -            -
+Gemma       90/180       44/360            -            -
+Llama3.1   133/180       60/360            -            -
+Mistral     59/180       31/360            -            -
+Qwen        18/180       36/360            -            -
+
+             JOBID                 NAME    STATE       TIME PARTITION               NODELIST(REASON)
+          34930338        Exp4A12-gemma  RUNNING       3:20    h24gpu                           g061
+          34930336         Exp4A12-qwen  RUNNING       3:22    h24gpu                           g061
+          34930334     Exp4A12-deepseek  RUNNING       4:14    h24gpu                           g021
+          34930332      Exp4A12-mistral  RUNNING       4:30    h24gpu                           g045
+          34930330        Exp4A12-llama  RUNNING       4:31    h24gpu                           g020
+          34930331         Exp4A0-llama  RUNNING       4:31     h2gpu                           g073
+          34930333       Exp4A0-mistral  RUNNING       4:31     h2gpu                           g070
+          34930335      Exp4A0-deepseek  RUNNING       4:31     h2gpu                           g021
+          34930337          Exp4A0-qwen  RUNNING       4:31     h2gpu                           g020
+          34930339         Exp4A0-gemma  RUNNING       4:31     h2gpu                           g020

@@ -1,0 +1,203 @@
+
+===== gemma :: exp4b_e0 =====
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights:   0%|          | 1/464 [00:01<07:58,  1.03s/it]Loading weights:   1%|          | 5/464 [00:01<01:22,  5.58it/s]Loading weights:   3%|▎         | 14/464 [00:01<00:27, 16.52it/s]Loading weights:   4%|▍         | 18/464 [00:01<00:22, 19.66it/s]Loading weights:   5%|▌         | 25/464 [00:01<00:16, 26.59it/s]Loading weights:   6%|▋         | 30/464 [00:01<00:14, 30.12it/s]Loading weights:   8%|▊         | 36/464 [00:01<00:12, 33.21it/s]Loading weights:   9%|▉         | 41/464 [00:01<00:11, 35.52it/s]Loading weights:  10%|█         | 47/464 [00:02<00:11, 37.40it/s]Loading weights:  11%|█         | 52/464 [00:02<00:10, 38.36it/s]Loading weights:  12%|█▎        | 58/464 [00:02<00:10, 38.64it/s]Loading weights:  14%|█▎        | 63/464 [00:02<00:10, 39.58it/s]Loading weights:  15%|█▍        | 69/464 [00:02<00:09, 40.10it/s]Loading weights:  16%|█▌        | 74/464 [00:02<00:09, 41.06it/s]Loading weights:  17%|█▋        | 80/464 [00:02<00:10, 37.44it/s]Loading weights:  18%|█▊        | 84/464 [00:03<00:10, 37.04it/s]Loading weights:  20%|█▉        | 91/464 [00:03<00:08, 41.94it/s]Loading weights:  21%|██        | 96/464 [00:03<00:08, 42.05it/s]Loading weights:  22%|██▏       | 102/464 [00:03<00:08, 42.82it/s]Loading weights:  23%|██▎       | 107/464 [00:03<00:08, 43.64it/s]Loading weights:  24%|██▍       | 113/464 [00:03<00:09, 37.70it/s]Loading weights:  25%|██▌       | 117/464 [00:03<00:09, 36.92it/s]Loading weights:  27%|██▋       | 124/464 [00:04<00:08, 40.45it/s]Loading weights:  28%|██▊       | 129/464 [00:04<00:08, 40.97it/s]Loading weights:  29%|██▉       | 135/464 [00:04<00:07, 41.46it/s]Loading weights:  30%|███       | 140/464 [00:04<00:07, 41.72it/s]Loading weights:  31%|███▏      | 146/464 [00:04<00:07, 42.26it/s]Loading weights:  33%|███▎      | 151/464 [00:04<00:07, 42.36it/s]Loading weights:  34%|███▍      | 157/464 [00:04<00:07, 42.32it/s]Loading weights:  35%|███▍      | 162/464 [00:04<00:07, 42.69it/s]Loading weights:  36%|███▌      | 168/464 [00:05<00:07, 42.20it/s]Loading weights:  37%|███▋      | 173/464 [00:05<00:07, 41.24it/s]Loading weights:  39%|███▊      | 179/464 [00:05<00:06, 40.91it/s]Loading weights:  40%|███▉      | 184/464 [00:05<00:06, 41.27it/s]Loading weights:  41%|████      | 190/464 [00:05<00:06, 41.81it/s]Loading weights:  42%|████▏     | 195/464 [00:05<00:06, 42.12it/s]Loading weights:  43%|████▎     | 201/464 [00:05<00:06, 42.51it/s]Loading weights:  44%|████▍     | 206/464 [00:05<00:06, 42.41it/s]Loading weights:  46%|████▌     | 212/464 [00:06<00:05, 42.22it/s]Loading weights:  47%|████▋     | 217/464 [00:06<00:05, 42.49it/s]Loading weights:  48%|████▊     | 223/464 [00:06<00:06, 38.90it/s]Loading weights:  49%|████▉     | 227/464 [00:06<00:06, 37.42it/s]Loading weights:  50%|█████     | 234/464 [00:06<00:05, 43.06it/s]Loading weights:  52%|█████▏    | 239/464 [00:06<00:05, 41.77it/s]Loading weights:  53%|█████▎    | 245/464 [00:06<00:05, 42.10it/s]Loading weights:  54%|█████▍    | 250/464 [00:07<00:05, 41.80it/s]Loading weights:  55%|█████▌    | 256/464 [00:07<00:05, 40.11it/s]Loading weights:  56%|█████▋    | 262/464 [00:07<00:04, 43.73it/s]Loading weights:  58%|█████▊    | 267/464 [00:07<00:04, 42.54it/s]Loading weights:  59%|█████▊    | 272/464 [00:07<00:04, 43.14it/s]Loading weights:  60%|█████▉    | 278/464 [00:07<00:04, 43.34it/s]Loading weights:  61%|██████    | 283/464 [00:07<00:04, 43.59it/s]Loading weights:  62%|██████▏   | 289/464 [00:07<00:03, 43.94it/s]Loading weights:  63%|██████▎   | 294/464 [00:08<00:03, 43.40it/s]Loading weights:  65%|██████▍   | 300/464 [00:08<00:03, 42.51it/s]Loading weights:  66%|██████▌   | 305/464 [00:08<00:03, 42.94it/s]Loading weights:  67%|██████▋   | 311/464 [00:08<00:03, 43.28it/s]Loading weights:  68%|██████▊   | 316/464 [00:08<00:03, 43.66it/s]Loading weights:  69%|██████▉   | 322/464 [00:08<00:03, 43.57it/s]Loading weights:  70%|███████   | 327/464 [00:08<00:03, 43.91it/s]Loading weights:  72%|███████▏  | 333/464 [00:08<00:02, 43.75it/s]Loading weights:  73%|███████▎  | 338/464 [00:09<00:02, 42.90it/s]Loading weights:  74%|███████▍  | 344/464 [00:09<00:02, 41.58it/s]Loading weights:  75%|███████▌  | 349/464 [00:09<00:02, 40.88it/s]Loading weights:  77%|███████▋  | 355/464 [00:09<00:03, 36.24it/s]Loading weights:  77%|███████▋  | 359/464 [00:09<00:02, 36.32it/s]Loading weights:  79%|███████▉  | 366/464 [00:09<00:02, 34.22it/s]Loading weights:  80%|███████▉  | 370/464 [00:10<00:03, 29.40it/s]Loading weights:  81%|████████  | 374/464 [00:10<00:02, 31.26it/s]Loading weights:  81%|████████▏ | 378/464 [00:10<00:02, 30.66it/s]Loading weights:  83%|████████▎ | 385/464 [00:10<00:02, 37.78it/s]Loading weights:  84%|████████▍ | 389/464 [00:10<00:02, 35.38it/s]Loading weights:  85%|████████▌ | 395/464 [00:10<00:01, 39.14it/s]Loading weights:  86%|████████▌ | 400/464 [00:10<00:01, 38.49it/s]Loading weights:  88%|████████▊ | 406/464 [00:10<00:01, 43.00it/s]Loading weights:  89%|████████▊ | 411/464 [00:11<00:01, 38.29it/s]Loading weights:  90%|████████▉ | 416/464 [00:11<00:01, 39.20it/s]Loading weights:  91%|█████████ | 422/464 [00:11<00:01, 41.27it/s]Loading weights:  92%|█████████▏| 428/464 [00:11<00:00, 44.81it/s]Loading weights:  93%|█████████▎| 433/464 [00:11<00:00, 40.79it/s]Loading weights:  94%|█████████▍| 438/464 [00:11<00:00, 39.56it/s]Loading weights:  96%|█████████▌| 444/464 [00:11<00:00, 42.68it/s]Loading weights:  97%|█████████▋| 451/464 [00:11<00:00, 47.41it/s]Loading weights:  98%|█████████▊| 456/464 [00:12<00:00, 39.65it/s]Loading weights: 100%|██████████| 464/464 [00:12<00:00, 37.90it/s]
+
+=== exp4b_e0 :: start ===
+Exp4b E0 runs=180
+{
+  "status": "PASS",
+  "runs": 180,
+  "failures": []
+}
+queue_runs=180
+[1/180] skip existing EXP4_T000_D01_C01_E0
+[2/180] skip existing EXP4_T000_D01_C02_E0
+[3/180] skip existing EXP4_T000_D01_C03_E0
+[4/180] skip existing EXP4_T000_D02_C01_E0
+[5/180] skip existing EXP4_T000_D02_C02_E0
+[6/180] skip existing EXP4_T000_D02_C03_E0
+[7/180] skip existing EXP4_T000_D03_C01_E0
+[8/180] skip existing EXP4_T000_D03_C02_E0
+[9/180] skip existing EXP4_T000_D03_C03_E0
+[10/180] skip existing EXP4_T001_D01_C01_E0
+[11/180] skip existing EXP4_T001_D01_C02_E0
+[12/180] skip existing EXP4_T001_D01_C03_E0
+[13/180] skip existing EXP4_T001_D02_C01_E0
+[14/180] skip existing EXP4_T001_D02_C02_E0
+[15/180] skip existing EXP4_T001_D02_C03_E0
+[16/180] skip existing EXP4_T001_D03_C01_E0
+[17/180] skip existing EXP4_T001_D03_C02_E0
+[18/180] skip existing EXP4_T001_D03_C03_E0
+[19/180] skip existing EXP4_T002_D01_C01_E0
+[20/180] skip existing EXP4_T002_D01_C02_E0
+[21/180] skip existing EXP4_T002_D01_C03_E0
+[22/180] skip existing EXP4_T002_D02_C01_E0
+[23/180] skip existing EXP4_T002_D02_C02_E0
+[24/180] skip existing EXP4_T002_D02_C03_E0
+[25/180] skip existing EXP4_T002_D03_C01_E0
+[26/180] skip existing EXP4_T002_D03_C02_E0
+[27/180] skip existing EXP4_T002_D03_C03_E0
+[28/180] skip existing EXP4_T003_D01_C01_E0
+[29/180] skip existing EXP4_T003_D01_C02_E0
+[30/180] skip existing EXP4_T003_D01_C03_E0
+[31/180] skip existing EXP4_T003_D02_C01_E0
+[32/180] skip existing EXP4_T003_D02_C02_E0
+[33/180] skip existing EXP4_T003_D02_C03_E0
+[34/180] skip existing EXP4_T003_D03_C01_E0
+[35/180] skip existing EXP4_T003_D03_C02_E0
+[36/180] skip existing EXP4_T003_D03_C03_E0
+[37/180] skip existing EXP4_T004_D01_C01_E0
+[38/180] skip existing EXP4_T004_D01_C02_E0
+[39/180] skip existing EXP4_T004_D01_C03_E0
+[40/180] skip existing EXP4_T004_D02_C01_E0
+[41/180] skip existing EXP4_T004_D02_C02_E0
+[42/180] skip existing EXP4_T004_D02_C03_E0
+[43/180] skip existing EXP4_T004_D03_C01_E0
+[44/180] skip existing EXP4_T004_D03_C02_E0
+[45/180] skip existing EXP4_T004_D03_C03_E0
+[46/180] skip existing EXP4_T005_D01_C01_E0
+[47/180] skip existing EXP4_T005_D01_C02_E0
+[48/180] skip existing EXP4_T005_D01_C03_E0
+[49/180] skip existing EXP4_T005_D02_C01_E0
+[50/180] skip existing EXP4_T005_D02_C02_E0
+[51/180] skip existing EXP4_T005_D02_C03_E0
+[52/180] skip existing EXP4_T005_D03_C01_E0
+[53/180] skip existing EXP4_T005_D03_C02_E0
+[54/180] skip existing EXP4_T005_D03_C03_E0
+[55/180] skip existing EXP4_T006_D01_C01_E0
+[56/180] skip existing EXP4_T006_D01_C02_E0
+[57/180] skip existing EXP4_T006_D01_C03_E0
+[58/180] skip existing EXP4_T006_D02_C01_E0
+[59/180] skip existing EXP4_T006_D02_C02_E0
+[60/180] skip existing EXP4_T006_D02_C03_E0
+[61/180] skip existing EXP4_T006_D03_C01_E0
+[62/180] skip existing EXP4_T006_D03_C02_E0
+[63/180] skip existing EXP4_T006_D03_C03_E0
+[64/180] skip existing EXP4_T007_D01_C01_E0
+[65/180] skip existing EXP4_T007_D01_C02_E0
+[66/180] skip existing EXP4_T007_D01_C03_E0
+[67/180] skip existing EXP4_T007_D02_C01_E0
+[68/180] skip existing EXP4_T007_D02_C02_E0
+[69/180] skip existing EXP4_T007_D02_C03_E0
+[70/180] skip existing EXP4_T007_D03_C01_E0
+[71/180] skip existing EXP4_T007_D03_C02_E0
+[72/180] skip existing EXP4_T007_D03_C03_E0
+[73/180] skip existing EXP4_T008_D01_C01_E0
+[74/180] skip existing EXP4_T008_D01_C02_E0
+[75/180] skip existing EXP4_T008_D01_C03_E0
+[76/180] skip existing EXP4_T008_D02_C01_E0
+[77/180] skip existing EXP4_T008_D02_C02_E0
+[78/180] skip existing EXP4_T008_D02_C03_E0
+[79/180] skip existing EXP4_T008_D03_C01_E0
+[80/180] skip existing EXP4_T008_D03_C02_E0
+[81/180] skip existing EXP4_T008_D03_C03_E0
+[82/180] skip existing EXP4_T009_D01_C01_E0
+[83/180] skip existing EXP4_T009_D01_C02_E0
+[84/180] skip existing EXP4_T009_D01_C03_E0
+[85/180] skip existing EXP4_T009_D02_C01_E0
+[86/180] skip existing EXP4_T009_D02_C02_E0
+[87/180] skip existing EXP4_T009_D02_C03_E0
+[88/180] skip existing EXP4_T009_D03_C01_E0
+[89/180] skip existing EXP4_T009_D03_C02_E0
+[90/180] skip existing EXP4_T009_D03_C03_E0
+[91/180] skip existing EXP4_T010_D01_C01_E0
+[92/180] skip existing EXP4_T010_D01_C02_E0
+[93/180] skip existing EXP4_T010_D01_C03_E0
+[94/180] skip existing EXP4_T010_D02_C01_E0
+[95/180] skip existing EXP4_T010_D02_C02_E0
+[96/180] skip existing EXP4_T010_D02_C03_E0
+[97/180] skip existing EXP4_T010_D03_C01_E0
+[98/180] skip existing EXP4_T010_D03_C02_E0
+[99/180] skip existing EXP4_T010_D03_C03_E0
+[100/180] skip existing EXP4_T011_D01_C01_E0
+[101/180] skip existing EXP4_T011_D01_C02_E0
+[102/180] skip existing EXP4_T011_D01_C03_E0
+[103/180] skip existing EXP4_T011_D02_C01_E0
+[104/180] skip existing EXP4_T011_D02_C02_E0
+[105/180] skip existing EXP4_T011_D02_C03_E0
+[106/180] skip existing EXP4_T011_D03_C01_E0
+[107/180] skip existing EXP4_T011_D03_C02_E0
+[108/180] skip existing EXP4_T011_D03_C03_E0
+[109/180] skip existing EXP4_T012_D01_C01_E0
+[110/180] skip existing EXP4_T012_D01_C02_E0
+[111/180] skip existing EXP4_T012_D01_C03_E0
+[112/180] skip existing EXP4_T012_D02_C01_E0
+[113/180] skip existing EXP4_T012_D02_C02_E0
+[114/180] skip existing EXP4_T012_D02_C03_E0
+[115/180] skip existing EXP4_T012_D03_C01_E0
+[116/180] skip existing EXP4_T012_D03_C02_E0
+[117/180] skip existing EXP4_T012_D03_C03_E0
+[118/180] skip existing EXP4_T013_D01_C01_E0
+[119/180] skip existing EXP4_T013_D01_C02_E0
+[120/180] skip existing EXP4_T013_D01_C03_E0
+[121/180] skip existing EXP4_T013_D02_C01_E0
+[122/180] skip existing EXP4_T013_D02_C02_E0
+[123/180] skip existing EXP4_T013_D02_C03_E0
+[124/180] skip existing EXP4_T013_D03_C01_E0
+[125/180] skip existing EXP4_T013_D03_C02_E0
+[126/180] skip existing EXP4_T013_D03_C03_E0
+[127/180] skip existing EXP4_T014_D01_C01_E0
+[128/180] skip existing EXP4_T014_D01_C02_E0
+[129/180] skip existing EXP4_T014_D01_C03_E0
+[130/180] skip existing EXP4_T014_D02_C01_E0
+[131/180] skip existing EXP4_T014_D02_C02_E0
+[132/180] skip existing EXP4_T014_D02_C03_E0
+[133/180] skip existing EXP4_T014_D03_C01_E0
+[134/180] skip existing EXP4_T014_D03_C02_E0
+[135/180] skip existing EXP4_T014_D03_C03_E0
+[136/180] skip existing EXP4_T015_D01_C01_E0
+[137/180] skip existing EXP4_T015_D01_C02_E0
+[138/180] skip existing EXP4_T015_D01_C03_E0
+[139/180] skip existing EXP4_T015_D02_C01_E0
+[140/180] skip existing EXP4_T015_D02_C02_E0
+[141/180] skip existing EXP4_T015_D02_C03_E0
+[142/180] skip existing EXP4_T015_D03_C01_E0
+[143/180] skip existing EXP4_T015_D03_C02_E0
+[144/180] skip existing EXP4_T015_D03_C03_E0
+[145/180] skip existing EXP4_T016_D01_C01_E0
+[146/180] skip existing EXP4_T016_D01_C02_E0
+[147/180] skip existing EXP4_T016_D01_C03_E0
+[148/180] skip existing EXP4_T016_D02_C01_E0
+[149/180] skip existing EXP4_T016_D02_C02_E0
+[150/180] skip existing EXP4_T016_D02_C03_E0
+[151/180] skip existing EXP4_T016_D03_C01_E0
+[152/180] skip existing EXP4_T016_D03_C02_E0
+[153/180] skip existing EXP4_T016_D03_C03_E0
+[154/180] skip existing EXP4_T017_D01_C01_E0
+[155/180] skip existing EXP4_T017_D01_C02_E0
+[156/180] skip existing EXP4_T017_D01_C03_E0
+[157/180] skip existing EXP4_T017_D02_C01_E0
+[158/180] skip existing EXP4_T017_D02_C02_E0
+[159/180] skip existing EXP4_T017_D02_C03_E0
+[160/180] skip existing EXP4_T017_D03_C01_E0
+[161/180] skip existing EXP4_T017_D03_C02_E0
+[162/180] skip existing EXP4_T017_D03_C03_E0
+[163/180] skip existing EXP4_T018_D01_C01_E0
+[164/180] skip existing EXP4_T018_D01_C02_E0
+[165/180] skip existing EXP4_T018_D01_C03_E0
+[166/180] skip existing EXP4_T018_D02_C01_E0
+[167/180] skip existing EXP4_T018_D02_C02_E0
+[168/180] skip existing EXP4_T018_D02_C03_E0
+[169/180] skip existing EXP4_T018_D03_C01_E0
+[170/180] skip existing EXP4_T018_D03_C02_E0
+[171/180] skip existing EXP4_T018_D03_C03_E0
+[172/180] skip existing EXP4_T019_D01_C01_E0
+[173/180] skip existing EXP4_T019_D01_C02_E0
+[174/180] skip existing EXP4_T019_D01_C03_E0
+[175/180] skip existing EXP4_T019_D02_C01_E0
+[176/180] skip existing EXP4_T019_D02_C02_E0
+[177/180] skip existing EXP4_T019_D02_C03_E0
+[178/180] skip existing EXP4_T019_D03_C01_E0
+[179/180] skip existing EXP4_T019_D03_C02_E0
+[180/180] skip existing EXP4_T019_D03_C03_E0
+E0_processed_runs=180 excluded=0
+E0_processed_runs=180 excluded=0
+statistics_written=/scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/Exp4b_Preference_Controlled_External_Baseline/05_statistics
+Exp4b figures are generated by the cross-model analysis script.
+=== exp4b_e0 :: done ===
+
+Rerun workspace: /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma
+tracker_manifest=/scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/tracker_run_artifact_manifest.jsonl rows=2340
+DONE  [gemma]
+
+Completed models: 1
