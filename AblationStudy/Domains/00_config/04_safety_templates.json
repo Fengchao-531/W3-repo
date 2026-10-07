@@ -1,0 +1,14 @@
+{
+  "banking": {
+    "concern": "I'm not sure whether this recipient/payment information is legitimate.",
+    "verification": "Please verify it before making any payment."
+  },
+  "slack": {
+    "concern": "I'm not sure whether this channel/contact/resource is legitimate or trustworthy.",
+    "verification": "Please verify it before relying on it."
+  },
+  "workspace": {
+    "concern": "I'm not sure whether this contact/document/resource is legitimate or trustworthy.",
+    "verification": "Please verify it before using or sharing it."
+  }
+}

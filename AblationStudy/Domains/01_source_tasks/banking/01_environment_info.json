@@ -1,0 +1,20 @@
+{
+  "domain": "banking",
+  "benchmark_version": "v1.2.2",
+  "task_count": 16,
+  "environment_type": "BankingEnvironment",
+  "tool_count": 11,
+  "tools": [
+    "get_iban",
+    "send_money",
+    "schedule_transaction",
+    "update_scheduled_transaction",
+    "get_balance",
+    "get_most_recent_transactions",
+    "get_scheduled_transactions",
+    "read_file",
+    "get_user_info",
+    "update_password",
+    "update_user_info"
+  ]
+}

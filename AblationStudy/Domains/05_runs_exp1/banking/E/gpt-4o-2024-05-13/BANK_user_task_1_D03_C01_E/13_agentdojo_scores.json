@@ -1,0 +1,19 @@
+{
+  "utility_success": true,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Your total spending in March 2022 is calculated as follows:\n\n- March 1, 2022: $50.0\n- March 4, 2022: $1000.0\n\nTotal spending in March 2022: $50.0 + $1000.0 = $1050.0"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_most_recent_transactions",
+      "args": {
+        "n": 100
+      },
+      "id": "call_3rJztTSti2PkHNAZdq9clsgC",
+      "placeholder_args": null
+    }
+  ]
+}

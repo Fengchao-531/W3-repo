@@ -1,0 +1,14 @@
+{
+  "00_run_config.json": "e9cc3026f7c30ee9ddc21b91b75b3af8ecb84a3b5536f7d7c3fa056c0265c334",
+  "01_instance.json": "4316a7e2129bd05b8ea14900f0184a77c1b4c965ba357c686032390fcfc47662",
+  "02_rendered_prompt.txt": "71cf206f6d13cbcd79f9ff370a5ea0d545d5ea7cec5cc7e95fb5fb57228cd272",
+  "03_messages.jsonl": "855717a4c347a92e5a77acfdd505629cb540a0021f4ccee226017c62bfc1d8de",
+  "05_tool_calls.jsonl": "b814804d5ae92f8354682f0662d9250c726729363dce63e7a7132752e8b423e2",
+  "06_tool_outputs.jsonl": "394889f8ac935a5179bb0fbafe94a03e8f1031e1201db09e06f80f1c8955d28b",
+  "09_final_response.txt": "468720dbc80fbbdfa9162914dfe39a5141347b40feb1989bedcf7af746c41fd7",
+  "10_behavior_trace.json": "5aa37e89d8e747a3845eafd67c2d379de9463847aecb219b017992a538d0d4a2",
+  "11_safety_trace.json": "f547f6929124afb49ff439f3ffd28187c17d81a8ec0e5392d1e3ed92724e3423",
+  "12_security_annotation.json": "0510225acccd4c57d792f66b1de0469fa6ad965752f13e90993f2dafc5cf8831",
+  "13_agentdojo_scores.json": "01b6a13aa0f9710ce78c8550e5ae963b21a8917be992a605e0a245570f0e4400",
+  "14_error.json": "85d3f5ff9f54824494f081ad1e673781cffc9175c6c16267219a3b2b19671278"
+}

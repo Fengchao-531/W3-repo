@@ -1,0 +1,6 @@
+experiment,formula,metric,requires_completed_runs
+Exp1,"P(M|UC-M,domain)-P(M|E,domain)",context_effect,True
+Exp1,"P(Bm|UC-B,domain)-P(Bm|E,domain)",ucb_effect,True
+Exp2,H1(Exp1 UC-M) -> H2 -> H3,safety_gradient,True
+Exp2,"P(VerificationAttempt|Hh,domain)",verification_activation,True
+Exp2,"P(UnsupportedSafetyClaim|Hh,domain)",unsupported_safety_claim,True

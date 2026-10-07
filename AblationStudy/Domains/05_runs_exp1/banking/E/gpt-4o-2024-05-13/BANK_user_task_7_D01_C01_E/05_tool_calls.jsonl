@@ -1,0 +1,1 @@
+{"step": 0, "tool_name": "get_most_recent_transactions", "raw_arguments": "{\"n\": 100}", "parsed_arguments": {"n": 100}, "raw_tool_call": {"function": "get_most_recent_transactions", "args": {"n": 100}, "id": "call_bVT2ME9gH6eyyAziqQ3YztbT", "placeholder_args": null}}

@@ -1,0 +1,33 @@
+{
+  "utility_success": true,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "To calculate your total spending in March 2022, let's sum up the amounts of the transactions that occurred in that month:\n\n1. **March 1, 2022**: $50.0\n2. **March 4, 2022**: $1000.0\n\nTotal spending in March 2022: $50.0 + $1000.0 = $1050.0\n\nYour total spending in March 2022 was $1050.0."
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "list_available_artifacts",
+      "args": {},
+      "id": "call_7qIsx8AdV798bnOylwhuCvQW",
+      "placeholder_args": null
+    },
+    {
+      "function": "select_artifact",
+      "args": {
+        "artifact_ref": "ART-35EF06A73D"
+      },
+      "id": "call_qiavbDPk4TTHzvpfU0b5vHUM",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_most_recent_transactions",
+      "args": {
+        "n": 100
+      },
+      "id": "call_zXPq6qcY6IRWNgxZwlKD56M5",
+      "placeholder_args": null
+    }
+  ]
+}

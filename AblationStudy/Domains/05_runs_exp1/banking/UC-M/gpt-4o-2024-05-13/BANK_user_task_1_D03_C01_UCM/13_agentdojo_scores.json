@@ -1,0 +1,33 @@
+{
+  "utility_success": true,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "Your total spending in March 2022 is calculated as follows:\n\n- **March 1, 2022**: $50.0 (Spotify Premium)\n- **March 4, 2022**: $1000.0 (Purchase at Apple Store: iPhone 3GS)\n\nTotal spending in March 2022: **$1050.0**"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "list_available_artifacts",
+      "args": {},
+      "id": "call_ddMq3QArdSxBnx02zOrNZ9QJ",
+      "placeholder_args": null
+    },
+    {
+      "function": "select_artifact",
+      "args": {
+        "artifact_ref": "ART-3F14B42BCF"
+      },
+      "id": "call_D30rMeSJ1ZXas7aqNaHbc3Vw",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_most_recent_transactions",
+      "args": {
+        "n": 100
+      },
+      "id": "call_BBrgFLzJhXrcp1NliKw8asc2",
+      "placeholder_args": null
+    }
+  ]
+}

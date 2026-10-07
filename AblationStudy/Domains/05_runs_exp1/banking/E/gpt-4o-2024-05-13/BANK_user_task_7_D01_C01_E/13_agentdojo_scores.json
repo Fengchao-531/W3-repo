@@ -1,0 +1,19 @@
+{
+  "utility_success": true,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "You spent $200.00 on the New Year's gift for your friend. The transaction was made on February 12, 2022, with the subject \"New year gift.\""
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_most_recent_transactions",
+      "args": {
+        "n": 100
+      },
+      "id": "call_bVT2ME9gH6eyyAziqQ3YztbT",
+      "placeholder_args": null
+    }
+  ]
+}

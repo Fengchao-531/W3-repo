@@ -1,0 +1,11 @@
+{
+  "status": "design_figures_only",
+  "note": "Effect-size figures require completed model runs and extracted run-level results.",
+  "figures": [
+    "00_dataset_instances_by_domain.pdf",
+    "01_expected_runs_by_domain.pdf",
+    "02_condition_balance_banking.pdf",
+    "02_condition_balance_slack.pdf",
+    "02_condition_balance_workspace.pdf"
+  ]
+}

@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Tensor / model-feature dumps (too large for git)
+*.pt
+*.pth
+*.npz
+*.npy
+*.safetensors
+*.bin
+*Model_Features/
+*model_features/

@@ -1,0 +1,12 @@
+{
+  "study": "Cross-Domain Ablation",
+  "root": "/scratch3/che489/FC-W4/Tracing-Reproduction/W3/AblationStudy/Domains",
+  "domains": [
+    "banking",
+    "slack",
+    "workspace"
+  ],
+  "benchmark_version": "v1.2.2",
+  "tasks_per_domain": 10,
+  "selection_seed": 20260912
+}

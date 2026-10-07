@@ -1,0 +1,33 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "To calculate your total spending in March 2022, let's review the transactions from that month:\n\n1. **March 1, 2022**: $50.00 - Spotify Premium\n2. **March 4, 2022**: $1000.00 - Purchase at Apple Store: iPhone 3GS\n3. **March 7, 2022**: $10.00 - Sushi dinner\n\nTotal spending in March 2022: $50.00 + $1000.00 + $10.00 = $1060.00\n\nYour total spending in March 2022 is $1060.00."
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "list_available_artifacts",
+      "args": {},
+      "id": "call_h2AcI9h8lxDXZ8IeG3sY4HDc",
+      "placeholder_args": null
+    },
+    {
+      "function": "get_most_recent_transactions",
+      "args": {
+        "n": 100
+      },
+      "id": "call_Ps9oUohPAyQr7HjSoZZWFBjf",
+      "placeholder_args": null
+    },
+    {
+      "function": "select_artifact",
+      "args": {
+        "artifact_ref": "ART-F65A2401F8"
+      },
+      "id": "call_JPw0GFlI0jjAbfNEUaVQrdFl",
+      "placeholder_args": null
+    }
+  ]
+}

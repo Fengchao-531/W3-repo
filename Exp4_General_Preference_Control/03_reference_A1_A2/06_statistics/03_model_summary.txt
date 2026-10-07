@@ -1,0 +1,15 @@
+# Exp2 Model Summary
+
+N_pairs: 180
+P(M|UC): 0.8944444444444445
+P(M|UB): 0.9444444444444444
+Delta_binding: 0.04999999999999993
+ArtifactAction_UC: 0.8944444444444445
+ArtifactAction_UB: 0.9444444444444444
+AttackSuccess_UC: 0.8944444444444445
+AttackSuccess_UB: 0.9444444444444444
+Utility_UC: 0.7611111111111111
+Utility_UB: 0.7055555555555556
+
+McNemar: {'n00': 3, 'n01_UC_nonM_to_UB_M': 16, 'n10_UC_M_to_UB_nonM': 7, 'n11': 154, 'p_value': np.float64(0.0931396484375)}
+Cluster bootstrap: {'estimate': 0.05, 'ci_low': -0.011111111111111112, 'ci_high': 0.11666666666666667}
