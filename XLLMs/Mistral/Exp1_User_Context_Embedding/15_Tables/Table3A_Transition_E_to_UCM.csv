@@ -1,0 +1,12 @@
+E_choice,UCM_choice,Count
+benign_matched,benign_matched,1
+benign_matched,malicious,7
+benign_matched,none,4
+benign_weak,malicious,3
+benign_weak,none,2
+malicious,malicious,8
+malicious,none,4
+none,benign_matched,3
+none,benign_weak,2
+none,malicious,16
+none,none,130

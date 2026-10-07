@@ -1,0 +1,11 @@
+{
+  "experiment": "Exp2_Task_Binding",
+  "source": "Exp1 frozen UC-M instance set",
+  "conditions": [
+    "UC",
+    "UB"
+  ],
+  "intervention": "UB prompt equals UC prompt plus one carrier-family-specific binding sentence.",
+  "model_default": "ministral_8b_instruct_2410",
+  "temperature": 0.0
+}

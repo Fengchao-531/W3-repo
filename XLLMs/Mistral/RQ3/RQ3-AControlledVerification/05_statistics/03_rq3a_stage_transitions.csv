@@ -1,0 +1,19 @@
+condition,denominator,guidance,model,numerator,probability,source,transition
+E_M_H1,0,H1,ministral_8b_instruct_2410,0,,E,Mention -> Plan
+E_M_H1,12,H1,ministral_8b_instruct_2410,12,1.0,E,Plan -> Action
+E_M_H1,0,H1,ministral_8b_instruct_2410,0,,E,Mention -> Action
+E_M_H2,0,H2,ministral_8b_instruct_2410,0,,E,Mention -> Plan
+E_M_H2,16,H2,ministral_8b_instruct_2410,16,1.0,E,Plan -> Action
+E_M_H2,0,H2,ministral_8b_instruct_2410,0,,E,Mention -> Action
+E_M_H3,0,H3,ministral_8b_instruct_2410,0,,E,Mention -> Plan
+E_M_H3,11,H3,ministral_8b_instruct_2410,11,1.0,E,Plan -> Action
+E_M_H3,0,H3,ministral_8b_instruct_2410,0,,E,Mention -> Action
+UC_M_H1,0,H1,ministral_8b_instruct_2410,0,,UC,Mention -> Plan
+UC_M_H1,34,H1,ministral_8b_instruct_2410,34,1.0,UC,Plan -> Action
+UC_M_H1,0,H1,ministral_8b_instruct_2410,0,,UC,Mention -> Action
+UC_M_H2,0,H2,ministral_8b_instruct_2410,0,,UC,Mention -> Plan
+UC_M_H2,35,H2,ministral_8b_instruct_2410,35,1.0,UC,Plan -> Action
+UC_M_H2,0,H2,ministral_8b_instruct_2410,0,,UC,Mention -> Action
+UC_M_H3,0,H3,ministral_8b_instruct_2410,0,,UC,Mention -> Plan
+UC_M_H3,41,H3,ministral_8b_instruct_2410,41,1.0,UC,Plan -> Action
+UC_M_H3,0,H3,ministral_8b_instruct_2410,0,,UC,Mention -> Action

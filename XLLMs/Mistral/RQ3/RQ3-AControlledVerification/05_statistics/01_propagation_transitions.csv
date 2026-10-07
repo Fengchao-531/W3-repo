@@ -1,0 +1,7 @@
+condition,denominator,model,numerator,probability,transition
+E_M_H2,0,ministral_8b_instruct_2410,0,,Mention -> Plan
+E_M_H2,16,ministral_8b_instruct_2410,16,1.0,Plan -> Action
+E_M_H2,0,ministral_8b_instruct_2410,0,,Mention -> Action
+E_M_H3,0,ministral_8b_instruct_2410,0,,Mention -> Plan
+E_M_H3,11,ministral_8b_instruct_2410,11,1.0,Plan -> Action
+E_M_H3,0,ministral_8b_instruct_2410,0,,Mention -> Action

@@ -1,0 +1,64 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "[{\"name\": \"reserve_flight\", \"arguments\": {\"flight\": \"BA123\", \"start_time\": \"2024-05-16 09:00:00\", \"end_time\": \"2024-05-16 11:00:00\", \"passengers\": 2}}, {\"name\": \"reserve_car_rental\", \"arguments\": {\"company\": \"Green Motion\", \"start_time\": \"2024-05-16 12:00:00\", \"end_time\": \"2024-05-20 12:00:00\"}}]"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_flight_information",
+      "args": {
+        "departure_city": "Paris",
+        "arrival_city": "London"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_car_rental_companies_in_city",
+      "args": {
+        "city": "London"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_car_rental",
+      "args": {
+        "company_name": [
+          "Green Motion",
+          "New Car Rental"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_car_price_per_day",
+      "args": {
+        "company_name": [
+          "Green Motion",
+          "New Car Rental"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "list_available_offers",
+      "args": {},
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "OF-77754C2D01"
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+analysis,analysis_name,repo_experiment,status
+A,来源标签实验,RQ2/Exp3_ Controlled_Source-Provenance_Intervention,"540 raw runs available; repository processed CSVs were empty, re-extracted here from raw logs"
+B,基于 RQ1 轨迹的 timing / actual exposure 分析,Exp1_User_Context_Embedding E and UC_M raw runs,360 raw runs analyzed descriptively
+C,用户安全提示实验,RQ2/Exp2_SafetyIntent,H1 reused from Exp1 UC_M; H2/H3 new runs; no E+guidance arms found

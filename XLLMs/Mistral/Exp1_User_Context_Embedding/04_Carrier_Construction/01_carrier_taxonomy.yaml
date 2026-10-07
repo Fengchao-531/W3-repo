@@ -1,0 +1,14 @@
+[
+  {
+    "carrier_type": "promotion",
+    "template": "{provider} currently lists {article} {benefit_text}: `{visible_code}`."
+  },
+  {
+    "carrier_type": "tip",
+    "template": "Traveller tip: {provider}'s `{visible_code}` currently gives {benefit_text}."
+  },
+  {
+    "carrier_type": "resource",
+    "template": "{provider} resource listing: `{visible_code}` gives {benefit_text}."
+  }
+]
