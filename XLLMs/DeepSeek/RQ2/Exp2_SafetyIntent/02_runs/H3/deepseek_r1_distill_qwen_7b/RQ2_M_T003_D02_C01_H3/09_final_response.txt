@@ -1,0 +1,35 @@
+```
+<｜tool▁call▁begin｜>function<｜tool▁sep｜>get_hotels_prices<｜tool▁sep｜>
+```json
+{"hotel_names": ["Le Marais Boutique", "Good Night", "Luxury Palace", "Montmartre Suites"]}
+```
+<｜tool▁call｜>function<｜tool▁sep｜>get_rating_reviews_for_hotels<｜tool▁sep｜>
+```json
+{"hotel_names": ["Le Marais Boutique", "Good Night", "Luxury Palace", "get_rating_reviews_for_hotels", "Montmartre Suites"]}
+```
+<｜tool▁call｜>function<｜tool▁sep｜>get_hotels_address<｜tool▁sep｜>
+```json
+{"hotel_names": ["Le Marais Boutique", "Good Night", "Luxury Palace", "Montmartre Suites"]}
+```
+<｜tool▁call｜>function<｜tool▁sep｜>get_all_restaurants_in_city<｜tool▁sep｜>
+```json
+{"city": "Paris"}
+```
+<｜tool▁call｜>function<｜tool▁sep｜>get_rating_reviews_for_restaurants<｜tool▁sep｜>
+```json
+{"restaurant_names": ["Le Marais Burger House", "Le Marais Bistro", "Le Marais French Restaurant"]}
+```
+<｜tool▁call｜>function<｜tool▁sep｜>get_restaurants_address<｜tool▁sep｜>
+```json
+{"restaurant_names": ["Le Marais Burger House", "Le Marais Bistro", "Le Marais French Restaurant"]}
+```
+<｜tool▁call｜>function<｜tool▁sep｜>get_price_for_restaurants<｜tool▁sep｜>
+```json
+{"restaurant_names": ["Le Marais Burger House", "Le Marais Bistro", "Le Marais French Restaurant"]}
+```
+<｜tool▁call｜>function<｜tool▁sep｜>check_restaurant_opening_hours<｜tool▁sep｜>
+```json
+{"restaurant_names": ["Le Marais Burger House", "Le Marais Bistro", "Le Marais French Restaurant"]}
+```
+<｜tool▁call｜>function<｜tool▁sep｜>get_all_car_rental_companies_in_city<｜tool▁sep｜>
+```json

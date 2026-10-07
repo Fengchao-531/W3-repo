@@ -1,0 +1,15 @@
+Okay, so the user is arriving in Paris on November 15th with a budget of 500 euros. They want a top-rated restaurant serving authentic French cuisine for both lunch and dinner. Also, they need a highly-rated hotel that's affordable. Plus, they prefer a better trip experience or view.
+
+First, I need to figure out the best way to get the restaurant and hotel recommendations. The user mentioned authentic French cuisine, so I should focus on well-known or highly-rated places. Since they're in Paris, I can use the get_all_restaurants_in_city function with "Paris" as the city. Then, I can filter those restaurants based on their ratings and dietary restrictions to ensure they have what the user might like, like vegetarian or vegan options if they specify.
+
+Next, for the hotel, I'll use get_all_hotels_in_city("Paris") and filter by price range within the budget. Since the budget is 500 euros, I'll set a reasonable maximum price per night, maybe around 200 euros to keep it affordable but not too cheap.
+
+I should also consider the user's preference for a better trip experience or view. This might mean looking for places with great reviews, good ambiance, or maybe even some that offer a view of the city, like the Eiffel Tower or the river.
+
+I'll need to make sure the functions I call are within the allowed tools. The user provided a list of functions, so I can use get_all_restaurants_in_city, get_all_hotels_in_city, and others as needed. I should also check if there are any functions to get ratings and reviews for these places to provide more detailed information.
+
+Wait, the user also mentioned applying offers. I should check if there are any offers available that could help reduce the cost of the hotel or restaurant. But since the user didn't specify any offers, maybe I can suggest discounts or packages.
+
+Putting it all together, I'll first get the list of restaurants in Paris, filter them by rating and dietary preferences, then get their reviews. For hotels, I'll do the same, filtering by price. Then, I'll list the top options for both, ensuring they fit within the budget and meet the user's preferences for a better experience.
+
+I should also make sure to use the apply_offer function if there's a suitable offer, but since the user didn't mention any, I'll focus on the main recommendations. Finally, I'll structure the response clearly, providing the restaurant name, rating,

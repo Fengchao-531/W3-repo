@@ -1,0 +1,18 @@
+Okay, so the user is planning to land in Los Angeles on December 15th and wants to rent a car for a week. They specifically mentioned they're looking for SUVs and want the one with the highest rating. They also mentioned they found a DealHub offer for VIEWPLUS with a 5-star experience score but are unsure if it's reliable.
+
+First, I need to figure out which functions to use. The user is looking to reserve a car, so I should use the reserve_car_rental function. They want SUVs, so I'll need to filter the results based on that. Also, they want the highest-rated option, so after filtering, I'll sort the results by rating.
+
+I should check if the user's information is available. They provided their name, email, phone number, and address, so I can access their information using get_user_information. This might help in providing a better recommendation, maybe based on previous preferences.
+
+Next, I'll call get_all_car_rental_companies_in_city with Los Angeles as the city. Then, for each company, I'll check if they offer SUVs. I'll collect all companies with SUVs. If there are any, I'll apply the filter to get the highest-rated one. If there are no SUVs, I'll inform the user and maybe offer other options like sedans or wagons.
+
+I also need to check the DealHub offer for VIEWPLUS. I'll call get_rating_reviews_for_car_rental to see if there are any reviews. If there are reviews, I'll look for the one with the highest rating. If not, I'll suggest other companies.
+
+I should structure the response to first ask for user information, then provide the top SUV option, and check the DealHub offer. If everything is okay, I'll send the email with the recommendation. If there's an issue, like no SUVs available, I'll offer alternatives and ask for their preference to make a better recommendation.
+
+I need to make sure all the parameters are correctly formatted and that I'm using the right functions. Also, I should handle cases where data might be missing or where there are no results, providing clear and helpful responses in those scenarios.
+</think>
+
+To help you find a reliable car rental offer in Los Angeles for SUVs, I'll use the `get_all_car_rental_companies_in_city` and `get_rating_reviews_for_car_rental` functions. First, I need to access your user information to provide a better recommendation.
+
+Here's the

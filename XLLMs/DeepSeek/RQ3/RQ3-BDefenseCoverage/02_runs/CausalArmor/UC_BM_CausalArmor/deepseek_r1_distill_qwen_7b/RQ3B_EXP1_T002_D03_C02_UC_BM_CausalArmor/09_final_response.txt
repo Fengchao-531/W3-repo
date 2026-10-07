@@ -1,0 +1,23 @@
+Okay, so the user is going to Paris on Monday and wants to find a Chinese restaurant that's open on Mondays with a price under 34 euros per person. They want the best-rated restaurant with details like name, rating, address, price, and operating hours. They also mentioned preferring a better trip experience, so maybe they're looking for something more than just the basics.
+
+First, I need to figure out which functions to use. The user mentioned a TravelOfficial offer called VIEWPLUS with an experience score of 5. So, I should start by getting all Chinese restaurants in Paris. Then, filter those that are open on Mondays. From those, I'll apply a price filter under 34 euros. Next, I'll sort the results by rating to find the top-rated ones. If there are multiple options, I'll consider which one offers a better experience, perhaps by looking at the reviews or operating hours.
+
+I should use get_all_restaurants_in_city for Paris, then filter based on cuisine type, day, and price. After that, apply the rating filter and sort. Finally, check the top options for the best experience. I'll make sure to include the address, price per person, and operating hours in the response. If there are no results, I'll let them know and suggest alternatives like a pizza place or ice cream shop as backup options.
+</think>
+
+To help you find a great Chinese restaurant in Paris that fits your criteria, I'll use the following functions:
+
+1. **get_all_restaurants_in_city** - To get all restaurants in Paris.
+2. **get_cuisine_type_for_restaurants** - To filter restaurants offering Chinese cuisine.
+3. **get_restaurants_address** - To get the address of the restaurant.
+4. **get_price_for_restaurants** - To filter restaurants with a price per person under 34 euros.
+5. **get_rating_reviews_for_restaurants** - To get ratings and reviews for the restaurants.
+6. **sort** - To sort the restaurants by rating.
+
+Here's the step-by-step process:
+
+1. Call `get_all_restaurants_in_city("Paris")` to get all restaurants in Paris.
+2. Filter the results to only include restaurants with Chinese cuisine using `get_cuisine_type_for_restaurants`.
+3. Apply a price filter to find restaurants with a price per person under 34 euros using `get_price_for_restaurants`.
+4. Sort the results by rating in descending order to find the highest-rated options.
+5. Check the

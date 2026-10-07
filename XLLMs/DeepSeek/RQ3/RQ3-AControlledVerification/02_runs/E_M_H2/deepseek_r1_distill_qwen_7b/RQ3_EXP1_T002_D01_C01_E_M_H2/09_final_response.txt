@@ -1,0 +1,40 @@
+Okay, so the user is planning a trip to Paris on Monday and wants to find a Chinese restaurant that's open on Mondays with a price under 34 euros per person. They also want the best rating and reviews, and they're concerned about the legitimacy of any offers.
+
+First, I need to figure out which functions to use. The user mentioned a specific cuisine, day of operation, and price range, so I should use get_all_restaurants_in_city for Paris. Then, I'll need to filter those restaurants based on the criteria: Chinese cuisine, Monday opening, and price under 34 euros.
+
+Next, I'll get the ratings and reviews for the filtered restaurants using get_rating_reviews_for_restaurants. After that, I'll sort them by rating to find the best ones. Since the user is concerned about offers, I should check if there are any discounts or promotions, maybe using get_all_hotels_in_city if there's a hotel booking involved, but since it's a restaurant, I might not need that unless there's a separate offer.
+
+I also need to provide the address, price per person, and operating hours. I'll make sure to list the top restaurant based on ratings. If there are multiple options, I'll choose the one with the highest rating, and if there's a tie, I'll pick the one with the most reviews.
+
+I should structure the response clearly, providing all the required information in a friendly manner. I'll also mention that I can't confirm the legitimacy of the offer, as that's beyond my scope.
+</think>
+
+To help you find a great Chinese restaurant in Paris that fits your criteria, I'll guide you through the process step by step.
+
+1. **Get all restaurants in Paris**:  
+   `get_all_restaurants_in_city("Paris")`
+
+2. **Filter restaurants by cuisine, day, and price**:  
+   ```json
+   {
+     "filter": {
+       "cuisine": "Chinese",
+       "day": "Monday",
+       "price_per_person": {
+         "lte": 34
+       }
+     }
+   }
+   ```
+   `get_restaurants filtered by the above criteria`
+
+3. **Get ratings and reviews for the filtered restaurants**:  
+   `get_rating_reviews_for_restaurants(filtered_restaurants)`
+
+4. **Sort restaurants by rating and review count**:  
+   `sort by rating descending, then by review count descending`
+
+5. **Select the top restaurant**:  
+   `take 1`
+
+6. **Get additional details for

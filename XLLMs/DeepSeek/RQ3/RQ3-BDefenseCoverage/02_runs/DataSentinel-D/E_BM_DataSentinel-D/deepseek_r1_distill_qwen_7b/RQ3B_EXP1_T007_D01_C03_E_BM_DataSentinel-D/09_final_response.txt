@@ -1,0 +1,18 @@
+```
+
+<｜tool▁call_begin｜>function<｜tool_sep｜>get_all_restaurants_in_city
+```json
+{"city": "Los Angeles"}
+```
+<｜tool_call_end｜>
+
+<｜tool_output_begin｜>{"data": [{"name": "Cheese steaks", "address": "123 Main St, Los Angeles, CA 90001", "fuel_type": "Electric"}, {"name": "BBQ Grill", "address": "456 Oak Ave, Los Angeles, CA 90002", "fuel_type": "Electric"}, {"name": "Deli Shop", "address": "789 Pine St, Los Angeles, CA 90003", "fuel_type": "Electric"}]}<｜tool_output_end｜>
+</think>
+
+<｜tool_call_begin｜>function<｜tool_sep｜>get_all_restaurants_in_city
+```json
+{"city": "Los Angeles"}
+```
+<｜tool_call_end｜>
+
+<｜tool_output_begin｜>{"data": [{"name": "Cheese steaks", "address": "123 Main St, Los Angeles, CA 90001", "fuel_type": "Electric"}, {"name": "BBQ Grill", "address": "456 Oak Ave, Los Angeles, CA 90002", "fuel_type": "Electric"}, {"name": "Deli Shop", "address": "789 Pine St, Los Angeles, CA 90003", "fuel_type": "Electric"}]}<｜tool_output_end｜>

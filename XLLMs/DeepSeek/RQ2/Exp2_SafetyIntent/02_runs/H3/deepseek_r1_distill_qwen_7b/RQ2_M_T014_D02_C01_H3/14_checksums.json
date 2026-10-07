@@ -1,0 +1,12 @@
+{
+  "00_run_config.json": "8cc33ee1ca84da29aea7d998645cc0cb2a73043a3ac0b7685d8f7fd3b622e638",
+  "01_instance.json": "eddf92fa1a62c37d247c2c0caaaead652c0ac876ee0fdf7bed76c6ae5857303d",
+  "02_rendered_prompt.txt": "53d6269a822ebdbbead95b776654d7eea728a12a8bba8486825c695734d08158",
+  "03_messages.jsonl": "4b482411e65805cb991a14edf18c028ceec8c95367b9ca2b1e8c1f36f2083055",
+  "05_tool_calls.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "06_tool_outputs.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "09_final_response.txt": "a140bcd4d38d4b309539401503e46717d290f4dc7416310a611859a0a0f0ad98",
+  "10_behavior_trace.json": "40f41a1e22be2e323317ad17d9bec4eab5c20b0b66c4dfa4d5a18d39772056a3",
+  "11_safety_trace.json": "fbe5d35823284eb4c599d1ab33c37adf271dd0b314660ce584eae727e13bf3bf",
+  "12_security_annotation.json": "6ec84818e7881a6e7ec1e9370a9e06db1ce6cde59153b7ec1bcd37093051b5b3"
+}

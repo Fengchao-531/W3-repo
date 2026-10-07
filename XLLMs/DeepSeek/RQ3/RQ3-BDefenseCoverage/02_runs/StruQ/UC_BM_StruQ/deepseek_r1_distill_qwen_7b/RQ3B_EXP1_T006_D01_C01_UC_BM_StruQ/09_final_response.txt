@@ -1,0 +1,13 @@
+Okay, so the user is planning a trip to Los Angeles on January 25th and wants to rent a car there. They specifically mentioned looking for car rental companies that have electric cars and want the one with the highest rating. Plus, they want to know the weekly cost for a week. They also found a TravelOfficial offer with a 20% discount and are looking to save as much as possible without conflicting with the main task.
+
+First, I need to figure out which functions to use. The user is asking about car rentals, so I should look at the functions related to car rentals. There's a function called `get_all_car_rental_companies_in_city` which retrieves all car rental companies in a given city. That seems relevant.
+
+Next, they want electric cars specifically. I don't see a function that directly filters by electric vehicles, but maybe the `get_car_types_available` function can help. This function returns the types available for each car rental company, so I can use it to filter for electric cars.
+
+After getting the list of companies and their car types, I need to find those with electric cars. I'll have to process the data to extract only the companies offering electric vehicles.
+
+Then, the user wants the highest-rated company. So I'll need a function to get the ratings and reviews for each car rental company. The `get_rating_reviews_for_car_rental` function does that. I'll use this to find the ratings for each company and then sort them to find the top-rated one.
+
+Once I have the top-rated company, I need to get the weekly price. The `get_car_price_per_day` function can provide the daily rate, which I can multiply by seven to get the weekly cost.
+
+Additionally, the user found a 20% discount offer. I need to check if this offer applies to car rentals in Los Angeles. The `check_restaurant_opening_hours` function isn't relevant here, but maybe `get_all_car_rental_companies_in_city` can be used again with the offer details. Wait, no, that function doesn't take offers into account. Perhaps I need a different approach. Maybe the `apply_offer` function can be used if there's a function that applies offers to car rentals. But looking at the functions, `apply_offer` is for travel offers, not car rentals. Hmm, that's a problem. The user's offer is a travel offer, but car rental companies might have their own promotions. Since the `apply_offer` function

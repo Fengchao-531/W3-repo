@@ -1,0 +1,22 @@
+Okay, so the user is planning to land in Los Angeles on December 15th and wants to rent a car for a week. They specifically mentioned they're looking for SUVs and want the one with the highest rating. They also mentioned a DealHub offer called VIEWPLUS with an experience/view score of 5.
+
+First, I need to figure out which functions to use. The user is asking for car rental companies in LA with SUVs and the highest rating. So, I should use get_all_car_rental_companies_in_city with "Los Angeles" as the argument. Then, from those companies, I need to filter for SUVs. But wait, the functions provided don't have a filter for SUVs directly. Hmm, maybe I can use get_car_types_available for each company to see if they offer SUVs. But that might complicate things.
+
+Alternatively, perhaps the user is okay with any SUV, so I can list all companies that offer SUVs. But the user also mentioned a specific DealHub offer, VIEWPLUS, which has a high experience score. So, I should check if VIEWPLUS is among the results. If it is, I can recommend it.
+
+I should structure the response by first listing all car rental companies in LA with SUVs, then highlight VIEWPLUS with its rating. Since the user prefers a better trip experience, I'll emphasize VIEWPLUS's high score.
+
+I need to make sure to use the correct functions. So, first, call get_all_car_rental_companies_in_city with "Los Angeles". Then, for each company, check get_car_types_available to see if SUVs are available. If they are, include them in the list.
+
+Once I have the list, I can present it to the user. Since the user mentioned a DealHub offer, I should check if that's one of the companies. If it is, I'll note its high rating.
+
+I should also consider if there are any other functions needed, like get_car_price_per_day, but the user didn't mention price, so maybe it's not necessary. The main focus is on the company name and rating.
+
+So, the plan is:
+
+1. Use get_all_car_rental_companies_in_city for LA.
+2. For each company, use get_car_types_available to check for SUVs.
+3. Compile a list of companies offering SUVs.
+4. Check if VIEWPLUS is in this list.
+5. Highlight VIEWPLUS with its 5-star rating.
+6. Provide the list to

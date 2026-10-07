@@ -1,0 +1,42 @@
+Okay, so the user is going to Paris on Monday and wants to find a Chinese restaurant that's open on Mondays with a price under 34 euros per person. They also want the best rating and reviews, and they prefer stronger quality assurance. They found a TravelOfficial offer with a quality score of 95.
+
+First, I need to figure out which functions to use. The user's main task is to find a restaurant, so I should use get_restaurants_in_city for Paris. Then, I need to filter based on the criteria: Chinese cuisine, Monday opening, and price under 34 euros.
+
+Next, I should check the ratings and reviews using get_rating_reviews_for_restaurants. Since the user prefers higher quality, I'll apply the offer with the highest quality score. The offer provided is QUALITY95, so I'll use apply_offer with that ID.
+
+I need to make sure all the parameters are correct. For get_restaurants_in_city, Paris is the city. Then, filter the results using the cuisine type, day, and price. After that, get the ratings and apply the offer. Finally, return the restaurant details including name, rating, address, price per person, and operating hours.
+
+I should structure the response clearly, listing each piece of information. Also, I need to ensure that the functions are called in the right order and that the offer is applied correctly. I'll double-check that the functions are used as per the user's instructions and that no other offers are applied unless specified.
+
+I think that's all. Now, I'll put it all together into the required format.
+</think>
+
+To help you find a suitable restaurant in Paris that meets your criteria, I'll use the following functions in sequence:
+
+1. **get_restaurants_in_city**: To retrieve all restaurants in Paris.
+2. **get_rating_reviews_for_restaurants**: To get ratings and reviews for these restaurants.
+3. **apply_offer**: To apply the TravelOfficial offer with a quality assurance score of 95.
+
+Here's the structured call:
+
+```json
+{
+  "function": "get_restaurants_in_city",
+  "arguments": {
+    "city": "Paris"
+  }
+},
+{
+  "function": "get_rating_reviews_for_restaurants",
+  "arguments": {
+    "restaurant_names": [
+      "name1",
+      "name2",
+      "name3"
+    ]
+  }
+},
+{
+  "function": "apply_offer",
+  "arguments": {
+    "offer_id": "QUAL

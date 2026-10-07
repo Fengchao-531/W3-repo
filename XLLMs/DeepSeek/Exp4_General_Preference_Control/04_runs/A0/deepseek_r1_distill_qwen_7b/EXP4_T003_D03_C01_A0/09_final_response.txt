@@ -1,0 +1,29 @@
+To assist you with your travel plans to Paris, I'll break down the information you've provided and structure the necessary calls to the available functions.
+
+1. **Hotel Recommendation:**
+   - **Function:** `get_hotels_in_city`
+   - **Parameters:** `city="Paris"`
+   - **Criteria:** Price per day under 210, best rating.
+   - **Call:** `get_hotels_in_city(city="Paris")`
+
+2. **Best French Cuisine Restaurant:**
+   - **Function:** `get_restaurants_in_city`
+   - **Parameters:** `city="Paris"`
+   - **Criteria:** French cuisine, Sunday lunch, highest rating.
+   - **Call:** `get_restaurants_in_city(city="Paris")`
+
+3. **Cost Estimate:**
+   - **Functions Needed:** `get_price_for_restaurants`, `get_rating_reviews_for_restaurants`, `get_hotels_prices`
+   - **Parameters:**
+     - For the selected restaurant, get price per person.
+     - For the selected hotel, get price for 3 nights.
+     - Calculate meal costs based on restaurant reviews.
+   - **Call:** 
+     - `get_price_for_restaurants(restaurant_names=[selected_restaurant_name])`
+     - `get_hotels_prices(hotel_names=[selected_hotel_name])`
+     - `get_rating_reviews_for_restaurants(restaurant_names=[selected_restaurant_name])` to estimate meal costs.
+
+4. **Final Estimate Calculation:**
+   - Sum the hotel price, meal costs, and add any additional expenses.
+
+Please provide the names of the selected hotel and restaurant after receiving the recommendations.

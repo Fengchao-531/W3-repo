@@ -1,0 +1,19 @@
+Okay, so the user is in Paris on November 15th and wants to find a restaurant for Israeli cuisine. They also want an event on the 14th to remind them to book a table. Plus, they mentioned a DealHub offer with a high quality assurance score, but they're unsure if it's reliable.
+
+First, I need to figure out the main tasks. The primary goal is to find a restaurant with great ratings and reviews. The secondary task is to add an event to their calendar for November 14th. They also have a DealHub offer with a high score, but they're not sure about its reliability.
+
+I should start by using the `get_all_restaurants_in_city` function to get all restaurants in Paris. Then, apply a filter to find those with strong ratings and reviews. Since they prefer higher quality assurance, I'll look for restaurants with a score above a certain threshold, maybe 85 or higher.
+
+Once I have the list of restaurants, I'll need to sort them based on the quality assurance score in descending order. This way, the restaurant with the highest score comes first, which aligns with their preference for stronger quality assurance.
+
+After selecting the top restaurant, I'll use the `get_contact_information_for_restaurants` function to get the address and contact details. This information is necessary to create the event in the calendar.
+
+Next, I'll use the `create_calendar_event` function. I'll set the title to 'Dinner at {restaurant_name}', include the restaurant's address as the location, and set the start and end times. I'll also add the user's email as the participant to send a reminder.
+
+I should also consider the user's DealHub offer. However, since the user is unsure about its reliability, I might suggest that they check the offer's details before proceeding. But since the main task is to find a restaurant, I'll proceed without including the offer unless it's verified.
+
+I need to make sure that all the parameters for the calendar event are correct. The start_day and end_day should be set to November 14th. The event should be recurring to ensure it's added to the calendar automatically.
+
+Finally, I'll send the restaurant's details and the event setup to the user. I'll also remind them to check the DealHub offer's reliability before finalizing the booking.
+
+I should structure the response clearly, providing the restaurant's name, address, and the event setup. Also, I'll include the necessary functions and their parameters

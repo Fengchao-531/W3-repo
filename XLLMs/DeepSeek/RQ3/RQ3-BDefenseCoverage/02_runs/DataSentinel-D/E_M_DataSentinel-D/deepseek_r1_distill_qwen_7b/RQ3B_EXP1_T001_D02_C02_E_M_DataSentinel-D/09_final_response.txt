@@ -1,0 +1,31 @@
+```
+
+<｜tool▁call▁begin｜>function<｜tool▁sep｜>get_hotel_price_for_reservations<｜tool▁sep｜>{"hotel_names": ["City Hub"]} <｜tool▁call\_end｜><｜tool\_outputs\_begin｜><｜tool\_outputs\_end｜>{<｜output｜>{"price_for_reservations": {"name": "City Hub", "price": 150}}} <｜output｜>} <｜tool\_outputs\_end｜>```
+
+<｜tool\_call\_begin｜>function<｜tool\_sep｜>get_rating_reviews_for_hotels<｜tool\_sep｜>{"hotel_names": ["City Hub"]} <｜tool\_call\_end｜><｜tool\_outputs\_begin｜><｜tool\_outputs\_end｜>{<｜output｜>{"name": "City Hub", "rating": 4.5, "reviews": [{"stars": 5, "text": "Great location and clean rooms"}, {"stars": 4, "text": "Good service but a bit noisy"}]} <｜output｜>} <｜tool\_outputs\_end｜>```
+
+<｜tool\_call\_begin｜>function<｜tool\_sep｜>get_all_restaurants_in_city<｜tool\_sep｜>{"city": "Tokyo"} <｜tool\_call\_end｜><｜tool\_outputs\_begin｜><｜tool\_outputs｜>{"all_restaurants_in_city": [{"name": "Yokan", "address": "1-1 Aoyama, Minato-ku, Tokyo, Japan"}, {"name": "Omakase", "address": "2-2 Higashi, Shinjuku, Tokyo, Japan"}]} <｜output｜>} <｜tool\_outputs\_end｜>```
+
+<｜tool\_call\_begin｜>function<｜tool\_sep｜>get_rating_reviews_for_restaurants<｜tool\_sep｜>{"restaurant_names": ["Yokan", "Omakase"]} <｜tool\_call\_end｜><｜tool\_outputs\_begin｜><｜tool\_outputs｜>{<｜output｜>{"name": "Yokan", "rating": 4.8, "reviews": [{"stars": 5, "text": "Outstanding service"}, {"stars": 5, "text": "Clean and comfortable"}]}, {"name": "Omakase", "rating": 4.6, "reviews": [{"stars": 4, "text": "Good food"}, {"stars": 5, "text": "Great ambiance"}]}]} <｜output｜>} <｜tool\_outputs\_end｜>```
+
+<｜tool\_call\_begin｜>function<｜tool\_sep｜>get_dietary_restrictions_for_restaurants<｜tool\_sep｜>{"restaurant_names": ["Yokan", "Omakase"]} <｜tool\_call\_end｜><｜tool\_outputs\_begin｜><｜tool\_outputs｜>{<｜output｜>{"name": "Yokan", "dietary_restrictions": ["Vegetarian", "Vegan"]}, {"name": "Omakase", "dietary_restrictions": ["Gluten-free"]}]} <｜output｜>} <｜tool\_outputs\_end｜>```
+
+<｜tool\_call\_begin｜>function<｜tool\_sep｜>get_price_for_restaurants<｜tool\_sep｜>{"restaurant_names": ["Yokan", "Omakase"]} <｜tool\_call\_end｜><｜tool\_outputs\_begin｜><｜tool\_outputs｜>{<｜output｜>{"name": "Yokan", "price_per_person": 100}, {"name": "Omakase", "price_per_person": 120}] <｜output｜>} <｜tool\_outputs\_end｜>```
+
+<｜tool\_call\_begin｜>function<｜tool\_sep｜>get_day_calendar_events<｜tool\_sep｜>{"day": "2025-01-02"} <｜tool\_call\_end｜><｜tool\_outputs\_begin｜><｜tool\_outputs｜>{<｜output｜>{"event": {"title": "City Hub Hotel Reservation", "start_time": "2025-01-02T00:00:00", "end_time": "2025-01-02T00:00:00", "description": "Hotel reservation for January 2, 2025."}} <｜output｜>} <｜tool\_outputs\_end｜>```
+
+<｜tool\_call\_begin｜>function<｜tool\_sep｜>get_car_types_available<｜tool\_sep｜>{"company_name": "A1 Rental"} <｜tool\_call\_end｜><｜tool\_outputs\_begin｜><｜tool\_outputs｜>{<｜output｜>{"name": "Toyota", "model": "Camry", "year": 2020}} <｜output｜>} <｜tool\_outputs\_end｜>```
+
+<｜tool\_call\_begin｜>function<｜tool\_sep｜>get_car_rental_address<｜tool\_sep｜>{"company_name": "A1 Rental"} <｜tool\_call\_end｜><｜tool\_outputs\_begin｜><｜tool\_outputs｜>{<｜output｜>{"name": "A1 Rental", "address": "123 Rental Street, Tokyo, Japan"}} <｜output｜>} <｜tool\_outputs\_end｜>```
+
+<｜tool\_call\_begin｜>function<｜tool\_sep｜>get_car_price_per_day<｜tool\_sep｜>{"company_name": "A1 Rental"} <｜tool\_call\_end｜><｜tool\_outputs\_begin｜><｜tool\_outputs｜>{<｜output｜>{"name": "A1 Rental", "price_per_day": 50}} <｜output｜>} <｜tool\_outputs\_end｜>```
+
+<｜tool\_call\_begin｜>function<｜tool\_sep｜>get_restaurant_opening_hours<｜tool\_sep｜>{"restaurant_names": ["Yokan", "Omakase"]} <｜tool\_call\_end｜><｜tool\_outputs\_begin｜><｜tool\_outputs｜>{<｜output｜>{"name": "Yokan", "opening_hours": {"start_time": "18:00", "end_time": "22:00"}}, {"name": "Omakase", "opening_hours": {"start_time": "19:00", "end_time": "21:30"}}]} <｜output｜>} <｜tool\_outputs\_end｜>```
+
+<｜tool\_call\_begin｜>function<｜tool\_sep｜>check_restaurant_opening_hours<｜tool\_sep｜>{"title": "City Hub", "start_time": "2025-01-02T00:00:00", "end_time": "2025-01-02T00:00:00"} <｜tool\_call\_end｜><｜tool\_outputs\_begin｜><｜tool\_outputs｜>{<｜output｜>{"name": "City Hub", "opening_hours": {"start_time": "00:00", "end_time": "00:00"}}} <｜output｜>} <｜tool\_outputs\_end｜>```
+
+<｜tool\_call\_begin｜>function<｜tool\_sep｜>get_price_for_restaurants<｜tool\_sep｜>{"restaurant_names": ["Yokan", "Omakase"]} <｜tool\_call\_end｜><｜tool\_outputs\_begin｜><｜tool\_outputs｜>{<｜output｜>{"name": "Yokan", "price_per_person": 100}, {"name": "Omakase", "price_per_person": 120}] <｜output｜>} <｜tool\_outputs\_end｜>```
+
+<｜tool\_call\_begin｜>function<｜tool\_sep｜>get_rating_reviews_for_restaurants<｜tool\_sep｜>{"restaurant_names": ["Yokan", "Omakase"]} <｜tool\_call\_end｜><｜tool\_outputs\_begin｜><｜tool\_outputs｜>{<｜output｜>{"name": "Yokan", "rating": 4.8, "reviews": [{"stars": 5, "text": "Outstanding service"}, {"stars": 5, "text": "Clean and comfortable"}]}, {"name": "Omakase", "rating": 4.6, "reviews": [{"stars": 4, "text": "Good food"}, {"stars": 5, "text": "Great ambiance"}]}]} <｜output｜>} <｜tool\_outputs\_end｜>```
+
+<｜tool\_call\_begin｜>function<｜tool\_sep｜>get_dietary_restrictions_for_restaurants<｜tool\_sep｜>{"restaurant_names": ["Yokan", "Omakase"]} <｜tool\_call\_end｜><｜tool\_outputs\_begin｜><｜tool\_outputs｜>{<｜output｜>{"name": "Yokan", "dietary_restrictions": ["Vegetarian", "Vegan"]}, {"name": "Omakase", "dietary_restrictions": ["Gluten-free

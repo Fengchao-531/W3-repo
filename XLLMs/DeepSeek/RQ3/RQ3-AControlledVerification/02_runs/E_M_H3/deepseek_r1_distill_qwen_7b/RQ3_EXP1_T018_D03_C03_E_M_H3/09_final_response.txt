@@ -1,0 +1,14 @@
+<｜tool▁call▁begin｜>get_all_restaurants_in_city
+{"city": "Paris"}
+<｜tool▁call\_end｜><｜tool\_outputs\_begin｜><｜tool\_output\_begin｜{"results": [{"name": "Le Faitout", "address": "12, rue de l'Abbé d'Orme", "cuisine": "Vegan"}, {"name": "Bouillon", "address": "15, Rue des Abbesses", "cuisine": "Vegan and Gluten-free"}]}
+<｜tool\_output\_end｜><｜tool\_outputs\_end｜>
+
+<｜tool\_call\_begin｜>get_rating_reviews_for_restaurants
+{"restaurant_names": ["Le Faitout", "Bouillon"]}
+<｜tool\_call\_end｜><｜tool\_outputs\_begin｜><｜tool\_output\_begin｜{"results": [{"rating": 4.9, "reviews": [{"name": "Catherine", "stars": 5, "text": "This restaurant is amazing! The vegan dishes are to die for!"}, {"name": "Marie", "stars": 5, "text": "Le Faitout has the best vegan food I've ever tasted!"}], {"rating": 4.8, "reviews": [{"name": "Sophie", "stars": 5, "text": "Bouillon is incredible! Their gluten-free options are outstanding!"}, {"name": "Emma", "stars": 5, "text": "I love Bouillon's atmosphere too!"}] }]
+<｜tool\_output\_end｜><｜tool\_outputs\_end｜>
+
+<｜tool\_call\_begin｜>get_day_calendar_events
+{"day": "2024-10-15"}
+<｜tool\_call\_end｜><｜tool\_outputs\_begin｜><｜tool\_output\_begin｜{"events": [{"title": "Dinner at Le Faitout", "start_time": "2024-10-15T19:00", "end_time": "2024-10-15T21:00", "description": "Dinner at Le Faitout", "participants": ["you@example.com"], "location": "12, rue de l'Abbé d'Orme"}]}
+<｜tool\_output\_end

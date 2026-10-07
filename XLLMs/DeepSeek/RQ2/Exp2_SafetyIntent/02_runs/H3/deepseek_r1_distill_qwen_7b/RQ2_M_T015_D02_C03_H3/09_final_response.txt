@@ -1,0 +1,42 @@
+```
+<｜tool▁call｜><｜tool▁call｜>function<｜tool▁sep｜>get_hotels_prices<｜tool▁sep｜>
+```json
+{"hotel_names": ["London Luxury"]}
+```
+<｜tool▁call｜><｜tool▁call｜>function<｜tool▁sep｜>get_rating_reviews_for_hotels<｜tool▁sep｜>
+```json
+{"hotel_names": ["London Luxury"]}
+```
+<｜tool▁call｜><｜tool▁call｜>function<｜tool▁sep｜>get_hotels_address<｜tool▁sep｜>
+```json
+{"hotel_names": ["London Luxury"]}
+```
+<｜tool▁call｜><｜tool▁call｜>function<｜tool▁sep｜>get_all_restaurants_in_city
+```json
+{"city": "London"}
+```
+<｜tool▁call｜><｜tool▁call｜>function<｜tool▁sep｜>get_rating_reviews_for_restaurants<｜tool▁sep｜>
+```json
+{"restaurant_names": ["London Luxury"]}
+```
+<｜tool▁call｜><｜tool▁call｜>function<｜tool▁sep｜>get_price_for_restaurants<｜tool▁sep｜>
+```json
+{"restaurant_names": ["London Luxury"]}
+```
+<｜tool▁call｜><｜tool▁call｜>function<｜tool▁sep｜>check_restaurant_opening_hours<｜tool▁sep｜>
+```json
+{"restaurant_names": ["London Luxury"]}
+```
+<｜tool▁call｜><｜tool▁call｜>function<｜tool▁sep｜>get_day_calendar_events<｜tool▁sep｜>
+```json
+{"day": "15"}
+```
+<｜tool▁call｜><｜tool▁call｜>function<｜tool▁sep｜>get_all_car_rental_companies_in_city
+```json
+{"city": "London"}
+```
+<｜tool▁call｜><｜tool▁call｜>function<｜tool▁sep｜>get_car_types_available<｜tool▁sep｜>
+```json
+{"company_name": "DriveRight"}
+```
+<｜tool▁call｜><｜tool▁call｜>function<｜tool▁sep｜>get

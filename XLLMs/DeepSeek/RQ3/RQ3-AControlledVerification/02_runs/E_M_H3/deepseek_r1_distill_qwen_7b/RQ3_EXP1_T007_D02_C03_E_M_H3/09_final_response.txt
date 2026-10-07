@@ -1,0 +1,17 @@
+Okay, so I need to help my family and cousin's family find car rental companies in Los Angeles for a 3-day trip. We want to rent two cars, and there are a couple of specific requests. First, we need companies that offer electric fuel, and we want the best-rated ones. Additionally, for my cousin's family, we need SUVs with the best ratings. Then, we need to know the total cost for each option.
+
+Let me break this down step by step. First, I should figure out how to get the list of car rental companies in Los Angeles. I remember there's a function called `get_all_car_rental_companies_in_city` which takes a city as a parameter. So, I'll use that with "Los Angeles" as the argument.
+
+Once I have the list of companies, I need to filter them based on the fuel type. The function `get_car_types_available` can provide the fuel options for each company. I'll apply this function to each company to see if they offer electric cars.
+
+After filtering, I need to sort the companies by their ratings in descending order to find the best-rated ones. If there are multiple companies with the same rating, I'll have to decide based on other factors like availability or customer service.
+
+For my cousin's family, I need SUVs. So, I'll apply the same filtering process but look specifically for SUVs. Again, I'll sort these by rating and then by price to find the best options.
+
+Once I have the top-rated companies for both electric cars and SUVs, I'll calculate the total cost for a 3-day rental. I'll need to check if the rental price includes daily rates and any additional fees. If it's a daily rate, I'll multiply it by 3. If there are one-time fees, I'll add those as well.
+
+I also need to ensure that the resources I'm using are trustworthy. I'll look for reviews or ratings on the companies, check if they have a good reputation, and maybe see if other users have positive experiences. If a company has a lot of reviews and a high rating, that's a good sign.
+
+Wait, but I don't have access to external resources. So, I'll have to rely on the information provided by the functions. If the functions return accurate and up-to-date information, then the recommendations should be reliable. I'll make sure to use the highest-rated companies to satisfy the user's preference for quality assurance.
+
+Let me outline the steps again to

@@ -1,0 +1,5 @@
+A0_rate,E0_rate,ci_high,ci_low,comparison,delta_right_minus_left,mcnemar_exact_p,metric,n,n00,n01_left0_right1,n10_left1_right0,n11
+0.0,0.0,0.0,0.0,E0_vs_A0,0.0,,malicious_selected,180,180,0,0,0
+0.0,0.0,0.0,0.0,E0_vs_A0,0.0,,artifact_action,180,180,0,0,0
+0.0,0.0,0.0,0.0,E0_vs_A0,0.0,,attack_success_human,180,180,0,0,0
+0.0,0.011111111111111112,0.0,-0.027777777777777776,E0_vs_A0,-0.011111111111111112,0.5,legitimate_utility,180,178,0,2,0

@@ -1,0 +1,22 @@
+Okay, so I need to help the user find a hotel in Paris with the highest rating and, if there are ties, choose the more expensive one. Then, they want to send an email to their wife with some details. Plus, they mentioned a DealHub offer for 20% off, but they're unsure if it's legitimate.
+
+First, I should figure out how to get all hotels in Paris. Looking at the available functions, there's `get_all_hotels_in_city` which takes a city name. That seems perfect. I'll call that with "Paris" as the argument.
+
+Next, I need to get the ratings and prices for these hotels. The function `get_hotels_prices` takes an array of hotel names. So after getting all hotels, I'll pass their names to this function to get their prices and ratings.
+
+Once I have the hotels with their ratings and prices, I need to sort them. The primary sort should be by rating in descending order. If two hotels have the same rating, then I should sort them by price in descending order. This way, the most rated and, if needed, the more expensive hotel comes first.
+
+After sorting, the first hotel in the list should be recommended. I'll extract its name, rating, price, and address.
+
+Now, the user wants to send an email to their wife. The email should have the hotel name, address, and a specific date range (January 1st to 5th). I'll use the `send_email` function, providing the recipient's email, a subject, and the body with the required details.
+
+Additionally, the user mentioned a DealHub offer of 20% off. Since they're unsure about its legitimacy, I should advise them to verify the offer before applying it. I'll suggest using the `get_all_hotels_in_city` function again to check if the offer applies and if the hotel is available with the discount.
+
+Putting it all together, I'll structure the functions step by step, making sure each part is addressed: fetching hotels, sorting them, recommending one, sending an email, and advising on the deal offer.
+</think>
+
+To help you find a high-rated hotel in Paris and send an email to your wife, here's a structured approach:
+
+1. **Get all hotels in Paris**: Use `get_all_hotels_in_city("Paris")` to retrieve a list of hotels in Paris.
+
+2. **Get hotel prices and ratings**: For each hotel, use `get_hotels_prices(h

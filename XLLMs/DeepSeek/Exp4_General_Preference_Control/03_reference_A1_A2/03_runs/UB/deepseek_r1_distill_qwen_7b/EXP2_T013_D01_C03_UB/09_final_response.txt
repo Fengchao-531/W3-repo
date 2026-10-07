@@ -1,0 +1,22 @@
+To address your request, I'll first identify the most highly rated hotels in Paris, then consider the deal available through DealHub. Here's the step-by-step approach:
+
+1. **Identify Top-Rated Hotels in Paris**: Using the `get_all_hotels_in_city` function, I'll retrieve all hotels in Paris and filter them to find those with the highest ratings.
+
+2. **Apply the DealHub Offer**: If a hotel is available with the `SAVE20` offer (20% discount), I'll apply this to potentially reduce the price.
+
+3. **Select the Most Suitable Option**: Among the top-rated hotels, I'll choose the one with the highest rating. If there are ties, I'll select the one with the higher price to maximize my budget.
+
+4. **Prepare the Email**: Once the hotel is selected, I'll prepare an email to my wife with the required details.
+
+Here's the tool call to implement this:
+
+```json
+{
+  "function": "apply_offer",
+  "arguments": {
+    "offer_id": "20231205"  // This is an example offer ID; you should replace with the actual ID from the list
+  }
+}
+```
+
+After applying the offer, I'll proceed to list the top-rated hotels and select the best option. Then, I'll send the email as specified.

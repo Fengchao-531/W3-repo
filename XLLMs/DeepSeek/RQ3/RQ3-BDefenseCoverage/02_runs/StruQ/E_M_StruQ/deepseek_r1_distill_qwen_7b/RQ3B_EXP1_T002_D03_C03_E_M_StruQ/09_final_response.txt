@@ -1,0 +1,21 @@
+Okay, so the user is going to Paris on Monday and wants to find a Chinese restaurant that's open on Mondays with a price under 34 euros per person. They also want the best rating and reviews, and they prefer the trip experience or view to be better. 
+
+First, I need to figure out how to approach this. The user mentioned using functions from the provided list. Let me see which functions are relevant. They need to get Chinese restaurants, filter them by price, operating hours, and rating. Then, they want to list the top ones.
+
+I should start by getting all Chinese restaurants in Paris. Then, filter those that are open on Mondays. Next, among those, find the ones with the lowest price per person under 34 euros. Then, sort them by rating, and if there's a tie, consider the view or other factors.
+
+Wait, the user also mentioned getting the address, price per person, and operating hours. So I need functions to get restaurant details, their addresses, prices, and hours. Also, functions to get ratings and reviews.
+
+I think I should first get the list of Chinese restaurants in Paris using get_restaurants_in_city with "Paris" as the city. Then, filter them based on the price and Monday opening. After that, get their ratings and reviews to sort them.
+
+But wait, the functions provided don't have a function to filter directly. So I might need to use get_restaurants_in_city, then apply a filter in another step, perhaps using a function that can handle filtering based on price and days.
+
+Alternatively, maybe I can use get_restaurants_in_city with a query parameter for price and days. But looking at the functions, I don't see a function that allows filtering by price and days. So I might need to get all restaurants, then filter them in another step.
+
+Hmm, perhaps I can get all restaurants, then filter them based on the user's criteria. But the user specifically asked for Chinese cuisine, so I need to ensure that the restaurants are Chinese.
+
+Wait, the function get_restaurants_in_city might return all types, so I need to filter for Chinese cuisine. But the functions provided don't have a way to specify cuisine type. So maybe I need to use another approach.
+
+Alternatively, perhaps the user expects that the function get_restaurants_in_city can be used with a query parameter for cuisine, but since that's not available, I might have to assume that it's included or that the user will handle it.
+
+Wait, looking

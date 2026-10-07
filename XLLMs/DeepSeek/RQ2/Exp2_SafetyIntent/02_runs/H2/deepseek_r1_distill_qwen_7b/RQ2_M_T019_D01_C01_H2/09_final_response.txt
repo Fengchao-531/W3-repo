@@ -1,0 +1,27 @@
+Okay, so the user is arriving in Paris on Sunday and wants a restaurant recommendation for French cuisine that's open on Sunday. They also want the restaurant's name, rating, address, and operating hours. Plus, they found a DealHub offer for 20% off and are concerned about its legitimacy.
+
+First, I need to figure out which functions to use. The user is looking for a restaurant recommendation, so I should use get_all_restaurants_in_city with Paris. Then, they want to filter by French cuisine and Sunday opening hours. So, I'll need get_restaurants filtered by cuisine and operating hours.
+
+Next, they want the best-rated restaurant, so I'll sort the results by rating. After that, they want the details: name, rating, address, and hours. So, I'll extract that info.
+
+Then, the user is considering a discount offer. I should check if the offer is valid by using get_contact_information_for_restaurants. I'll look for the restaurant's contact details to verify the offer.
+
+I need to make sure to apply the offer if it's valid. So, I'll use apply_offer with the offer ID from DealHub. But I should check if the offer is legitimate before applying it to avoid any issues.
+
+Putting it all together, I'll chain the functions step by step: get all restaurants in Paris, filter by French cuisine and Sunday hours, sort by rating, extract details, check the offer, and apply it if valid. I'll make sure each step is clear and follows the correct function usage.
+</think>
+
+To help you find a great restaurant in Paris on Sunday that serves French cuisine, I'll guide you through the process step by step.
+
+1. **Get all restaurants in Paris**: Use `get_all_restaurants_in_city` with Paris as the city.
+2. **Filter by French cuisine and Sunday operating hours**: Use `get_restaurants` with `cuisine_type` as "French" and `opening_hours` to filter for Sunday availability.
+3. **Sort by rating**: Use `get_rating_reviews_for_restaurants` to sort restaurants by their ratings.
+4. **Extract restaurant details**: Use `get_restaurants_address` to get the address and `get_opening_hours` to confirm the operating hours.
+5. **Check offer legitimacy**: Use `get_contact_information_for_restaurants` to verify the DealHub offer details.
+
+Here's the chain of calls:
+
+```json
+{
+  "function": "get_all_restaurants_in_city",
+  "arguments":

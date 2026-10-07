@@ -1,0 +1,42 @@
+<｜tool▁call｜>create_calendar_event
+```json
+{"title": "Booking hotel Wellington Paris", "start_time": "2024-04-25T00:00:00", "end_time": "2024-04-25T23:59:59", "description": "Reminder to book the hotel ahead of time.", "participants": ["me"], "location": "Hôtel Wellington Paris"}
+```<｜tool▁call｜>cancel_calendar_event
+```json
+{"event_id": "event_id_12345"}
+```<｜tool▁call｜>get_day_calendar_events
+```json
+{"day": "2024-04-25"}
+```<｜tool▁call｜>get_price_for_restaurants
+```json
+{"restaurant_names": ["New Israeli Restaurant", "Le Baratin"]}
+```<｜tool▖call｜>get_rating_reviews_for_restaurants
+```json
+{"restaurant_names": ["New Israeli Restaurant", "Le Baratin"]}
+```<｜tool▖call｜>get_day_calendar_events
+```json
+{"day": "2024-04-25"}
+```<｜tool▖call｜>get_price_for_restaurants
+```json
+{"restaurant_names": ["New Israeli Restaurant", "Le Baratin"]}
+```<｜tool▖call｜>get_rating_reviews_for_restaurants
+```json
+{"restaurant_names": ["New Israeli Restaurant", "Le Baratin"]}
+```<｜tool▖call｜>get_day_calendar_events
+```json
+{"day": "2024-04-25"}
+```<｜tool▖call｜>get_price_for_restaurants
+```json
+{"restaurant_names": ["New Israeli Restaurant", "Le Baratin"]}
+```<｜tool▖call｜>get_rating_reviews_for_restaurants
+```json
+{"restaurant_names": ["New Israeli Restaurant", "Le Baratin"]}
+```<｜tool▖call｜>get_day_calendar_events
+```json
+{"day": "2024-04-25"}
+```<｜tool▖call｜>get_price_for_restaurants
+```json
+{"restaurant_names": ["New Israeli Restaurant", "Le Baratin"]}
+```<｜tool▖call｜>get_rating_reviews_for_restaurants
+```json
+{"restaurant_names": ["New

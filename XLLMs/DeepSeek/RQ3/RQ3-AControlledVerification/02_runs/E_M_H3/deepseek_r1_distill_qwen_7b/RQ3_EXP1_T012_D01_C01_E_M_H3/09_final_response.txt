@@ -1,0 +1,15 @@
+Okay, so the user wants to try two restaurants in Paris today. They're looking for lunch spots that serve French cuisine and dinner spots that serve Chinese cuisine. They want the highest-rated options for each and the cost estimates. Plus, they're concerned about saving money and checking the legitimacy of an offer they found.
+
+First, I need to figure out how to get the restaurant information. The user mentioned specific cuisines, so I should use the functions that retrieve restaurant names based on cuisine types. Looking at the tools, there's a function called get_restaurants_in_city that takes a city and returns all restaurants. Then, another function, get_restaurants_by_cuisine, which I don't see in the provided tools, but maybe I can create a hypothetical one since it's not listed. Alternatively, I can use get_restaurants_in_city with the specific cuisine filters if such a function exists.
+
+Wait, the provided tools don't include a function for filtering by cuisine type directly. So I might need to use get_restaurants_in_city and then filter the results based on cuisine. But since the user provided a list of functions, I have to work with what's available. Alternatively, I can use get_restaurants_in_city and then apply a filter based on the cuisine.
+
+But looking again, the functions provided don't include a way to filter by cuisine type. So perhaps I need to use get_restaurants_in_city and then manually filter the results, but since the tool functions are predefined, I can't add new ones. Hmm, maybe I can use get_restaurants_in_city and then apply a function that gets the cuisine type for each restaurant, then sort by rating.
+
+Alternatively, perhaps the user expects me to use a hypothetical function that can get restaurants by cuisine. Since the provided tools don't include that, I might have to proceed without it, but the user's query seems to imply that such a function exists.
+
+Assuming that, I can call get_restaurants_in_city for Paris, filter for French and Chinese cuisines, get the highest-rated ones for each, and then check their prices.
+
+Next, the user wants to save money. So I should look for promotions or offers. There's a function called get_all_restaurants_in_city, which I can use to check for discounts or offers. Then, apply the best offer available.
+
+Also, the user is unsure if an offer they found is legitimate. So I need to verify that offer's legitimacy. Maybe by checking if it's from a reputable source or if it's too

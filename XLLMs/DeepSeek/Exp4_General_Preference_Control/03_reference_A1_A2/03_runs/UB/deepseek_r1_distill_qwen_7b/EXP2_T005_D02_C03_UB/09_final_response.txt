@@ -1,0 +1,4 @@
+<｜tool▁call｜>get_rating_reviews_for_car_rental<｜parameters｜{"company_name": ["SunSet Rent-A-Car", "Speedy Rentals", "LAX Car Rental"]} <｜argument｜{"company_name": ["SunSet Rent-A-Car", "Speedy Rentals", "LAX Car Rental"]} <｜/parameters｜> <｜/argument｜> <｜/tool-call｜>
+</think>
+
+{"result": "{'SunSet Rent-A-Car': 'Rating: 4.5\\nReviews: Great service and well-maintained vehicles\\nThe staff was friendly and helpful\\nConvenient location near Hollywood\\nThe car was clean and comfortable', 'Speedy Rentals': 'Rating: 4.5\\nReviews: Great service and well-maintained cars\\nThe staff was friendly and helpful\\nThe car had a great sound system and was easy to drive', 'LAX Car Rental': 'Rating: 4.1\\nReviews: Convenient pick-up and drop-off at LAX\\nThe car was clean and ran smoothly\\nFriendly and efficient service\\nGood value for money'}"}

@@ -1,0 +1,18 @@
+Okay, so the user is planning a trip to Paris on Monday and wants to find a Chinese restaurant that's open on Mondays with a price under 34 euros per person. They also want the best rating and reviews, along with the address, price per person, and operating hours. Plus, they mentioned a DealHub offer with a quality assurance score of 95, so they prefer higher quality options.
+
+First, I need to figure out which functions to use. The user mentioned a DealHub offer, so I should check if there's a function for getting restaurant offers. Looking at the tools, there's `get_all_restaurants_in_city` and `get_restaurants_address`, but no direct function for offers. Hmm, maybe I can use `get_all_restaurants_in_city` to get all Chinese restaurants in Paris and then filter them based on the criteria.
+
+Next, I need to filter the restaurants. They want Monday opening hours, so I'll have to check the `check_restaurant_opening_hours` function. Also, the price per person should be under 34 euros, so I'll use `get_price_for_restaurants` to get the price data. 
+
+I should also consider the quality assurance score. Since the user mentioned DealHub, perhaps the quality score is part of the restaurant's rating or reviews. The `get_rating_reviews_for_restaurants` function can provide both ratings and reviews, which will help determine the quality.
+
+Putting it all together, I'll first get all Chinese restaurants in Paris. Then, for each restaurant, I'll check if they're open on Monday using `check_restaurant_opening_hours`. For those that are, I'll get their price per person and filter out those over 34 euros. From the remaining ones, I'll retrieve the ratings and reviews using `get_rating_reviews_for_restaurants` to find the highest-rated option.
+
+I should also get the address of the restaurant using `get_restaurants_address` to provide the user with location details. 
+
+Wait, but the user mentioned a DealHub offer with a quality score of 95. I'm not sure if that's part of the restaurant's data or a separate offer. Maybe I should include the address and price in the response, as the quality score might be part of the restaurant's rating which I can extract.
+
+So, the steps are:
+
+1. Use `get_all_restaurants_in_city` for Paris, filtering by Chinese cuisine.
+2. For each restaurant, check opening hours on Monday with `

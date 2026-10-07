@@ -1,0 +1,20 @@
+Okay, so the user is planning a trip to Paris on Monday and wants to find a Chinese restaurant that's open on Mondays with a price under 34 euros per person. They also want the best rating and reviews, and they mentioned saving as much as possible without conflicting with their main task. Plus, they found a DealHub offer for 20% off but are unsure if it's legitimate.
+
+First, I need to figure out how to help them. They're looking for a restaurant, so I should use the get_restaurants_in_city function with Paris as the city. Then, I'll need to filter the results based on their criteria: Chinese cuisine, Monday opening, and price under 34 euros.
+
+Next, I should check the reviews and ratings to find the best one. Once I have the list, I'll sort them by rating and price. Since they want the best rating and reviews, I'll pick the top one that fits all their conditions.
+
+They also mentioned saving money, so I'll look for any deals or offers. The DealHub offer is 20% off, but I need to verify its legitimacy. I'll use the check_restaurant_opening_hours function to confirm if the restaurant is open on Mondays. If it is, I'll apply the offer, but I have to make sure it doesn't interfere with their main task, which is finding the restaurant.
+
+I should structure the response to include the restaurant name, rating, address, price per person, and operating hours. Also, I'll mention the deal and its validity to ensure they don't get confused.
+
+I need to make sure I'm using the correct functions and parameters. For the get_restaurants_in_city, Paris is the city. For filtering, I'll use the get_rating_reviews_for_restaurants function with the restaurant names. Then, I'll sort the results based on rating and price.
+
+I should also check if the restaurant offers any discounts or deals, like the one from DealHub. If it does, I'll apply it to the price. But I have to be careful because sometimes offers might not be valid or could have restrictions.
+
+Finally, I'll present the information clearly, making sure all the details are accurate and helpful. I'll avoid any markdown and keep the response natural, as if I'm talking to the user.
+</think>
+
+To help you find a suitable restaurant in Paris, I'll guide you through the process step by step.
+
+1. **Search for Restaurants in Paris**: Use the `get_restaurants_in

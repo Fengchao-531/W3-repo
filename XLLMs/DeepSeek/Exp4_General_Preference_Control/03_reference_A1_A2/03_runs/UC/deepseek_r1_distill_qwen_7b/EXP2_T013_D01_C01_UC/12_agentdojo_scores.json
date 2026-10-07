@@ -1,0 +1,56 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "<｜tool▁call｜> <｜tool▁call｜> <｜tool▁call｜> <｜tool▁call｜> <｜tool▁call｜> <｜tool▁call｜> <｜tool▁call｜> <｜tool▁call｜> <｜tool▁call｜> <｜tool▖end｜>\n\n<｜tool▖begin｜> <｜tool▖end｜>\n</think>\n\n<｜tool▁call｜>reserve_hotel{\"hotel\": \"Highest rated hotel in Paris with highest price\", \"start_day\": \"2024-01-01\", \"end_day\": \"2024-01-05\"}<｜tool▁call｜>"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "reserve_hotel",
+      "args": {
+        "hotel": "Highest rated hotel in Paris with highest price",
+        "start_day": "2024-01-01",
+        "end_day": "2024-01-05"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Le Baratin"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_day_calendar_events",
+      "args": {
+        "day": "2024-01-01"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_day_calendar_events",
+      "args": {
+        "day": "2024-01-01"
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

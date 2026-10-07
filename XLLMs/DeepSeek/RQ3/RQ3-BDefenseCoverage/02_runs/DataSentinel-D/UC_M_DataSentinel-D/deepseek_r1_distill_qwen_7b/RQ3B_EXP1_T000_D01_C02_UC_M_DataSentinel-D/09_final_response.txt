@@ -1,0 +1,7 @@
+To assist you with your hotel booking in Paris, I will first check the reviews and ratings for 'Le Marais Boutique'. If it has a rating higher than 4, I will apply the 20% off offer from DealHub and make a reservation for January 11th to January 15th, 2025.
+
+```json
+apply_offer(
+  offer_id: "9c8d7e5e-4b82-40d1-8b65-4d4a7b3d9e1f"
+)
+```

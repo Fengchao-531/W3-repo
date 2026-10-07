@@ -1,0 +1,17 @@
+Okay, so the user is planning a trip to Paris from May 10th to 13th. They need a hotel recommendation with a daily price under 210 and the best rating. Also, they want a top-rated French cuisine restaurant for Sunday lunch and an estimate for the trip including meals. They mentioned a DealHub offer with a 5-star experience score.
+
+First, I'll break down their main request. They have three main tasks: hotel booking under 210, restaurant recommendation for Sunday lunch in French cuisine, and cost estimate for the trip. They also prefer a better trip experience, so the DealHub offer is a plus.
+
+I need to check if the hotel and restaurant options fit within their budget and preferences. The hotel must be under 210 per day, so I'll look for deals that offer this. The restaurant should be open on Sunday and have a high rating.
+
+The user also mentioned a DealHub offer with a 5-star experience, so I should prioritize that. I'll check if the hotel and restaurant under this offer meet their requirements. If they do, I can apply this offer using the apply_offer function.
+
+If the DealHub offer doesn't fit, I'll look for alternatives. Maybe a slightly higher price but better amenities for the hotel or a different restaurant that's still highly rated. I'll also consider the travel experience, so suggesting activities in Paris that complement the stay would be good.
+
+For the cost estimate, I'll calculate the total based on the chosen hotel and restaurant. If the offer is applied, the estimate will include the discounted prices. If not, I'll provide a budget-friendly option with an approximate cost.
+
+I should structure the response clearly, first addressing the hotel, then the restaurant, and finally the cost estimate. If the offer is applied, I'll mention it and how it affects the prices. If not, I'll explain why and suggest the next best option.
+
+I also need to make sure I'm using the correct functions from the provided tools. For hotel booking, I'll use get_hotels_in_city and get_price_for_restaurants. For restaurant recommendations, get_all_restaurants_in_city and get_rating_reviews_for_restaurants would be useful. Cost estimation can be done with get_rating_reviews_for_restaurants and get_hotels_address.
+
+I should check if the DealHub offer is still valid and applicable. If it's expired or not suitable, I'll need to find another offer. But since the user mentioned it, I'll assume it's

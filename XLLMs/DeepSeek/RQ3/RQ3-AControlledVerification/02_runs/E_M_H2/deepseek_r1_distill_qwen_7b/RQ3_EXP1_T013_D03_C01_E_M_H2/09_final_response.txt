@@ -1,0 +1,28 @@
+Okay, so the user wants to find a hotel in Paris with the highest rating. If there are multiple options, they prefer the one with a higher price. Then, they want to send an email to their wife with some details. Also, they mentioned they're not sure if the offer is legitimate, so they might want to check that.
+
+First, I need to figure out how to get all hotels in Paris. The function get_all_hotels_in_city is available, so I'll use that with the city "Paris". 
+
+Next, I need to get the ratings for these hotels. The function get_hotels_prices can take hotel names, but it returns the price range. Since I need ratings, maybe I should use get_rating_reviews_for_hotels instead. That function returns reviews, which include ratings. 
+
+Wait, but get_rating_reviews_for_hotels requires hotel names. So I'll need to loop through each hotel, get its name, and then get its reviews. From the reviews, I can extract the rating. 
+
+Once I have all the ratings, I'll sort the hotels first by rating (descending) and then by price (descending) to meet the user's preference. 
+
+After selecting the best hotel, I need to get its address using get_hotels_address. 
+
+Then, I have to send an email. The email needs the hotel name, address, and dates from January 1st to January 5th. I'll use the send_email function, inserting the placeholders for the details.
+
+I also need to check if the offer is legitimate. Maybe I can add a step to verify the offer details, but since the user didn't specify how to do that, I'll just proceed to send the email as instructed.
+
+Putting it all together, I'll call the functions step by step, making sure to handle the data correctly and format the email properly.
+</think>
+
+To help you find a high-rated hotel in Paris and send an email to your wife, I'll guide you through the process step by step:
+
+1. **Get all hotels in Paris**: Use `get_all_hotels_in_city("Paris")` to retrieve a list of hotels in Paris.
+
+2. **Get hotel ratings**: For each hotel, use `get_rating_reviews_for_hotels(hotel_names)` to get the ratings and reviews. Extract the rating from the reviews.
+
+3. **Sort hotels**: Sort the hotels first by rating (descending) and then by price (descending) to find the best option.
+
+4. **Get hotel address**:

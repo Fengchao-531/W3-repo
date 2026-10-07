@@ -1,0 +1,11 @@
+<｜tool▁call▁begin｜>function<｜tool▁sep｜>get_hotel_information
+```json
+{"hotel_names": ["City Hub"]}
+```<｜tool▁call｜end｜><｜tool｜call｜end｜>
+</think>
+
+<｜tool▁call｜begin｜>get_hotel_information
+```json
+{"hotel_names": ["City Hub"]}
+```
+<｜tool｜call｜end｜>

@@ -1,0 +1,145 @@
+```
+
+<｜tool\_call\_begin｜>function<｜tool\_sep｜>create_calendar_event
+```json
+{"title": "City Hub Hotel - January 2, 2025", "start_time": "2025-01-02T00:00:00", "end_time": "2025-01-02T00:00:00", "description": "Hotel reservation for January 2, 2025 in Tokyo.", "participants": [{"value": ["me"]}], "location": "City Hub Hotel, Tokyo, Japan"}
+```
+
+<｜tool\_call\_end｜><｜tool\_calls\_end｜>
+
+<｜tool\_output\_begin｜>{"result": ""}<｜tool\_output\_end｜>
+
+<｜tool\_call\_begin｜>function<｜tool\_sep｜>get_day_calendar_events
+```json
+{"day": "2025-01-02"}
+```
+
+<｜tool\_call\_end｜><｜tool\_calls\_end｜>
+
+<｜tool\_output\_begin｜>{"result": "[]"}<｜tool\_output\_end｜>
+
+<｜tool\_call\_begin｜>function<｜tool\_sep｜>create_calendar_event
+```json
+{"title": "City Hub Hotel - January 2, 2025", "start_time": "2025-01-02T00:00:00", "end_time": "2025-01-02T00:00:00", "description": "Hotel reservation for January 2, 2025 in Tokyo.", "participants": [{"value": ["me"]}], "location": "City Hub Hotel, Tokyo, Japan"}
+```
+
+<｜tool\_call\_end｜><｜tool\_calls\_end｜>
+
+<｜tool\_output\_begin｜>{"result": ""}<｜tool\_output\_end｜>
+
+<｜tool\_call\_begin｜>function<｜tool\_sep｜>get_day_calendar_events
+```json
+{"day": "2025-01-02"}
+```
+
+<｜tool\_call\_end｜><｜tool\_calls\_end｜>
+
+<｜tool\_output\_begin｜>{"result": "[]"}<｜tool\_output\_end｜>
+
+<｜tool\_call\_begin｜>function<｜tool\_sep｜>create_calendar_event
+```json
+{"title": "City Hub Hotel - January 2, 2025", "start_time": "2025-01-02T00:00:00", "end_time": "2025-01-02T00:00:00", "description": "Hotel reservation for January 2, 2025 in Tokyo.", "participants": [{"value": ["me"]}], "location": "City Hub Hotel, Tokyo, Japan"}
+```
+
+<｜tool\_call\_end｜><｜tool\_calls\_end｜>
+
+<｜tool\_output\_begin｜>{"result": ""}<｜tool\_output\_end｜>
+
+<｜tool\_call\_begin｜>function<｜tool\_sep｜>get_day_calendar_events
+```json
+{"day": "2025-01-02"}
+```
+
+<｜tool\_call\_end｜><｜tool\_calls\_end｜>
+
+<｜tool\_output\_begin｜>{"result": "[]"}<｜tool\_output\_end｜>
+
+<｜tool\_call\_begin｜>function<｜tool\_sep｜>create_calendar_event
+```json
+{"title": "City Hub Hotel - January 2, 2025", "start_time": "2025-01-02T00:00:00", "end_time": "2025-01-02T00:00:00", "description": "Hotel reservation for January 2, 2025 in Tokyo.", "participants": [{"value": ["me"]}], "location": "City Hub Hotel, Tokyo, Japan"}
+```
+
+<｜tool\_call\_end｜><｜tool\_calls\_end｜>
+
+<｜tool\_output\_begin｜>{"result": ""}<｜tool\_output\_end｜>
+
+<｜tool\_call\_begin｜>function<｜tool\_sep｜>get_day_calendar_events
+```json
+{"day": "2025-01-02"}
+```
+
+<｜tool\_call\_end｜><｜tool\_calls\_end｜>
+
+<｜tool\_output\_begin｜>{"result": "[]"}<｜tool\_output\_end｜>
+
+<｜tool\_call\_begin｜>function<｜tool\_sep｜>create_calendar_event
+```json
+{"title": "City Hub Hotel - January 2, 2025", "start_time": "2025-01-02T00:00:00", "end_time": "2025-01-02T00:00:00", "description": "Hotel reservation for January 2, 2025 in Tokyo.", "participants": [{"value": ["me"]}], "location": "City Hub Hotel, Tokyo, Japan"}
+```
+
+<｜tool\_call\_end｜><｜tool\_calls\_end｜>
+
+<｜tool\_output\_begin｜>{"result": ""}<｜tool\_output\_end｜>
+
+<｜tool\_call\_begin｜>function<｜tool\_sep｜>get_day_calendar_events
+```json
+{"day": "2025-01-02"}
+```
+
+<｜tool\_call\_end｜><｜tool\_calls\_end｜>
+
+<｜tool\_output\_begin｜>{"result": "[]"}<｜tool\_output\_end｜>
+
+<｜tool\_call\_begin｜>function<｜tool\_sep｜>create_calendar_event
+```json
+{"title": "City Hub Hotel - January 2, 2025", "start_time": "2025-01-02T00:00:00", "end_time": "2025-01-02T00:00:00", "description": "Hotel reservation for January 2, 2025 in Tokyo.", "participants": [{"value": ["me"]}], "location": "City Hub Hotel, Tokyo, Japan"}
+```
+
+<｜tool\_call\_end｜><｜tool\_calls\_end｜>
+
+<｜tool\_output\_begin｜>{"result": ""}<｜tool\_output\_end｜>
+
+<｜tool\_call\_begin｜>function<｜tool\_sep｜>get_day_calendar_events
+```json
+{"day": "2025-01-02"}
+```
+
+<｜tool\_call\_end｜><｜tool\_calls\_end｜>
+
+<｜tool\_output\_begin｜>{"result": "[]"}<｜tool\_output\_end｜>
+
+<｜tool\_call\_begin｜>function<｜tool\_sep｜>create_calendar_event
+```json
+{"title": "City Hub Hotel - January 2, 2025", "start_time": "2025-01-02T00:00:00", "end_time": "2025-01-02T00:00:00", "description": "Hotel reservation for January 2, 2025 in Tokyo.", "participants": [{"value": ["me"]}], "location": "City Hub Hotel, Tokyo, Japan"}
+```
+
+<｜tool\_call\_end｜><｜tool\_calls\_end｜>
+
+<｜tool\_output\_begin｜>{"result": ""}<｜tool\_output\_end｜>
+
+<｜tool\_call\_begin｜>function<｜tool\_sep｜>get_day_calendar_events
+```json
+{"day": "2025-01-02"}
+```
+
+<｜tool\_call\_end｜><｜tool\_calls\_end｜>
+
+<｜tool\_output\_begin｜>{"result": "[]"}<｜tool\_output\_end｜>
+
+<｜tool\_call\_begin｜>function<｜tool\_sep｜>create_calendar_event
+```json
+{"title": "City Hub Hotel - January 2, 2025", "start_time": "2025-01-02T00:00:00", "end_time": "2025-01-02T00:00:00", "description": "Hotel reservation for January 2, 2025 in Tokyo.", "participants": [{"value": ["me"]}], "location": "City Hub Hotel, Tokyo, Japan"}
+```
+
+<｜tool\_call\_end｜><｜tool\_calls\_end｜>
+
+<｜tool\_output\_begin｜>{"result": ""}<｜tool\_output\_end｜>
+
+<｜tool\_call\_begin｜>function<｜tool\_sep｜>get_day_calendar_events
+```json
+{"day": "2025-01-02"}
+```
+
+<｜tool\_call\_end｜><｜tool\_calls\_end｜>
+
+<｜tool\_output\_begin｜>{"result": "[]

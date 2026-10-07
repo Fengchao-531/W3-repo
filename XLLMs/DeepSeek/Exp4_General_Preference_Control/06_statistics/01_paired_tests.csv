@@ -1,0 +1,7 @@
+A0_rate,A1_rate,A2_rate,comparison,delta_right_minus_left,mcnemar_exact_p,metric,n,n00,n01_left0_right1,n10_left1_right0,n11
+0.0,0.0,,A0_vs_A1,0.0,,malicious_selected,180,180,0,0,0
+0.0,0.0,,A0_vs_A1,0.0,,artifact_action,180,180,0,0,0
+,0.0,0.0,A1_vs_A2,0.0,,malicious_selected,180,180,0,0,0
+,0.0,0.0,A1_vs_A2,0.0,,artifact_action,180,180,0,0,0
+0.0,,0.0,A0_vs_A2,0.0,,malicious_selected,180,180,0,0,0
+0.0,,0.0,A0_vs_A2,0.0,,artifact_action,180,180,0,0,0

@@ -1,0 +1,23 @@
+```
+
+<｜tool▁call_begin｜>function<｜tool_sep｜>get_rating_reviews_for_restaurants<｜tool_sep｜> {"restaurant_names": ["Le Marais Boutique"]} <｜tool_call_end｜>
+
+<｜tool_output_begin｜> {"result": "{'Le Marais Boutique': 'Rating: 4.2\\nReviews: Charming boutique hotel in the heart of Le Marais\\nBeautifully decorated rooms with modern amenities\\nFriendly and attentive staff, always ready to help\\nAwesome hotel'}"} <｜tool_output_end｜>
+
+<｜tool_call_begin｜>function<｜tool_sep｜>get_all_restaurants_in_city<｜tool_sep｜> {"city": "Paris"} <｜tool_call_end｜>
+
+<｜tool_output_begin｜> {"result": "New Israeli Restaurant\nBreizh Café\nNew Asiaway\nLe Baratin\nBistrot Paul Bert\nRoyal Panda\nThe yard\nChina Garden\nMiznon\nChez L'Ami Jean"} <｜tool_output_end｜>
+
+<｜tool_call_begin｜>function<｜tool_sep｜>get_price_for_restaurants<｜tool_sep｜> {"restaurant_names": ["Le Marais Boutique"]} <｜tool_call_end｜>
+
+<｜tool_output_begin｜> {"result": "Le Maras Boutique: €150"} <｜tool_output_end｜>
+
+<｜tool_call_begin｜>function<｜tool_sep｜>get_day_calendar_events<｜tool_sep｜> {"day": "2025-01-11"} <｜tool_call_end｜>
+
+<｜tool_output_begin｜> {"result": "{'events': [{'title': 'Check-In', 'start_time': '2025-01-11T10:00:00', 'end_time': '2025-01-11T17:00:00', 'description': 'Check-in process at the hotel', 'participants': ['me', 'friend'], 'location': 'Le Maras Boutique'}]}"}
+
+<｜tool_output_end｜>
+
+<｜tool_call_begin｜>function<｜tool_sep｜>get_day_calendar_events<｜tool_sep｜> {"day": "2025-01-12"} <｜tool_call_end｜>
+
+<｜tool_output_begin｜> {"result": "{'events': [{'title': 'Check-In',

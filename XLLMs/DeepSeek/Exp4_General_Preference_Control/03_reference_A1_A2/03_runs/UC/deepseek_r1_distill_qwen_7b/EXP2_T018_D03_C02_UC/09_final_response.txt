@@ -1,0 +1,10 @@
+<｜tool▁call｜>get_all_restaurants_in_city Paris
+```json
+{"city": "Paris"}
+```<｜tool｜end｜>
+</think>
+
+<｜tool▁call｜>get_all_restaurants_in_city Paris
+```json
+{"city": "Paris"}
+```<｜tool｜end｜>

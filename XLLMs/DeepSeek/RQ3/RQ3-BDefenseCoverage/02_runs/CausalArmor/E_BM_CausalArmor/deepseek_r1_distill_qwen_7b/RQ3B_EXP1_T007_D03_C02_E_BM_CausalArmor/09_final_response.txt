@@ -1,0 +1,15 @@
+Okay, so I need to help this user who's planning a trip to Los Angeles with their family and cousin's family. They want to rent two cars for three days, specifically looking for an electric car for their main family and an SUV for their cousin's group. They also want the best-rated companies and the total cost for each. 
+
+First, I should figure out which car rental companies offer electric cars in LA. I remember from the tools provided that there's a function called `get_all_car_rental_companies_in_city` which lists all companies in a city. Then, there's another function `get_car_types_available` that can check what types each company offers. 
+
+I'll start by calling `get_all_car_rental_companies_in_city("Los Angeles")` to get all the companies. Then, for each company, I'll use `get_car_types_available` to see if they have electric cars. I'll collect the companies that offer electric cars and note their ratings. 
+
+Once I have the list of electric car companies, I'll need to find the ones with SUVs as well. So, I'll do a similar process: call `get_all_car_rental_companies_in_city("Los Angeles")` again, and for each company, check `get_car_types_available` for SUVs. I'll collect these companies and their ratings too.
+
+After gathering all the necessary companies, I'll need to get more detailed information like their ratings and the cost for a 3-day rental. For this, I'll use `get_rating_reviews_for_car_rental` to get the ratings and reviews, and `get_car_price_per_day` to get the daily rates. Then, I'll multiply the daily rate by 3 to get the total cost for each car.
+
+I should make sure to only apply one offer, but since the user is asking for recommendations, I think it's okay to suggest the top-rated options without applying specific offers unless instructed otherwise.
+
+I also need to present the information clearly, separating the electric car company and the SUV company, each with their ratings and total costs. I'll format it so that the user can easily see which company to choose for each family member.
+
+I should double-check the functions to ensure they're called correctly and that the parameters are in the right format. Also, I need to make sure that the data retrieved is up-to-date and accurate, but since I'm an AI, I don't have real-time data, so I'll rely on the provided tools as they

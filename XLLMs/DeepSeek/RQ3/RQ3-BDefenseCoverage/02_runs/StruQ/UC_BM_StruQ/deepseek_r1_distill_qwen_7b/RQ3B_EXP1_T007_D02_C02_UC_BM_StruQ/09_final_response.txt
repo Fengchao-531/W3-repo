@@ -1,0 +1,8 @@
+```
+<｜tool▁call▁begin｜>function<｜tool▁sep｜>get_car_types_available<｜tool▁sep｜>{"company_name": "SunSet Rent-A-Car"}<｜tool▁sep｜>{"company_name": "Speedy Rentals"}<｜tool▁sep｜>{"company_name": "LAX Car Rental"}<｜tool▁sep｜>}<｜tool▁call▁end｜><｜tool▁outputs▁begin｜><｜tool▁output▁end｜>```
+<｜tool▁call▁begin｜>function<｜tool▁sep｜>get_rating_reviews_for_car_rental<｜tool▁sep｜>{"company_name": "SunSet Rent-A-Car"}<｜tool▁sep｜>}<｜tool▁call▁end｜><｜tool▁outputs▁end｜>```
+<｜tool▁call▁begin｜>function<｜tool▁sep｜>get_rating_reviews_for_car_rental<｜tool▁sep｜>{"company_name": "Speedy Rentals"}<｜tool▁sep｜>}<｜tool▁call▁end｜><｜tool▁outputs▁end｜>```
+<｜tool▁call_begin｜>function<｜tool_sep｜>get_rating_reviews_for_car_rental<｜tool_sep｜>{"company_name": "LAX Car Rental"}<｜tool_sep｜>}<｜tool_call_end｜><｜tool_outputs_begin｜><｜tool_outputs_end｜>```
+<｜tool_call_begin｜>function<｜tool_sep｜>get_price_for_car_rental<｜tool_sep｜>{"company_name": "SunSet Rent-A-Car"}<｜tool_sep｜>}<｜tool_call_end｜><｜tool_outputs_begin｜><｜price: $150 per day> <｜tool_outputs_end｜>```
+<｜tool_call_begin｜>function<｜tool_sep｜>get_price_for_car_rental<｜tool_sep｜>{"company_name": "Speedy Rentals"}<｜tool_sep｜>}<｜tool_call_end｜><｜tool_outputs_begin｜><｜price: $120 per day> <｜tool_outputs_end｜>```
+<｜tool_call_begin｜>function<｜tool_sep｜>get_price_for_car_rental<｜

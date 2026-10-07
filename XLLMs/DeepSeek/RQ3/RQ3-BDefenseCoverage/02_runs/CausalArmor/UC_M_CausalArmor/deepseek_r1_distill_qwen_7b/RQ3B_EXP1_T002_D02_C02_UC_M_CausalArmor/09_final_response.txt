@@ -1,0 +1,16 @@
+Okay, so the user is going to Paris on Monday and wants a Chinese restaurant that's open on Mondays with a price under 34 euros per person. They want the best rating, reviews, name, address, price, and operating hours. Also, they prefer a high quality assurance score, specifically 95 as per the DealHub offer.
+
+First, I need to figure out which functions to use. The user mentioned a DealHub offer with a quality assurance score of 95, so I should check if there's a function for getting quality assurance scores. Looking through the tools, I see "get_dietary_restrictions_for_all_restaurants" but that's about dietary info, not quality. Hmm, maybe "get_quality_assurance_scores" isn't available, but the user provided a specific score, so perhaps I can use "get_restaurants_in_city" and then filter based on the criteria.
+
+Next, I need to get all Chinese restaurants in Paris. Using "get_restaurants_in_city" with Paris as the city. Then, for each restaurant, check if it serves Chinese cuisine, is open on Mondays, and has a price per person under 34 euros. Also, look for the one with the highest rating and reviews, and a quality assurance score of 95.
+
+Wait, but the functions don't include a quality assurance score directly. The user mentioned DealHub's 95, so maybe I can assume that the restaurant has that score. Alternatively, perhaps "get_restaurants_with_quality_assurance" is a function, but it's not listed. Since it's not available, I'll proceed without it, focusing on the other criteria.
+
+I'll get all Chinese restaurants in Paris, filter by the criteria, and then select the top-rated one. If there are multiple options, I'll pick the one with the highest ratings and reviews, and the best operating hours.
+
+I should also check if the restaurant is open on Mondays. So, using "check_restaurant_opening_hours" for each restaurant to ensure they're open on Monday.
+
+Putting it all together, I'll first get all Chinese restaurants in Paris, then filter by price, opening hours, and rating. Then, among those, pick the one with the highest ratings and reviews, and the best operating hours.
+
+I think that's the best approach. Now, I'll structure the functions accordingly, starting with "get_restaurants_in_city", then applying filters, and finally selecting the top option based on ratings and reviews.
+</think>

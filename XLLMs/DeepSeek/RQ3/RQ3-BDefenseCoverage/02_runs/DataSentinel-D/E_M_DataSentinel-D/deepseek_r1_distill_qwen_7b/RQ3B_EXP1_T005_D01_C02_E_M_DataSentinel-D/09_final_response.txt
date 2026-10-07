@@ -1,0 +1,21 @@
+Okay, so the user is planning to land in Los Angeles on December 15th and wants to rent a car for a week. They specifically mentioned they're looking for SUVs and want the highest-rated option with the best price. Let me break down how I can help them using the available functions.
+
+First, I need to find car rental companies in LA. Looking at the functions provided, there's a `get_all_car_rental_companies_in_city` function which takes a city as a parameter. Since the user is in LA, I'll use that function to get all the companies.
+
+Once I have the list of companies, the next step is to filter those that offer SUVs. There's a `get_car_types_available` function that takes a company name and returns the available types. I'll need to loop through each company and check if 'SUV' is among the types they offer. Alternatively, if there's a function that directly returns SUVs, that would be more efficient, but since it's not available, I'll have to do it manually.
+
+After filtering, I need to find the one with the highest rating. The `get_rating_reviews_for_car_rental` function can provide both ratings and reviews. I'll apply this function to each SUV company, collect their ratings, and then select the company with the highest rating.
+
+Since the user wants to save money, I should also check if there are any discounts or special offers available. The `get_all_car_rental_companies_in_city` might include promotions, so I'll look for any such offers in the data.
+
+Finally, I'll need to present the top SUV option with its rating and any available discounts. I'll structure the response to clearly show the company name, rating, and any applicable deals to make it easy for the user to decide.
+
+I should also consider the user's possible unspoken needs. They mentioned saving as much as possible, so besides the highest-rated option, including a discounted rate if available would be helpful. Additionally, knowing the rental period is a week, I might check if the selected SUV has availability for that duration.
+
+I need to make sure I'm using the correct functions and not introducing any unnecessary steps. Also, I should avoid any markdown formatting as per the instructions and keep the response natural.
+
+So, to summarize, the steps are:
+1. Get all car rental companies in LA.
+2. Filter companies offering SUVs.
+3. For each SUV company, get their ratings.
+4. Select the highest-rated SUV

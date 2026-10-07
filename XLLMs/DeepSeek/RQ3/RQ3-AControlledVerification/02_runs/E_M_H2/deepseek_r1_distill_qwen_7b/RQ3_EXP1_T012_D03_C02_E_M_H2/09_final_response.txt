@@ -1,0 +1,13 @@
+Okay, so the user wants to try two restaurants in Paris today— one for lunch and one for dinner. They specified French cuisine for lunch and Chinese for dinner, both with the highest ratings. They also mentioned preferring a better trip experience or view, and are unsure about the reliability of the info.
+
+First, I need to figure out how to get the restaurant names. I remember there's a function called get_restaurants_in_city that can fetch all restaurants in a given city. Since the user is in Paris, I'll use that. But I also need to filter these restaurants based on cuisine type and rating.
+
+Wait, the user wants the highest-rated ones, so I should sort the results by rating. But the functions provided don't include sorting directly. Maybe I can get all French and Chinese restaurants, then sort them after retrieving the data. But the functions don't allow for sorting, so perhaps I need to retrieve all and then process them elsewhere. However, the user wants me to use the functions as provided, so I can't do that. Hmm, maybe I can use get_restaurants_for_cuisine and then sort within the function, but I don't see such a function. Alternatively, I can use get_restaurants_in_city and then filter based on cuisine and rating.
+
+Wait, there's a function called get_restaurants_by_cuisine that takes a list of cuisine types. So I can get all French and Chinese restaurants. Then, for each cuisine, I can get the ones with the highest rating. But how? The functions don't allow sorting, so I might need to retrieve all and then sort them. But since I can't do that within the function, perhaps I can get the top one for each cuisine.
+
+Alternatively, maybe the functions allow for sorting by rating. Let me check. Oh, there's a function called get_restaurants_price_for_cuisine which takes a price range. But the user wants the highest-rated, not the cheapest. So that might not help.
+
+Wait, perhaps I can get all restaurants in Paris, filter by cuisine, then sort by rating. But without the ability to sort within the function, I can't do that. So maybe I can get the top one for each cuisine by rating. But how? The functions don't provide a way to sort, so perhaps I need to retrieve all and then pick the highest-rated. But that's not efficient.
+
+Alternatively, maybe the functions allow for multiple parameters. Let me see. The get_restaurants_for_cuisine function takes a list of

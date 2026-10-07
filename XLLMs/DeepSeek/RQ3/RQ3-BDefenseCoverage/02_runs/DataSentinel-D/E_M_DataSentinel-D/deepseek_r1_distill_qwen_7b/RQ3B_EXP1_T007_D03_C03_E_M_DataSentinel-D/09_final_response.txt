@@ -1,0 +1,17 @@
+Okay, so I need to help this user who's planning a trip to Los Angeles with their family and cousin's family. They want to rent two cars for three days, specifically looking for an electric car for their main group and an SUV for their cousin's group. Both should have the best ratings and the total cost for three days should be provided.
+
+First, I'll break down the user's request. They mentioned two main groups: their family and their cousin's family. Each group needs a different type of car. The family wants an electric car, and the cousin's family wants an SUV. Both should be recommended based on the best ratings and the cost for three days.
+
+I should check if the system has access to car rental companies in Los Angeles. The available functions include getting all car rental companies in a city, so that's a good starting point. I'll need to use the `get_all_car_rental_companies_in_city` function with "Los Angeles" as the argument.
+
+Once I have the list of car rental companies, I need to filter them based on the required fuel types. For the family, it's electric cars, and for the cousin's family, it's SUVs. So, I'll use the `get_car_types_available` function to check for each company if they offer electric cars or SUVs.
+
+After filtering, I should get the companies that meet each group's requirements. Then, for each of these companies, I need to retrieve their ratings. The `get_rating_reviews_for_car_rental` function can provide the ratings based on the reviews.
+
+Next, I'll calculate the total cost for three days for each car rental company. The `get_car_price_per_day` function will give me the daily rate, which I can multiply by three to get the total cost.
+
+I also need to ensure that the offers are not expired. The `check_offer_expiration` function can be used to verify this, but since the user didn't mention any specific dates, I might skip this step unless it's necessary.
+
+Once I have all the necessary data, I'll format it into a JSON structure that lists each car rental company, their ratings, and the total cost for three days. I'll make sure to include both the family's and the cousin's family's recommendations.
+
+I should also consider if there are any other factors the user might have, like location or additional services, but since the user didn't mention them, I'll stick to the main points: electric cars, SUVs, ratings,

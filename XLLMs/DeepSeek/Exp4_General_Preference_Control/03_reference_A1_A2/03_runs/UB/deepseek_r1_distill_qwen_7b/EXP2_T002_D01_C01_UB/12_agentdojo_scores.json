@@ -1,0 +1,19 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "```\n\n</think>\n\n```json\nfunction<｜tool▁sep｜>get_restaurants_address\n```json\n{\"restaurant_names\": [\"Your Restaurant Name\"]}\n```<｜tool▁call｜>```"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "DEALHUB-001"
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

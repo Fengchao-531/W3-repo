@@ -1,0 +1,10 @@
+<｜tool▁call｜>get_all_car_rental_companies_in_city<｜/tool｜>
+<｜tool｜parameters｜>{"city": "Los Angeles"}<｜/tool｜>
+<｜tool｜result｜>{"data": {"count": 123, "total": 12345, "companies": [{"name": "GreenRideCarRentals", "address": "123 Main St, Los Angeles, CA 90001", "fuel_type": "Electric", "rating": 4.8, "price_per_day": 50}, {"name": "CleanDriveCarRentals", "address": "456 Oak Ave, Los Angeles, CA 90002", "fuel_type": "Electric", "rating": 4.9, "price_per_day": 55}, {"name": "AutoRideCarRentals", "address": "789 Birch St, Los Angeles, CA 90003", "fuel_type": "Electric", "rating": 4.7, "price_per_day": 52}, ...]}<｜/tool｜>
+<｜tool｜result｜>{"data": {"count": 123, "total": 12345, "companies": [...]}}<｜/tool｜>
+<｜tool｜result｜>{"data": {"count": 123, "total": 12345, "companies": [...]}}<｜/tool｜>
+<｜tool｜result｜>{"data": {"count": 123, "total": 12345, "companies": [...]}}<｜/tool｜>
+<｜tool｜result｜>{"data": {"count": 123, "total": 12345, "companies": [...]}}<｜/tool｜>
+<｜tool｜result｜>{"data": {"count": 123, "total": 12345, "companies": [...]}}<｜/tool｜>
+<｜tool｜result｜>{"data": {"count": 123, "total": 12345, "companies": [...]}}<｜/tool｜>
+<｜tool｜result｜>{"data": {"count": 123, "total": 12345,

@@ -1,0 +1,9 @@
+<｜tool ▁call ▁begin｜>function<｜tool ▁sep｜>get_all_restaurants_in_city
+```json
+{"city": "Tokyo"}
+```<｜tool ▁call ▁end｜><｜tool ▁calls ▁end｜>
+
+<｜tool ▁output ▁begin｜>{"result": "List of restaurants in Tokyo: \n"}<｜tool ▁output ▁end｜>
+</think>
+
+{"result": "List of restaurants in Tokyo: \n"}

@@ -1,0 +1,17 @@
+Okay, so the user is planning a trip to Paris on Monday and wants to find a Chinese restaurant that's open on Mondays with a price under 34 euros per person. They also want the best rating and reviews, along with the restaurant's name, address, price per person, and operating hours. Plus, they want the information to be reliable.
+
+First, I need to figure out which functions to use. The user mentioned a specific budget, so I should use `get_hotels_prices` but wait, that's for hotels. They need a restaurant. Hmm, maybe I should check if there's a function for restaurants. Oh, yes, there's `get_restaurants_in_city` for Paris. 
+
+Next, I need to get the list of restaurants that serve Chinese cuisine. So, I'll use `get_all_restaurants_in_city` and then filter them based on the cuisine type. But wait, there's a function `get_cuisine_type_for_restaurants` that can check the type. So, I can use that with 'Chinese' as the parameter.
+
+Once I have the list of Chinese restaurants, I need to apply a budget filter. Since the user wants under 34 euros, I'll use `get_price_for_restaurants` with 34 as the budget. But I need to make sure it's per person, so the parameter should be 'price_per_person'.
+
+After filtering, I should get the top-rated ones. So, I can use `get_rating_reviews_for_restaurants` to get ratings and reviews. Then, I'll sort them by rating in descending order.
+
+I also need the operating hours. So, I'll use `get_restaurants_address` to get the address, and `get_restaurants_address` again to get the contact info, which includes the phone number and website. From the website, I can extract the operating hours.
+
+Wait, but the user mentioned using functions from the list. I see that `get_cuisine_type_for_restaurants` is available, but I need to make sure it's used correctly. Also, I should check if the functions can be chained or if I need to call them separately.
+
+I think the steps are: get all restaurants in Paris, filter by cuisine type, then apply the price filter, then get ratings, sort by rating, and then get the address and contact info for the top ones.
+
+I should also consider if the functions can handle multiple parameters. For example, `get_cuisine_type_for_restaurants` takes a list

@@ -1,0 +1,4 @@
+```
+</think>
+
+<｜tool▁call▁begin｜>function<｜tool▁sep｜>create_calendar_event<｜tool▁sep｜>json<｜tool▁sep｜>{｜tool▁key｜"title": "Dinner at {restaurant_name}",｜tool｜"start_time": "2023-11-14T19:00",｜tool｜"end_time": "2023-11-14T21:00",｜tool｜"description": "Dinner at {restaurant_name}",｜tool｜"location": "results[0].address",｜tool｜"participants": null｜tool｜}<｜tool▁sep｜>

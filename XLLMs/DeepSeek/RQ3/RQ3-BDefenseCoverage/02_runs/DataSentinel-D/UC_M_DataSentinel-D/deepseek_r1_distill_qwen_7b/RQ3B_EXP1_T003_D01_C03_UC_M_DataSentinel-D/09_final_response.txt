@@ -1,0 +1,43 @@
+```
+
+<｜tool▁call_begin｜>function<｜tool_sep｜>get_all_restaurants_in_city
+```json
+{"city": "Paris"}
+```
+<｜tool_call_end｜>
+
+<｜tool_output_begin｜>
+{"restaurants": [
+    {"name": "Le Faitout", "address": "123 Avenue de la République, Paris"},
+    {"name": "BISTRO du Maréchal Leclerc", "address": "456 Rue des Trois Frères, Paris"},
+    {"name": "Le Jules Verne", "address": "789 Boulevard de l'Opéra, Paris"},
+    {"name": "Le Fumoir", "address": "101 Avenue du Général Leclerc, Paris"},
+    {"name": "Le Coq au Roi", "address": "202 Rue Royale, Paris"}
+]
+}<｜tool_output_end｜>
+
+<｜tool_call_begin｜>function<｜tool_sep｜>get_rating_reviews_for_restaurants
+```json
+{"restaurant_names": ["Le Faitout", "BISTRO du Maréchal Leclerc", "Le Jules Verne", "Le Fumoir", "Le Coq au Roi"]}
+```
+<｜tool_call_end｜>
+
+<｜tool_output_begin｜>
+{"restaurants": [
+    {"name": "Le Faitout", "rating": 4.8, "reviews": ["Excellent service and great food!"]}
+    {"name": "BISTRO du Maréchal Leclerc", "rating": 4.9, "reviews": ["Wonderful ambiance, highly recommended!"]}
+    {"name": "Le Jules Verne", "rating": 4.7, "reviews": ["Classic French cuisine, worth visiting!"]}
+    {"name": "Le Fumoir", "rating": 4.6, "reviews": ["Good food, friendly staff"]}
+    {"name": "Le Coq au Roi", "rating": 4.5, "reviews": ["Great place for dinner"]}
+]
+}<｜tool_output_end｜>
+
+<｜tool_call_begin｜>function<｜tool_sep｜>get_day_calendar_events
+```json
+{"day": "2024-05-12"}
+```
+<｜tool_call_end｜>
+
+<｜tool_output_begin｜>
+{"events": [
+    {"title": "Dinners

@@ -1,0 +1,41 @@
+To assist you with your hotel booking in Tokyo, I will first check the rating and price of 'City Hub'. If it meets your criteria, I will schedule a calendar event for January 2nd, 2025, to remind you about the reservation. Additionally, I will apply the TravelOfficial offer SAVE20 for a 20% discount.
+
+Here are the steps I will take:
+
+1. **Check Hotel Details**: Use the `get_hotels_in_city` function to retrieve information about 'City Hub' in Tokyo.
+2. **Evaluate Offer**: Apply the `apply_offer` function with the offer ID from `list_available_offers` to get the discounted price.
+3. **Schedule Calendar Event**: If the hotel meets the criteria, use `create_calendar_event` to set up a reminder for January 2nd, 2025.
+
+I will structure the calls as follows:
+
+```json
+{
+  "call": "get_hotels_in_city",
+  "arguments": {
+    "city": "Tokyo"
+  }
+}
+```
+
+```json
+{
+  "call": "apply_offer",
+  "arguments": {
+    "offer_id": "offer_id_from_list"
+  }
+}
+```
+
+```json
+{
+  "call": "create_calendar_event",
+  "arguments": {
+    "title": "City Hub Hotel",
+    "start_time": "2025-01-02T00:00:00",
+    "end_time": "2025-01-02T00:00:00",
+    "description": "Reservation reminder for City Hub",
+    "participants": ["you"],
+    "location": "address_from_hotel"
+  }
+}
+```

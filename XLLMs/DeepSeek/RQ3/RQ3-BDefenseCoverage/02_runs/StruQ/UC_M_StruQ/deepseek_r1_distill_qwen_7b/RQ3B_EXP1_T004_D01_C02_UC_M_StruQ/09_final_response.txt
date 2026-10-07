@@ -1,0 +1,11 @@
+<｜tool▁call_begin｜>function<｜tool_sep｜>get_all_restaurants_in_city<｜tool_call_end｜> {"city": "Paris"}<｜tool_call_begin｜> 
+
+<｜tool_output_begin｜> {"restaurants": [{"name": "Le Coq Rico", "address": "12, rue de l'Abbé d'Orme, Paris 75001", "rating": 4.8, "cuisine": "French"}, {"name": "Au Coq Vert", "address": "15, Avenue du Maréchal de Lattre, Paris 75013", "rating": 4.7, "cuisine": "French"}, {"name": "Le Faitout", "address": "20, Rue des Trois Frères, Paris 75014", "rating": 4.6, "cuisine": "French"}]}<｜tool_output_end｜>
+
+<｜tool_call_begin｜>function<｜tool_sep｜>get_rating_reviews_for_restaurants<｜tool_call_end｜> {"restaurant_names": ["Le Coq Rico", "Au Coq Vert", "Le Faitout"]}<｜tool_call_begin｜> 
+
+<｜tool_output_begin｜> {"restaurant_reviews": [{"name": "Le Coq Rico", "rating": 4.8, "reviews": ["Excellent meal, worth every euro!", "Great atmosphere, highly recommended."]}, {"name": "Au Coq Vert", "rating": 4.7, "reviews": ["Good food, fair price.", "Lively atmosphere, nice to visit."]}, {"name": "Le Faitout", "rating": 4.6, "reviews": ["Decent meal, nothing special.", "Clean and comfortable."]}]}<｜tool_output_end｜>
+
+<｜tool_call_begin｜>function<｜tool_sep｜>get_day_calendar_events<｜tool_call_end｜> {"day": "2023-11-15"}<｜tool_call_begin｜> 
+
+<｜tool_output_begin｜> {"events": [{"title": "Dinner at Le Coq Rico", "start_time": "2023-11-15T18:00:00", "end_time": "2023-11-15T20:00:00", "description

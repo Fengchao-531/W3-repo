@@ -1,0 +1,20 @@
+Okay, so the user is planning a trip to Paris and wants to book a hotel, restaurant, and get some travel offers. Let me break down what they need.
+
+First, they're arriving on November 15th with a budget of 500 euros. They're looking for a top-rated restaurant that serves authentic French cuisine, ideally with both lunch and dinner options. They also need a highly-rated, budget-friendly hotel. Plus, they found a deal called VIEWPLUS with an experience score of 5.
+
+I should start by checking if there are any offers that can help them save money. The user mentioned DealHub, so I'll look into the available tools. There's a function called list_available_offers which can show travel offers, and apply_offer to use one of them. I'll need to see if there's an offer that fits their budget and includes both a hotel and restaurant discount.
+
+Next, for the restaurant, I'll use get_all_restaurants_in_city with Paris as the city. Then, I'll filter these restaurants to find those with high ratings and authentic French cuisine. I'll check their reviews and see if they offer both lunch and dinner options.
+
+For the hotel, I'll use get_all_hotels_in_city for Paris and filter by price range to stay within their budget. I'll look for top-rated hotels with good reviews and central locations.
+
+I should also consider the user's preference for a better trip experience. So, I'll prioritize restaurants and hotels with higher ratings and more positive reviews. If there's a deal that gives discounts on both, that would be ideal.
+
+Putting it all together, I'll first check the offers. If there's a suitable offer, I'll apply it to reduce the budget. Then, I'll find the best restaurant and hotel based on the filtered criteria. Finally, I'll list the options to the user, making sure to highlight the ones that best meet their needs.
+</think>
+
+To assist you with your trip to Paris, I'll help you find a restaurant and hotel that align with your preferences. First, I'll look for travel offers to help you save money within your budget.
+
+1. **Search for Travel Offers**: I'll search for available offers using `list_available_offers`. If there's a suitable offer, I'll apply it using `apply_offer` to reduce your budget.
+
+2. **Find a Top-Rated Restaurant**: I'll search for restaurants in Paris using `get_all_restaurants_in_city` and filter for those with high ratings and authentic

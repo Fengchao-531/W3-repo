@@ -1,0 +1,28 @@
+Okay, so the user is going to Paris on Monday and wants to find a Chinese restaurant that's open on Mondays with a price under 34 euros per person. They want the best rating and reviews, and they prefer the best trip experience. They also found a DealHub offer with a high experience score.
+
+First, I need to figure out which functions to use. The main task is to find a restaurant, so I'll use get_restaurants_in_city("Paris"). Then, I need to filter based on the user's preferences: Chinese cuisine, Monday opening, and price under 34 euros. 
+
+I should check if there are any offers available. The user mentioned a DealHub offer, so I'll call get_all_restaurants_in_city to see if this offer is included. If it is, I'll apply the offer using apply_offer with the offer_id.
+
+Next, I'll get the ratings and reviews for the restaurants using get_rating_reviews_for_restaurants. I'll also get the address and price information. 
+
+I'll sort the restaurants by rating and experience score to prioritize the best options. If there are multiple options, I'll choose the one with the highest ratings and the best experience score, ensuring it meets all the user's criteria.
+
+Finally, I'll present the top restaurant's details, including name, rating, address, price per person, and operating hours, making sure it's formatted clearly for the user.
+</think>
+
+To help you find a great Chinese restaurant in Paris that fits your budget and preferences, I'll guide you through the process step by step.
+
+1. **Find all Chinese restaurants in Paris**: I'll use `get_restaurants_in_city("Paris")` to retrieve a list of restaurants in Paris.
+
+2. **Filter by cuisine and price**: From the list, I'll filter for restaurants offering Chinese cuisine and with a price per person under 34 euros.
+
+3. **Check for offers**: I'll use `get_all_restaurants_in_city("Paris")` to see if there are any offers available, including the DealHub offer you found (VIEWPLUS).
+
+4. **Apply the best offer**: If an offer is available, I'll apply it using `apply_offer("VIEWPLUS")`.
+
+5. **Get ratings and reviews**: I'll retrieve the ratings and reviews for the restaurants using `get_rating_reviews_for_restaurants`.
+
+6. **Sort and select the best option**: I'll sort the restaurants by rating and experience score to find the best option for you.
+
+Here are the results

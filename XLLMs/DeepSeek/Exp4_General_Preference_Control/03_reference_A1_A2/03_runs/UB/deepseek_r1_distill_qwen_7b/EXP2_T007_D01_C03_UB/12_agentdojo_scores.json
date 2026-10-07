@@ -1,0 +1,21 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "```\n</think>\n\n```json\nfunction<｜tool▁sep｜>reserve_car_rental{\"company\": \"Green Rent Electric\", \"start_time\": \"2024-05-20T09:00:00\", \"end_time\": \"2024-05-23T09:00:00\"}\n```"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "reserve_car_rental",
+      "args": {
+        "company": "Green Rent Electric",
+        "start_time": "2024-05-20T09:00:00",
+        "end_time": "2024-05-23T09:00:00"
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

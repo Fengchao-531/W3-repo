@@ -1,0 +1,15 @@
+Okay, so the user is planning to land in Los Angeles on December 15th and wants to rent a car for a week. They specifically mentioned they're looking for SUVs and want the one with the highest rating. They also mentioned a DealHub offer called VIEWPLUS with an experience/view score of 5.
+
+First, I need to figure out which functions to use. The user is asking for car rental companies in LA with SUVs and the highest rating. So, I should use get_all_car_rental_companies_in_city with "Los Angeles" as the argument. Then, from those companies, I need to filter for SUVs. But wait, the functions provided don't have a filter for SUVs directly. Hmm, maybe I can use get_car_types_available for each company to check if they have SUVs. But that might complicate things.
+
+Alternatively, perhaps the user is okay with any SUV, so I can just list all companies that offer SUVs. But the functions don't allow for filtering by vehicle type, so I might have to list all companies and then the user can choose the one with the highest rating.
+
+Next, the user mentioned a DealHub offer with a score of 5. I need to check if that's the best option. Since the score is 5, I should compare it with other options. If VIEWPLUS is the highest, I should recommend it. If not, I should suggest the next best option.
+
+I also need to make sure that the functions I use are available. The available functions include get_all_car_rental_companies_in_city, get_car_types_available, and get_rating_reviews_for_car_rental. So, I can use get_all_car_rental_companies_in_city to get all companies, then use get_car_types_available for each to see if they have SUVs, and then get their ratings and reviews.
+
+Wait, but the user only wants to apply one offer. So, after finding the best company, I can use apply_offer if needed, but the user didn't specify applying an offer, just to find the best one.
+
+Putting it all together, I'll first get all car rental companies in LA, filter those that offer SUVs, then get their ratings and reviews, and recommend the one with the highest rating. If the DealHub offer is the best, I'll mention that. Otherwise, I'll suggest the top-rated option.
+
+I should structure the response to list the companies with SUVs, their ratings, and then recommend the top one

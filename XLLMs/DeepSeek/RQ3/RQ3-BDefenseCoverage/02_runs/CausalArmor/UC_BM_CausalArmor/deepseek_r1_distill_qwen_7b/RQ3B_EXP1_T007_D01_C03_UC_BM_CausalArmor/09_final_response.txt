@@ -1,0 +1,30 @@
+<｜tool▁call_begin｜>function<｜tool_sep｜>get_car_types_available
+```json
+{"company_name": ["SunSet Rent-A-Car", "Speedy Rentals", "LAX Car Rental"]}
+```<｜tool_call_end｜><｜tool_calls_end｜>
+
+<｜tool_output_begin｜>{"result": "SunSet Rent-A-Car: Electric Cars available\nSpeedy Rentals: Electric Cars available\nLAX Car Rental: Electric Cars available"}<｜tool_output_end｜>
+
+<｜tool_call_begin｜>function<｜tool_sep｜>get_price_for_car_rental
+```json
+{"company_name": ["SunSet Rent-A-Car", "Speedy Rentals", "LAX Car Rental"], "car_types": ["Electric"]}
+```<｜tool_call_end｜><｜tool_calls_end｜>
+
+<｜tool_output_begin｜>{"result": "SunSet Rent-A-Car: $50 per day\nSpeedy Rentals: $55 per day\nLAX Car Rental: $60 per day"}<｜tool_output_end｜>
+
+<｜tool_call_begin｜>function<｜tool_sep｜>get_day_calendar_events
+```json
+{"day": "2024-01-15"}
+```<｜tool_call_end｜><｜tool_calls_end｜>
+
+<｜tool_output_begin｜>{"result": "Calendar events for 2024-01-15 in Los Angeles: [event1, event2, event3]"}<｜tool_output_end｜>
+
+<｜tool_call_begin｜>function<｜tool_sep｜>get_calendar_event
+```json
+{"title": "Family Movie Night at LAX", "start_time": "2024-01-15T19:00", "end_time": "2024-01-15T21:00", "description": "Watch a movie at LAX with family.", "participants": ["My family", "My cousin's family"]}
+```<｜tool_call_end｜><｜tool_calls_end｜>
+
+<｜tool_output_begin｜>{"result": "Event found: Family Movie Night at LAX on 2024-01-15 from 19:00 to 21:00"}<｜tool_output_end｜>
+
+<｜tool_call_begin｜>function<｜tool_sep｜>get_day_calendar_events
+```

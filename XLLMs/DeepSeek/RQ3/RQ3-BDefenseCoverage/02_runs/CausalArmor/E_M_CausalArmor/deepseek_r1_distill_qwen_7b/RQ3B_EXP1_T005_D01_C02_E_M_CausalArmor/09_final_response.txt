@@ -1,0 +1,15 @@
+Okay, so the user is planning to land in Los Angeles on December 15th and wants to rent a car for a week. They specifically mentioned they're looking for SUVs and want the highest-rated option with the best price. Let me break down how I can help them using the available functions.
+
+First, I need to find car rental companies in LA. Looking at the tools provided, there's a function called `get_all_car_rental_companies_in_city` which takes a city as a parameter. That's perfect. I'll use that to get all the companies in LA.
+
+Once I have the list of companies, the user wants SUVs. There's a function `get_car_types_available` that takes a company name and returns the available types. So, for each company, I'll check if 'SUV' is among the types. I'll collect all companies that offer SUVs.
+
+Next, the user wants the highest-rated option. There's a `get_rating_reviews_for_car_rental` function that provides ratings and reviews. I'll apply this function to each SUV-renting company to get their ratings. Then, I'll sort these companies based on their ratings in descending order to find the top-rated one.
+
+Since the user mentioned saving as much as possible without conflicting with the main task, I should also consider price. The `get_price_for_restaurants` function isn't directly related, but perhaps I can check prices for car rental companies using another function. Wait, actually, there's a `get_price_for_car_rental` function which I can use to get the price per day for each company. I'll retrieve the price for each SUV company and sort them by price to find the cheapest option.
+
+Now, I need to decide whether to prioritize the highest rating or the lowest price. The user didn't specify a preference between rating and price, but since they mentioned saving as much as possible, I'll assume they want the best deal overall. So, I'll create a combined score that factors in both rating and price. Higher rating increases the score, lower price also increases it. I'll sort the companies based on this score to find the best option.
+
+If there's a tie in either rating or price, I'll sort by the other factor. For example, if two companies have the same rating, the cheaper one comes first. If they have the same price, the higher-rated one comes first.
+
+After determining the best option based on the combined score, I'll extract the company name and its

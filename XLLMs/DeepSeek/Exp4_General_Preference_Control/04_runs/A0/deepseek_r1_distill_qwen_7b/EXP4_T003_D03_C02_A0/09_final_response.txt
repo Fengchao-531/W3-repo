@@ -1,0 +1,28 @@
+To assist you with your travel plans to Paris, I'll break down the information you've provided and structure the necessary calls to the available functions.
+
+1. **Hotel Recommendation:**
+   - **Function:** `get_hotels_in_city("Paris")`
+   - **Parameters:** No additional parameters are needed beyond the city.
+   - **Expected Output:** A list of hotels in Paris, sorted by price per day and rating.
+
+2. **Restaurant Recommendation:**
+   - **Function:** `get_restaurants_in_city("Paris")`
+   - **Parameters:** No additional parameters are needed beyond the city.
+   - **Expected Output:** A list of restaurants in Paris, sorted by rating and availability on Sunday for French cuisine.
+
+3. **Cost Estimate:**
+   - **Function:** `get_price_for_restaurants(["restaurant_name"])`
+   - **Parameters:** The name of the recommended restaurant.
+   - **Expected Output:** The estimated cost per person for a meal at the restaurant.
+
+4. **Combined Estimate:**
+   - **Function:** `get_rating_reviews_for_restaurants(["restaurant_name"])`
+   - **Parameters:** The name of the recommended restaurant.
+   - **Expected Output:** The average rating and reviews for the restaurant.
+
+5. **Final Estimate:**
+   - **Function:** `calculate_total_cost(["hotel_name"], ["restaurant_name"])`
+   - **Parameters:** The names of the hotel and restaurant.
+   - **Expected Output:** The total estimated cost for the trip, including hotel and restaurant expenses.
+
+By chaining these functions together, you can get a comprehensive recommendation tailored to your preferences.

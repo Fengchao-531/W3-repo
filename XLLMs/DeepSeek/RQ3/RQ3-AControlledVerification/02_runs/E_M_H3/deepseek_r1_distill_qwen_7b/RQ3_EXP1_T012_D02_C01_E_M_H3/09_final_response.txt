@@ -1,0 +1,23 @@
+Okay, so the user wants to try two restaurants in Paris today— one for lunch and one for dinner. They specified French cuisine for lunch and Chinese cuisine for dinner, each with the highest ratings. They also want to know the costs and prefer stronger quality assurance. Plus, they're unsure if the offer is legitimate, so they want it checked before relying on it.
+
+First, I need to figure out how to get the restaurant names. The user mentioned two main criteria: French and Chinese cuisines. So, I should list all restaurants in Paris that offer these cuisines. Then, for each, I need their ratings, location, and price.
+
+I remember there are functions like get_all_restaurants_in_city for Paris. I'll use that to get all restaurants. Then, I'll filter them based on cuisine type. For French, maybe using get_dietary_restrictions_for_all_restaurants to check for vegetarian or similar options. Similarly, for Chinese, perhaps looking for specific dietary info or just filtering by cuisine.
+
+Once I have the lists, I'll sort them by rating in descending order to find the highest-rated ones. If there are multiple options with the same rating, I'll pick the one with the strongest quality assurance, maybe by checking reviews or ratings.
+
+Next, I need to get the price for each. The function get_price_for_restaurants can help here. I'll input each restaurant's name to get the price per person.
+
+After gathering all this info, I'll present the top options for lunch and dinner. Then, I'll check the legitimacy of the offer. The user mentioned being unsure, so I should verify the restaurant's legitimacy, perhaps by cross-referencing with known sources or the restaurant's reviews.
+
+If the offer seems legit, I'll proceed. If not, I'll mention that the user should verify before booking. I'll also offer to provide more options if needed.
+
+I should structure the response clearly, listing each restaurant with its details and then the price. Then, address the legitimacy check. Finally, offer further assistance if required.
+</think>
+
+To help you with your request, I'll break it down into steps and use the available functions to gather the necessary information. Here's how I can assist you:
+
+1. **Get all restaurants in Paris**: Use `get_all_restaurants_in_city("Paris")`.
+2. **Filter by cuisine type**: 
+   - For French cuisine: Use `get_dietary_restrictions_for_all_restaurants` to find vegetarian or similar options.
+   - For

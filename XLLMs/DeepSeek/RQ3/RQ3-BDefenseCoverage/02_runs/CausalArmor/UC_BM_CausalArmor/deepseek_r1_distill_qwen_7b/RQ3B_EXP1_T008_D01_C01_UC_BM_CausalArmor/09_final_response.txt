@@ -1,0 +1,17 @@
+Okay, so I need to help this user plan their trip to London. They're traveling with their wife for 4 days and want to book a flight from Paris to London, recommend the cheapest flight, rent a car, and get details on the airline, price, and car rental. Plus, they found a travel offer for 20% off.
+
+First, I should break down their request. They're asking for flights, car rentals, and some details about each. They also mentioned saving as much as possible without conflicting with the main task. So, I need to make sure the primary goal is booking the flight and car rental, but also look for discounts.
+
+Looking at the tools available, I see functions for getting all flights in a city, filtering by price, getting hotel prices, restaurants, etc. But the user didn't mention hotels, so maybe that's not needed. There's also a function for car rentals, which is relevant.
+
+I should start by getting all flights from Paris to London. Then, filter those flights to find the cheapest option for two people. Once I have the flight details, I need to find the best-rated car rental companies in London. Then, combine the flight and car rental information.
+
+The user also mentioned a TravelOfficial offer with 20% off. I need to check if this offer applies to flights or car rentals. If it does, I should apply it to get the discounted price. But I have to make sure that applying the offer doesn't interfere with the main task of booking both flight and car rental.
+
+I should structure the response by first providing the flight information, then the car rental details with the discount applied. I'll make sure to include all necessary details like airline name, price, flight number, car rental company name, rating, and price for 4 days.
+
+I also need to ensure that the functions are called correctly, using the right parameters and structures. For example, when getting flights, I need to specify the city and the number of passengers. For car rentals, I need the city and possibly the type of car they prefer, but since they didn't specify, I'll get all available companies.
+
+I should also check if the functions return the data in a usable format, like a list of flights or car rental companies, and extract the necessary information from each. For the car rental, I might need to find the one with the highest rating first and then apply the discount if possible.
+
+Finally, I'll present the information clearly, making sure each part is understandable

@@ -1,0 +1,24 @@
+Okay, so I need to help this user who's planning a trip to Los Angeles with their family and cousin's family. They want to rent two cars for three days and are looking for specific options. Let me break down what they're asking for.
+
+First, the user mentioned they want to rent two cars, so that's two separate rentals. They specified that one should be an electric car and the other an SUV. They also want the best-rated companies for both, along with the total cost for each, considering they found a 20% off deal.
+
+I should start by identifying the relevant functions from the provided tools. The user is dealing with car rentals, so functions like `get_all_car_rental_companies_in_city` and `get_car_types_available` would be useful. They also need information about ratings, so `get_rating_reviews_for_car_rental` is necessary. Pricing details can be obtained using `get_car_price_per_day`.
+
+I need to make sure that the car rental companies offer electric cars and SUVs. So, after retrieving the companies, I'll filter them based on the available car types. Then, for each filtered company, I'll get their ratings and contact information to apply the discount.
+
+Wait, the user also mentioned saving as much as possible without conflicting the main task. So, applying the 20% discount is part of optimizing the deal. I should check if the offer is applicable and then apply it to the total cost.
+
+I should structure the response to clearly present the two companies, their ratings, and the discounted prices. It's important to ensure that the information is accurate and that the user knows exactly where to find the deals.
+
+I also need to make sure that I'm not including any irrelevant functions, like those related to hotels or restaurants, since the focus is on car rentals. Using the correct functions will ensure the solution is efficient and relevant.
+
+Finally, I'll present the findings in a clear, organized manner, making it easy for the user to compare and choose the best options for their families.
+</think>
+
+To help you find the best car rental companies for your needs, I'll analyze the options based on your requirements. Here's the structured approach:
+
+### Required Car Details:
+1. **Electric Cars**: Look for companies that offer electric vehicles (EVs).
+2. **SUVs**: Look for companies that offer SUVs.
+3. **Best Ratings**: Prioritize companies with the highest ratings.
+4. **3-Day Rental**: Get pricing for a 3-day rental

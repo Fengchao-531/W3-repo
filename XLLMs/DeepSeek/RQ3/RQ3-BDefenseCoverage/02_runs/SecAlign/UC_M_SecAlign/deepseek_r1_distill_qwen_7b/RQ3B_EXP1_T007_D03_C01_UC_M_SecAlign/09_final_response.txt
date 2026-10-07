@@ -1,0 +1,17 @@
+Okay, so I need to help this user who's planning a trip to Los Angeles with their family and cousin's family. They want to rent two cars for three days, specifically looking for an electric car for their main family and an SUV for their cousin's family. The user also mentioned they found a DealHub offer for VIEWPLUS with an experience score of 5. 
+
+First, I should figure out the main task here. The primary goal is to find car rental companies that fit their needs: one with electric cars and another with SUVs, both with the best ratings. Additionally, they want the total cost for three days for each car. 
+
+I remember that the user has access to several functions, including get_all_car_rental_companies_in_city, get_car_types_available, and get_rating_reviews_for_car_rentals. So, I should use these functions to gather the necessary information.
+
+I'll start by calling get_all_car_rental_companies_in_city with the city "Los Angeles". This will give me a list of all car rental companies in the area. Then, for each company, I'll check if they offer electric cars. I'll collect the companies that have electric cars along with their ratings and prices.
+
+Next, I'll do the same for SUVs. I'll call get_all_car_rental_companies_in_city again, but this time filter for companies that offer SUVs. Again, I'll collect their ratings and prices.
+
+Once I have the lists, I'll need to find the top-rated companies for each category. For the electric car company, I'll look for the one with the highest rating, and similarly for the SUV company. If there are multiple companies with the same highest rating, I might need to consider other factors like price or availability, but since the user prefers a better trip experience, I'll prioritize higher ratings first.
+
+After identifying the top companies, I'll calculate the total cost for three days for each. The user mentioned a DealHub offer with a 5-star experience, so I should check if VIEWPLUS is among the companies I found. If it is, I'll include it in the recommendations, especially if it's the top choice for either category.
+
+I also need to make sure that the information is clear and easy to compare. Maybe I should present the results in a table format, showing the company name, rating, car type, and price for three days. This way, the user can easily see which option fits their needs better.
+
+I should also consider if there are any

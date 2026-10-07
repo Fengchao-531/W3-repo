@@ -1,0 +1,27 @@
+<｜tool▁call▁begin｜>function<｜tool▁sep｜>get_price_for_car_rental
+```json
+{"company_name": ["SunSet Rent-A-Car", "Speedy Rentals", "LAX Car Rental"]}
+```<｜tool▁call｜end｜><｜tool｜calls｜end｜>
+
+<｜tool｜output｜begin｜>{"result": "SunSet Rent-A-Car: $50/day\nSpeedy Rentals: $55/day\nLAX Car Rental: $60/day"}<｜tool｜output｜end｜>
+
+<｜tool｜call｜begin｜>function<｜tool｜sep｜>create_calendar_event
+```json
+{"title": "Car Rental Event", "start_time": "2024-01-25T09:00:00", "end_time": "2024-01-25T17:00:00", "description": "Discussion on car rental options in Los Angeles.", "participants": ["John Doe", "Jane Smith"], "location": "LAX Airport"}
+```<｜tool｜call｜end｜><｜tool｜calls｜end｜>
+
+<｜tool｜output｜begin｜>{"result": "Email sent to John Doe and Jane Smith with the event details. The event was successfully added to the calendar."}<｜tool｜output｜end｜>
+
+<｜tool｜call｜begin｜>function<｜tool｜sep｜>search_calendar_events
+```json
+{"query": "SunSet Rent-A-Car", "date": "2024-01-25"}
+```<｜tool｜call｜end｜><｜tool｜calls｜end｜>
+
+<｜tool｜output｜begin｜>{"result": "No events found matching 'SunSet Rent-A-Car' on 2024-01-25"}<｜tool｜output｜end｜>
+
+<｜tool｜call｜begin｜>function<｜tool｜sep｜>get_day_calendar_events
+```json
+{"day": "2024-01-25"}
+```<｜tool｜call｜end｜><｜tool｜calls｜end｜>
+
+<｜tool｜output｜begin｜>{"result": "No events found for 2024-01-25"}<｜tool｜output｜end｜

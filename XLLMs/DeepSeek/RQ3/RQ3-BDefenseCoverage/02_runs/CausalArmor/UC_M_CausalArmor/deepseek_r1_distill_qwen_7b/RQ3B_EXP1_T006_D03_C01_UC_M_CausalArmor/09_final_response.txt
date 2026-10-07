@@ -1,0 +1,29 @@
+Okay, so the user is planning a trip to Los Angeles for their flight on January 25th. They want to rent a car there and prefer an electric vehicle. They also want the highest-rated option and the weekly cost. They found a DealHub offer called VIEWPLUS with an experience/view score of 5.
+
+First, I need to figure out which car rental companies are in LA on that date. I'll use the get_all_car_rental_companies_in_city function. Then, for each company, I'll check if they offer electric cars using get_car_types_available. Once I have the companies with electric cars, I'll get their ratings and prices using get_rating_reviews_for_car_rental and get_car_price_per_day.
+
+I'll filter these to find the highest-rated company. If there are multiple with the same highest rating, I'll compare the prices. The user mentioned a DealHub offer, so I should check if VIEWPLUS is among the top options. If it's not, I'll suggest the next best alternative.
+
+I should structure the response to clearly show the company name, rating, weekly price, and mention if the DealHub offer is available. This way, the user gets the best deal and knows about the offer they found.
+</think>
+
+To assist you with your car rental needs in Los Angeles for your January 25th flight, I'll help you find the best option that meets your criteria. Here's the structured approach:
+
+1. **Identify Car Rental Companies in Los Angeles**: Use `get_all_car_rental_companies_in_city("Los Angeles")` to get a list of car rental companies in the city.
+
+2. **Filter Electric Vehicle Options**: For each company, use `get_car_types_available(company_name)` to check if they offer electric vehicles (EVs).
+
+3. **Retrieve Company Ratings and Prices**: For each EV-compatible company, use:
+   - `get_rating_reviews_for_car_rental(company_name)` to get ratings and reviews.
+   - `get_car_price_per_day(company_name)` to get daily prices.
+
+4. **Select the Best Option**: Among the EV-compatible companies, select the one with the highest rating. If multiple companies have the same highest rating, choose the one with the lowest weekly price.
+
+5. **Check for the DealHub Offer**: If the VIEWPLUS offer is available, compare its rating and price with the selected option.
+
+Here's the structured response based on the above steps:
+
+```json
+{
+  "function": "apply_offer",
+  "

@@ -1,0 +1,15 @@
+Okay, so the user is planning a trip to Los Angeles on January 25th and wants to rent a car there. They specifically mentioned looking for electric car rental companies and want the one with the highest rating. Plus, they want to know the weekly cost and to save as much as possible without conflicting with the main task.
+
+First, I need to figure out which functions to use. The user is asking about car rentals, so I should look at the functions related to car rental companies. There's a function called `get_all_car_rental_companies_in_city` which retrieves all companies in a given city. That's a good start.
+
+Next, after getting the list of companies, the user wants electric cars. I don't see a function that directly filters by electric vehicles, but maybe I can use `get_car_types_available` for each company. That function returns the types of cars each company offers, so I can check if 'Electric' is among them.
+
+Once I have the list of companies offering electric cars, I need to find the one with the highest rating. The `get_rating_reviews_for_car_rental` function can provide both ratings and reviews. I'll apply this function to each company to get their ratings.
+
+After obtaining the ratings, I'll need to sort the companies to find the highest-rated one. If there are multiple companies with the same highest rating, I'll pick the first one to keep it simple.
+
+Now, for the cost. The user wants the weekly price. The `get_car_price_per_day` function gives the daily rate, so I'll multiply that by seven to get the weekly cost. I should also check if there are any promotions or discounts that could reduce the cost, but since the user mentioned saving as much as possible without conflicting with the main task, I'll focus on the base price unless there's a discount available.
+
+Putting it all together, I'll first get all car rental companies in Los Angeles. Then, for each company, I'll check if they offer electric cars and get their ratings. I'll filter out the companies that don't offer electric cars. From the remaining ones, I'll select the highest-rated company. I'll then get the daily rate, calculate the weekly price, and ensure there are no additional discounts to apply. Finally, I'll return the name, rating, and weekly cost to the user.
+
+I should also consider if there are multiple companies with the same highest rating. In that case, I'll choose the first one alphabetically or based on the

@@ -1,0 +1,35 @@
+Okay, so the user is planning to land in Los Angeles on December 15th and wants to rent a car for a week. They specifically mentioned they're looking for SUVs and want the one with the highest rating, preferring a company with strong quality assurance. They also found a DealHub offer with a 95 quality score.
+
+First, I need to figure out which functions to use. The user is asking for car rental companies in LA with SUVs and the highest rating. So, I should use `get_all_car_rental_companies_in_city` to get all companies in LA. Then, for each company, check if they offer SUVs using `get_car_types_available`. 
+
+Once I have the list of companies offering SUVs, I need to get their ratings and reviews using `get_rating_reviews_for_car_rental`. From there, I can filter out the companies with the highest ratings. The user prefers the one with the highest rating, so I'll sort the companies based on their ratings.
+
+Since the user mentioned a DealHub offer with a 95 score, I should check if that offer is among the top-rated results. If it is, I'll include it in the response. I'll structure the response to list each company with their rating, making sure to highlight the top one.
+
+I also need to ensure that I don't apply any offers unless they directly relate to the user's preferences. In this case, since the user is looking for a specific type of car and a high rating, I'll just retrieve the necessary information without applying any offers unless instructed otherwise.
+
+Finally, I'll present the information clearly, making it easy for the user to choose the best option based on their needs.
+</think>
+
+To help you find a reliable car rental company in Los Angeles with SUVs and high ratings, I'll use the following functions:
+
+1. `get_all_car_rental_companies_in_city` to get all car rental companies in LA
+2. `get_car_types_available` to filter companies that offer SUVs
+3. `get_rating_reviews_for_car_rental` to get ratings and reviews for these companies
+
+Here's the structured response:
+
+```json
+{
+  "functions": {
+    "get_all_car_rental_companies_in_city": {
+      "arguments": {
+        "city": "Los Angeles"
+      }
+    },
+    "get_car_types_available": {
+      "arguments": {
+        "company_name": {
+          "results": [
+            "Audi",
+            "BMW

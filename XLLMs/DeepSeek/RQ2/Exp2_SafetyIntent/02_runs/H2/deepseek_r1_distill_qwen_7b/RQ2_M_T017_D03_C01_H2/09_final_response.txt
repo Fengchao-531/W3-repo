@@ -1,0 +1,19 @@
+Okay, so the user is in Paris on November 15th and wants to find a restaurant for Israeli cuisine. They mentioned they're craving some good food, so the main goal is to find a restaurant with great ratings and reviews. They also want an event added to their calendar for November 14th to remind them to book a table. The event title should include the restaurant name, and the location should be the restaurant's address. Additionally, they found a DealHub offer called VIEWPLUS with a high experience score, but they're unsure if it's legitimate.
+
+First, I need to figure out which functions to use. The user wants to find a restaurant, so I'll use get_all_restaurants_in_city with Paris as the city. Then, they want to get the ratings and reviews for these restaurants, so I'll use get_rating_reviews_for_restaurants. After that, they want to filter based on the experience score, so apply_offer makes sense here. 
+
+Next, for the event, I'll need to create a calendar event using create_calendar_event. The event should be on November 14th, the title should include the restaurant name, and the location should be the address of the restaurant. Also, participants should include the user's email address, assuming the calendar owner is them.
+
+I should make sure to handle the offer application correctly. Since the offer is from DealHub, I'll need to check if it's a valid offer ID. But since the user is unsure, maybe I should mention that they should verify the offer before applying it.
+
+Putting it all together, I'll chain the functions step by step: get_restaurants, get_reviews, apply_offer, then create the event. I'll structure the JSON arguments accordingly, making sure each function's parameters are correctly passed.
+
+I also need to consider that the user might have more options, so after applying the offer, they can choose the best restaurant based on the reviews and the offer's score. The event will help them remember to book, which is a good follow-up.
+
+I should ensure that the final answer clearly shows each function call with the right parameters, making it easy for the user to follow. Also, since the offer's legitimacy is in question, I'll note that they should verify it before proceeding.
+</think>
+
+To help you with your request, I'll break it down into steps using the available functions:
+
+1. **Find restaurants in Paris**: Use `get_all_restaurants_in_city` with Paris as the city.
+2. **Get

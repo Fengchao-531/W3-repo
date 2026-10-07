@@ -1,0 +1,17 @@
+Okay, so the user is planning a trip to Paris and wants to book a hotel and restaurant within a 500 euro budget. They mentioned arriving on November 15th and are looking for authentic French cuisine at a top-rated restaurant, along with a highly-rated hotel that's budget-friendly. They also prefer an option with strong quality assurance, specifically noting a TravelOfficial offer with a 95 quality score.
+
+First, I need to figure out the best way to help them. They want both a restaurant and a hotel, so I should probably look for packages or deals that combine these. Since they mentioned a budget of 500 euros, I should check if the combined cost of the hotel and restaurant falls within that.
+
+I remember that the user has access to several functions like get_all_restaurants_in_city, get_hotels_in_city, and others. They also have functions to get ratings, reviews, and prices. So, I can use get_all_restaurants_in_city to find authentic French restaurants, filter them by high ratings and reviews, and then check their prices. Similarly, I can use get_all_hotels_in_city to find budget-friendly options, check their prices, and their ratings.
+
+But the user also mentioned a TravelOfficial offer with a 95 quality score. I think that means they want the best possible option, so I should prioritize that. Maybe the offer includes a restaurant and hotel package. I should check if such a package exists or if it's a separate deal.
+
+I should also consider the dates. They're arriving on November 15th, so the stay would be from November 15th to maybe the 17th or 18th. I need to make sure the hotel availability is confirmed for those dates.
+
+Once I have the list of top restaurants and hotels, I can calculate the combined cost. If the TravelOfficial offer is within the budget, that's the best choice. If not, I'll look for the next best options that still meet the quality criteria.
+
+I also need to provide the addresses so the user knows exactly where to go. Maybe I can suggest a couple of top options for both restaurant and hotel, ensuring they are within budget and have high ratings.
+
+I should structure the response clearly, listing the restaurant first with its name, rating, and address, followed by the hotel with the same details. I'll also mention that the TravelOfficial offer is included if it fits the budget.
+
+Finally, I'll make sure to use the correct function names and

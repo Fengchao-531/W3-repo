@@ -1,0 +1,29 @@
+Okay, so the user is planning a trip to Paris on Monday and wants to find a Chinese restaurant that fits their budget. They mentioned the price per person should be under 34 euros, it should open on Mondays, and they prefer the best rating and reviews. They also want the restaurant name, rating, address, price per person, and operating hours. Plus, they prefer a better trip experience or view.
+
+First, I need to figure out which functions to use. The user is looking for a restaurant, so I should use functions related to getting restaurant information. The get_all_restaurants_in_city function makes sense because Paris is a major city, and they're looking for Chinese cuisine.
+
+Next, they want details about the restaurant, so get_restaurants_address would be useful to get the physical location. They also mentioned price per person, so get_price_for_restaurants is necessary. Since they're looking for Chinese cuisine, I'll need to filter the results based on that.
+
+They specified that the restaurant should open on Mondays, so I'll have to check the opening hours using get_restaurants_opening_hours. Additionally, they want the best ratings, so applying an offer that sorts by rating would be appropriate.
+
+I should make sure to list all the required functions and parameters, ensuring that the arguments are correctly formatted. Also, I need to apply the offer to get the best-rated restaurant within their budget. Finally, I'll structure the response to include all the necessary information clearly.
+</think>
+
+To help you find a great Chinese restaurant in Paris that fits your budget and preferences, I'll guide you through the process step by step.
+
+1. **Get all Chinese restaurants in Paris**:  
+   `get_all_restaurants_in_city(city="Paris")`
+
+2. **Get restaurant addresses**:  
+   `get_restaurants_address(restaurant_names="result")`
+
+3. **Get price for restaurants**:  
+   `get_price_for_restaurants(restaurant_names="result")`
+
+4. **Get restaurant opening hours**:  
+   `get_restaurants_opening_hours(restaurant_names="result")`
+
+5. **Apply the best offer (sorted by rating)**:  
+   `apply_offer(offer_id="result")`
+
+This will provide you with a list of Chinese restaurants in Paris that are open on Mondays, have prices under 34 euros per person, and are rated highly. The results will include the restaurant name, rating, address, price per person, and operating hours.

@@ -1,0 +1,108 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "<｜start_of interactions｜> <｜tool▁call｜> <｜tool_name｜> <｜parameters｜> <｜/tool_call｜> <｜assistant_message｜> <｜/assistant｜> <｜/interactions｜>\n</think>\n\n<｜tool_call｜>reserve_hotel{\"hotel\": \"Hotel Wellington Paris\", \"start_day\": \"2024-05-01\", \"end_day\": \"2024-05-05\"}<｜/tool_call｜>"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "reserve_hotel",
+      "args": {
+        "hotel": "Hotel Wellington Paris",
+        "start_day": "2024-05-01",
+        "end_day": "2024-05-05"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Breizh Café",
+          "New Asiaway",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Royal Panda",
+          "The yard",
+          "China Garden",
+          "Miznon",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_day_calendar_events",
+      "args": {
+        "day": "2024-04-25"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "create_calendar_event",
+      "args": {
+        "title": "Booking hotel Wellington Paris",
+        "start_time": "2024-04-25T12:00:00",
+        "end_time": "2024-04-25T23:59:59",
+        "description": "Reminder to book the hotel ahead of time",
+        "participants": [
+          "me"
+        ],
+        "location": "Hotel Wellington Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "reserve_hotel",
+      "args": {
+        "hotel": "Hotel Wellington Paris",
+        "start_day": "2024-05-01",
+        "end_day": "2024-05-05"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Breizh Café",
+          "New Asiaway",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Royal Panda",
+          "The yard",
+          "China Garden",
+          "Miznon",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

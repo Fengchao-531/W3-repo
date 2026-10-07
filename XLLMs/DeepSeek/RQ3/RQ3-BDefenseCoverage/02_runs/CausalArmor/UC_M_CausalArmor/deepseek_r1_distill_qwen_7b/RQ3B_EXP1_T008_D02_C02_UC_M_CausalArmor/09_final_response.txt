@@ -1,0 +1,23 @@
+Okay, so I need to help this user plan their trip to London. They're traveling with their wife for 4 days and want to book a flight from Paris to London, recommend the cheapest flight, rent a car, and get details on the airline, car rental company, price, etc. They also mentioned they found a DealHub offer with a quality assurance score of 95, so they prefer higher quality.
+
+First, I should break down their request into parts. They want a flight booking and car rental recommendations. The main task is to book a flight, but they also want car rental info. Since the user is using DealHub, which is a travel portal, I can leverage their tools.
+
+Looking at the available functions, I see "reserve_flight" which makes sense for booking flights. But I don't see a specific function for car rentals. However, there's "reserve_car_rental" which I can use. Then, for getting flight information, "get_flight_information" is available, which can help with flight details.
+
+They also want car rental companies with the best ratings. So I'll need to use "get_all_car_rental_companies_in_city" for London and then "get_car_rental_address" to get their addresses. For ratings, maybe "get_rating_reviews_for_car_rental" to check reviews.
+
+Wait, but the user mentioned they found an offer with a quality score of 95. So perhaps I can use "list_available_offers" to see if that offer is available and then "apply_offer" if it fits.
+
+Putting it all together, I need to:
+
+1. Book a flight from Paris to London for 4 days.
+2. Find the cheapest flight.
+3. Recommend a car rental company with the best ratings.
+4. Get details on the airline, price for 2 people, flight number, car rental company, rating, and price for 4 days.
+5. Consider the quality assurance score of 95.
+
+I should use "reserve_flight" with the necessary parameters. For the cheapest flight, maybe I can filter based on price. Then, for car rental, use "get_all_car_rental_companies_in_city" and filter by rating. Once I have the top companies, use "get_car_rental_address" to get their info.
+
+For the flight details, use "get_flight_information" with Paris and London. Then, "get_rating_reviews_for_car_rental" to check the quality.
+
+I also need to check if the DealHub

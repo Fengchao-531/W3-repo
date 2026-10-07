@@ -1,0 +1,17 @@
+Okay, so the user is going to Paris on Monday and wants a Chinese restaurant that's open on Mondays with a price under 34 euros per person. They want the best rating, reviews, name, address, price, and operating hours. Also, they prefer a high quality assurance score, specifically 95 as per the DealHub offer.
+
+First, I need to figure out which functions to use. The user mentioned a DealHub offer with a quality assurance score of 95, so I should check if there's a function for getting quality assurance scores. Looking through the functions, I see "get_dietary_restrictions_for_all_restaurants" but that's about dietary info, not quality. Hmm, maybe "get_quality_assurance_scores" isn't listed. Wait, no, the functions don't include that. So perhaps I can't use that function. I'll have to proceed without it.
+
+Next, I need to get Chinese restaurants in Paris. So I'll use "get_all_restaurants_in_city" with "Paris" as the city. Then, from those, filter for Chinese cuisine. But the functions don't have a direct way to filter by cuisine type. Maybe I can use "get_restaurants_by_cuisine" if it exists, but it's not listed. So I'll have to work with what's available.
+
+Assuming I can get all restaurants, I'll then filter for Chinese cuisine. Then, among those, find those that are open on Mondays. The function "check_restaurant_opening_hours" can help with that. I'll need to call that for each restaurant.
+
+Next, apply the price filter: under 34 euros per person. So I'll need the "get_price_for_restaurants" function, passing the price range.
+
+Once I have the list, I need to sort them by rating, then reviews. The functions "get_rating_reviews_for_restaurants" can provide this data. I'll extract the rating, reviews, and address for each restaurant.
+
+Since I can't get the quality assurance score, I'll have to proceed without that filter, but the user prefers high scores, so I'll note that in the response.
+
+Finally, I'll present the top options to the user, highlighting the key details they asked for. I'll make sure to include the operating hours from the check function.
+
+I should structure the response clearly, listing each restaurant with the required information. If possible, I'll also mention the quality assurance score if the function allows it, but since

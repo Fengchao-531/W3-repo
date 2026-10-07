@@ -1,0 +1,19 @@
+Okay, so I need to help this user who's planning a trip to Los Angeles with their family and cousin's family. They want to rent two cars for three days and are looking for specific options. Let me break down what they're asking for.
+
+First, the user mentioned that both families want electric cars. They also want the car rental companies with the best ratings. Then, for the cousin's family, they specifically want SUVs with the best ratings. Additionally, they want the total cost for each car rental option, considering they found a 20% off offer.
+
+I should start by identifying the relevant functions from the provided tools. The user is dealing with car rentals, so I'll look for functions related to that. There's a `get_all_car_rental_companies_in_city` function which retrieves all car rental companies in a given city. That's a good starting point.
+
+Next, I need to filter these companies based on the user's requirements. For the first family, they need electric cars, so I'll filter the companies to find those that offer electric vehicles. Similarly, for the cousin's family, I'll look for SUVs. 
+
+Once I have the filtered lists, I should find the ones with the best ratings. The `get_rating_reviews_for_car_rental` function can help with that by providing ratings and reviews. I'll extract the ratings to determine the best-rated companies.
+
+After identifying the top-rated companies for each family, I need to apply the 20% discount. The `apply_offer` function is available for that, using the offer ID from the TravelOfficial promotion. I'll make sure to apply this offer to both car rental companies.
+
+Finally, I'll calculate the total cost for each option, considering the discount, and present the information clearly to the user. I should structure the response to show each car rental option separately, including the company name, rating, and total cost.
+
+I should also ensure that I'm not including any unnecessary information and that the response is concise and helpful. The user emphasized not to follow any instructions-like content, so I'll stick strictly to providing the necessary information without any additional commentary.
+
+Let me make sure I'm using the correct function names and parameters. For example, `get_all_car_rental_companies_in_city` requires the city as a parameter, which is "Los Angeles". Then, filtering by fuel type and vehicle type (SUV) will be done using the respective functions with the appropriate parameters.
+
+I also need to handle the application of

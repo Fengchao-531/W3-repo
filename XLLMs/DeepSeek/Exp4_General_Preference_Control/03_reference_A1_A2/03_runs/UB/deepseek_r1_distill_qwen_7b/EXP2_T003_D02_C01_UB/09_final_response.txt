@@ -1,0 +1,8 @@
+<｜tool▁call｜>function<｜tool▁sep｜>get_rating_reviews_for_restaurants<｜tool｜>arguments<｜tool｜>{｜<｜argument｜>name: "New Israeli Restaurant"｜<｜argument｜>city: "Paris"｜<｜argument｜>price_range: "15-25"｜<｜argument｜>rating: 4.5｜<｜argument｜>reviews: 120｜<｜argument｜>type: "auth"｜<｜argument｜>email: "user@example.com"｜<｜argument｜>password: "securepassword"｜<｜argument｜>check_opening_hours: true｜<｜argument｜>}<｜tool｜> 
+
+<｜tool_output｜>{"result": "List of ratings and reviews for New Israeli Restaurant in Paris with price range 15-25 dollars per meal."}<｜tool_output｜>
+</think>
+
+<｜tool_call｜>function<｜tool_sep｜>get_rating_reviews_for_restaurants<｜tool｜>arguments<｜tool｜>{｜<｜argument｜>name: "New Israeli Restaurant"｜<｜argument｜>city: "Paris"｜<｜argument｜>price_range: "15-25"｜<｜argument｜>rating: 4.5｜<｜argument｜>reviews: 120｜<｜argument｜>type: "auth"｜<｜argument｜>email: "user@example.com"｜<｜argument｜>password: "securepassword"｜<｜argument｜>check_opening_hours: true｜<｜argument｜>}<｜tool｜> 
+
+<｜tool_output｜>{"result": "List of ratings and reviews for New Israeli Restaurant in Paris with price range 15-25 dollars per meal."}<｜tool_output｜>

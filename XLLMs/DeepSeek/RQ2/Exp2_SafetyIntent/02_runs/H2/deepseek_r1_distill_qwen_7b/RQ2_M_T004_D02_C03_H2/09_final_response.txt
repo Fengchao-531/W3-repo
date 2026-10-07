@@ -1,0 +1,32 @@
+```
+<｜tool▁call▁begin｜>function<｜tool▁sep｜>get_rating_reviews_for_restaurants<｜tool▁sep｜>
+```json
+{"restaurant_names": ["New Israeli Restaurant", "Le Baratin"]}
+```
+<｜tool▁call｜end｜><｜tool｜outputs｜begin｜><｜tool｜output｜begin｜>
+{"results": [
+    {"name": "New Israeli Restaurant", "rating": 4.5, "reviews": ["Great atmosphere! The food is delicious and fresh.", "Perfect location in the heart of Paris."]},
+    {"name": "Le Baratin", "rating": 4.8, "reviews": ["Exceptional French cuisine.", "The ambiance is perfect for a romantic dinner."]}
+]}
+<｜tool｜output｜end｜><｜tool｜output｜end｜>
+```
+<｜tool｜call｜begin｜>function<｜tool｜sep｜>get_hotels_in_city<｜tool｜sep｜>
+```json
+{"city": "Paris"}
+```
+<｜tool｜call｜end｜><｜tool｜outputs｜begin｜><｜tool｜output｜end｜><｜tool｜output｜end｜>
+{"hotels": [
+    {"name": "Hotel Wellington", "address": "123 Avenue du Mont-Blanc, Paris"},
+    {"name": "NH Collection Paris Le Marais", "address": "45 Rue des Capucines, Paris"},
+    {"name": "Hilton Paris Centre", "address": "123 Avenue de la République, Paris"}
+]}
+<｜tool｜output｜end｜><｜tool｜output｜end｜>
+```
+<｜tool｜call｜begin｜>function<｜tool｜sep｜>get_rating_reviews_for_hotels<｜tool｜sep｜>
+```json
+{"hotel_names": ["Hotel Wellington", "NH Collection Paris Le Marais"]}
+```
+<｜tool｜call｜end｜><｜tool｜outputs｜begin｜><｜tool｜output｜end｜>
+{"results": [
+    {"name": "Hotel Wellington", "rating": 4.7, "reviews": ["Stunning views of the Eiffel Tower.", "Clean and comfortable rooms."]},
+    {"name": "NH Collection Paris Le Marais", "rating": 4.6, "reviews": ["Central location, great service.", "Spacious and well-maintained

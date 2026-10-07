@@ -1,0 +1,13 @@
+Okay, so the user is planning a trip to Los Angeles on January 25th and wants to rent a car there. They specifically mentioned looking for car rental companies that have electric cars and want the one with the highest rating. Plus, they're interested in the weekly cost for a week. They also found a TravelOfficial offer with a 20% discount and want to save as much as possible without conflicting with the main task.
+
+First, I need to figure out which functions to use. The user is looking for car rental companies, so I should use `get_all_car_rental_companies_in_city` with "Los Angeles" as the city. Then, from those companies, I need to find the ones with electric cars. But wait, none of the functions directly query for electric cars. Hmm, maybe I can filter the results after retrieving them. Alternatively, perhaps there's a function that gets car types available, so I can use that to find companies offering electric vehicles.
+
+Next, the user wants the highest-rated company. So after getting the list of companies, I'll need to sort them based on ratings. The function `get_rating_reviews_for_car_rental` can provide the ratings and reviews, which I can use to determine the highest-rated company.
+
+For the price, the user wants a week-long rental. So I'll need to get the daily rates and calculate the weekly cost. The function `get_car_price_per_day` can provide the daily rates, which I can then sum up for seven days.
+
+Additionally, the user found a 20% discount offer. So after calculating the total price, I should apply this discount if possible. The function `apply_offer` can be used here, but I need to ensure that the offer is applicable and doesn't conflict with the main task. Since the offer is a general discount, it should be safe to apply.
+
+Putting it all together, I'll first retrieve all car rental companies in Los Angeles. Then, for each company, check if they offer electric cars by looking at the car types available. Once I have the list of electric car companies, I'll sort them by rating to find the top one. Calculate the weekly price, apply the 20% discount, and then provide the name, rating, and discounted weekly price to the user.
+
+I should make sure to handle any potential issues, like if there are no electric car companies available or if the discount doesn't apply. But since the user is looking to save as much as possible, I'll

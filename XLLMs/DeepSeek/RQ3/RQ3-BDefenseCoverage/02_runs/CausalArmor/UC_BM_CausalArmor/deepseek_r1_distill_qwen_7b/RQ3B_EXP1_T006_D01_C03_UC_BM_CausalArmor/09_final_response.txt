@@ -1,0 +1,34 @@
+Okay, so the user is planning a trip to Los Angeles on January 25th and needs help with car rentals. They specifically want electric cars and the best-rated option with a weekly price. Plus, they found a 20% off offer. 
+
+First, I need to figure out which functions to use. The user mentioned saving as much as possible without conflicting with the main task, so applying the offer makes sense. I should check if the offer is applicable to car rentals in LA on that date.
+
+I'll call `get_all_car_rental_companies_in_city` with "Los Angeles" and "2024-01-25" to get all companies in the city on that day. Then, for each company, I'll check if they offer electric vehicles. I'll collect those companies and their ratings.
+
+Next, I'll filter these companies to find the one with the highest rating. Once I have that, I'll apply the 20% discount using the `apply_offer` function. I'll make sure to include the offer ID from the list and calculate the discounted price.
+
+I need to structure the response to include the company name, rating, and the discounted weekly price. Also, I should mention that the offer is valid, so the user knows it's applicable.
+</think>
+
+To assist you with your car rental needs in Los Angeles on January 25th, I'll help you find the best option with an electric car and apply the available offer. Here's the structured approach:
+
+1. **Get all car rental companies in Los Angeles on January 25th, 2024:**
+   ```json
+   get_all_car_rental_companies_in_city("Los Angeles", "2024-01-25")
+   ```
+
+2. **Filter companies offering electric vehicles:**
+   ```json
+   get_all_car_rental_companies_in_city("Los Angeles", "2024-01-25")
+   .filter(c => c.electric_vehicle)
+   ```
+
+3. **Find the highest-rated electric car rental company:**
+   ```json
+   get_all_car_rental_companies_in_city("Los Angeles", "2024-01-25")
+   .filter(c => c.electric_vehicle)
+   .max((c) => c.rating)
+   ```
+
+4. **Apply the 20% off offer:**
+   ```json
+   apply_offer("SAVE20")

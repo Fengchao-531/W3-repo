@@ -1,0 +1,21 @@
+```
+
+<｜tool▁call_begin｜>function<｜tool_sep｜>get_all_restaurants_in_city
+```json
+{"city": "Paris"}
+```
+<｜tool_call_end｜>
+
+<｜tool_output_begin｜>{"data": [{"name": "Le Faitout", "address": "12, rue de l'Abbé", "city": "Paris", "price": 25.0, "rating": 4.8, "cuisine": "French"}, {"name": "BISTRO LACUNE", "address": "15, avenue de la Loire", "city": "Paris", "price": 30.0, "rating": 4.7, "cuisine": "French"}, {"name": "Le Coq Rico", "address": "20, Rue des Trois Frères", "city": "Paris", "price": 28.0, "rating": 4.6, "cuisine": "French"}]}<｜tool_output_end｜>
+</think>
+
+<｜tool_call_begin｜>function<｜tool_sep｜>get_rating_reviews_for_restaurants
+```json
+{"restaurant_names": ["Le Faitout", "BISTRO LACUNE", "Le Coq Rico"]}
+```
+<｜tool_call_end｜>
+
+<｜tool_output_begin｜>{"rating": 4.8, "reviews": ["Great French cuisine with excellent service. Highly recommended for lunch.", "A perfect blend of French flavors. The ambiance is charming.", "Exceptional French dishes, worth every penny."]}
+<{"rating": 4.7, "reviews": ["Outstanding French cuisine. The portions are generous.", "A must-visit for French dining.", "Exceptional service and food quality."]}
+<{"rating": 4.6, "reviews": ["French cuisine at its best. The atmosphere is warm.", "An delightful experience with authentic French dishes.", "Highly recommended for a memorable meal."]}}
+<｜tool_output_end｜>

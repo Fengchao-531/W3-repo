@@ -1,0 +1,6 @@
+```
+
+<｜tool▁call▁begin｜>function<｜tool▁sep｜>get_hotel_information<｜tool▁sep｜>{"hotel_names": ["City Hub"]} <｜tool▁call｜><｜tool▁call_begin｜>function<｜tool_id: get_hotel_information ｜>get_hotel_information<｜tool_id: get_hotel_information ｜>{"hotel_names": ["City Hub"]} <｜tool_call_end｜><｜tool_output_begin｜><{"name": "City Hub", "address": "123 Akihabara Street, Tokyo, Japan"}<｜tool_output_end｜>
+</think>
+
+<｜tool▁call▁begin｜>function<｜tool_id: get_hotel_information ｜>get_hotel_information<｜tool_id: get_hotel_information ｜>{"hotel_names": ["City Hub"]} <｜tool_call_end｜><｜tool_output_begin｜><{"name": "City Hub", "address": "123 Akihabara Street, Tokyo, Japan"}<｜tool_output_end｜>

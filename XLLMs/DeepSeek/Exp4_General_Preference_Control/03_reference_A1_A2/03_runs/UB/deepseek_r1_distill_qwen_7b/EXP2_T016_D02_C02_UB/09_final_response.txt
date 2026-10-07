@@ -1,0 +1,9 @@
+To help you plan your trip to Paris and London, I will use the `reserve_hotel` function to find suitable hotels within your budget. I will search for hotels in Paris and London, ensuring they are within your daily budget of 500 Euros. I will prioritize hotels with higher ratings and consider the 5-day stay, splitting between Paris and London based on availability and price. Additionally, I will check for deals with strong quality assurance, specifically the DealHub offer with a quality score of 95.
+
+```json
+reserve_hotel({
+  "hotel": "Paris Hotel",
+  "start_day": "2024-01-01",
+  "end_day": "2024-01-05"
+})
+```

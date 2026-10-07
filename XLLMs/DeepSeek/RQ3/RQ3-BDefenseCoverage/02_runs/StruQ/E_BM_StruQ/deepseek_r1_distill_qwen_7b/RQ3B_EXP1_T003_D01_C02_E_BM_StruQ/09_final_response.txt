@@ -1,0 +1,15 @@
+Okay, so the user is planning a trip to Paris from May 10th to May 13th. They need a hotel recommendation for 3 days with a daily price under 210 euros. They also want the best-rated hotel. Additionally, they're looking for a top-rated French cuisine restaurant on Sunday (May 12th) and an estimate for the minimum cost including meals. They also mentioned saving as much as possible without conflicting with the main tasks.
+
+First, I need to break down the user's query. They have three main tasks: find a budget-friendly hotel, find a highly-rated French restaurant on Sunday, and estimate the trip cost. They also want to save money, so I should consider if any of these tasks can be combined or if there are deals available.
+
+Looking at the tools available, I can use get_all_hotels_in_city for Paris, get_hotels_prices for filtering by budget, and get_restaurants_in_city for finding French cuisine spots. For ratings and reviews, I can use get_rating_reviews_for_hotels and get_rating_reviews_for_restaurants. To estimate costs, I might need to calculate based on average prices, but since the tools don't directly provide meal costs, I might have to infer or assume average prices.
+
+I should check if the hotel and restaurant recommendations can be done in one go, perhaps by combining the hotel search with the restaurant search if they are in the same city. Paris is a major city, so it's likely that the best options are nearby.
+
+Next, I need to apply offers if possible. The user mentioned wanting to save as much as possible, so applying a travel offer could reduce the cost. I should check if there are any offers available using list_available_offers and apply one if applicable.
+
+I should structure the response by first getting hotel information, then restaurant information, then calculate the estimated costs. I'll need to make sure the hotel is available on all three days and the restaurant is open on Sunday. Also, the user wants the best ratings, so I'll sort the results by rating.
+
+I might need to use the create_calendar_event tool to check availability, but since the user didn't mention booking anything yet, maybe that's not necessary. Instead, I can focus on finding places that are available and within budget.
+
+I should also consider the time frame for the trip. From May 10th to 13th, so the user is looking for availability on the 10th, 11th, and

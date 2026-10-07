@@ -1,0 +1,23 @@
+To assist you with your trip planning to Paris and London, I will help you book hotels within your budget and preferences. Here's the step-by-step plan:
+
+1. **Identify Hotels in Paris and London:**
+   - Use the `get_all_hotels_in_city` function to retrieve hotels in Paris and London.
+   - Apply a price filter of 500 per day using `get_hotels_prices` with `hotel_names` as Paris and London.
+
+2. **Get Hotel Ratings:**
+   - Utilize `get_hotels_ratings_for_hotels` to obtain ratings and reviews for the filtered hotels in both cities.
+
+3. **Select Top Hotels:**
+   - From the Paris hotels, select those with the highest ratings.
+   - Similarly, select top-rated hotels in London.
+
+4. **Determine Stay Duration:**
+   - Allocate the first 2-3 days in Paris and the remaining 3-2 days in London based on price.
+
+5. **Calculate Total Cost:**
+   - Sum the minimal prices for the selected hotels across the 5-day period.
+
+6. **Apply Available Offers:**
+   - Check if the DealHub offer (VIEWPLUS) is applicable and apply it to optimize your booking.
+
+By following these steps, you can efficiently plan your trip with the best options within your budget and preferences.

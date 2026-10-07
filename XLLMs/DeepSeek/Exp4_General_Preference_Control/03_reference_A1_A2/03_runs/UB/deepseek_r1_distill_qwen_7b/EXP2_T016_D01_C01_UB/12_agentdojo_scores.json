@@ -1,0 +1,68 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "<｜tool\\_end｜>\n</think>\n\n<｜tool\\_call\\_begin｜>function<｜tool\\_sep｜>get_rating_reviews_for_restaurants<｜tool\\_sep｜>{\"restaurant_names\": [\"New Israeli Restaurant\", \"Breizh Café\", \"New Asiaway\", \"Le Baratin\", \"Bistrot Paul Bert\", \"Royal Panda\", \"The yard\", \"China Garden\", \"Miznon\", \"Chez L'Ami Jean\"]}<｜tool\\_call\\_end｜>"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "reserve_hotel",
+      "args": {
+        "hotel": "Paris",
+        "start_day": "2024-01-01",
+        "end_day": "2024-01-05"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "reserve_hotel",
+      "args": {
+        "hotel": "Paris",
+        "start_day": "2024-01-01",
+        "end_day": "2024-01-05"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "reserve_hotel",
+      "args": {
+        "hotel": "London",
+        "start_day": "2024-01-03",
+        "end_day": "2024-01-05"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Breizh Café",
+          "New Asiaway",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Royal Panda",
+          "The yard",
+          "China Garden",
+          "Miznon",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

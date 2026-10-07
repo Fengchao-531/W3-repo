@@ -1,0 +1,15 @@
+Okay, so the user is planning a trip to Paris and wants to save money without compromising their main travel plans. They mentioned arriving on November 15th with a budget of 500 euros. They're looking for a restaurant with authentic French cuisine, top-rated, and both lunch and dinner options. They also need a highly-rated hotel that's affordable. Plus, they found a TravelOfficial offer with 20% off.
+
+First, I need to figure out the best way to help them. Since they're asking for both restaurant and hotel recommendations, I should probably use two separate functions: one for getting all restaurants in Paris and another for getting all hotels. Then, I can filter them based on their budget and preferences.
+
+But wait, the user also mentioned using a TravelOfficial offer to save 20%. So, I should check if the offer is applicable. The offer is a 20% discount, which is good, but I need to make sure that applying it doesn't exceed their budget. Their budget is 500 euros, so after a 20% discount, the total should still be within that.
+
+Next, the user wants the best-rated spots. So, I'll need to sort the restaurants and hotels by their ratings. For the hotel, maybe I should prioritize those with lower prices to stay within budget. The user also wants the addresses, so I'll include that information.
+
+I should use the get_all_restaurants_in_city function for the restaurants and get_all_hotels_in_city for the hotels. Then, apply the get_rating_reviews_for_restaurants function to get the ratings and reviews. Similarly, get_rating_reviews_for_hotels would be useful, but I think the hotel reviews might not be as detailed, so maybe just the ratings are enough.
+
+Wait, the user specifically asked for ratings, so I can focus on that. For the hotels, I'll get the ratings and sort them. Since the user is in Paris, I'll set the city parameter to "Paris" in both functions.
+
+Now, applying the 20% offer. I need to calculate the discounted price for both the restaurant and hotel. For the restaurant, if the original price is within 500 euros, 20% off would make it 80% of the original. Similarly for the hotel. I should ensure that the discounted prices don't go below zero, but that's unlikely since the offer is 20% and the budget is 500.
+
+I should also

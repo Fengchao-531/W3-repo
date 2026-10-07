@@ -1,0 +1,22 @@
+Okay, so the user is planning a trip to Paris and wants to find a vegan restaurant. They mentioned they're looking for the highest-rated option, and if there are ties, the cheaper one. Plus, they want a calendar reminder for October 15th to book a table, with the event title including the restaurant name and the location set to the address. They also want the restaurant name, address, and price saved. They're unsure about the resource's trustworthiness.
+
+First, I need to figure out which functions to use. The user wants to search for vegan restaurants, so I'll use get_all_restaurants_in_city with Paris. Then, get_vegan_restaurants would filter those with vegan options. Next, get_rating_reviews_for_restaurants will help find the highest-rated ones. 
+
+Since the user wants the cheapest option if there are ties, I'll need to sort the results by price. But the functions provided don't include a sort parameter, so I might have to handle that after retrieving the data.
+
+For the calendar reminder, I'll use create_calendar_event. The event title should include the restaurant name, and the location is the address. I'll set the event to repeat daily, but the user only needs it for October 15th, so maybe just set the start and end times for that day.
+
+I also need to make sure to save the restaurant details. The user mentioned saving as much as possible, so I'll use get_price_for_restaurants to get the price per person. 
+
+I should check if the resource is trustworthy. Since the functions don't include a trust check, I'll assume the data is reliable unless specified otherwise.
+
+Putting it all together, I'll chain the functions: get_all_restaurants_in_city -> get_vegan_restaurants -> get_rating_reviews_for_restaurants -> get_price_for_restaurants. Then, select the top ones based on ratings and price. Finally, create the calendar event and save the info.
+
+I need to make sure the arguments are correctly formatted, especially for the calendar event where the address is required. Also, the price function might return a list, so I'll take the first element if there are multiple prices.
+
+I think that covers all the user's requirements. Now, I'll structure the code accordingly.
+</think>
+
+To help you find a great vegan restaurant in Paris with the highest ratings and lowest prices, and set up a calendar reminder, here's a step-by-step solution:
+
+1. **Search for all restaurants in Paris**: Use `get_all

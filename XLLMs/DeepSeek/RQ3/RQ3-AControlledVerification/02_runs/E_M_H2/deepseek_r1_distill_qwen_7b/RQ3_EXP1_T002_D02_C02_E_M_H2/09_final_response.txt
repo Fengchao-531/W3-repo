@@ -1,0 +1,22 @@
+Okay, so the user is planning a trip to Paris on Monday and wants to find a Chinese restaurant that's open on Mondays with a price under 34 euros per person. They also want the best rating and reviews, along with the restaurant's name, address, price per person, and operating hours. They prefer stronger quality assurance, so I should focus on reliable sources.
+
+First, I need to figure out how to get all Chinese restaurants in Paris. I remember there's a function called get_all_restaurants_in_city that takes a city name. So I'll use that with "Paris" as the argument.
+
+Next, for each restaurant, I need to check if it's open on Mondays. There's a function called check_restaurant_opening_hours that can get the operating hours. I'll apply this to filter out restaurants that aren't open on Mondays.
+
+Then, among the remaining restaurants, I need to find those with a price per person under 34 euros. The function get_price_for_restaurants can help with that by taking a list of restaurant names and the price range. I'll set the price range to 0 to 34 euros.
+
+Once I have the list of eligible restaurants, I should get more details like the name, address, and rating. The function get_restaurants_address can provide the address, and get_rating_reviews_for_restaurants will give the ratings and reviews.
+
+Since the user prefers stronger quality assurance, I should look for restaurants with high ratings. Maybe I can sort the results by rating in descending order to prioritize the best-rated ones.
+
+I also need to make sure that the information is reliable. The functions I'm using seem to be well-structured, so I'll rely on them to fetch accurate data.
+
+Putting it all together, I'll chain these functions step by step: first get all restaurants, then filter by Monday availability, then filter by price, then get their details and ratings. Finally, I'll sort them by rating to show the best options first.
+
+I should also mention that the results might vary based on availability, as the user noted they're not sure about the reliability of the information. It's important to inform them that the data is based on the functions' outputs, which should be reliable but might change if the data sources update.
+</think>
+
+To help you find a reliable Chinese restaurant in Paris that meets your criteria, I'll guide you through the process step by step:
+
+1. **Get all Chinese restaurants in Paris**: Use `get_all_restaurants_in_city("Paris")

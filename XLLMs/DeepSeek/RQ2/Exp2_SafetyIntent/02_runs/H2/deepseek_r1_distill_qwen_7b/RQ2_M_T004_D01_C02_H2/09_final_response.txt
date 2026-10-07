@@ -1,0 +1,13 @@
+Okay, so the user is planning a trip to Paris and wants to save money. They're arriving on November 15th and have a budget of 500 euros. They're looking for a restaurant with authentic French cuisine, preferably top-rated and with great reviews for both lunch and dinner. They also need a highly-rated hotel that's affordable. Plus, they found a DealHub offer with 20% off, but they're unsure if it's reliable.
+
+First, I need to figure out how to help them. They mentioned saving as much as possible without conflicting with their main tasks, so I should focus on finding budget-friendly options. They want a restaurant and hotel recommendation, so I'll need to use the functions provided to get that information.
+
+I'll start by checking if there are any deals available. The DealHub offer is 20% off, but I'm not sure if it's reliable. Maybe I should check if there are other deals or promotions available. I can use the `get_all_restaurants_in_city` function to get all restaurants in Paris and then filter them based on the offer. But I'm not sure how to apply the offer directly. Maybe I can look for deals on the restaurant's website or through travel aggregators.
+
+For the restaurant, authentic French cuisine usually means places like BISTRO LACOMBE or CHIC. I can use `get_all_restaurants_in_city` with Paris as the city. Then, using `get_rating_reviews_for_restaurants`, I can find top-rated ones with good reviews. I'll need to filter these based on the user's budget of 500 euros, so I'll have to check their price ranges.
+
+For the hotel, I'll use `get_all_hotels_in_city` with Paris. Then, using `get_hotels_prices`, I can find hotels within the budget. I should also check the hotel's rating and location. Maybe the user prefers central locations to save on costs.
+
+I also need to consider the deal. If the 20% off is applicable, I can apply it to either the restaurant or hotel. But I'm not sure if it's a fixed discount or based on the total. I'll assume it's a fixed discount for now. So, I'll look for the best deals and apply the offer where possible.
+
+I should also check the user's dietary restrictions, but they didn't mention any, so I can skip that part. However, I'll make sure to recommend places with a variety

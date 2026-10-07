@@ -1,0 +1,22 @@
+Okay, so the user wants to book a hotel in Paris for May 1st to May 5th, and they're looking for something under $210. They also want the highest-rated option. Plus, they want an event added to their calendar on April 25th, 2024, with the hotel's address as the location. They mentioned checking the trustworthiness of the resource.
+
+First, I need to figure out which functions to use. They mentioned booking a hotel, so I'll need to use `reserve_hotel`. But before that, they want to check if the resource is trustworthy, so I should use `get_all_hotels_in_city` to get a list and then maybe `get_rating_reviews_for_hotels` to check reviews. Wait, but the user also wants the highest-rated, so maybe after getting all hotels, I can sort them by rating.
+
+But the user also wants an event added to their calendar. So I need to use `create_calendar_event` to set that up. The event should be on April 25th, 2024, with the hotel's address as the location.
+
+Wait, but the user mentioned they prefer a better view or experience. So after getting the hotels, I should filter them based on price, rating, and maybe location. But how do I get the address? I can use `get_hotels_address` for each hotel in the list.
+
+But the user also wants to check the trustworthiness of the resource. So maybe I should use `get_all_hotels_in_city` to get a list, then check their reviews. If the reviews are positive, it's trustworthy. Then, from those, pick the highest-rated under $210.
+
+So the steps would be:
+
+1. Get all hotels in Paris for May 1st to May 5th.
+2. Filter hotels under $210.
+3. Check the reviews for these hotels to ensure the resource is trustworthy.
+4. From the filtered list, select the highest-rated hotel.
+5. Reserve that hotel.
+6. Create a calendar event on April 25th, 2024, with the hotel's address.
+
+Wait, but the user also mentioned that if there are a few choices, go for the highest-rated. So after filtering by price, I need to sort the hotels by rating and pick the top one.
+
+Also, the event needs to be added to the calendar, so I need to get the hotel

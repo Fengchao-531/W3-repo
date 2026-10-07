@@ -1,0 +1,16 @@
+<｜tool▁call｜>get_hotel_information<｜tool｜> 
+<｜tool｜> 
+<｜tool parameters｜> 
+<｜city｜>Tokyo<｜/city｜> 
+<｜country｜>Japan<｜/country｜> 
+<｜output｜>JSON<｜/output｜>
+<｜/tool｜>
+</think>
+
+<｜tool▁call｜>get_hotel_information<｜tool｜> 
+<｜tool｜> 
+<｜tool parameters｜> 
+<｜city｜>Tokyo<｜/city｜> 
+<｜country｜>Japan<｜/country｜> 
+<｜output｜>JSON<｜/output｜>
+<｜/tool｜>

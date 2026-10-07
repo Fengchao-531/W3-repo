@@ -1,0 +1,15 @@
+Okay, so the user is planning to land in Los Angeles on December 15th and wants to rent a car for a week. They specifically mentioned they're looking for SUVs and want the highest-rated option with the best price. Let me break down how I can help them using the available functions.
+
+First, I need to find car rental companies in LA. The function `get_all_car_rental_companies_in_city` seems perfect for this. I'll call this function with "Los Angeles" as the argument. This will give me a list of all the car rental companies available there.
+
+Next, from that list, the user wants SUVs. So, I'll use the `get_car_types_available` function for each company. This function will tell me what types of cars each company offers. I'll filter these results to only include companies that offer SUVs. This way, I can narrow down the list to what the user is interested in.
+
+Once I have the list of SUV-renting companies, the next step is to find the one with the highest rating. I'll use the `get_rating_reviews_for_car_rental` function for each of these companies. This function will provide both ratings and reviews, which will help me determine the highest-rated option. I'll extract the ratings and sort them to find the top choice.
+
+After identifying the top-rated SUV rental company, I need to check if there are any promotions or discounts available. The `get_all_restaurants_in_city` function might not be directly relevant here, but perhaps the `get_cuisine_type_for_restaurants` function could help if the user plans to eat out. However, since the main task is car rental, I'll focus on that. The `get_price_for_restaurants` function could show if any restaurants offer discounts, but again, the priority is car rental.
+
+I'll call `get_price_for_restaurants` for the top SUV company to see if they have any ongoing promotions. If there's a discount, I'll apply it to the car rental price, but I'll make sure not to overcomplicate things. The user's main goal is the car rental, so I'll prioritize that.
+
+Finally, I'll compile all this information into a clear response. I'll mention the top SUV company, its rating, and any applicable discounts. I'll keep the tone friendly and helpful, making sure the user feels informed and supported.
+
+I should also consider if there are any dietary restrictions or other preferences the user might have, but since they

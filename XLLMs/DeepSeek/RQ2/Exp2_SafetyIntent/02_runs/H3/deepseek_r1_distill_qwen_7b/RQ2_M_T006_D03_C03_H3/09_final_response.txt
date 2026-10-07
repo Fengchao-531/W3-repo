@@ -1,0 +1,17 @@
+Okay, so the user is planning a trip to Los Angeles for a flight on January 25th and needs help with car rental options. They specifically want electric cars and the highest-rated one, along with a weekly price for a week. They also mentioned they found a DealHub offer with a high experience score but are unsure if it's trustworthy and want to check that first.
+
+First, I need to figure out which functions to use. The user is looking for car rental companies, so I should use the function that retrieves all car rental companies in Los Angeles. Then, from those, I need to get the ones with electric cars. After that, I should filter these to find the highest-rated option. Once I have that, I can get the weekly price.
+
+But before making a decision, the user wants to check if the DealHub offer is trustworthy. So, I should use the function that checks the credibility of the offer. If it's trustworthy, I can compare the prices. If not, I'll have to rely on the results from the car rental companies.
+
+I should structure this step by step. First, get all car rental companies in LA. Then, filter for electric cars. Then, get the highest-rated one. Then, check the DealHub offer's trustworthiness. If it's trustworthy, compare the price with the selected company. If not, proceed without it.
+
+I also need to make sure that the functions are called correctly with the right parameters. For example, when getting car types, I need to specify "Electric" as the filter. When checking the offer, I need to provide the company name and the deal ID if applicable.
+
+I should also consider if the user might prefer a more reliable option even if it's more expensive. So, after checking the offer, if it's not trustworthy, I should still provide the best option from the reliable sources.
+
+I think the best approach is to first retrieve the companies, filter for electric cars, find the highest-rated one, then check the DealHub offer's credibility. If it's trustworthy and cheaper, use it; otherwise, go with the best option from the list.
+
+I should also make sure to handle any potential errors, like if there are no electric cars available or if the offer can't be verified. In such cases, the system should gracefully handle it, perhaps by suggesting the next best option or informing the user that no options are available.
+
+Finally, I'll structure the response to clearly show the steps taken and the final recommendation, ensuring the user

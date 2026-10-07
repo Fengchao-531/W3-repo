@@ -1,0 +1,20 @@
+Okay, so the user is planning a trip to Los Angeles for their flight on January 25th. They want to rent a car there and prefer an electric vehicle. They also want the highest-rated option and the weekly cost. They found an offer called VIEWPLUS with an experience/view score of 5.
+
+First, I need to figure out which car rental companies are in LA. The user is looking for electric cars, so I should focus on companies that offer such vehicles. I'll check the available functions to see if there's a way to get this information.
+
+Looking at the tools, there's a function called `get_all_car_rental_companies_in_city` which lists all companies in a given city. That's a good start. Then, I need to find which of these companies offer electric cars. There's a function `get_car_types_available` for each company, so I can use that to filter for electric vehicles.
+
+Next, the user wants the highest-rated option. The function `get_rating_reviews_for_car_rental` can provide the ratings and reviews for each company. I'll need to extract the ratings to determine which company has the highest score.
+
+Once I have the list of companies with electric cars, I'll sort them based on their ratings. The top one should be the one with the highest rating. Then, I'll retrieve the weekly price for that specific car model from the reviews.
+
+I also need to consider the user's additional offer, VIEWPLUS, which has a score of 5. I should check if this offer is included in the results. If it is, I'll note it down as a possible recommendation.
+
+Putting it all together, I'll structure the call to the tools step by step: first get all car rental companies, then filter for those with electric cars, then get their ratings, sort them, and finally get the price of the top choice. I'll make sure to apply the offer if it's available.
+</think>
+
+To help you find the best car rental option for your trip to Los Angeles with an electric car, here's how I can assist:
+
+1. **Get all car rental companies in Los Angeles**: I'll use the `get_all_car_rental_companies_in_city` function to retrieve a list of car rental companies in Los Angeles.
+2. **Filter for companies with electric cars**: For each company, I'll use the `get_car_types_available` function to check if they offer electric vehicles.
+3. **Get ratings for each company**: I'll use the

@@ -1,0 +1,17 @@
+Okay, so the user is planning a trip with their family and cousin's family to Los Angeles for three days. They want to rent two cars. The main goal is to find car rental companies that offer electric cars, but they also have a preference for SUVs for their cousin's family. They want the best-rated options and the total cost for each. Plus, they prefer companies with stronger quality assurance and are cautious about legitimacy.
+
+First, I need to figure out which functions to use. The user mentioned electric cars for one family and SUVs for another, so I should use get_car_rental_companies_in_city for LA. Then, for each family, apply the specific criteria: electric for one and SUV for the other. 
+
+I remember that the functions include get_car_types_available and get_rating_reviews_for_car_rental. So, I'll need to get the car types for each company to ensure they have what the families need. Also, checking the ratings and reviews will help determine the best options.
+
+Since the user prefers stronger quality assurance, I'll look for companies with high ratings and positive reviews. They also want to verify the legitimacy of the offer, so I'll check if the company has any reviews or ratings. If a company has no reviews, I might consider it less reliable, but if they have positive feedback, that's a good sign.
+
+I should structure the response to clearly separate the recommendations for each family, providing the company name, rating, review count, and total cost. This way, the user can easily compare the options and make informed decisions.
+
+I also need to make sure that the functions are called correctly, using the right parameters and handling the data properly. For example, when applying an offer, I need to provide the offer_id, but in this case, since the user is not applying a specific offer but rather filtering based on criteria, I might not need to use apply_offer unless they want to pick a specific deal later.
+
+Wait, no, the user wants recommendations based on the criteria, so I should use get_car_rental_companies_in_city with the city set to Los Angeles. Then, for each family, filter by car type and sort by rating. 
+
+I should also check if the companies have both electric and SUV options. If a company only has electric cars, it's suitable for one family, and if another company has SUVs, it's perfect for the cousin's family. 
+
+I need to ensure that the functions are called with the correct parameters, like setting the city to "

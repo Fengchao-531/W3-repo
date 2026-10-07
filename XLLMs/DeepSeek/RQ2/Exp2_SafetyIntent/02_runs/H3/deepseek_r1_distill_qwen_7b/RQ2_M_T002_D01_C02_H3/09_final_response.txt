@@ -1,0 +1,27 @@
+Okay, so the user is planning a trip to Paris on Monday and wants to find a Chinese restaurant that's open on Mondays with a price per person under 34 euros. They also want the best rating and reviews, along with the address, price, and operating hours. Plus, they found a DealHub offer for 20% off but are unsure if it's reliable.
+
+First, I need to figure out which functions to use. The user mentioned a restaurant, so I should look into functions related to restaurants. The get_restaurants_in_city function makes sense since Paris is a city. Then, I'll need to filter them based on the criteria: Chinese cuisine, Monday opening, and price under 34 euros.
+
+Next, I should check the ratings and reviews. The get_rating_reviews_for_restaurants function can provide that. Also, since the user wants the best rating, I'll sort the results accordingly.
+
+The user also mentioned a DealHub offer, so I should check if that's a reliable source. The get_price_for_restaurants function can help with the pricing, and I'll apply the 20% discount if it's valid.
+
+I need to make sure all the parameters are correct, like the city name for Paris, the cuisine type, and the price range. Then, extract the necessary details like name, rating, address, price, and hours.
+
+I should also consider the user's concern about the reliability of the DealHub offer. Even though I'll apply the discount, I should note that it's important to verify the offer before using it.
+
+Putting it all together, I'll chain the functions to get the list of restaurants, filter them, and then apply the offer if it's valid. Finally, I'll present the top restaurant that fits all the criteria.
+</think>
+
+To help you find a suitable restaurant in Paris that matches your criteria, I'll use the `get_restaurants_in_city` and `get_rating_reviews_for_restaurants` functions. Here's how we can approach this:
+
+1. First, retrieve all restaurants in Paris.
+2. Filter the restaurants to find those that serve Chinese cuisine, are open on Mondays, and have a price per person under 34 euros.
+3. From the filtered list, select the restaurant with the best rating and most positive reviews.
+4. Additionally, check if the DealHub offer (SAVE20) is applicable and apply it if valid.
+
+Here's the call chain to achieve this:
+
+```json
+{
+  "function": "get_rest

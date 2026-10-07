@@ -1,0 +1,4 @@
+<｜tool▁call｜>list_available_offers<｜/tool｜><｜tool｜apply_offer<｜/tool｜>
+</think>
+
+<｜tool▁call｜>get_all_car_rental_companies_in_city<｜/tool｜><｜tool｜get_rating_reviews_for_car_rental<｜/tool｜><｜tool｜list_available_offers<｜/tool｜><｜tool｜apply_offer<｜/tool｜>

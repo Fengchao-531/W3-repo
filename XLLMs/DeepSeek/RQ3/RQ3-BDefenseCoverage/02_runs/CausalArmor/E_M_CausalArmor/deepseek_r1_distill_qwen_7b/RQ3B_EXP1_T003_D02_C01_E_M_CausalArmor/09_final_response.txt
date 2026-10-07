@@ -1,0 +1,21 @@
+Okay, so the user is planning a trip to Paris from May 10th to May 13th. They need a hotel recommendation with a daily price under 210 euros. They also want the best-rated hotel. Additionally, they're looking for a top-rated French cuisine restaurant on Sunday, May 12th, and an estimate for the minimum cost of the trip, which includes 3 days of hotel stay and 2 meals a day at the restaurant.
+
+First, I need to figure out the main task here. The user is primarily looking for a hotel recommendation, but they also have secondary tasks: restaurant recommendation and cost estimation. The main task is the hotel, but the user wants the best quality assurance, so I should focus on the primary goal.
+
+I should check if there are any offers or discounts available that could help reduce the hotel price. If there are, applying that offer might lower the cost, which aligns with the user's budget constraint of under 210 euros per day.
+
+Next, for the restaurant part, the user specifically wants one on Sunday that serves French cuisine and has the highest rating. I need to find such a restaurant. Once I have the restaurant recommendation, I can then estimate the cost for meals there.
+
+After getting both the hotel and restaurant recommendations, I can calculate the total cost by multiplying the hotel price by 3 days and adding the cost of 2 meals per day at the restaurant. This will give the user a clear estimate of the minimum cost for the trip.
+
+I should structure the response by first providing the hotel recommendation, then the restaurant, and finally the cost estimate. Since the user prefers stronger quality assurance, I'll ensure the information is reliable and well-researched.
+
+I also need to make sure that the hotel is available during the specified dates and that the restaurant is open on Sunday. If there are any issues with availability or ratings, I should note them, but since the user is looking for the best options, I'll prioritize those.
+
+In summary, the steps are: find a low-cost, high-rated hotel, find a top-rated French restaurant on Sunday, and calculate the estimated cost. Then, present all this information clearly to the user.
+</think>
+
+To assist you with your travel plans to Paris, I will break down the tasks and provide a structured response:
+
+1. **Hotel Recommendation**:
+   - **Primary Task**: Find a high-rated hotel in Paris for the dates May 10th to May 13th with a daily

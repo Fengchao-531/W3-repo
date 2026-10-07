@@ -1,0 +1,18 @@
+Okay, so the user is planning a trip to Paris and London for 5 days, from January 1st to 5th. They want to book a hotel in each city, with a daily budget of 500 euros. They prefer the higher-rated hotels in both cities and want to know the names, minimal prices, and total expense for a 5-day stay. Also, they mentioned preferring a trustworthy resource and checking its reliability before using it.
+
+First, I need to figure out how to approach this. The user provided a list of functions, so I should use those to gather the necessary information. They mentioned using `get_all_hotels_in_city` for each city, which will list all hotels. Then, using `get_hotels_prices` with the budget to filter those within the 500 euros per day. 
+
+Next, I'll need to get the ratings for each hotel using `get_hotels_ratings`. After that, I'll apply the offer to get the prices, ensuring it's within the budget. Then, using `get_rating_reviews_for_hotels` to check the reviews and apply the offer again to get the final prices.
+
+Once I have the hotels in both cities, I'll sort them by rating in descending order to find the top-rated ones. For each city, I'll select the top-rated hotel that fits within the budget. If the top hotel in one city is too expensive, I'll consider the next one.
+
+After selecting the hotels, I'll calculate the total cost for a 5-day stay. I'll also check the reviews to ensure the hotels have good ratings and are trustworthy. If the resource isn't trustworthy, I'll look for another reliable source, maybe by using `get_all_restaurants_in_city` and checking reviews there, but since the user is about hotels, I'll focus on that.
+
+Finally, I'll present the top hotels in each city, their prices, and the total expense, ensuring all options are within the budget and the user's preferences are met.
+</think>
+
+To help you plan your trip to Paris and London, I'll use the available functions to gather and analyze the best hotel options within your budget. Here's the structured approach:
+
+1. **Get all hotels in Paris and London**: Use `get_all_hotels_in_city` for both cities.
+2. **Filter hotels within budget**: Use `get_hotels_prices` with a budget of 500 euros per day.
+3. **Get hotel ratings and reviews**: Use `get

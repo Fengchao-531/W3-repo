@@ -1,0 +1,13 @@
+Okay, so the user is planning to land in Los Angeles on December 15th and wants to rent a car for a week. They specifically mentioned they're looking for SUVs and want the one with the highest rating. They also mentioned a DealHub offer called VIEWPLUS with an experience/view score of 5.
+
+First, I need to figure out which functions to use. The user is asking for car rental companies in LA with SUVs and the highest rating. So, I should use get_all_car_rental_companies_in_city with "Los Angeles" as the argument. Then, from those companies, I need to filter for SUVs. But wait, the functions provided don't have a filter for SUVs directly. Hmm, maybe I can use get_car_types_available for each company to check if they have SUVs. But that might complicate things.
+
+Alternatively, perhaps the user is okay with any SUV, so I can just get all car rental companies in LA and then look for the one with the highest rating. But the user also mentioned a specific DealHub offer, so maybe they want to see if that offer is available. However, the functions don't provide details about specific offers, just general info.
+
+Wait, the user mentioned they found a DealHub offer with a 5-star experience. Maybe they want to apply that offer. But the functions don't include applying offers directly. They have a function to apply_offer, but it requires the offer_id. Since I don't have that info, I can't apply it here.
+
+So, perhaps the best approach is to get all car rental companies in LA, filter for those with SUVs, and then find the one with the highest rating. But since the functions don't allow filtering by car type directly, I might have to list all companies and then the user can choose the SUVs. Alternatively, I can use get_car_types_available for each company to check for SUVs, but that would require multiple calls.
+
+Wait, maybe I can use get_all_car_rental_companies_in_city and then get_car_types_available for each company. But that's a lot of calls. Alternatively, I can use get_all_car_rental_companies_in_city and then apply a filter based on car type using another function, but I don't see a function that allows that.
+
+Hmm, perhaps I should proceed by getting all car rental companies in LA and then the user can select the SUVs. Then, from those, find the one with the highest rating. But the

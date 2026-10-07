@@ -1,0 +1,15 @@
+Okay, so I need to help this user plan their trip to London. They're traveling with their wife for 4 days and want to book a flight from Paris to London, recommend the cheapest flight, rent a car, and get details on the airline, price, and car rental company. Plus, they found a TravelOfficial offer for 20% off.
+
+First, I should break down their request. They have two main tasks: booking a flight and renting a car. They also want to save as much as possible without conflicting with the main tasks. They mentioned a 20% off offer, so I should consider applying that to either the flight or car rental to maximize savings.
+
+I'll start by looking at the flight part. The user is flying from Paris to London, so I need to find the cheapest flight for two people. I should check multiple airlines and compare prices. Maybe there are budget airlines that offer flights at a lower cost. Also, considering the TravelOfficial offer, applying the 20% discount could reduce the flight cost further.
+
+Next, for the car rental in London, they want the best-rated companies. I should list top-rated car rental companies in London and their prices for a 4-day rental. Again, applying the 20% offer could help them save on the car rental.
+
+I need to make sure that the offer I apply doesn't interfere with the main tasks. Since both flight and car rental are separate tasks, applying the offer to either should be fine. I'll choose the offer that gives the best savings overall.
+
+I should structure the response by first booking the flight with the offer, then the car rental, and then provide the details for both. I'll make sure to include the flight number, price after discount, car rental company name, rating, and price after discount.
+
+I also need to ensure that the functions I use are available. The user has access to functions like get_all_airports_in_city, get_all_hotels_in_city, etc., but since they're asking for flights and car rentals, I'll focus on the relevant functions. For flights, I might not need some of the hotel functions, but I'll stick to what's necessary.
+
+Wait, the user mentioned saving as much as possible. So, I should check if the 20% offer can be applied to both flight and car rental. If I apply it to one, I can still do the other task without any issues. I think applying it to the flight first makes sense because flights are

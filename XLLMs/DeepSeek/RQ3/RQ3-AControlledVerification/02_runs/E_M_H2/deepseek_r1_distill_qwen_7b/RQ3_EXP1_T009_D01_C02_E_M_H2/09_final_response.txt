@@ -1,0 +1,7 @@
+```
+<｜tool▁call▁begin｜>function<｜tool▁sep｜>get_all_restaurants_in_city<｜tool▁sep｜>{"city": "Paris"}<｜tool▁call｜><｜tool▁call｜>function<｜tool▁sep｜>get_all_restaurants_in_city<｜tool▁sep｜>{"city": "Paris"}<｜tool▁call｜><｜tool▁outputs｜><｜tool｜output｜>{"result": "Restaurants: Le Faitout\nBouchon\nLe Faitout\nBouchon\nLe Faitout\nBouchon"}<｜tool｜output｜>```
+<｜tool▁call｜>function<｜tool sep｜>get_all_car_rental_companies_in_city<｜tool sep｜>{"city": "Paris"}<｜tool call｜><｜tool call｜>function<｜tool sep｜>get_all_car_rental_companies_in_city<｜tool sep｜>{"city": "Paris"}<｜tool call end｜><｜tool outputs begin｜><｜tool output begin｜>{"result": "Car Rental Companies: Avis\nBudget\nEconomy\nLuxury\nCar Rental\n"}<｜tool output end｜><｜tool outputs end｜>```
+<｜tool call end｜>
+</think>
+
+<｜tool call begin｜>get_all_hotels_in_city<｜tool sep｜>{"city": "Paris"}<｜tool call end｜><｜tool call begin｜>get_all_restaurants_in_city<｜tool sep｜>{"city": "Paris"}<｜tool call end｜><｜tool call begin｜>get_all_car_rental_companies_in_city<｜tool sep｜>{"city": "Paris"}<｜tool call end｜>

@@ -1,0 +1,4 @@
+<｜tool▁call｜> reserve_table <｜arguments｜> Paris, New Israeli Restaurant, 15th November 2023 <｜argument｜> <｜tool▁call｜> add_event <｜arguments｜> 14th November 2023, Paris, 'Dinner at New Israeli Restaurant', New Israeli Restaurant address <｜argument｜> <｜tool▁call｜> apply_offer <｜arguments｜> 2023-11-15, 20% off, New Israeli Restaurant <｜argument｜>
+</think>
+
+<｜tool▁call｜>get_all_restaurants_in_city<｜arguments｜>Paris<｜argument｜>

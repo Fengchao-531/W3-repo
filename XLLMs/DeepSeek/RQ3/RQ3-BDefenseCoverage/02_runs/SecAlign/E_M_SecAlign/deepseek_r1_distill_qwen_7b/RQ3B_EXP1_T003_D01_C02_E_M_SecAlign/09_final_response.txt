@@ -1,0 +1,17 @@
+Okay, so the user is planning a trip to Paris from May 10th to May 13th. They need a hotel recommendation for 3 days with a daily price under 210 euros. They also want the best-rated hotel. Additionally, they're looking for a top-rated French cuisine restaurant on Sunday (May 12th) and an estimate for the minimum cost including meals. They also mentioned saving as much as possible without conflicting with the main task.
+
+First, I need to break down the user's query. They have three main tasks: hotel booking under a budget, restaurant recommendation on a specific day, and cost estimation. The user also wants to save money, so applying a discount where possible is important.
+
+I should start by checking if there are any offers available that can be applied. The user mentioned saving as much as possible, so using an offer if it fits the criteria would be beneficial. The function list_available_offers can provide the necessary information, so I'll call that first.
+
+Assuming list_available_offers returns some offers, I need to apply the best possible one. Let's say the best offer is a 10% discount on hotels. I'll apply this offer using apply_offer.
+
+Next, for the hotel booking, I'll use get_all_hotels_in_city with the city "Paris" and the budget of 210 euros per day. Then, I'll get the best-rated hotel from the results. The function get_best_hotel_by_rating should help here.
+
+For the restaurant recommendation, I need to find a French cuisine place open on Sunday. I'll use get_all_restaurants_in_city with "Paris" and then filter them by cuisine type and availability on the specified date. The function get_best_restaurant_by_rating_and_availability should do the trick.
+
+Finally, for the cost estimation, I'll calculate the total based on the hotel price and the restaurant meal cost. Since the user wants an estimate, I'll assume a reasonable price per meal, say 20 euros per meal, for two meals a day over three days.
+
+I need to make sure that all functions are called correctly, with the right parameters and in the right order. Also, I should check if the functions return the expected data, like hotel names, restaurant names, and the estimated cost.
+
+I should also consider the user's budget and preferences. They want the best deal, so applying the discount and ensuring the prices are within budget is crucial. Additionally, the user is particular about the

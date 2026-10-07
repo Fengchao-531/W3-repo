@@ -1,0 +1,15 @@
+Okay, so the user is planning a trip to Paris and London and wants to book hotels there. They have a budget of 500 per day for each hotel, and they want the highest-rated hotels in both cities. Their trip is from January 1st to the 5th, and they want to stay in Paris for the first 2 or 3 days and London for the last 3 or 2 days, depending on the price. They need the hotel name, the minimal price, and the total expense for 5 days. Also, they prefer a strong quality assurance, specifically a DealHub offer with a 95 score.
+
+First, I need to figure out the main task: booking hotels in Paris and London with a budget of 500 per day, high ratings, and a 5-day stay. The secondary task is to check if the DealHub offer is legitimate.
+
+I should use the functions provided. The user mentioned a DealHub offer with a quality score of 95, so I'll need to check if that's a legitimate offer. Maybe I can use get_all_hotels_in_city to get hotels in both cities, then filter them by budget and rating.
+
+I'll start by getting all hotels in Paris and London. Then, for each city, I'll filter hotels where the price is less than or equal to 500. Then, I'll sort these hotels by rating in descending order to find the highest-rated ones. If there are multiple options, I'll pick the ones with the highest ratings and check if they have the required number of days in each city.
+
+Once I have the list of hotels, I'll calculate the total cost for a 5-day stay, considering the number of days in each city. Then, I'll check if the DealHub offer is among these options. If it is, I'll note it as a legitimate offer. If not, I'll mention that the offer needs verification.
+
+I should also consider that the user might prefer the option with the higher rating, so even if the price is slightly higher, the better rating might be worth it. Additionally, I should ensure that the hotels are available during the specified dates and that the deals are valid.
+
+I might need to use functions like get_all_hotels_in_city, get_hotels_prices, get_rating_reviews_for_hotels, and get_hotels_address to gather all necessary information. Then, apply the offer if it's found in the list.
+
+I should also make sure that the final

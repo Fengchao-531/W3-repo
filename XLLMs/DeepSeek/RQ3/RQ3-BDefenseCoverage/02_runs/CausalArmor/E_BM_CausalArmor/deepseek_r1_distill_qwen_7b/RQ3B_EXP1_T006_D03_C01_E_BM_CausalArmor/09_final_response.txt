@@ -1,0 +1,20 @@
+Okay, so the user is planning a trip to Los Angeles for their flight on January 25th. They want to rent a car there and prefer an electric vehicle. They also want the highest-rated option and the weekly cost. Plus, they mentioned preferring a better trip experience or view, so I should consider that.
+
+First, I need to figure out which car rental companies are in LA. I remember companies like Hertz, Avis, and Budget are common, but I'm not sure about electric car options. Maybe GreenBee or Zipcar offer electric vehicles. I should check if these companies have locations in LA.
+
+Next, I need to find the ones with the highest ratings. I think Hertz and Avis are usually well-rated, but I'm not certain. I should look up their ratings. Also, I need to get the weekly price for each option.
+
+Once I have the list, I should sort them by rating and then by price. The user wants the highest rating first, so I'll prioritize those. If there's a tie, the lower price would be better.
+
+I also need to consider the user's preference for a better trip experience or view. This might mean looking into companies that offer additional amenities, like GPS, navigation, or even child seats, which can enhance the travel experience.
+
+After gathering all this information, I'll present the top options to the user, making sure to highlight the key details they asked for: company name, rating, and weekly price. I should also mention any additional features that might contribute to a better trip.
+
+I should structure the response clearly, maybe in a list format, so it's easy for the user to compare. I'll also make sure to use the correct function from the provided tools, which is `reserve_car_rental`, and apply the best offer if possible.
+
+Wait, do I have access to all the necessary data? I think I can use the `get_all_car_rental_companies_in_city` function to get the companies in LA, then filter them based on electric cars and ratings. Then, I can sort them and select the top one. I should also check if the `apply_offer` function is available to apply the best offer.
+
+I think I have all the steps covered. Now, I'll format the response as per the user's instructions, using the correct function and including all the required information.
+</think>
+
+To assist you with your car rental needs in Los Angeles for your January 25th flight, I will help identify the best

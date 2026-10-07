@@ -1,0 +1,18 @@
+{
+  "created_at_utc": "2026-09-20T02:22:43Z",
+  "source_w3": "/scratch3/che489/FC-W4/Tracing-Reproduction/W3",
+  "target_w3": "/scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/DeepSeek",
+  "model_label": "deepseek_r1_distill_qwen_7b",
+  "model_path": "/scratch3/che489/FC-W2-SoK/model_cache/hub/models--deepseek-ai--DeepSeek-R1-Distill-Qwen-7B/snapshots/916b56a44061fd5cd7d6a8fb632557ed4f724f60",
+  "stages": [
+    "rq3a_controlled_verification",
+    "rq3b_defense_coverage_analysis",
+    "rq3c_deployed_agent_analysis"
+  ],
+  "limit": null,
+  "force": false,
+  "device": "cuda:0",
+  "dtype": "bfloat16",
+  "max_new_tokens": 512,
+  "save_hidden_states": false
+}

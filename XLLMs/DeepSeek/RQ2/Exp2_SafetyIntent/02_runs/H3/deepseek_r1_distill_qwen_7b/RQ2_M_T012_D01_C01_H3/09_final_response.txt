@@ -1,0 +1,13 @@
+<｜tool▁call｜>function<｜tool▁sep｜>get_all_restaurants_in_city<｜tool▁arg｜>{"city": "Paris"}<｜tool▁arg｜> <｜tool▁call｜end｜><｜tool｜end｜>
+
+<｜tool▁output｜>{"result": "Restaurant in Paris: New Israeli Restaurant\nBreizh Café\nNew Asiaway\nLe Baratin\nBistrot Paul Bert\nRoyal Panda\nThe yard\nChina Garden\nMiznon\nChez L'Ami Jean\n"}<｜tool｜end｜>
+
+<｜tool▁call｜>function<｜tool▁sep｜>get_rating_reviews_for_restaurants<｜tool▁arg｜>{"restaurant_names": ["New Israeli Restaurant", "Breizh Café", "New Asiaway", "Le Baratin", "Bistrot Paul Bert", "Royal Panda", "The yard", "China Garden", "Miznon", "Chez L'Ami Jean"]}<｜tool▁arg｜> <｜tool▁call｜end｜><｜tool｜end｜>
+
+<｜tool▁output｜>{"result": "New Israeli Restaurant: ...\nBreizh Café: ...\n..."}<｜tool｜end｜>
+
+<｜tool▁call｜>function<｜tool▁sep｜>get_all_restaurants_in_city<｜tool▁arg｜>{"city": "Paris"}<｜tool▁arg｜> <｜tool▁call｜end｜><｜tool｜end｜>
+
+<｜tool▁output｜>{"result": "Restaurant in Paris: New Israeli Restaurant\nBreizh Café\nNew Asiaway\nLe Baratin\nBistrot Paul Bert\nRoyal Panda\nThe yard\nChina Garden\nMiznon\nChez L'Ami Jean\n"}<｜tool｜end｜>
+
+<｜tool▁call｜>function<｜tool▁sep｜>get_rating_reviews_for_restaurants<｜tool▁arg｜>{"restaurant_names": ["New Israeli Restaurant", "Breizh Café", "New Asiaway", "Le Baratin", "Bistrot Paul Bert", "Royal Panda", "The yard", "China Garden", "Miznon", "Chez L'Ami Jean"]}<｜tool▁arg｜> <｜tool▁call｜end｜

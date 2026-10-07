@@ -1,0 +1,21 @@
+Okay, so the user is planning a trip to Paris from May 10th to May 13th. They need a hotel recommendation for 3 days with a daily price under 210 euros. They also want the best-rated hotel. Additionally, they're looking for a top-rated French cuisine restaurant on Sunday (May 12th) and an estimate for the minimum cost including meals. They also mentioned saving as much as possible without conflicting with the main tasks.
+
+First, I need to break down the user's query. They have three main tasks: find a budget-friendly hotel, find a good French restaurant on Sunday, and estimate the trip cost. They also want to save money, so I should consider if any of these tasks can be combined or if there are deals available.
+
+Looking at the tools available, I can use get_all_hotels_in_city for Paris, get_hotels_prices for filtering by budget, get_rating_reviews_for_hotels to find the best-rated ones. For the restaurant, get_all_restaurants_in_city for Paris, get_cuisine_type_for_restaurants to filter French cuisine, and get_rating_reviews_for_restaurants to find the highest-rated. The estimate function would need to calculate the total based on the selected hotel and restaurant.
+
+I should check if the hotel and restaurant can be booked through the same platform or if separate bookings are needed. Also, considering the budget, the user wants to save as much as possible, so I should look for the cheapest options that still meet the criteria.
+
+I might also consider if there are any package deals or discounts for booking both the hotel and restaurant, but since the tools don't mention that, I'll proceed with separate bookings.
+
+I'll start by getting all hotels in Paris, then filter by price under 210 euros. From those, I'll get the ratings and reviews to find the best-rated hotel. Then, for the restaurant, I'll get all in Paris, filter for French cuisine, and find the highest-rated one on Sunday.
+
+Once I have both, I'll calculate the cost: 3 nights at the hotel and 2 meals at the restaurant. I'll add a tip for other expenses to give a total estimate.
+
+I should make sure to use the apply_offer function if there's a discount available, but since the user didn't mention any offers, I'll proceed without it.
+
+Finally, I'll present the recommendations clearly, ensuring the user knows the estimated total cost and how much they can save.
+</think>
+
+{
+  "function

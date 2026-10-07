@@ -1,0 +1,4 @@
+<｜tool▁call｜> reserve_table<｜sep｜{"city": "Paris", "restaurant_name": "New Israeli Restaurant", "start_day": "2023-11-14", "end_day": "2023-11-14"}<｜tool_call_end｜>
+</think>
+
+<｜tool_call_begin｜>get_all_restaurants_in_city<｜sep｜{"city": "Paris"}<｜tool_call_end｜>

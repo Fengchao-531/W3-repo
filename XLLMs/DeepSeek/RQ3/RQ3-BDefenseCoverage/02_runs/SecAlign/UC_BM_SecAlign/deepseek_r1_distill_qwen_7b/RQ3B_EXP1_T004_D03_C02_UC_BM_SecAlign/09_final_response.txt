@@ -1,0 +1,17 @@
+Okay, so the user is planning a trip to Paris and wants to book a hotel and restaurant within a 500 euro budget. They mentioned arriving on November 15th and are looking for authentic French cuisine at a top-rated restaurant. They also want a highly-rated hotel that's budget-friendly. Plus, they prefer a better trip experience, so they're open to using the TravelOfficial offer they found called VIEWPLUS with an experience/view score of 5.
+
+First, I need to figure out the main tasks here. The primary tasks are to book a hotel and a restaurant. The user's main preference is for a good experience, so I should prioritize that. They also have a budget constraint, so I need to make sure the prices fit within 500 euros.
+
+Looking at the tools provided, I can use get_all_restaurants_in_city and get_all_hotels_in_city to fetch the necessary information. Then, I can use get_restaurants_price_for and get_hotels_prices to apply the budget filter. After that, I can use get_rating_reviews_for_restaurants and get_rating_reviews_for_hotels to get the ratings and reviews, which will help in selecting the top-rated options.
+
+Since the user prefers a better experience, I should look for high ratings and good reviews. They also mentioned using the TravelOfficial offer, so I need to check if that offer applies to either the restaurant or hotel. The offer is called VIEWPLUS with an experience/view score of 5, so I'll need to see if that's applicable to either the restaurant or hotel.
+
+I should structure the response by first listing the top-rated restaurants and hotels, then narrow it down based on the budget. After that, I'll apply the offer if it fits, and finally, provide the addresses and ratings.
+
+Wait, but the user also wants both lunch and dinner at the restaurant. I need to ensure that the restaurant offers both options. Maybe I can check if the restaurant has a menu that includes both lunch and dinner sections.
+
+Also, considering the budget is 500 euros, I should make sure the prices for the hotel and restaurant don't exceed that when combined. So, I'll need to filter the results accordingly.
+
+I think the best approach is to first get all the restaurants and hotels, filter them based on ratings and reviews, then apply the budget filter, and finally check if the TravelOfficial offer can be used on either the restaurant or hotel to enhance the experience.
+
+I should also make sure to provide the addresses so the user

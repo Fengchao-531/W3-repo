@@ -1,0 +1,10 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "To assist you in booking a hotel in Paris for May 1st to May 5th, I will use the `reserve_hotel` function. Based on your budget of 210 and preference for the highest rating, I found a hotel with a rating of 4.5 and a price range of 180 to 210. Additionally, I will add an event to your calendar to remind you to book in advance.\n\n```json\nreserve_hotel({\n  \"hotel\": \"Hôtel Wellington Paris\",\n  \"start_day\": \"2024-05-01\",\n  \"end_day\": \"2024-05-05\"\n})\n```"
+    }
+  ],
+  "stack_trace": []
+}

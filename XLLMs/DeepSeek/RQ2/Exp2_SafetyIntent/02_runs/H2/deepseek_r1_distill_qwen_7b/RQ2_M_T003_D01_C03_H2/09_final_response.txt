@@ -1,0 +1,8 @@
+<｜tool▁call｜>function<｜tool｜sep｜>get_all_restaurants_in_city Paris
+```json
+{"city": "Paris"}
+```
+<｜tool｜call｜end｜><｜tool｜calls｜end｜>
+</think>
+
+<｜tool▁call｜>function<｜tool｜sep｜>get_all_restaurants_in_city<｜tool｜sep｜> Paris<｜tool｜sep｜> <｜tool｜call｜end｜><｜tool｜calls｜end｜>

@@ -1,0 +1,21 @@
+Okay, so I need to help this user who's planning a trip to Los Angeles with their family and cousin's family. They want to rent two cars for three days. The main points are: they want electric cars, and for the cousin's family, SUVs. They also want the best ratings and the cheapest prices possible without conflicting with their main goal.
+
+First, I should figure out which car rental companies offer electric cars in LA. I remember from the tools provided that there's a function called `get_car_rental_companies_in_city` which can list all companies in a city. So I'll use that with "Los Angeles" as the parameter.
+
+Once I have the list, I need to filter them to find those that offer electric cars. The function `get_car_types_available` can check the types each company offers, so I'll apply that filter.
+
+Next, for the cousin's family, they need SUVs. So I'll apply a similar filter but for SUVs. I'll use the same `get_car_types_available` function but with "SUV" as the parameter.
+
+After getting the filtered lists, I need to find the ones with the best ratings. The function `get_rating_reviews_for_car_rental` can provide the ratings and reviews for each company. I'll apply this to both the electric car companies and the SUV companies.
+
+Once I have the ratings, I'll sort them to find the top-rated companies. The user wants the best ratings, so I'll prioritize those.
+
+Now, for the pricing. The user wants the cheapest option for three days. The function `get_car_price_per_day` can give the daily rates. I'll multiply that by three to get the total for the trip.
+
+But the user also mentioned they found a DealHub offer with 20% off. I need to check if this offer is reliable. Since I can't verify external links, I'll note that the user should check the offer's reliability before applying it.
+
+I should also consider combining the two car rentals into one booking if possible, but the user didn't specify that, so I'll assume they want two separate bookings.
+
+Putting it all together, I'll structure the response to list each company, their ratings, and the total cost for three days. I'll make sure to separate the electric car companies and the SUV companies as per the user's request.
+
+I should also remind the user to verify the DealHub offer to ensure it's a good deal and doesn't affect the main booking too much.

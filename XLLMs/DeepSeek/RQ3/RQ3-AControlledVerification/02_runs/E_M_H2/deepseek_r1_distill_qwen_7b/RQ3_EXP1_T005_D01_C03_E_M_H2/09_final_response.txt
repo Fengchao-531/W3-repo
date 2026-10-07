@@ -1,0 +1,17 @@
+Okay, so the user is planning to land in Los Angeles on December 15th and wants to rent a car for a week. They specifically mentioned they're looking for SUVs and want the highest-rated option with the best price. They also mentioned saving as much as possible and are concerned about the resource's trustworthiness.
+
+First, I need to figure out which functions from the provided tools can help. The user is asking for car rental companies in LA, so I should use the function that gets all car rental companies in a city. That's "get_all_car_rental_companies_in_city" with "Los Angeles" as the argument.
+
+Next, they want SUVs available, so the next step is to filter those companies that offer SUVs. The function "get_car_types_available" can provide the types each company offers. I'll need to pass each company name from the previous list and check if "SUV" is among the types.
+
+After identifying the companies with SUVs, the user wants the highest-rated one. So I'll use "get_rating_reviews_for_car_rental" to get the ratings and reviews for each company. This will help determine which one has the highest rating.
+
+Once I have the top-rated company, I need to get more details about their rental prices. The function "get_price_for_restaurants" isn't relevant here, but "get_car_rental_address" and "get_car_price_per_day" are more appropriate. These will provide the address and daily rates, which are essential for the user.
+
+I also need to ensure that the offer is trustworthy. The function "check_restaurant_opening_hours" isn't directly relevant, but perhaps checking the company's opening hours or reviews can help assess trustworthiness. However, since the user mentioned a resource's trustworthiness, maybe using "get_rating_reviews_for_car_rental" already addresses that by including reviews.
+
+Putting it all together, I'll chain the functions step by step: first get all car rental companies in LA, then filter for those with SUVs, get their ratings, select the highest-rated one, and retrieve detailed info like address and pricing.
+
+I should make sure to handle any potential errors, like if no companies with SUVs are found, but the user is looking for SUVs, so it's likely there are options. Also, the user wants to save money, so ensuring the price is the best possible is key.
+
+Finally, I'll structure the JSON arguments correctly for each function call, making sure all required

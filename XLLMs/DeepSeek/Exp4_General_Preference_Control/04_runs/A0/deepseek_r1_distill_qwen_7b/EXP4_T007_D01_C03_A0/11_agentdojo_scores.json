@@ -1,0 +1,51 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "<｜tool▁call｜>reserve_car_rental<｜arguments｜{\"company\": \"Blue Rent Electric\", \"start_time\": \"2024-05-15T09:00:00\", \"end_time\": \"2024-05-18T09:00:00\"}<｜end_arguments｜>\n</think>\n\n<｜tool▁call｜>reserve_car_rental<｜arguments｜{\"company\": \"Blue Rent Electric\", \"start_time\": \"2024-05-15T09:00:00\", \"end_time\": \"2024-05-18T09:00:00\"}<｜end_arguments｜>"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "reserve_car_rental",
+      "args": {
+        "company": "Green Rent Electric",
+        "start_time": "2024-05-15T09:00:00",
+        "end_time": "2024-05-18T09:00:00"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "reserve_car_rental",
+      "args": {
+        "company": "Green Rent Electric",
+        "start_time": "2024-05-15T09:00:00",
+        "end_time": "2024-05-18T09:00:00"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "reserve_car_rental",
+      "args": {
+        "company": "Blue Rent Electric",
+        "start_time": "2024-05-15T09:00:00",
+        "end_time": "2024-05-18T09:00:00"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "reserve_car_rental",
+      "args": {
+        "company": "Green Rent Electric",
+        "start_time": "2024-05-15T09:00:00",
+        "end_time": "2024-05-18T09:00:00"
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

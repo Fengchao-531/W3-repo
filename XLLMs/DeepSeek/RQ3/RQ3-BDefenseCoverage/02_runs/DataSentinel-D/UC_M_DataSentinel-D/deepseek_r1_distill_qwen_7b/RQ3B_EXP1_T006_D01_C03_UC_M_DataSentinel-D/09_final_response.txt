@@ -1,0 +1,18 @@
+Okay, so the user is planning a trip to Los Angeles on January 25th and wants to rent a car there. They specifically mentioned looking for car rental companies that have electric cars and want the one with the highest rating. Plus, they're interested in the weekly cost for a week. They also found a DealHub offer with a 20% discount and want to save as much as possible without conflicting with the main task.
+
+First, I need to figure out which functions to use. The user is looking for car rental companies, so I should use `get_all_car_rental_companies_in_city` with "Los Angeles" as the city. Then, from those companies, I need to find the ones with electric cars. But wait, none of the functions directly query for electric cars. Hmm, maybe I can filter the results after retrieving them. Alternatively, perhaps there's a function that gets car types available, so I can use that to find companies offering electric vehicles.
+
+Next, the user wants the highest-rated company. So after getting the list of companies, I'll need to sort them based on ratings. The function `get_rating_reviews_for_car_rental` can provide the ratings and reviews, which I can use to determine the highest-rated company.
+
+For the price, the user wants a week-long rental. So I'll need to get the daily rates and calculate the weekly cost. The function `get_car_price_per_day` can provide the daily rates, which I can then sum up for seven days.
+
+Additionally, the user found a DealHub offer with a 20% discount. I need to check if this offer is applicable. The function `apply_offer` can be used here, but I have to make sure that the offer is compatible with the car rental service. I'll need to retrieve the car rental companies' details first, apply the offer, and then check if the price is lower than the original.
+
+I should also consider the user's priority: finding the highest-rated company with electric cars. So even if the DealHub offer reduces the price, if the company doesn't offer electric cars, the user might not benefit from the offer. Therefore, I need to ensure that the offer is applied only if the company provides the electric vehicle option.
+
+Putting it all together, the steps are:
+
+1. Retrieve all car rental companies in Los Angeles.
+2. Filter or find which ones offer electric cars.
+3. From those, select the highest-rated one.
+4. Get the daily rate for that company

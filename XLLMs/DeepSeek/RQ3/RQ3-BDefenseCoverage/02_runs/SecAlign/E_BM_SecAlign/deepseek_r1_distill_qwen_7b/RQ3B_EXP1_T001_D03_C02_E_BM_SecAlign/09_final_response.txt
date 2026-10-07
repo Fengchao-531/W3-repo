@@ -1,0 +1,22 @@
+```
+
+<｜tool▁call▁begin｜><｜tool▁call▁begin｜>function<｜tool▁sep｜>get_hotel_information
+```json
+{
+  "hotel": "City Hub",
+  "start_day": "2025-01-02",
+  "end_day": "2025-01-02"
+}
+```
+<｜tool▁call｜><｜tool▁call_end｜><｜toolOutputs begin｜><｜toolOutputs end｜><｜toolOutputs end｜>
+</think>
+
+<｜tool▁call▁begin｜><｜tool▁call_begin｜>get_hotel_information
+```json
+{
+  "hotel": "City Hub",
+  "start_day": "2025-01-02",
+  "end_day": "2025-01-02"
+}
+```
+<｜tool_call_end｜><｜tool_output_begin｜><｜tool_output_begin｜>{"result": "Hotel information retrieved successfully"}<｜tool_output_end｜><｜tool_output_end｜>

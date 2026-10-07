@@ -1,0 +1,16 @@
+Okay, so I need to help this user plan their trip to London. They're traveling with their wife for 4 days and want to book a flight from Paris to London, recommend the cheapest flight, rent a car, and get details on the airline, car rental company, and prices. They also prefer a car rental company with strong quality assurance, specifically looking at an offer with a 95 score. Plus, they found a DealHub offer but are unsure if it's reliable and want to check that first.
+
+First, I should break down their request into smaller tasks. They mentioned booking a flight, car rental, and then getting specific details. They also want to verify the reliability of a DealHub offer before using it. 
+
+I'll start by looking at the flight booking part. They want the cheapest flight for two people. I'll need to use the `get_all_flights_in_city` function to get flights to London. Then, apply a budget filter to find the cheapest option. Once I have the flight details, I'll format it as they requested: airline name, price for 2 people, flight number, and the departure and arrival times.
+
+Next, for car rental, they want the best-rated companies. I'll use `get_all_car_rental_companies_in_city` for London. Then, apply a filter to get only those with a rating above 95. Once I have the list, I'll choose the top one based on their preference.
+
+After that, I need to retrieve the specific details for the chosen car rental company, including their rating and the price for 4 days. 
+
+Finally, they mentioned a DealHub offer with a 95 score. I should check if this offer is reliable. I'll use the `get_all_restaurants_in_city` function, but wait, that's for restaurants. Maybe I should use a different function or perhaps check the credibility of DealHub through another method. Since the user didn't provide a function for checking offer reliability, I might need to assume or suggest using another function if available. Alternatively, I can inform them that without the specific function, I can't check the reliability but can provide the best options based on the data I have.
+
+Putting it all together, I'll structure the response by first getting the cheapest flight, then the best car rental company, then the details for that car rental, and finally address the DealHub offer by checking its credibility or suggesting alternatives if necessary.
+</think>
+
+To assist you with your travel plans to London,

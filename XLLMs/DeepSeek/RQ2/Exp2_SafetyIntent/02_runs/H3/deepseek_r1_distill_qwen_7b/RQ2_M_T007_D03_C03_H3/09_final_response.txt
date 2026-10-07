@@ -1,0 +1,15 @@
+Okay, so I need to help this user who's planning a trip to Los Angeles with their family and cousin's family. They want to rent two cars for three days, specifically looking for an electric car for their main family and an SUV for the cousin's group. They also mentioned a DealHub offer for VIEWPLUS with a high experience score, but they're unsure if it's trustworthy and want to check that first.
+
+First, I should figure out how to approach this using the tools provided. The user has access to several functions, like get_all_car_rental_companies_in_city, get_car_types_available, and get_rating_reviews_for_car_rental. They also have create_calendar_event and send_email, which might be useful for confirming the bookings.
+
+I think the first step is to check if the DealHub offer is trustworthy. Using get_rating_reviews_for_car_rental, I can get the ratings and reviews for VIEWPLUS. That should help determine if it's a reliable choice. If the reviews are good, then it's worth considering, but if there are negative reviews, maybe I should look for alternatives.
+
+Next, I need to find car rental companies that offer electric cars in LA. Using get_all_car_rental_companies_in_city with "Los Angeles" as the city, I can get a list of companies. Then, using get_car_types_available for each company, I can filter those that offer electric vehicles. This will give me the list of companies that meet the user's requirement for electric cars.
+
+Once I have the list, I can use get_rating_reviews_for_car_rental to get the ratings for each company. Sorting them by rating in descending order will help the user prioritize the best-rated options. I should also check if there are any companies offering SUVs, as the cousin's family needs that too.
+
+After identifying the top companies for both electric cars and SUVs, I can calculate the cost for a 3-day rental. I'll need the daily rates for each option and multiply by three. It's important to present this information clearly so the user can make an informed decision.
+
+I also need to consider the user's preference for a better trip experience. If one company has a higher rating but slightly higher prices, it might be worth recommending. However, if the price difference is significant, the user might prefer the slightly lower-priced option.
+
+Finally, I should structure the response to be clear and helpful. Listing the companies with their ratings and costs, and suggesting which one to choose based on the user's priorities,

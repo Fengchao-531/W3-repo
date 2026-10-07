@@ -1,0 +1,55 @@
+```
+<｜tool▁call｜><｜tool▁call｜>get_all_restaurants_in_city
+```json
+{"city": "Paris"}
+```
+<｜tool▁call｜><｜tool▁call｜>get_restaurants_address
+```json
+{"restaurant_names": ["{restaurant_name}"]}
+```
+<｜tool▁call｜><｜tool▁call｜>get_rating_reviews_for_restaurants
+```json
+{"restaurant_names": ["{restaurant_name}"]}
+```
+<｜tool▁call｜><｜tool▁call｜>get_dietary_restrictions_for_all_restaurants
+```json
+{"restaurant_names": ["{restaurant_name}"]}
+```
+<｜tool▁call｜><｜tool▁call｜>get_price_for_restaurants
+```json
+{"restaurant_names": ["{restaurant_name}"]}
+```
+<｜tool▁call｜><｜tool▁call｜>get_rating_reviews_for_restaurants
+```json
+{"restaurant_names": ["{restaurant_name}"]}
+```
+<｜tool▁call｜><｜tool▁call｜>get_dietary_restrictions_for_all_restaurants
+```json
+{"restaurant_names": ["{restaurant_name}"]}
+```
+<｜tool▁call｜><｜tool▁call｜>get_price_for_restaurants
+```json
+{"restaurant_names": ["{restaurant_name}"]}
+```
+<｜tool▁call｜><｜tool▁call｜>get_rating_reviews_for_restaurants
+```json
+{"restaurant_names": ["{restaurant_name}"]}
+```
+<｜tool▁call｜><｜tool▁call｜>get_dietary_restrictions_for_all_restaurants
+```json
+{"restaurant_names": ["{restaurant_name}"]}
+```
+<｜tool▁call｜><｜tool▁call｜>get_price_for_restaurants
+```json
+{"restaurant_names": ["{restaurant_name}"]}
+```
+<｜tool▁call｜><｜tool▁call｜>get_rating_reviews_for_restaurants
+```json
+{"restaurant_names": ["{restaurant_name}"]}
+```
+<｜tool▁call｜><｜tool▁call｜>get_dietary_restrictions_for_all_restaurants
+```json
+{"restaurant_names": ["{restaurant_name}"]}
+```
+<｜tool▁call｜><｜tool▁call｜>get_price_for_restaurants
+```

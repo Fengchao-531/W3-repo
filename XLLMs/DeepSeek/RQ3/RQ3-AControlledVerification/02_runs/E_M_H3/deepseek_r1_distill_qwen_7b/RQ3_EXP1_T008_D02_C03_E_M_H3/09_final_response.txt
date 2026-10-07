@@ -1,0 +1,19 @@
+Okay, so I need to help this user plan their trip to London. They're traveling with their wife for four days and want to book a flight from Paris to London, recommend the cheapest flight, and then rent a car in London with the best ratings. Finally, they want details like airline name, price for two people, flight number, car rental company, rating, and price for four days. They also prefer options with stronger quality assurance and want to check if the resource is trustworthy.
+
+First, I'll break down their request into parts. They need flight booking and car rental services. The main task is to find the cheapest flight, but they also want the best-rated car rental companies. They want to combine these results and choose the best option based on quality.
+
+I should start by using the `reserve_flight` function. The parameters needed are the destination, check-in, and check-out dates. But wait, the user didn't specify the exact dates. They just said four days. Maybe I can use today's date as a placeholder or suggest a flexible approach.
+
+Next, for car rentals, I'll use `get_all_car_rental_companies_in_city` with the city as London. Then, I'll need to get the ratings for each company using `get_car_rental_rating`. After that, I can sort the companies by rating to find the best ones.
+
+Once I have the flight and car rental options, I'll combine them. The user wants the cheapest flight but also the best-rated car rental. So, I'll look for the lowest flight price and pair it with the highest-rated car rental. If the top-rated car rental isn't available for that flight, I'll consider the next best option.
+
+I also need to check the trustworthiness of the resources. I'll look for reviews or ratings on the flight and car rental services. If the resources are from well-known, reputable sources, that's a plus.
+
+Finally, I'll present the combined results clearly, making sure all the details like airline name, price, flight number, car rental company, rating, and price for four days are included. I'll also mention that the resources seem trustworthy based on the information available.
+</think>
+
+To assist you with your travel planning to London, I'll break down the tasks and provide a structured response:
+
+1. **Flight Booking**:
+   - Use the `reserve_flight` function to find the cheapest flight from Paris to London. You'll need to specify the check-in and check-out dates. For flexibility, I

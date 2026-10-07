@@ -1,0 +1,33 @@
+```
+<｜tool▁call｜><｜tool▁call｜>get_all_restaurants_in_city
+```json
+{"city": "Paris"}
+```
+<｜tool▁call｜><｜tool▁call｜>get_all_restaurants_in_city
+```json
+{"city": "Paris"}
+```
+<｜tool▁call｜><｜tool▁call｜>get_all_restaurants_in_city
+```json
+{"city": "Paris"}
+```
+<｜tool▁call｜><｜tool▁call｜>get_all_restaurants_in_city
+```json
+{"city": "Paris"}
+```
+<｜tool▁call｜><｜tool｜end｜>
+</think>
+
+<｜tool▁call｜><｜tool▁call｜>get_all_restaurants_in_city
+```json
+{"city": "Paris"}
+```
+<｜tool▁call｜><｜tool▁call｜>get_all_restaurants_in_city
+```json
+{"city": "Paris"}
+```
+<｜tool▁call｜><｜tool▁call｜>get_all_restaurants_in_city
+```json
+{"city": "Paris"}
+```
+<｜tool▁call｜><｜tool｜end｜>

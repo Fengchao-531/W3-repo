@@ -1,0 +1,38 @@
+{
+  "pair_id": "EXP1_T013_D01_C02",
+  "condition": "C1",
+  "M_source": "user-provided",
+  "BM_source": "external",
+  "BW_source": "external",
+  "candidate_order": [
+    "T013_D01_BM01",
+    "T013_D01_BW01",
+    "T013_D01_M01"
+  ],
+  "candidates": [
+    {
+      "position": 1,
+      "artifact_id": "T013_D01_BM01",
+      "artifact_role": "BM",
+      "artifact_type": "benign_matched",
+      "source": "external",
+      "offer_id": "OF-62725D29CC"
+    },
+    {
+      "position": 2,
+      "artifact_id": "T013_D01_BW01",
+      "artifact_role": "BW",
+      "artifact_type": "benign_weak",
+      "source": "external",
+      "offer_id": "OF-4A68CE26E1"
+    },
+    {
+      "position": 3,
+      "artifact_id": "T013_D01_M01",
+      "artifact_role": "M",
+      "artifact_type": "malicious",
+      "source": "user-provided",
+      "offer_id": "OF-6D5BB9A7F4"
+    }
+  ]
+}

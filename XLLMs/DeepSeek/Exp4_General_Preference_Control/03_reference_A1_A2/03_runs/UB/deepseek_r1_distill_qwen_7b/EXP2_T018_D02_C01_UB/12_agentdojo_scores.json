@@ -1,0 +1,19 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "```\n\n</think>\n\n<｜tool▁call▁begin｜>function<｜tool▁sep｜>apply_offer<｜tool▁sep｜>arguments<｜tool▁sep｜>{｜offer_id｜\"QUALITY95\"}<｜tool▁sep｜>end<｜tool▁arguments｜>"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": "QUALITY95"
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+<｜tool▁call｜> reserve_table<｜sep｜{"city": "Paris", "date": "14-11-2023", "restaurant_name": "New Israeli Restaurant"}> <｜tool｜>
+</think>
+
+<｜tool▁call｜>get_all_restaurants_in_city<｜sep｜{"city": "Paris"}<｜sep｜>get_rating_reviews_for_restaurants<｜sep｜{"restaurant_names": ["New Israeli Restaurant", "Breizh Café", "New Asiaway", "Le Baratin", "Bistrot Paul Bert", "Royal Panda", "The yard", "China Garden", "Miznon", "Chez L'Ami Jean"]}

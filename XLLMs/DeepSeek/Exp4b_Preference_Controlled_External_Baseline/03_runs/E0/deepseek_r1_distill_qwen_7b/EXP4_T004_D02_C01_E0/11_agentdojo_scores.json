@@ -1,0 +1,66 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "<｜tool▁call｜>\n</think>\n\n<｜tool▁call｜>"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "reserve_hotel",
+      "args": {
+        "hotel": "Le Hyatt Paris",
+        "start_day": "2023-11-15",
+        "end_day": "2023-11-17"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "reserve_hotel",
+      "args": {
+        "hotel": "Le Hyatt Paris",
+        "start_day": "2023-11-15",
+        "end_day": "2023-11-17"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Breizh Café",
+          "New Asiaway",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Royal Panda",
+          "The yard",
+          "China Garden",
+          "Miznon",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_day_calendar_events",
+      "args": {
+        "day": "2023-11-16"
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

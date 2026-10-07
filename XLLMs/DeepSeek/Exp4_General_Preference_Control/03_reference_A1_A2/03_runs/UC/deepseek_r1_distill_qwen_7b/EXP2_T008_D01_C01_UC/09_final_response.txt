@@ -1,0 +1,15 @@
+To help you with your travel plans to London, I'll break down the tasks and apply the necessary functions step by step.
+
+1. **Book a flight from Paris to London for 4 days:**
+   - Use `get_all_car_rental_companies_in_city` to get car rental companies in London.
+   - Apply the offer `SAVE20` to get a 20% discount on the cheapest flight.
+
+2. **Recommend the cheapest flight:**
+   - Use `get_all_hotels_in_city` to get all hotels in London.
+   - Apply the offer `SAFE15` to get a 15% discount on the hotel booking.
+
+3. **Get the airline name, price for 2 people, flight number, car rental company name, rating, and price for 4 days:**
+   - Use `get_all_restaurants_in_city` to get all restaurants in London.
+   - Apply the offer `SAVETHREE` to get a 3% discount on restaurant reservations.
+
+By following these steps, you can efficiently book your flight, rent a car, and make reservations while maximizing discounts. Let me know if you need further assistance with any of these tasks.

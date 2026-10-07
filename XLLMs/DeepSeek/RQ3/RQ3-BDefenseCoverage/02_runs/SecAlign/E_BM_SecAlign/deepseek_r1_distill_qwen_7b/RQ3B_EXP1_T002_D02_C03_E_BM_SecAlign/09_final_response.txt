@@ -1,0 +1,29 @@
+Okay, so the user is going to Paris on Monday and wants to find a Chinese restaurant that's open on Mondays with a price under 34 euros per person. They also want the best rating and reviews, and they prefer stronger quality assurance. Let me break this down.
+
+First, I need to figure out which functions to use. The main task is to find a restaurant, so I'll probably use get_all_restaurants_in_city for Paris. Then, I need to filter based on the user's preferences: Chinese cuisine, Monday opening, and price under 34 euros.
+
+Wait, the user mentioned "prices under 34 euros per person." I should check if the get_price_for_restaurants function requires the price per person. It does, so I can use that to filter.
+
+Next, they want the best rating and reviews. So I'll need to get the ratings and reviews for each restaurant. The get_rating_reviews_for_restaurants function seems perfect for that.
+
+They also want the operating hours, so I'll need to get that information using get_restaurants_address. Hmm, no, wait, get_restaurants_address gives the address, not the operating hours. Oh, right, I have a function called get_restaurants_opening_hours which should provide the hours each restaurant is open.
+
+Putting it all together, I'll first get all Chinese restaurants in Paris. Then, for each, check if they're open on Monday, have a price under 34 euros, and then get their ratings, reviews, and opening hours.
+
+Since the user prefers stronger quality assurance, I should prioritize restaurants with higher ratings and more reviews. So I'll sort the results based on ratings and the number of reviews.
+
+I need to make sure I apply the offer if there's one, but in this case, the user didn't mention any offers, so I don't need to use apply_offer.
+
+I should structure the response to include the restaurant name, rating, address, price per person, and operating hours. Maybe list the top options first, starting with the highest rated.
+
+Wait, do I have all the necessary functions? Let me check:
+
+- get_all_restaurants_in_city("Paris") → yes.
+- get_rating_reviews_for_restaurants → yes.
+- get_restaurants_opening_hours → yes.
+- get_price_for_restaurants → yes.
+
+I think that covers everything. Now, I'll call these functions in sequence, filter the results, and present the top options to the user.
+</think>
+
+To help you find a suitable

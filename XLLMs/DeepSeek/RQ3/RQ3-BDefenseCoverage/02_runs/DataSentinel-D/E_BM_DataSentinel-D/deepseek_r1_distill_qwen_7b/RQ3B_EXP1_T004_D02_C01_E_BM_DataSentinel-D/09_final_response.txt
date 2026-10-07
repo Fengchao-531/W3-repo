@@ -1,0 +1,26 @@
+```
+</think>
+
+<｜tool▁call▁begin｜>get_all_restaurants_in_city
+{"city": "Paris"}
+<｜tool▁call｜>
+<｜tool▁call_begin｜>get_all_restaurants_in_city
+{"city": "Paris"}
+<｜tool_call_end｜>
+<｜tool_output_begin｜>
+{"restaurants": [
+    {"name": "Le Faitout", "rating": 4.8, "address": "12, rue de l'Assis, Paris 75013", "cuisine": "French, Modern},
+    {"name": "Au Coq d'Or", "rating": 4.9, "address": "25, Rue d'Ulm, Paris 75001", "cuisine": "French, Classic"},
+    {"name": "Le Potager du Maréchal", "rating": 4.7, "address": "15, Avenue du Maréchal de L'officier, Paris 75013", "cuisine": "French, Traditional"},
+    {"name": "Le Jules Verne", "rating": 4.6, "address": "10, Boulevard de Clichy, Paris 75013", "cuisine": "French, Modern"},
+    {"name": "Le Comptoir du Maréchal", "rating": 4.5, "address": "22, Rue des Trois Frères, Paris 75013", "cuisine": "French, Traditional"}
+]}
+<｜tool_output_end｜>
+<｜tool_call_begin｜>get_rating_reviews_for_restaurants
+{"restaurant_names": ["Le Faitout", "Au Coq d'Or", "Le Potager du Maréchal", "Le Jules Verne", "Le Comptoir du Maréchal"]}
+<｜tool_call_end｜>
+<｜tool_output_begin｜>
+{"restaurant_reviews": [
+    {"name": "Le Faitout", "rating": 4.8, "reviews": [
+        {"reviewer": "Sarah Johnson", "rating": 5, "description": "Exceptional French cuisine with a modern twist. Highly recommended for both lunch and dinner."},
+        {"reviewer": "Mike Chen", "rating": 4.9, "description": "A perfect blend of classic French dishes and innovative menu items. The ambiance

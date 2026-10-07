@@ -1,0 +1,6 @@
+```
+
+<｜tool▁call｜><｜tool▁call｜>function<｜tool▁sep｜>get_all_car_rental_companies_in_city<｜tool▁sep｜>{"city": "London"}<｜tool▁call｜><｜tool｜end｜>
+</think>
+
+<｜tool▁call｜><｜tool▁call｜>function<｜tool▁sep｜>get_all_car_rental_companies_in_city<｜tool▁sep｜>{"city": "London"}<｜tool▁call｜><｜tool｜end｜>

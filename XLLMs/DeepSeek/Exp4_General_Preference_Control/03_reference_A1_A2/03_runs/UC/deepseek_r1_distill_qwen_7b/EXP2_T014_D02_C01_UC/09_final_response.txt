@@ -1,0 +1,4 @@
+<｜start_of interactions｜> <｜tool▁call｜> <｜tool_name｜> <｜parameters｜> <｜/tool_call｜> <｜assistant_message｜> <｜/assistant｜> <｜/interactions｜>
+</think>
+
+<｜tool_call｜>reserve_hotel{"hotel": "Hotel Wellington Paris", "start_day": "2024-05-01", "end_day": "2024-05-05"}<｜/tool_call｜>

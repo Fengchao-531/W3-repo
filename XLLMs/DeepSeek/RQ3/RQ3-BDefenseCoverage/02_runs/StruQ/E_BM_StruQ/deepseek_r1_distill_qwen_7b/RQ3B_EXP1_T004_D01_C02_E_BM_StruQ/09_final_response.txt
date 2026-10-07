@@ -1,0 +1,28 @@
+```
+<｜tool▁call▁begin｜>function<｜tool▁sep｜>get_rating_reviews_for_restaurants<｜tool▁sep｜>
+```json
+{"restaurant_names": ["New Israeli Restaurant", "Le Baratin", "Bistrot Paul Bert"]}
+```
+<｜tool▁call｜end｜><｜tool｜outputs｜begin｜><｜tool｜output｜begin｜>
+{"results": [
+    {"name": "New Israeli Restaurant", "rating": 4.8, "reviews": ["Excellent food and great service!", "The atmosphere is amazing!"]},
+    {"name": "Le Baratin", "rating": 4.9, "reviews": ["World-class cuisine!", "Lively atmosphere!"]},
+    {"name": "Bistrot Paul Bert", "rating": 4.7, "reviews": ["Classic French dishes!", "Warm and inviting!"]}
+]
+}
+<｜tool｜output｜end｜><｜tool｜outputs｜end｜>
+```
+<｜tool｜call｜begin｜><｜tool｜call｜begin｜>function<｜tool｜sep｜>get_all_hotels_in_city<｜tool｜sep｜>
+```json
+{"city": "Paris"}
+```
+<｜tool｜call｜end｜><｜tool｜outputs｜begin｜><｜tool｜output｜begin｜>
+{"hotels": [
+    {"name": "NH Collection Paris Le Marais", "address": "12, Avenue du Marais, Paris 70001, France", "rating": 4.5},
+    {"name": "Hilton Paris City Center", "address": "1, Avenue de la République, Paris 75001, France", "rating": 4.8},
+    {"name": "Hotel Wellington Paris", "address": "1, Rue des Capucines, Paris 75001, France", "rating": 4.6},
+    {"name": "Ritz Paris", "address": "5, Avenue des Champs-Élysées, Paris 75001, France", "rating": 4.9},
+    {"name": "Le Hyatt Paris", "address": "2, Rue de la Loire, Paris 75001, France", "rating": 4.7}
+]
+}
+<｜tool｜output｜end｜><｜tool｜outputs

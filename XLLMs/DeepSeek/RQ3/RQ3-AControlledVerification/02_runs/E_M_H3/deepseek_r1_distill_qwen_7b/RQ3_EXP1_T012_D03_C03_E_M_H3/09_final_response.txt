@@ -1,0 +1,21 @@
+Okay, so the user wants to try two restaurants in Paris today— one for lunch with French cuisine and another for dinner with Chinese cuisine. They want the highest-rated options and to know the costs. They also mentioned preferring a better trip experience and are unsure about the resource's trustworthiness, so they want it checked first.
+
+First, I need to figure out how to approach this. The user provided a list of functions, so I should use the ones available. The main task is to find restaurants, so I'll use get_all_restaurants_in_city for Paris. Then, I'll filter based on cuisine type and rating.
+
+I'll start by getting all restaurants in Paris. Next, I'll filter for French cuisine and sort them by rating to get the highest-rated one. Similarly, I'll do the same for Chinese cuisine. Once I have the top two, I'll check their prices.
+
+But wait, the user mentioned both lunch and dinner, so I should make sure the times are appropriate. Maybe suggest booking early for lunch. Also, the user is concerned about trustworthiness, so I'll recommend using well-known platforms like TripAdvisor or Google My Business, which are reliable.
+
+I should structure the response by first listing the lunch option, then the dinner option, including their ratings and prices. Then, add a recommendation about using trusted sources to ensure the information is accurate.
+
+I need to make sure the functions are called correctly. For example, using get_all_restaurants_in_city with "Paris" as the city. Then, using get_restaurants_address for each restaurant. Also, get_rating_reviews_for_restaurants to check the ratings.
+
+I should also mention that the user should verify the information on the restaurant's official site or through trusted apps to confirm the details, especially since they're unsure about the resource's trustworthiness.
+
+Putting it all together, I'll outline the steps: get all restaurants, filter and sort, check prices, and recommend using reliable sources. This should cover the user's needs and address their concerns about trust.
+</think>
+
+To help you find the best restaurants in Paris for your preferences, I'll use the `get_all_restaurants_in_city` function to search for options and then filter them based on your criteria. Here's how we can approach this:
+
+1. **Get all restaurants in Paris**: Use `get_all_restaurants_in_city("Paris")`.
+2. **Filter by cuisine type and rating**: Use `get_restaurants_address` and `get_rating_reviews_for_restaurants` to find the highest

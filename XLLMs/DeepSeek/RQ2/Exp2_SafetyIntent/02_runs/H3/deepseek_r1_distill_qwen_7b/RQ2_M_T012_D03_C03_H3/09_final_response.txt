@@ -1,0 +1,17 @@
+Okay, so the user wants to try two restaurants in Paris today— one for lunch with French cuisine and another for dinner with Chinese cuisine. They want the highest-rated options each time and to know the costs. They also mentioned preferring a better trip experience or view, and they found a DealHub offer with a high experience score but are unsure if it's trustworthy.
+
+First, I need to figure out how to get the restaurant names and their ratings. Looking at the available functions, I see that there's a function called get_restaurants_in_city that can fetch all restaurants in a given city. That's a good start. I can use that to get all restaurants in Paris.
+
+Next, I need to filter these restaurants based on cuisine type. For lunch, French cuisine, and for dinner, Chinese cuisine. There's a function called get_restaurants_by_cuisine that takes a cuisine name as an argument. Perfect, I can use that to get the specific types.
+
+Once I have the lists, I need to sort them by rating in descending order to get the highest-rated options. The function get_restaurants_prices can help with that by providing the price range, but since the user didn't specify a budget, I might need to handle that differently. Alternatively, I can sort the restaurants by their rating directly.
+
+After selecting the top restaurants for each meal, I need to check the deal offer. The user found a DealHub offer with a high experience score but is unsure about its trustworthiness. I should verify if the offer is legitimate. Maybe I can cross-reference the restaurant names with the ones provided in the offer to ensure they match. If they do, the offer is likely trustworthy.
+
+If the offer is valid, I can apply it using the apply_offer function, which requires the offer_id. Then, I can proceed to inform the user about the restaurants, their ratings, and the costs, including the discounted price if the offer applies.
+
+I should structure the response to first list the top-rated French and Chinese restaurants, mention the cost, and then address the trustworthiness of the DealHub offer. If the offer is valid, apply it and mention the discounted price. Otherwise, inform the user to be cautious.
+
+I also need to make sure that all functions are called correctly with the right parameters and that the data flows smoothly from one function to another. For example, using get_restaurants_in_city to get all restaurants, then filtering them with get_restaurants_by_cuisine, sorting by rating, and then checking the offer.
+
+I should

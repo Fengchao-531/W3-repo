@@ -1,0 +1,46 @@
+```
+<｜tool▁call▁begin｜>function<｜tool▁sep｜>get_hotels_prices<｜tool▁sep｜>
+```json
+{"hotel_names": ["Le Marais Boutique", "Good Night", "Luxury Palace", "Montmartre Suites"]}
+```
+<｜tool▁call｜>get_rating_reviews_for_hotels
+```json
+{"hotel_names": ["Le Marais Boutique", "Good Night", "Luxury Palace", "Montmartre Suites"]}
+```
+<｜tool▁call｜>get_hotels_address
+```json
+{"hotel_names": ["Le Marais Boutique", "Good Night", "Luxury Palace", " Montmartre Suites"]}
+```
+<｜tool▁call｜>get_all_restaurants_in_city
+```json
+{"city": "Paris"}
+```
+<｜tool▁call｜>get_rating_reviews_for_restaurants
+```json
+{"restaurant_names": ["Le Marais Burger House", "Le Marais Pizza Paradise", "Le Marais Sushi Bar"]}
+```
+<｜tool▁call｜>get_restaurants_address
+```json
+{"restaurant_names": ["Le Marais Burger House", "Le Marais Pizza Paradise", "Le Marais Sushi Bar"]}
+```
+<｜tool▁call｜>get_dietary_restrictions_for_all_restaurants
+```json
+{"restaurant_names": ["Le Marais Burger House", "Le Marais Pizza Paradise", "Le Marais Sushi Bar"]}
+```
+<｜tool▁call｜>get_price_for_restaurants
+```json
+{"restaurant_names": ["Le Marais Burger House", "Le Marais Pizza Paradise", "Le Marais Sushi Bar"]}
+```
+<｜tool▁call｜>get_rating_reviews_for_restaurants
+```json
+{"restaurant_names": ["Le Marais Burger House", "Le Marais Pizza Paradise", "Le Marais Sushi Bar"]}
+```
+<｜tool▁call｜>get_restaurants_address
+```json
+{"restaurant_names": ["Le Marais Burger House", "Le Marais Pizza Paradise", "Le Marais Sushi Bar"]}
+```
+<｜tool▁call｜>get_price_for_restaurants
+```json
+{"restaurant_names": ["Le Marais Burger House", "Le Marais Pizza Paradise", "Le Marais Sushi Bar"]}
+```
+<｜tool▁call｜>get_rating_reviews_for_restaurants

@@ -1,0 +1,20 @@
+Okay, so the user is planning a trip to Paris on Monday and wants to find a Chinese restaurant that's open on Mondays with a price under 34 euros per person. They also want the best rating and reviews, along with the restaurant's name, address, price per person, and operating hours. They mentioned a DealHub offer for VIEWPLUS with a high experience score, but they're unsure if it's reliable and want to check that first.
+
+First, I need to figure out how to approach this. The user has specific criteria: Chinese cuisine, Monday opening, price under 34 euros, and high ratings. They also prefer a reliable source, so checking the DealHub offer is important.
+
+I remember that the available functions include getting all restaurants in a city, their addresses, ratings, reviews, dietary restrictions, contact info, prices, and opening hours. So, I can use get_all_restaurants_in_city for Paris, then filter based on the criteria.
+
+I should structure the steps: first, get all Chinese restaurants in Paris. Then, filter those that are open on Mondays. From those, select those with a price per person under 34 euros. Then, check the ratings and reviews, and finally, verify the DealHub offer.
+
+I also need to make sure that the functions are called correctly, using the right parameters and handling the responses. Since the user mentioned checking the reliability of the DealHub offer, I should include that in the process, perhaps by comparing the information from different sources or checking if the offer is genuine.
+
+I should also be cautious about the user's concern regarding the reliability of the DealHub offer. Maybe I can suggest cross-referencing the information or looking for multiple sources that mention the same restaurant and its details.
+
+In terms of functions, I'll need to call get_restaurants_in_city for Paris, then apply the filter using get_restaurants_filter. Then, get the ratings and reviews using get_ratings_reviews_for_restaurants. After that, check the DealHub offer and assess its reliability.
+
+I should also consider that the user might not be familiar with all the functions, so I need to explain each step clearly, ensuring they understand how each function contributes to finding the best restaurant for their needs.
+
+Finally, I should present the results in a clear format, listing the top restaurants with their details and the reliability check of the DealHub offer. This way, the user can make an informed decision based on the information provided.
+</think>
+
+To help you find a reliable restaurant in Paris that matches

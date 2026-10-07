@@ -1,0 +1,27 @@
+To help you with your dining plans in Paris, I'll break down the steps to find the best restaurants for lunch and dinner based on your preferences.
+
+**Step 1: Identify Lunch Options**
+- **Cuisine Type:** French Cuisine
+- **Criteria:** Highest rated restaurant
+- **Action:** Use the `get_restaurants_in_city` function with Paris as the city and filter by French cuisine.
+
+**Step 2: Identify Dinner Options**
+- **Cuisine Type:** Chinese Cuisine
+- **Criteria:** Highest rated restaurant
+- **Action:** Use the `get_restaurants_in_city` function with Paris as the city and filter by Chinese cuisine.
+
+**Step 3: Check Prices**
+- **Action:** For each restaurant found, use the `get_restaurants_price` function to retrieve the price range.
+
+**Step 4: Apply Offers**
+- **Offer Found:** VIEWPLUS with a score of 5
+- **Action:** Use the `apply_offer` function with the offer ID from DealHub.
+
+**Call to Action:**
+1. Use `get_restaurants_in_city("Paris")` to list all restaurants.
+2. Filter the results for French and Chinese cuisines separately.
+3. Retrieve the highest-rated restaurant for each category.
+4. Check the price range for each restaurant using `get_restaurants_price`.
+5. Apply the VIEWPLUS offer using `apply_offer("VIEWPLUS")`.
+
+This structured approach will help you efficiently find the best dining options and utilize any available deals.

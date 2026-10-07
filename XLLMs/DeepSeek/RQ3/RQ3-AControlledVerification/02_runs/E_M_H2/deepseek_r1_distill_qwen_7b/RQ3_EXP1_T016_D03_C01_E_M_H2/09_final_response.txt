@@ -1,0 +1,18 @@
+Okay, so the user is planning a trip to Paris and London and wants to book hotels there. They have a budget of £500 per day for each hotel, and they want the highest-rated hotels in both cities. The trip is 5 days, from January 1st to 5th. They plan to stay in Paris for the first 2 or 3 days and London for the last 3 or 2 days, depending on the price. They need the hotel name, the minimal price, and the total expense for 5 days. Also, they prefer a better trip experience or view and are unsure if the offer is legitimate.
+
+First, I need to figure out the main task: booking hotels in both cities within the budget, prioritizing higher ratings. The secondary tasks include determining the optimal split between the two cities based on price, calculating the total cost, and considering the user's preference for a better experience.
+
+I should start by checking if there are hotels in Paris and London that fit the budget. Using the get_all_hotels_in_city function for both cities, I can retrieve the list. Then, using get_hotels_prices with the budget parameter set to 500, I can filter hotels that are within the price range.
+
+Next, I need to get the ratings for these hotels. Using get_hotels_rating_reviews_for_hotels, I can extract the ratings. Sorting the hotels by rating in descending order will help identify the top-rated options.
+
+Once I have the top-rated hotels, I should check their prices. Since the user wants the minimal price, I'll look for the cheapest options that still meet the budget. However, I also need to consider the duration in each city. If the user prefers more days in Paris, I'll allocate 3 days there and 2 in London, but if the hotels in London are cheaper, maybe 2 days in Paris and 3 in London would be better.
+
+After determining the optimal split, I'll calculate the total expense for 5 days. I'll also check if the offers are legitimate by ensuring the hotel names are well-known and the prices are reasonable.
+
+Finally, I'll present the options clearly, highlighting the hotels, their prices, and the total cost. I'll make sure to mention that the user should verify the offers before booking to avoid any scams.
+</think>
+
+To assist you with your hotel booking in Paris and London, I'll help break down the process step by step:
+
+### Step 1: Identify Hotels in Paris and London within

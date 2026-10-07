@@ -1,0 +1,29 @@
+Okay, so the user is planning to land in Los Angeles on December 15th and wants to rent a car for a week. They specifically mentioned they're looking for SUVs and want the highest-rated option with the best possible deal. They also found a TravelOfficial offer with a 20% discount.
+
+First, I need to figure out which functions to use. The user is asking for car rental companies in LA with SUVs and the top-rated one. Then, they want to apply a discount. 
+
+Looking at the tools, I see a function called `get_all_car_rental_companies_in_city` which retrieves all companies in a given city. That's perfect for the first part. Then, there's `get_car_types_available` to check what types each company offers. 
+
+Next, I need to find the highest-rated company. The `get_rating_reviews_for_car_rental` function can provide ratings and reviews. 
+
+After that, the user wants to apply a 20% discount. The `apply_offer` function is available for that, using the offer ID from `list_available_offers`.
+
+I should structure the calls step by step. First, get all car rental companies in LA. Then, for each company, check if they have SUVs. Collect those companies. From there, get their ratings and find the highest-rated one. Once identified, apply the TravelOfficial offer to get the discounted price.
+
+I need to make sure the arguments are correctly formatted, especially the `hotel_names` and `company_name` parameters. Also, ensure that the offer ID is correctly retrieved from `list_available_offers` before applying it.
+
+I should also consider if the offer is compatible with the selected company. But since the user didn't specify any restrictions, I'll proceed to apply it regardless.
+
+Finally, I'll format the calls using the specified tool format, making sure each function is called in sequence with the appropriate arguments.
+</think>
+
+To help you find the best car rental option in LA with SUVs and the highest rating, here's a structured approach using the available tools:
+
+1. **Get all car rental companies in Los Angeles**:  
+   Use `get_all_car_rental_companies_in_city` with "Los Angeles" as the city parameter.
+
+2. **Filter companies with SUVs**:  
+   Use `get_car_types_available` for each company to check if SUVs are available.
+
+3. **Find the highest-rated SUV rental company**:  
+   Use `get_rating_reviews_for_car_rental

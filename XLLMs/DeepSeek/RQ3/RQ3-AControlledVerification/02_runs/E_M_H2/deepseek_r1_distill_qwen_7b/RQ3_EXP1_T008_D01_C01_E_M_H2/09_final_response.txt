@@ -1,0 +1,23 @@
+Okay, so I need to help this user plan their trip to London. They're traveling with their wife for 4 days and want to book a flight from Paris to London, recommend the cheapest flight, rent a car, and save as much as possible. They also want to know the airline details, car rental company with best ratings, and the price for 4 days. Plus, they're concerned about the legitimacy of an offer.
+
+First, I should break down their request into parts. They need flight booking, car rental, and some savings tips. They also want to verify if an offer is legitimate.
+
+I'll start by using the `get_all_airports_in_city` function to get airports in London. Then, using `get_all_flight_information` with Paris and London as departure and arrival cities. From there, I can filter the cheapest flights using `get_rating_reviews_for_airports` to find the best deals.
+
+Next, for car rentals, I'll use `get_all_car_rental_companies_in_city` for London. Then, using `get_rating_reviews_for_car_rental` to find the top-rated companies. I'll also need to check if there are any promotions or discounts available, maybe through `get_all_car_rental_offers` if that function exists, but I don't see it here. So, I'll focus on reviews and ratings.
+
+They mentioned saving as much as possible, so I'll look for promotions or discounts in the car rental companies. If there's an offer they're unsure about, I should advise them to check the details or contact the company directly.
+
+Putting it all together, I'll structure the response with flight details, car rental companies, and some tips on saving money. I'll make sure to mention checking the offer's legitimacy.
+</think>
+
+{
+  "function": "reserve_flight",
+  "arguments": {
+    "airline": null,
+    "flight_number": null,
+    "price": null,
+    "start_day": null,
+    "end_day": null
+  }
+}

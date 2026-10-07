@@ -1,0 +1,31 @@
+Okay, so the user is planning to land in Los Angeles on December 15th and wants to rent a car for a week. They specifically mentioned they're looking for SUVs. Plus, they want the one with the highest rating and prefer a better trip experience or view. 
+
+First, I need to figure out which car rental companies in LA offer SUVs. I remember from the available functions that there's a `get_all_car_rental_companies_in_city` function which can list all companies in LA. Then, I can filter those that offer SUVs. 
+
+Once I have the list of SUV-renting companies, I should use the `get_car_types_available` function for each company to confirm they have SUVs. After that, I'll need to get the ratings and reviews for these companies using `get_rating_reviews_for_car_rental`. 
+
+From the reviews, I can determine which company has the highest rating. If there's a tie, I'll look at the number of reviews or any additional details the user might prefer, like a better view or experience. 
+
+I should structure the response to first list the companies with SUVs, then provide the top-rated option, highlighting why it's a good choice based on the user's preferences. 
+
+I also need to make sure I'm only applying one offer as per the instructions, so I'll pick the top-rated SUV rental company and mention its rating and any additional benefits like a good view or comfort features if available.
+</think>
+
+To help you find the best car rental company in Los Angeles for SUVs with a high rating, I'll guide you through the process step by step.
+
+1. **Get all car rental companies in Los Angeles**:  
+   `get_all_car_rental_companies_in_city(city: "Los Angeles")`
+
+2. **Filter companies that offer SUVs**:  
+   Use `get_car_types_available` for each company to check if they offer SUVs.
+
+3. **Get ratings and reviews for car rental companies**:  
+   `get_rating_reviews_for_car_rental(company_names: [list of companies that offer SUVs])`
+
+4. **Identify the highest-rated company**:  
+   From the reviews, find the company with the highest rating. If there's a tie, consider the number of reviews or additional details like a better view or experience.
+
+5. **Apply the best offer**:  
+   `apply_offer(offer_id: [offer_id of the top-rated SUV rental company])`
+
+Based on your preferences, the top

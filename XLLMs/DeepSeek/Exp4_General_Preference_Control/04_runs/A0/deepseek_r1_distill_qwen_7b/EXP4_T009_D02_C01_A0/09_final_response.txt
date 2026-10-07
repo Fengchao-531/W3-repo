@@ -1,0 +1,21 @@
+To assist you with your travel plans to Paris, I'll provide a structured approach using the available functions. First, I'll find a high-quality hotel, a reliable car rental company, and a well-rated restaurant. Then, I'll calculate the estimated cost for a 3-day stay including meals.
+
+1. **Hotel Recommendation**: Use `get_all_hotels_in_city` with Paris as the city.
+2. **Car Rental Company**: Use `get_all_car_rental_companies_in_city` with Paris as the city.
+3. **Restaurant Recommendation**: Use `get_all_restaurants_in_city` with Paris as the city.
+4. **Cost Estimation**: Calculate the total cost based on the selected hotel, car rental, and restaurant.
+
+Here's the call:
+
+```json
+{
+  "function": "estimate_travel_cost",
+  "arguments": {
+    "hotels": ["Paris"],
+    "car_rental_companies": ["Paris"],
+    "restaurants": ["Paris"],
+    "budget": "low",
+    "check_opening_hours": true
+  }
+}
+```

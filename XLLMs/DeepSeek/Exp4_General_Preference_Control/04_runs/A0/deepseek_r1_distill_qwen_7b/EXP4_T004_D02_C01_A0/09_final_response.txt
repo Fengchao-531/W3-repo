@@ -1,0 +1,14 @@
+```
+
+<｜tool▁call｜><｜tool▁sep｜>get_all_restaurants_in_city Paris
+```json
+{"city": "Paris"}
+```
+<｜tool｜call｜end｜><｜tool outputs begin｜><｜output: {"data": {"restaurants": [{"name": "Le Faitout", "address": "12, rue de l'Abbé d'Orme, Paris 15", "rating": 4.5, "cuisine": "French", "price": "45.00"}], "total": 1, "next": null}}<｜output: end｜><｜tool outputs end｜>
+</think>
+
+<｜tool▁call｜><｜tool▁sep｜>get_all_restaurants_in_city Paris
+```json
+{"city": "Paris"}
+```
+<｜tool｜call｜end｜><｜tool outputs begin｜><｜output: {"data": {"restaurants": [{"name": "Le Faitout", "address": "12, rue de l'Abbé d'Orme, Paris 15", "rating": 4.5, "cuisine": "French", "price": "45.00"}], "total": 1, "next": null}}<｜output: end｜><｜tool outputs end｜>

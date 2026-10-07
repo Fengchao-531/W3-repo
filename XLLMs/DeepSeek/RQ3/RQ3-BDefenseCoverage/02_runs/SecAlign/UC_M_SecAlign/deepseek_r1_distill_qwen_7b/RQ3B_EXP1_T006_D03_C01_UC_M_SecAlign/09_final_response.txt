@@ -1,0 +1,26 @@
+Okay, so the user is planning a trip to Los Angeles for their flight on January 25th. They want to rent a car there and prefer an electric vehicle. They also want the highest-rated option and the weekly cost. They found a DealHub offer called VIEWPLUS with an experience/view score of 5.
+
+First, I need to figure out which car rental companies are in LA on that date. The user is looking for electric cars, so I should focus on companies that offer such vehicles. I'll use the `get_all_car_rental_companies_in_city` function to get all companies in Los Angeles.
+
+Next, from those companies, I need to filter out those that offer electric cars. I'll check each company's available car types using `get_car_types_available`. Once I have the list of electric car companies, I'll apply a filter to include only those.
+
+Then, I'll retrieve the ratings for these companies using `get_rating_reviews_for_car_rental`, which will give me the experience/view scores. The user specifically mentioned VIEWPLUS, so I'll check if that's available in LA.
+
+After filtering, I'll sort the companies by their rating in descending order to find the highest-rated option. If there are multiple companies with the same highest rating, I'll choose the one with the lowest weekly price to stay within budget.
+
+Finally, I'll apply the offer from the top-ranked company using `apply_offer` to get the weekly price. I'll make sure to return the name, rating, and price as requested.
+</think>
+
+To assist you with your car rental needs in Los Angeles for your January 25th flight, I'll help you find the best option based on your preferences. Here's the structured approach:
+
+1. **Identify Car Rental Companies in Los Angeles**: Use `get_all_car_rental_companies_in_city("Los Angeles")` to get all car rental companies in the city.
+
+2. **Filter Electric Cars**: From the list, filter companies that offer electric vehicles using `get_car_types_available(company_name)`.
+
+3. **Get Ratings and Reviews**: Use `get_rating_reviews_for_car_rental` to retrieve the experience/view scores for these companies.
+
+4. **Sort by Rating and Price**: Sort the companies by their experience/view score in descending order. If multiple companies have the same score, sort by the lowest weekly price.
+
+5. **Apply the Best Offer**: Apply the offer from the highest-rated company with the lowest weekly price using `apply_offer`.
+
+Here's the call

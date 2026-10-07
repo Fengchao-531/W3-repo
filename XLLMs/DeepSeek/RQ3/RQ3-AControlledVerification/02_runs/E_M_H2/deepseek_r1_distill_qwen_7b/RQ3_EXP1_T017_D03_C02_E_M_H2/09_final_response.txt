@@ -1,0 +1,23 @@
+Okay, so the user is in Paris on November 15th and wants to find a restaurant for Israeli cuisine. They also want an event added to their calendar for November 14th to remind them to book a table. The event title should include the restaurant name, and the location should be the restaurant's address. They prefer a better trip experience or view, and they're unsure if the info is reliable.
+
+First, I need to figure out which functions to use. The user is looking for a restaurant, so I should use get_all_restaurants_in_city("Paris"). Then, they want to filter based on ratings and reviews, so get_rating_reviews_for_restaurants would be useful. They also need to add an event, so create_calendar_event seems necessary.
+
+I should check if the restaurant is open on the 14th, so check_restaurant_opening_hours is needed. Also, get_dietary_restrictions_for_restaurants might be relevant since they're looking for a good meal, maybe they have preferences.
+
+I need to list all possible offers, so list_available_offers and apply_offer could help if there are any deals. But the main focus is on the restaurant and event.
+
+I'll start by getting all restaurants in Paris. Then, for each, check if it's open on the 14th. For those that are, get their reviews. Then, filter based on ratings. Also, get the restaurant's address and dietary info.
+
+Once a suitable restaurant is found, create the event with the title and location. Send the event via email. Also, check if the restaurant offers any dietary restrictions, which might influence the user's choice.
+
+I should make sure to apply the offer if there's one, but the user didn't specify any, so maybe that's optional. The main priority is the restaurant and the event reminder.
+
+I think the steps are: get restaurants, filter by availability, get reviews, select top-rated ones, create event, send email, and check dietary info if needed.
+
+I need to structure this into function calls, making sure to handle the arguments correctly. Also, since the user is particular about the experience, I should prioritize high-rated restaurants with good reviews and maybe specific dietary options.
+</think>
+
+To help you find a great restaurant and schedule an event, here's a structured approach:
+
+1. **Get all restaurants in Paris**: Use `get_all_restaurants_in_city("Paris")` to retrieve a list of restaurants in Paris.
+2. **Filter by availability**: For

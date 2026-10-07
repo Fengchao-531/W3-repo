@@ -1,0 +1,20 @@
+Okay, so the user is planning a trip to Los Angeles on January 25th and wants to rent a car there. They specifically mentioned looking for car rental companies that have electric cars and want the one with the highest rating. Plus, they're interested in a weekly rental price and want to save as much as possible without conflicting with their main task.
+
+First, I need to figure out which functions to use. The user is asking about car rentals, so I should look at the functions related to car rental companies. There's a function called `get_all_car_rental_companies_in_city` which retrieves all companies in a given city. That's a good starting point.
+
+Next, after getting the list of companies, the user wants electric cars. I don't see a function that directly queries for companies with electric cars, but maybe I can use `get_car_types_available` for each company. Alternatively, perhaps the user can filter the results themselves, but since I can't do that, I'll have to include the function in the call.
+
+Then, the user wants the highest-rated company. So I'll need to use `get_rating_reviews_for_car_rental` to get ratings and reviews for each company. I'll have to structure the arguments to loop through each company and collect their ratings.
+
+After that, the user wants the weekly price. So I'll use `get_car_price_per_day` for each company to get the daily rate and then calculate the weekly cost.
+
+The user also mentioned a DealHub offer: SAVE20 — 20% off. So I need to apply this offer if possible. The function `apply_offer` is available, so I'll check if the offer is applicable and apply it to the price.
+
+Putting it all together, I'll chain the functions: first get all companies, then for each, get their car types, ratings, and prices. Then, apply the offer if it fits. Finally, sort the results by rating and price to find the best option.
+
+I should make sure to structure the arguments correctly, using arrays and nested objects where necessary. Also, I'll need to handle the offer application properly, ensuring it's applied before sorting to get the best price after the discount.
+
+I think that covers all the user's requirements. Now, I'll format the function call accordingly, making sure to include all necessary parameters and structure the JSON arguments correctly.
+</think>
+
+To help you find the best car rental option in Los Angeles with electric cars, high ratings, and the lowest price,

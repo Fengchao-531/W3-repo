@@ -1,0 +1,17 @@
+Okay, so the user is planning a trip to Paris from May 10th to May 13th. They need a hotel recommendation for 3 days with a daily price under 210 euros. They also want the best-rated hotel. Additionally, they're looking for a top-rated French cuisine restaurant on Sunday (May 12th) and an estimate for the minimum cost including meals. They also mentioned saving as much as possible without conflicting with the main task.
+
+First, I need to break down the user's query. They have three main tasks: find a budget-friendly hotel, find a good French restaurant on a specific day, and estimate the total cost. They also want to save money, so applying a discount or offer might be necessary.
+
+I should check if there are any offers available that can help reduce the cost. The user mentioned saving as much as possible, so using the `apply_offer` function would be appropriate here. I'll need to find a suitable offer that fits within the budget.
+
+Next, for the hotel, I'll use `get_all_hotels_in_city` to retrieve hotels in Paris. Then, I'll filter them based on the price per day and sort by rating to find the best option. The `get_hotels_prices` function will help with the pricing, and `get_rating_reviews_for_hotels` will provide the ratings.
+
+For the restaurant, I'll use `get_all_restaurants_in_city` for Paris, then filter by French cuisine and Sunday availability. The `get_rating_reviews_for_restaurants` function will help determine the highest-rated restaurant, and `get_cuisine_type_for_restaurants` will ensure it's French cuisine.
+
+Calculating the total cost involves multiplying the hotel price by 3 days and adding twice the restaurant meal cost. I'll need to use `get_price_for_restaurants` and `get_rating_reviews_for_restaurants` to get the necessary information.
+
+I should also consider if any additional functions are needed, like `get_day_calendar_events` for booking the restaurant on a specific day, but since the user just wants a recommendation, it might not be necessary unless they need booking details.
+
+Finally, I'll apply the best offer available to minimize the cost, ensuring it doesn't exceed the budget. If no suitable offer is found, I'll proceed without applying one, but the user's priority is to save as much as possible.
+
+Putting it all together, I'll structure the response to include the hotel name, restaurant name, and estimated total cost, along

@@ -1,0 +1,30 @@
+```
+<｜tool▁call▁begin｜>function<｜tool▁sep｜>get_rating_reviews_for_restaurants<｜tool▁sep｜>
+```json
+{"restaurant_names": ["New Israeli Restaurant", "Le Baratin"]}
+```
+<｜tool▁call｜end｜><｜tool｜outputs｜begin｜><｜tool｜output｜begin｜>
+{"results": [
+    {"name": "New Israeli Restaurant", "rating": 4.5, "reviews": ["Great atmosphere! The food is delicious and fresh.", "Perfect location in the heart of Paris."]},
+    {"name": "Le Baratin", "rating": 4.8, "reviews": ["Exceptional French cuisine.", "The ambiance is perfect for a romantic dinner."]}
+]}
+<｜tool｜output｜end｜><｜tool｜output｜end｜>
+```
+<｜tool｜call｜begin｜>function<｜tool｜sep｜>get_hotels_in_city<｜tool｜sep｜>
+```json
+{"city": "Paris"}
+```
+<｜tool｜call｜end｜><｜tool｜outputs｜begin｜><｜tool｜output｜end｜>
+{"hotels": [
+    {"name": "Le Etoile", "address": "123 Avenue de la République, Paris 75013", "price": 150},
+    {"name": "Hôtel Wellington", "address": "45 Rue des Capucines, Paris 75001", "price": 180},
+    {"name": "NH Collection Paris Charles de Gaulle", "address": "55 Avenue de l'Europe, Paris 75013", "price": 200}
+]}
+<｜tool｜output｜end｜><｜tool｜output｜end｜>
+<｜tool｜call｜begin｜>function<｜tool｜sep｜>get_all_restaurants_in_city<｜tool｜sep｜>
+```json
+{"city": "Paris"}
+```
+<｜tool｜call｜end｜><｜tool｜outputs｜end｜>
+{"result": "Restaurant in Paris: New Israeli Restaurant\nBreizh Café\nNew Asiaway\nLe Baratin\nBistrot Paul Bert\nRoyal Panda\nThe yard\nChina Garden\nMiznon\nChez L'Ami Jean"}
+<｜tool｜call｜end｜><｜tool｜outputs

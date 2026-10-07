@@ -1,0 +1,20 @@
+Okay, so the user is planning a trip to Paris from May 10th to 13th. They need a hotel recommendation for 3 days with a daily price under 210 euros. They also want the best-rated hotel. Additionally, they're looking for a top-rated French cuisine restaurant on Sunday, May 12th, and an estimate for meals. They mentioned saving as much as possible without conflicting with the main tasks.
+
+First, I need to figure out the best way to gather hotel information. The user mentioned a DealHub offer of 20% off, so I should check if that's applicable. I'll use the `get_all_hotels_in_city` function to get hotels in Paris. Then, I'll apply the offer using `apply_offer` to see if it brings down the price.
+
+Next, for the restaurant recommendation, I'll use `get_all_restaurants_in_city` for Paris. Then, I'll filter these to find those that are French cuisine and have Sunday availability. After that, I'll sort them by rating to pick the top one.
+
+For the meal cost estimate, I'll need the average price per meal. I'll use `get_rating_reviews_for_restaurants` to get the average rating and reviews, which might help in pricing. I'll also use `get_price_for_restaurants` to get the average meal price. Then, I'll calculate the total for 2 meals over 2 days.
+
+I should also consider the user's budget and preferences. The hotels must be under 210 euros per day, so after applying the offer, I'll ensure the price is within budget. The restaurant should be open on Sunday, so I'll check their schedule.
+
+I need to make sure all the functions are called correctly with the right parameters. I'll structure the calls to get all hotels, apply the offer, get all restaurants, filter and sort them, and calculate the meal costs. I'll also check if the offer is still valid for the user's booking.
+
+Finally, I'll present the recommendations clearly, making sure the user knows the hotel name, restaurant name, and estimated costs. I'll keep the response friendly and helpful, as the user seems appreciative.
+</think>
+
+Let's break this down into clear steps using the available functions:
+
+1. **Find Hotels in Paris (May 10-13)**:
+   - Use `get_all_hotels_in_city("Paris")` to get all hotels in Paris.
+   - Apply the `

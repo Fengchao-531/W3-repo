@@ -1,0 +1,21 @@
+Okay, so I need to help this user who's planning a trip to Los Angeles with their family and cousin's family. They want to rent two cars for three days, specifically looking for an electric car for their main family and an SUV for their cousin's family. The user also mentioned they found a DealHub offer with a quality assurance score of 95, which they prefer.
+
+First, I should figure out which functions from the provided tools are relevant. The user is dealing with car rentals, so functions like `get_all_car_rental_companies_in_city` and `get_car_types_available` come to mind. They also need ratings and reviews, so `get_rating_reviews_for_car_rental` is necessary. Since they want the best ratings, applying an offer with a high score makes sense, so `apply_offer` is needed.
+
+I need to structure the call to the tools. The main task is to find two car rental companies: one with electric cars and the best rating, and another with SUVs and the best rating. The user prefers higher quality, so the DealHub offer with a 95 score should be applied if it fits the criteria.
+
+I should make sure to call each function with the appropriate parameters. For the car types, specify "Electric" and "SUV". Then, retrieve the ratings and apply the offer. Finally, list the companies with their ratings and costs.
+
+I also need to ensure that the final answer only includes the information relevant to the user's request, without unnecessary details. The response should clearly state the two companies, their ratings, and the total cost for three days each.
+
+I should double-check that all required parameters are provided and that the functions are called correctly. No extra functions should be included unless necessary, and the offer application should be done after retrieving the necessary reviews to ensure the best possible rating is applied.
+
+Alright, putting it all together, I'll call `get_all_car_rental_companies_in_city` for LA, filter by the specified car types, get their ratings, apply the high-quality offer, and then list the results as required.
+</think>
+
+To help you find the best car rental companies for your needs, I'll use the following functions:
+
+1. `get_all_car_rental_companies_in_city` to get all car rental companies in Los Angeles.
+2. `get_car_types_available` to filter companies that offer electric cars.
+3. `get_rating_reviews_for_car_rental` to get ratings and reviews for each company.
+4. `apply

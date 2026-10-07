@@ -1,0 +1,20 @@
+Okay, so the user is planning a trip to London with his wife for four days. He wants to book a flight from Paris to London and recommend the cheapest option. Additionally, he wants to rent a car in London and find the companies with the best ratings. Finally, he wants details like airline name, price for two people, flight number, car rental company name, rating, and price for four days. He prefers a better trip experience and is unsure about the reliability of the information.
+
+First, I need to break down the tasks. The main task is booking the cheapest flight, but he also wants car rental recommendations. Since the user is concerned about reliability, I should ensure the sources are credible.
+
+For flights, using get_all_airports_in_city for London and Paris makes sense. Then, get_all_flights_in_city with the budget filter will retrieve the cheapest options. Next, get_rating_reviews_for_flights will help determine the best-rated airlines.
+
+For car rentals, get_all_car_rental_companies_in_city for London is necessary. Then, get_rating_reviews_for_car_rental will provide the best-rated companies. It's important to check if the companies offer discounts for four-day rentals.
+
+Once the flight and car rental options are selected, I need to present the information clearly. The user wants the airline name, price for two people, flight number, car rental company name, rating, and price for four days. I should structure this data in a readable format, perhaps a list with each option having all the required details.
+
+I should also consider the user's preference for a better trip experience. This might mean suggesting airlines with good reviews and car rental companies with competitive pricing and good ratings. Additionally, checking if the car rental companies offer discounts for four-day rentals could be a plus.
+
+I need to make sure that all the functions are called correctly with the appropriate parameters. For example, when getting flights, the budget should be set to the lowest possible to ensure the cheapest option is found. Similarly, for car rentals, filtering by rating and price could help in selecting the best option.
+
+Finally, I should present the results in a clear and concise manner, ensuring that the user gets all the necessary information without any confusion. This way, the user can make an informed decision based on the provided details.
+</think>
+
+To assist you with your travel plans to London, I'll help break down the tasks and provide a structured response. Here's how we can approach your request:
+
+1. **Book a flight from Paris to London**:

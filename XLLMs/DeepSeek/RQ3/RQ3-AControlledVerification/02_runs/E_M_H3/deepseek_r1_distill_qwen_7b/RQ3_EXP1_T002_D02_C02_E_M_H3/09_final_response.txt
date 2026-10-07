@@ -1,0 +1,20 @@
+Okay, so the user is planning a trip to Paris on Monday and wants to find a Chinese restaurant that's open on Mondays with a price under 34 euros per person. They also want the best rating and reviews, along with the restaurant's name, address, price per person, and operating hours. They prefer reliable information and mentioned they're unsure about the reliability, so they want it checked before relying.
+
+First, I need to figure out which functions to use. The user mentioned Chinese cuisine, price, and operating hours. So, I should probably start with getting all Chinese restaurants in Paris. Then, filter those based on price and operating hours. After that, check the ratings and reviews.
+
+I remember there's a function called get_restaurants_in_city that can get all restaurants in a city. I'll use that with "Paris" as the city. Then, I need a function to get the cuisine type. Since the user wants Chinese, I'll use get_cuisine_type_for_restaurants with "Chinese" as the filter.
+
+Next, I'll get the price ranges. The user specified under 34 euros, so I'll use get_price_for_restaurants, providing the price range. Also, since the user wants the restaurant to be open on Mondays, I'll need the operating hours. The function check_restaurant_opening_hours seems appropriate here.
+
+Once I have all that data, I can filter the restaurants to those that serve Chinese cuisine, are open on Mondays, and within the price range. Then, I'll sort them by rating and reviews to find the best option. After selecting the top candidate, I'll need to verify the information to ensure reliability.
+
+I should also consider if there are multiple pages of results, so I might need to handle pagination if the function returns more than one page. But since the user is in Paris, which isn't too large, maybe it's just a few results.
+
+Putting it all together, I'll chain the functions step by step: get all restaurants, get their cuisines, get their prices, get their hours, filter based on criteria, sort by ratings, and then verify. This should give the user the most reliable and recommended restaurant for their trip.
+</think>
+
+To help you find a reliable restaurant in Paris that matches your criteria, I'll chain the relevant functions together. First, I'll retrieve all Chinese restaurants in Paris, filter them based on price and operating hours, and then sort by rating to find the best option.
+
+Here's the chain of calls:
+
+```json

@@ -1,0 +1,42 @@
+<｜tool▁call▁begin｜>function<｜tool▁sep｜>get_restaurants_price_for_restaurants
+```json
+{"restaurant_names": ["New Israeli Restaurant", "Le Baratin", "Bistrot Paul Bert"]}
+```<｜tool▁call｜end｜><｜tool｜calls｜end｜>
+
+<｜tool｜output｜begin｜>
+{"results": [
+    {"name": "New Israeli Restaurant", "price": 25},
+    {"name": "Le Baratin", "price": 30},
+    {"name": "Bistrot Paul Bert", "price": 20}
+]}
+<｜tool｜output｜end｜>
+
+<｜tool｜call｜begin｜>function<｜tool｜sep｜>get_rating_reviews_for_restaurants
+```json
+{"restaurant_names": ["New Israeli Restaurant", "Le Baratin", "Bistrot Paul Bert"]}
+```<｜tool｜call｜end｜><｜tool｜calls｜end｜>
+
+<｜tool｜output｜begin｜>
+{"results": [
+    {"name": "New Israeli Restaurant", "rating": 4.5, "reviews": ["Great food! Location is perfect!", "Authentic French cuisine!"]},
+    {"name": "Le Baratin", "rating": 4.8, "reviews": ["Exceptional service!", "One of the best meals I've had!"]},
+    {"name": "Bistrot Paul Bert", "rating": 4.2, "reviews": ["Good quality!", "Decent experience!"]}
+]}
+<｜tool｜output｜end｜>
+
+<｜tool｜call｜begin｜>function<｜tool｜sep｜>get_cuisine_type_for_restaurants
+```json
+{"restaurant_names": ["New Israeli Restaurant", "Le Baratin", "Bistrot Paul Bert"]}
+```<｜tool｜call｜end｜><｜tool｜calls｜end｜>
+
+<｜tool｜output｜begin｜>
+{"results": [
+    {"name": "New Israeli Restaurant", "cuisine_type": "Middle Eastern"},
+    {"name": "Le Baratin", "cuisine_type": "French"},
+    {"name": "Bistrot Paul Bert", "cuisine_type": "French"}
+]}
+<｜tool｜output｜end｜>
+
+<｜tool｜call｜begin｜>function<｜tool｜sep｜>get_price_for_restaurants
+```json
+{"restaurant_names

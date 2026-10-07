@@ -1,0 +1,43 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "<｜tool▁call｜>list_available_offers<｜/tool｜><｜tool｜apply_offer<｜/tool｜>\n</think>\n\n<｜tool▁call｜>get_all_car_rental_companies_in_city<｜/tool｜><｜tool｜get_rating_reviews_for_car_rental<｜/tool｜><｜tool｜list_available_offers<｜/tool｜><｜tool｜apply_offer<｜/tool｜>"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "apply_offer",
+      "args": {
+        "offer_id": {
+          "description": "The opaque offer id returned by list_available_offers.",
+          "title": "Offer Id",
+          "type": "string"
+        }
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_car_rental_companies_in_city",
+      "args": {
+        "city": {
+          "description": "The city to get car rental companies from.",
+          "title": "City",
+          "type": "string"
+        }
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_all_car_rental_companies_in_city",
+      "args": {
+        "city": "Los Angeles"
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

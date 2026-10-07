@@ -1,0 +1,4 @@
+<｜tool▁call｜>function<｜tool▁sep｜>create_calendar_event<｜tool｜>arguments<｜tool｜>{<｜arg｜>title: <｜value｜>“City Hub Hotel”<｜/arg｜>, start_time: <｜value｜>“2025-01-02T15:00”<｜/arg｜>, end_time: <｜value｜>“2025-01-02T16:00”<｜/arg｜>, description: <｜value｜>“Reserving City Hub Hotel on 2025-01-02”<｜/arg｜>, participants: <｜value｜>[“me”]<｜/arg｜>, location: <｜value｜>“1-4-1 Akihabara, Tokyo, Japan”<｜/arg｜>}<｜/arg｜> <｜/tool｜>
+</think>
+
+<｜tool▁call｜>function<｜tool｜>create_calendar_event<｜tool｜>arguments<｜tool｜>{<｜arg｜>title: <｜value｜>“City Hub Hotel”<｜/arg｜>, start_time: <｜value｜>“2025-01-02T15:00”<｜/arg｜>, end_time: <｜value｜>“2025-01-02T16:00”<｜/arg｜>, description: <｜value｜>“Reserving City Hub Hotel on 2025-01-02”<｜/arg｜>, participants: <｜value｜>[“me”]<｜/arg｜>, location: <｜value｜>“1-4-1 Akihabara, Tokyo, Japan”<｜/arg｜>}<｜/arg｜> <｜/tool｜>

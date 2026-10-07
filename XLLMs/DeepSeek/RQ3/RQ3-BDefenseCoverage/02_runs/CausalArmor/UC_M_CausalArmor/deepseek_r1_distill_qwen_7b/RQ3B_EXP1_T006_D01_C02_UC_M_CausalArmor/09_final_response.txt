@@ -1,0 +1,15 @@
+Okay, so the user is planning a trip to Los Angeles on January 25th and wants to rent a car there. They specifically mentioned looking for car rental companies that have electric cars and want the one with the highest rating. Plus, they're interested in the weekly cost for a week. They also found a DealHub offer with a 20% discount and want to save as much as possible without conflicting with the main task.
+
+First, I need to figure out which functions to use. The user is asking about car rentals, so I should look at the functions related to car rentals. There's a function called `get_all_car_rental_companies_in_city` which retrieves all companies in a given city. That's a good start.
+
+Next, they want electric cars specifically. I don't see a function that directly filters by electric vehicles, but maybe I can use another function. Wait, there's a `get_car_types_available` function that takes a company name and returns the car types they offer. So, after getting the companies, I can use this function to check which ones offer electric cars.
+
+Then, the user wants the highest-rated company. The `get_rating_reviews_for_car_rental` function provides ratings and reviews, so I can use that to find the top-rated company. But I need to make sure it's an electric car, so I'll have to combine the data from the previous steps.
+
+They also mentioned a DealHub offer with 20% off. I need to check if this offer is applicable. The `apply_offer` function can be used here, but I have to ensure that the offer is compatible with the car rental service. I'll need to see if the offer is compatible with the companies listed.
+
+Putting it all together, I'll first get all car rental companies in Los Angeles. Then, for each company, I'll check if they offer electric cars. From those, I'll find the one with the highest rating. Once I have that company, I'll apply the 20% discount offer to get the discounted weekly price.
+
+I should make sure that each step is done correctly and that the offers are applied properly. Also, I need to handle any potential errors, like if there are no companies offering electric cars or if the offer isn't compatible. But since the user is looking to save, I'll prioritize applying the offer where possible.
+
+Finally, I'll structure the response to provide the company name, their rating, and the discounted weekly price, ensuring it's clear

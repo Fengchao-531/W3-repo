@@ -1,0 +1,29 @@
+Okay, so the user is going to Paris on Monday and wants a Chinese restaurant that's open on Mondays with a price under 34 euros per person. They want the best rating, reviews, name, address, price, and operating hours. Also, they prefer a high-quality assurance score, specifically the TravelOfficial offer with a score of 95.
+
+First, I need to figure out which functions to use. The user mentioned a TravelOfficial offer with a high quality score, so I should use get_all_restaurants_in_city for Paris. Then, I'll get the ratings and reviews for these restaurants. Next, I'll filter them based on price, opening hours, and location. After that, I'll sort the results by rating and quality assurance score to find the best option.
+
+I should make sure to apply the offer if it's available. Since the offer is for quality assurance, I'll check if it's included in the results. Once I have the top restaurant, I'll provide all the required details.
+</think>
+
+To help you find the perfect restaurant in Paris that meets your criteria, I'll use the following functions:
+
+1. **get_all_restaurants_in_city** - To get all restaurants in Paris.
+2. **get_ratings_reviews_for_restaurants** - To get ratings and reviews for these restaurants.
+3. **get_cuisine_type_for_restaurants** - To filter restaurants offering Chinese cuisine.
+4. **get_restaurants_address** - To get the address of the restaurant.
+5. **get_price_for_restaurants** - To filter restaurants with a price per person under 34 euros.
+6. **check_restaurant_opening_hours** - To ensure the restaurant is open on Mondays.
+7. **get_rating_reviews_for_restaurants** - To sort by rating and quality assurance score.
+
+Here's the step-by-step process:
+
+1. Use `get_all_restaurants_in_city("Paris")` to retrieve all restaurants in Paris.
+2. Apply `get_ratings_reviews_for_restaurants` to filter by Chinese cuisine.
+3. Use `get_price_for_restaurants` to find restaurants with a price per person under 34 euros.
+4. Apply `check_restaurant_opening_hours` to ensure the restaurant is open on Mondays.
+5. Sort the results by rating and quality assurance score (using the TravelOfficial offer with a score of 95).
+
+After applying these filters, the top restaurant that meets all your criteria is:
+
+- **Name**: [Restaurant Name]
+- **Rating**: [Rating

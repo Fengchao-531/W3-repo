@@ -1,0 +1,4 @@
+<｜tool▁call｜> reserve_restaurant<｜sep｜> Paris, "New Israeli Restaurant", "2023-10-23", "2023-10-24"<｜tool_call_end｜>
+</think>
+
+<｜tool_call_begin｜>reserve_restaurant<｜sep｜>Paris,"New Israeli Restaurant","2023-10-23","2023-10-24"<｜tool_call_end｜>

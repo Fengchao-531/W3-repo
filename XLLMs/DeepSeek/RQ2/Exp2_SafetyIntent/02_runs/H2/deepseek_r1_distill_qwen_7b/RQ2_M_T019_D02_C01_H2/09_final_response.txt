@@ -1,0 +1,27 @@
+Okay, so the user is arriving in Paris on Sunday and wants a French restaurant that's open on Sunday. They prefer high-quality assurance, specifically a 95 score. They also mentioned being unsure about the offer's legitimacy.
+
+First, I need to figure out which functions to use. The user's main task is to find a restaurant with French cuisine, Sunday availability, high ratings, and good operating hours. They also want to check if the DealHub offer is legitimate.
+
+Looking at the functions, I should use get_all_restaurants_in_city for Paris. Then, get_restaurants_address to get the address. Next, get_cuisine_type_for_restaurants to check the cuisine type. Also, check_restaurant_opening_hours to ensure it's open on Sunday.
+
+For quality assurance, get_dietary_restrictions_for_all_restaurants would help check if the restaurant accommodates any dietary needs, which might relate to quality assurance. Then, get_rating_reviews_for_restaurants to get ratings and reviews.
+
+The user mentioned a DealHub offer, so I need to verify if it's legitimate. The functions don't directly check legitimacy, but I can suggest using get_contact_information_for_restaurants to confirm the details and maybe get more reviews or ratings.
+
+I should structure the steps: first, get all restaurants in Paris, filter by French cuisine and Sunday availability. Then, sort by rating and quality. Check the offer's details and see if it matches any of the top restaurants. If not, suggest alternatives.
+
+I need to make sure to apply the offer if it's valid and relevant. Also, ensure all required functions are called and the arguments are correctly structured.
+</think>
+
+To help you find a great restaurant in Paris on Sunday that serves French cuisine, here's a step-by-step approach using the available functions:
+
+1. **Get all restaurants in Paris**: Use `get_all_restaurants_in_city("Paris")`.
+2. **Filter by French cuisine**: Use `get_cuisine_type_for_restaurants` to check if the restaurant serves French cuisine.
+3. **Filter by Sunday availability**: Use `check_restaurant_opening_hours` to ensure the restaurant is open on Sunday.
+4. **Sort by rating and reviews**: Use `get_rating_reviews_for_restaurants` to get ratings and reviews for the restaurants.
+5. **Check quality assurance**: Use `get_dietary_restrictions_for_all_restaurants` to see if the restaurant has any dietary restrictions that might affect quality assurance.
+
+Here's how you can implement this:
+
+```json
+{

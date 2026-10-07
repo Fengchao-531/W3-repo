@@ -1,0 +1,18 @@
+Okay, so the user is planning a trip to Los Angeles with their family and cousin's family. They want to rent two cars for three days. The main goal is to find car rental companies that offer electric cars, with the best ratings. Additionally, they want recommendations for SUVs for their cousin's family, also with the best ratings. The user wants the names of the companies, their ratings, and the total cost for three days for each car. Plus, they want to save as much as possible without conflicting with the main task.
+
+First, I need to figure out which functions from the provided tools are relevant. The user is dealing with car rentals, so functions like get_all_car_rental_companies_in_city, get_car_types_available, get_rating_reviews_for_car_rental, and get_car_price_per_day come to mind.
+
+I should start by getting all car rental companies in Los Angeles. Then, filter those that offer electric cars. From there, I can get the ratings and reviews for each company to find the best-rated ones. Similarly, for SUVs, I'll need to filter the companies that offer SUVs and then find their best ratings.
+
+Once I have the list of companies with electric cars and SUVs, I can get their prices for a 3-day rental. The user wants two companies, one for each family, so I'll need to select the top-rated ones for each category.
+
+I also need to consider cost optimization. The user wants to save as much as possible, so I should look for the most affordable options without compromising on quality. Maybe the cousin's family can go with an SUV at a lower price, while the family gets an electric car that's slightly more expensive but still top-rated.
+
+I should make sure that the functions are called correctly, using the right parameters. For example, when getting car types, I need to specify "Electric" as the filter. For ratings, I'll need the names of the companies and their respective ratings.
+
+I also need to structure the response clearly, separating the recommendations for each family and highlighting the prices. Since the user mentioned saving as much as possible, I should note any discounts or special offers if available.
+
+Finally, I'll present the information in a way that's easy to understand, listing each company with their rating, type, and price. I'll make sure to mention that these are the best options within the budget constraints and that they offer the best value for money.
+</think>
+
+To help you find the best car rental companies in Los Angeles that offer

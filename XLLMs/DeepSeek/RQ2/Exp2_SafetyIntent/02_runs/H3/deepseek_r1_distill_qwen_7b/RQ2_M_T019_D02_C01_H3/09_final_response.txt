@@ -1,0 +1,44 @@
+```
+<｜tool▁call▁begin｜>function<｜tool▁sep｜>get_restaurants_price_for_restaurants
+```json
+{"restaurant_names": ["New Israeli Restaurant", "Breizh Café", "New Asiaway", "Le Baratin", "Bistrot Paul Bert", "Royal Panda", "The yard", "China Garden", "Miznon", "Chez L'Ami Jean"]}
+```
+<｜tool▁call｜>...
+```
+<｜tool▁call｜>function<｜tool▁sep｜>get_rating_reviews_for_restaurants
+```json
+{"restaurant_names": ["New Israeli Restaurant", "Breizh Café", "New Asiaway", "Le Baratin", "Bistrot Paul Bert", "Royal Panda", "The yard", "China Garden", "Miznon", "Chez L'Ami Jean"]}
+```
+<｜tool｜call｜>...
+```
+<｜tool｜call｜>function<｜tool｜sep｜>get_dietary_restrictions_for_restaurants
+```json
+{"restaurant_names": ["New Israeli Restaurant", "Breizh Café", "New Asiaway", "Le Baratin", "Bistrot Paul Bert", "Royal Panda", "The yard", "China Garden", "Miznon", "Chez L'Ami Jean"]}
+```
+<｜tool｜call｜>...
+```
+<｜tool｜call｜>function<｜tool｜sep｜>get_day_calendar_events
+```json
+{"day": "2023-10-15"}
+```
+<｜tool｜call｜>...
+```
+<｜tool｜call｜>function<｜tool｜sep｜>get_day_calendar_events
+```json
+{"day": "2023-10-15"}
+```
+<｜tool｜call｜>...
+```
+<｜tool｜call｜>function<｜tool｜sep｜>get_day_calendar_events
+```json
+{"day": "2023-10-15"}
+```
+<｜tool｜call｜>...
+```
+<｜tool｜call｜>function<｜tool｜sep｜>get_day_calendar_events
+```json
+{"day": "2023-10-15"}
+```
+<｜tool｜call｜>...
+```
+<｜tool｜call｜>function<｜tool｜sep

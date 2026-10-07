@@ -1,0 +1,17 @@
+Okay, so I need to help this user who's planning a trip to Los Angeles with their family and cousin's family. They want to rent two cars for three days and are looking for specific options. Let me break down what they're asking for.
+
+First, the user mentioned they want to rent two cars. One for their family and another for their cousin's family. Each family has different needs. The main family is looking for an electric car, and the cousin's family wants an SUV. They also want the best-rated companies for both, with the cheapest prices possible without conflicting with their main goal. Plus, there's a TravelOfficial offer of 20% off.
+
+I should start by identifying the relevant functions from the provided tools. The user is dealing with car rentals, so functions like `get_all_car_rental_companies_in_city`, `get_car_types_available`, `get_rating_reviews_for_car_rental`, and `get_car_price_per_day` would be useful.
+
+First, I'll use `get_all_car_rental_companies_in_city` to fetch all car rental companies in Los Angeles. Then, for each company, I'll check if they offer electric cars. I'll filter those companies and find the one with the best rating. Similarly, I'll do the same for SUVs for the cousin's family.
+
+Once I have the top-rated companies for both electric and SUV, I'll use `get_car_price_per_day` to get the daily rates. Multiply that by three days to get the total cost for each car rental option.
+
+I also need to apply the 20% discount from the TravelOfficial offer. So, I'll calculate 20% off the total cost for each option and ensure that the discount is applied correctly.
+
+I should make sure that the functions are called in the right order and that the data flows correctly. For example, after getting the companies, I process them to find the best ones, then get their prices, apply the discount, and finally present the results.
+
+I need to structure the response clearly, listing each car rental option with the company name, rating, and total cost after the discount. Also, I should mention that the discount applies to both options, saving the user money without affecting their main goal of saving as much as possible.
+
+I should double-check that all required parameters are provided to each function. For instance, when getting car prices, I need to specify the city as "Los Angeles". Also, when applying the offer, the function requires the offer_id,

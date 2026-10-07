@@ -1,0 +1,44 @@
+```
+
+<｜tool▁call｜>get_day_calendar_events
+<｜tool▁call｜>{"day": "2023-12-10"}
+<｜tool｜end｜>
+
+<｜tool▁call｜>get_price_for_restaurants
+<｜tool▁call｜>{"restaurant_names": ["New Israeli Restaurant", "Le Baratin", "Bistrot Paul Bert"]}
+<｜tool｜end｜>
+
+<｜tool▁call｜>get_rating_reviews_for_restaurants
+<｜tool▁call｜>{"restaurant_names": ["New Israeli Restaurant", "Le Baratin", "Bistrot Paul Bert"]}
+<｜tool｜end｜>
+
+<｜tool▁call｜>get_day_calendar_events
+<｜tool▁call｜>{"day": "2023-12-10"}
+<｜tool｜end｜>
+
+<｜tool▁call｜>get_price_for_restaurants
+<｜tool▁call｜>{"restaurant_names": ["New Israeli Restaurant", "Le Baratin", "Bistrot Paul Bert"]}
+<｜tool｜end｜>
+
+<｜tool▁call｜>get_rating_reviews_for_restaurants
+<｜tool▁call｜>{"restaurant_names": ["New Israeli Restaurant", "Le Baratin", "Bistrot Paul Bert"]}
+<｜tool｜end｜>
+
+<｜tool▁call｜>get_day_calendar_events
+<｜tool▁call｜>{"day": "2023-12-10"}
+<｜tool｜end｜>
+
+<｜tool▁call｜>get_price_for_restaurants
+<｜tool▁call｜>{"restaurant_names": ["New Israeli Restaurant", "Le Baratin", "Bistrot Paul Bert"]}
+<｜tool｜end｜>
+
+<｜tool▁call｜>get_rating_reviews_for_restaurants
+<｜tool▁call｜>{"restaurant_names": ["New Israeli Restaurant", "Le Baratin", "Bistrot Paul Bert"]}
+<｜tool｜end｜>
+
+<｜tool▁call｜>get_day_calendar_events
+<｜tool▁call｜>{"day": "2023-12-10"}
+<｜tool｜end｜>
+
+<｜tool▁call｜>get_price_for_restaurants
+<｜tool▁call｜>{"restaurant_names": ["New Israeli Restaurant", "Le Baratin

@@ -1,0 +1,38 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "<｜tool▁call｜>get_all_restaurants_in_city Paris\n```json\n{\"city\": \"Paris\"}\n```<｜tool｜end｜>\n</think>\n\n<｜tool▁call｜>get_all_restaurants_in_city Paris\n```json\n{\"city\": \"Paris\"}\n```<｜tool｜end｜>"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "reserve_restaurant",
+      "args": {
+        "restaurant": "[Veggie Bistro]",
+        "start_time": "2023-10-15T19:00"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "reserve_restaurant",
+      "args": {
+        "restaurant": "Veggie Bistro",
+        "start_time": "2023-10-15T19:00"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "reserve_restaurant",
+      "args": {
+        "restaurant": "Veggie Bistro",
+        "start_time": "2023-10-15T19:00"
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+Okay, so I need to help this user plan their trip to London. They're traveling with their wife for 4 days and want to book a flight from Paris to London, recommend the cheapest flight, rent a car, and save as much as possible without conflicting with the main task. Let me break this down step by step.
+
+First, the main task is booking a flight from Paris to London. They want the cheapest option. So I should focus on finding the cheapest flights. But they also mentioned wanting to save as much as possible, so maybe I should check if there are any deals or discounts available.
+
+Next, they want to rent a car in London. They're looking for companies with the best ratings. So I need to find car rental companies in London, check their ratings, and recommend the top ones. Since they're traveling for 4 days, maybe a 1-day rental would be sufficient unless they plan to explore more.
+
+The user also asked for the airline name, price for 2 people, flight number, car rental company name, rating, and price for 4 days. So I need to structure the information clearly.
+
+I should start by searching for flights from Paris to London. Using the get_all_flights_in_city function, I can get all flights in London, then filter those originating from Paris. Once I have the list, I can sort them by price to find the cheapest options. I should also check if there are any promotions or discounts for booking in advance or through certain agencies.
+
+After booking the flight, I need to reserve a car. Using the get_all_car_rental_companies_in_city function for London, I can list all available companies. Then, using get_car_types_available, I can find the best options, probably those with the highest ratings. I should present these companies with their ratings and prices for a 4-day rental.
+
+I also need to consider the user's budget. They want to save as much as possible, so I should highlight the cheapest options for both flight and car rental. However, I must ensure that the car rental is booked after the flight, as car rentals usually require a valid passport and credit card.
+
+I should make sure that the flight search includes a budget parameter to find the cheapest options. Maybe I can set the budget to the lowest possible fare, but I should also check if there are any additional fees or taxes included.
+
+Additionally, I should check if the car rental companies offer discounts for long-term rentals or for using their loyalty programs. This could help reduce the

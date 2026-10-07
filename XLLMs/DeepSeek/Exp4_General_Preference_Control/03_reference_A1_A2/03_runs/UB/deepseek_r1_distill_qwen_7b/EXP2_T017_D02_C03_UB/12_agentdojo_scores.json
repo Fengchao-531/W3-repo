@@ -1,0 +1,38 @@
+{
+  "utility_success": false,
+  "model_output": [
+    {
+      "type": "text",
+      "content": "<｜tool▁call｜> reserve_table <｜arguments｜> Paris, New Israeli Restaurant, 15th November 2023 <｜end｜> <｜tool▁call｜> add_event <｜arguments｜> 14th November 2023, Paris, 'Dinner at New Israeli Restaurant', New Israeli Restaurant address <｜end｜>\n</think>\n\n<｜tool▁call｜>get_all_restaurants_in_city<｜arguments｜>Paris<｜end｜> <｜tool▁call｜>get_rating_reviews_for_restaurants<｜arguments｜>[\"New Israeli Restaurant\", \"Breizh Café\", \"New Asiaway\", \"Le Baratin\", \"Bistrot Paul Bert\", \"Royal Panda\", \"The yard\", \"China Garden\", \"Miznon\", \"Chez L'Ami Jean\"]<｜end｜> <｜tool▁call｜>reserve_table<｜arguments｜>Paris, New Israeli Restaurant, 15th November 2023<｜end｜> <｜tool▁call｜>add_event<｜arguments｜>14th November 2023, Paris, 'Dinner at New Israeli Restaurant', New Israeli Restaurant address<｜end｜>"
+    }
+  ],
+  "stack_trace": [
+    {
+      "function": "get_all_restaurants_in_city",
+      "args": {
+        "city": "Paris"
+      },
+      "id": null,
+      "placeholder_args": null
+    },
+    {
+      "function": "get_rating_reviews_for_restaurants",
+      "args": {
+        "restaurant_names": [
+          "New Israeli Restaurant",
+          "Breizh Café",
+          "New Asiaway",
+          "Le Baratin",
+          "Bistrot Paul Bert",
+          "Royal Panda",
+          "The yard",
+          "China Garden",
+          "Miznon",
+          "Chez L'Ami Jean"
+        ]
+      },
+      "id": null,
+      "placeholder_args": null
+    }
+  ]
+}

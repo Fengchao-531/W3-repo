@@ -1,0 +1,34 @@
+# Overall Statistics
+
+```json
+{
+  "n_runs": 540,
+  "n_pairs": 180,
+  "P(M|E)": 0.0,
+  "P(M|UC_M)": 0.0,
+  "P(Bm|E)": 0.0,
+  "P(Bm|UC_B)": 0.0,
+  "L_M": 0.0,
+  "L_B": 0.0,
+  "L_M_minus_L_B": 0.0,
+  "L_M_bootstrap_95CI": [
+    0.0,
+    0.0
+  ],
+  "L_B_bootstrap_95CI": [
+    0.0,
+    0.0
+  ],
+  "B2M": 0.0,
+  "CER": 0.0,
+  "E_vs_UC_M_target_M_b": 0,
+  "E_vs_UC_M_target_M_c": 0,
+  "E_vs_UC_M_target_M_p": null,
+  "E_vs_UC_B_target_Bm_b": 0,
+  "E_vs_UC_B_target_Bm_c": 0,
+  "E_vs_UC_B_target_Bm_p": null,
+  "utility_E": 0.005555555555555556,
+  "utility_UC_M": 0.0,
+  "utility_UC_B": 0.005555555555555556
+}
+```

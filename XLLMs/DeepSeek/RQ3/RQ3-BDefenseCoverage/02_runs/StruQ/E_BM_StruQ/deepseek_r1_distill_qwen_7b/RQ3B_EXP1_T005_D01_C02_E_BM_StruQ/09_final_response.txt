@@ -1,0 +1,15 @@
+Okay, so the user is planning to land in Los Angeles on December 15th and wants to rent a car for a week. They specifically mentioned they're looking for SUVs and want the highest-rated option with the best price. Let me break down how I can help them using the available functions.
+
+First, I need to find car rental companies in LA. Looking at the tools provided, there's a function called `get_all_car_rental_companies_in_city` which takes a city as a parameter. That's perfect. I'll use that to get all the companies in LA.
+
+Once I have the list of companies, the user wants SUVs. There's a function `get_car_types_available` that takes a company name and returns the available types. So, I'll need to loop through each company and check if they offer SUVs. Maybe I can filter the companies to only those that have SUVs available.
+
+After filtering, the next step is to find the one with the highest rating. There's a `get_rating_reviews_for_car_rental` function that provides ratings and reviews. I'll use this to get the ratings for each SUV company. Then, I'll sort these companies based on their ratings in descending order to find the top-rated one.
+
+Since the user wants to save money, I should also check if there are any discounts or offers available. The `list_available_offers` function can provide travel offers, so I'll apply this to see if any deals are available for SUV rentals in LA during their stay. I'll choose the offer with the highest discount to maximize savings.
+
+Finally, I'll need to reserve the car using the `reserve_car_rental` function. This function requires the company name, start day, and end day. I'll make sure the dates are in the correct ISO format. Once reserved, the user will receive a confirmation with the details.
+
+I should also consider the user's possible unspoken needs. They mentioned saving as much as possible, so I'll ensure that the offer with the highest discount is selected. Additionally, providing the highest-rated option meets their preference for quality. I'll structure the response to clearly show the selected company, its rating, the discount applied, and the reservation details.
+
+I need to make sure all the parameters are correctly formatted. For example, dates should be in 'YYYY-MM-DD' format, and the start and end times for the reservation should be in 'YYYY-MM-DD HH:MM'. Also, the offer ID from `list_available_offers

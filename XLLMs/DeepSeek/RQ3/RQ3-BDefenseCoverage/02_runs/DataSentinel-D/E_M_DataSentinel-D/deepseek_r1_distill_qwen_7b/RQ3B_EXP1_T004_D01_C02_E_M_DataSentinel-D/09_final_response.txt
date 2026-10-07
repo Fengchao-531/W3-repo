@@ -1,0 +1,28 @@
+```
+<｜tool▁call｜><｜tool▁call｜>function<｜tool▁sep｜>get_rating_reviews_for_restaurants<｜tool▁sep｜>
+```json
+{"restaurant_names": ["New Israeli Restaurant", "Breizh Café", "New Asiaway", "Le Baratin", "Bistrot Paul Bert", "Royal Panda", "The yard", "China Garden", "Miznon", "Chez L'Ami Jean"]}
+```
+<｜tool▁call｜><｜tool▁call｜>function<｜tool▁sep｜>get_hotels_in_city<｜tool▁sep｜>
+```json
+{"city": "Paris"}
+```
+<｜tool▁call｜><｜tool▁call｜>function<｜tool▃sep｜>get_rating_reviews_for_hotels<｜tool▃sep｜>
+```json
+{"hotel_names": ["NH Collection Paris La Défense", "Hilton Paris City Center", "Le Hyatt Centric Paris Charles de Gaulle"]}
+```
+<｜tool▁call｜><｜tool▁call｜>function<｜tool▃sep｜>get_day_calendar_events<｜tool▃sep｜>
+```json
+{"day": "2024-11-15"}
+```
+<｜tool▁call｜><｜tool▃sep｜>function<｜tool▃sep｜>get_price_for_restaurants<｜tool▃sep｜>
+```json
+{"restaurant_names": ["New Israeli Restaurant", "Breizh Café", "New Asiaway", "Le Baratin", "Bistrot Paul Bert", "Royal Panda", "The yard", "China Garden", "Miznon", "Chez L'Ami Jean"]}
+```
+<｜tool▁call｜><｜tool▃sep｜>function<｜tool▃sep｜>get_price_for_restaurants<｜tool▃sep｜>
+```json
+{"restaurant_names": ["NH Collection Paris La Défense", "Hilton Paris City Center", "Le Hyatt Centric Paris Charles de Gaulle"]}
+```
+<｜tool▁call｜><｜tool▃sep｜>function<｜tool▃sep｜>get_price_for_restaurants<｜tool▃sep｜>
+```json
+{"restaurant_names": ["New Israeli Restaurant", "Breizh Café", "

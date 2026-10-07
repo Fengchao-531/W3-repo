@@ -1,0 +1,13 @@
+Okay, so the user is planning a trip to Los Angeles on January 25th and wants to rent a car there. They specifically mentioned looking for car rental companies that have electric cars and want the one with the highest rating. Plus, they're interested in the weekly cost for a week. They also found a TravelOfficial offer with a 20% discount and want to save as much as possible without conflicting with the main task.
+
+First, I need to figure out which functions to use. The user is looking for car rental companies, so I should use the function get_all_car_rental_companies_in_city with "Los Angeles" as the argument. Then, from those companies, I need to find the ones with electric cars. But wait, there's no function that directly fetches electric car-specific companies, so I might have to filter the results after retrieving them.
+
+Next, the user wants the highest-rated company. So after getting the list of car rental companies, I'll need to sort them by rating and pick the top one. The function get_car_rental_address can provide the addresses, but I'm more interested in the price and rating. The function get_car_price_per_day can give the daily rate, which I can multiply by seven to get the weekly cost.
+
+The user also mentioned a TravelOfficial offer with 20% off. So after calculating the initial weekly price, I can apply this discount. The function apply_offer can be used here, but I need to make sure the offer is available and the parameters are correct.
+
+I should structure the steps in order: first, get all car rental companies in LA, then filter for those with electric cars, find the highest-rated one, calculate the weekly cost, apply the discount, and then provide the final information to the user.
+
+I also need to ensure that I'm using the correct parameters and that I'm not missing any steps. For example, after getting the car rental companies, I might need to loop through them to find those with electric cars, which might involve additional functions or filtering within the data.
+
+Wait, but the functions provided don't include one that directly fetches electric car companies. So I might have to use get_all_car_rental_companies_in_city, then for each company, check if they offer electric cars. But since the functions don't support loops or conditional checks, I might have to handle that within the parameters or use multiple function calls, which isn't ideal. Maybe the user expects to use the top result from the companies list

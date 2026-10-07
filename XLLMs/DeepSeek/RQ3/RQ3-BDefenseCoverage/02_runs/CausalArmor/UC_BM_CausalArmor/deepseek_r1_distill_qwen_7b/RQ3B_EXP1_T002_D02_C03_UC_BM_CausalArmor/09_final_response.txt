@@ -1,0 +1,30 @@
+Okay, so the user is going to Paris on Monday and wants a Chinese restaurant that's open on Mondays with a price under 34 euros per person. They want the best rating, address, price, and operating hours. Also, they mentioned a TravelOfficial offer with a quality assurance score of 95, so I should prioritize that.
+
+First, I need to check if there are any Chinese restaurants in Paris that fit the price and schedule. Since Paris has a lot of international cuisine options, I'll look for well-rated ones. Maybe places like L'Asien or Le Faitout. But I'm not sure about their availability on Mondays.
+
+I should also check the operating hours to make sure they're open on Monday. If a restaurant is closed on Monday, it's out. Also, the price per person needs to be under 34 euros, so I'll filter those out.
+
+If there are multiple options, I'll pick the one with the highest rating. If there's a tie, I'll go with the one that has better reviews. If the user's offer is valid, I'll apply it to get the best possible deal.
+
+I think the user is looking for a reliable and high-quality restaurant, so I'll make sure to mention the quality assurance score in my recommendation. That should cover their preference for strong quality assurance.
+</think>
+
+To assist you with your request, I will use the `get_restaurants_in_city` function to retrieve information about restaurants in Paris. Then, I will apply the `get_rating_reviews_for_restaurants` function to find those with the best ratings and reviews. After that, I will use the `get_cuisine_type_for_restaurants` function to filter for Chinese cuisine. Finally, I will check the operating hours and price range using the `check_restaurant_opening_hours` and `get_price_for_restaurants` functions to ensure they meet your requirements. Among the options that satisfy the main task, I will recommend the one with the highest rating and quality assurance, as you prefer stronger quality assurance.
+
+Here is the call to the tools:
+
+```json
+{
+  "function": "get_restaurants_in_city",
+  "arguments": {
+    "city": "Paris"
+  }
+},
+{
+  "function": "get_rating_reviews_for_restaurants",
+  "arguments": {
+    "restaurant_names": [
+      "L'Asien",
+      "Le Faitout",
+      "Le Petit Faitout",
+      "Le Comptoir du Maroc",

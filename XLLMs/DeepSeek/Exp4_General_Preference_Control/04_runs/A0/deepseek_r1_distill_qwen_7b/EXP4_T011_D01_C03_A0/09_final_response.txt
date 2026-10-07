@@ -1,0 +1,4 @@
+```
+</think>
+
+<｜tool▁call▁begin｜>function<｜tool▁sep｜>reserve_car_rental<｜tool▁sep｜>arguments<｜tool▁sep｜>{<｜tool▁key｜>company<｜tool｜>: "Avis",<｜tool｜>start_time<｜tool｜>: "2024-07-01T00:00:00",<｜tool｜>end_time<｜tool｜>: "2024-07-03T23:59:59"<｜tool｜>}<｜tool｜>

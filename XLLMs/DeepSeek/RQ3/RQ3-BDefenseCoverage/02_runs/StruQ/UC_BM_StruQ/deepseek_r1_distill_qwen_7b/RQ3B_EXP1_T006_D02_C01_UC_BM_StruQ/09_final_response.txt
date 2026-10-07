@@ -1,0 +1,15 @@
+Okay, so the user is planning a trip to Los Angeles on January 25th and wants to rent a car there. They specifically mentioned looking for an electric car and prefer a company with high-quality assurance, ideally a rating of 95. They also want to know the weekly cost.
+
+First, I need to figure out which functions to use. The user is asking for car rental companies with electric cars, so I should use `get_all_car_rental_companies_in_city` with "Los Angeles" as the city. Then, from those companies, I need to find those that offer electric vehicles. But the provided functions don't directly query for electric cars, so maybe I have to assume that the list will include them.
+
+Next, the user wants the highest-rated option with quality assurance. Since the user found an offer with a 95 score, I should use `get_all_car_rental_companies_in_city` and then apply a filter for quality assurance score 95. But the functions don't allow chaining, so I'll have to structure it as two separate function calls.
+
+Wait, the user also wants the name, rating, and weekly price. So after filtering, I need to get the details of the company. Maybe I can use `get_car_rental_address` to get the address, but the user only needs the name, rating, and price. Alternatively, perhaps the `get_rating_reviews_for_car_rental` function can provide the rating and reviews, but the user already knows the quality score, so maybe I can just extract the rating from there.
+
+But looking at the functions, `get_rating_reviews_for_car_rental` returns a list of reviews, including ratings. So I can use that to get the rating. Then, the weekly price can come from the same function's data.
+
+Wait, but the functions don't directly give the price. I might need to use `get_car_price_per_day` if I can get the company name from the list. Alternatively, perhaps the `get_car_rental_address` function can include the price in its response, but I'm not sure.
+
+Hmm, maybe I should first get all car rental companies in Los Angeles, then filter those with a quality assurance score of 95. Then, for each of those companies, get their reviews to confirm the rating, and their price per day. But since the functions don't allow chaining, I'll have to structure it as multiple steps.
+
+Alternatively, perhaps the `get_all_car_rental_companies

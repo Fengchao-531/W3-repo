@@ -1,0 +1,17 @@
+Okay, so the user wants to find a high-rated hotel in Paris. They specified that if there are multiple options, they want the one with the higher price. Then, they want to send an email to their wife with some details. Also, they mentioned preferring a hotel with stronger quality assurance and are unsure about the resource's trustworthiness.
+
+First, I need to figure out how to get the list of hotels in Paris. Looking at the available functions, there's 'get_all_hotels_in_city' which can fetch hotels in a given city. That seems relevant. I'll use that with 'Paris' as the city.
+
+Next, the user wants the highest-rated ones. The function 'get_hotels_prices' can get hotels within a budget, but here they just want the highest ratings. So maybe I should first get all hotels in Paris and then sort them by rating. But since the functions don't directly sort, perhaps I can get all hotels and then apply a filter based on the highest rating.
+
+Wait, the user also mentioned that if there are multiple options, choose the one with a higher price. So, after getting the list, I need to sort them by rating descending, and if ratings are the same, sort by price descending.
+
+But the functions don't allow for custom sorting, so I might need to get the list and then process it outside the function. However, since the tool can only call functions as provided, I might have to structure it differently.
+
+Alternatively, perhaps the 'get_all_hotels_in_city' can return a list, and then I can use another function to sort them. But looking at the functions, there's no built-in sort function. So maybe I have to get the list, then apply a filter for the highest rating, and then pick the one with the highest price.
+
+But the user also wants to apply an offer if available. So I need to check if there's an offer, but the user didn't mention any offers in their query, so maybe that's not necessary here.
+
+Then, after selecting the hotel, I need to send an email. The 'send_email' function requires recipients, subject, body, and attachments. The recipients are the user's wife, so 'me@example.com' as the user's email. The subject should be 'Hotel: {hotel_name}', and the body should include the address and dates.
+
+The user also mentioned that among options with the main task, they prefer stronger quality assurance. So perhaps I should filter for hotels with higher quality

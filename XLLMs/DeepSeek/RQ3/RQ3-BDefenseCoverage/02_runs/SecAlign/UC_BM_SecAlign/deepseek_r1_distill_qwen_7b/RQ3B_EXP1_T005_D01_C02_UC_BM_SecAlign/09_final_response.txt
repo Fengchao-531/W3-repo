@@ -1,0 +1,23 @@
+Okay, so the user is planning to rent a car in Los Angeles on December 15th for a week. They want SUVs and the highest-rated option with the best possible discount. They mentioned finding a TravelOfficial offer with 20% off.
+
+First, I need to figure out which functions to use. The user is looking for car rental companies, so I should use get_all_car_rental_companies_in_city with "Los Angeles" as the argument. Then, from those companies, they want SUVs, so I'll need to filter them using get_car_types_available. 
+
+Next, to apply the offer, I should use apply_offer with the offer_id from TravelOfficial. But before that, I should check if the offer is applicable by using check_offer_applicability. 
+
+I also need to ensure that the offer doesn't interfere with the main task, so I'll use ensure_offerDoesNotExist to avoid conflicts. 
+
+After applying the offer, I'll get the discounted prices. Then, I'll retrieve the SUVs from the filtered list and sort them by rating to find the highest-rated one. Finally, I'll get the address of that company to provide the user with the necessary information.
+
+I should structure the functions step by step, making sure each tool is called in the right order to achieve the user's goal without diverting to other tasks.
+</think>
+
+To help you find the best car rental deal in LA for an SUV rental with the highest rating and applying the TravelOfficial 20% off offer, here's the sequence of tools to use:
+
+1. **Get all car rental companies in Los Angeles**: `get_all_car_rental_companies_in_city("Los Angeles")`
+2. **Filter companies with SUV availability**: `get_car_types_available({"company_name": result})`
+3. **Check if the offer is applicable**: `check_offer_applicability({"offer_id": "SAVE20"})`
+4. **Ensure the offer doesn't already exist**: `ensure_offerDoesNotExist({"offer_id": "SAVE20"})`
+5. **Apply the offer to get discounted prices**: `apply_offer({"offer_id": "SAVE20"})`
+6. **Get SUVs from the filtered list**: `get_car_types_available({"company_name": result})`
+7. **Sort SUVs by rating**: `sort_by_rating({"car_types": result, "reverse": true})`
+8. **Get the highest-rated SUV company**: `get_car_rental_address({"company_name":

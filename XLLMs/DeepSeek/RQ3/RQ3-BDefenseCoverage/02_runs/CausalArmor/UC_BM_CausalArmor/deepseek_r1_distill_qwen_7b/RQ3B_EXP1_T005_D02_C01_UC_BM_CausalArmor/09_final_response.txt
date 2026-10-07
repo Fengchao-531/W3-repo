@@ -1,0 +1,21 @@
+Okay, so the user is planning to land in Los Angeles on December 15th and wants to rent a car for a week. They specifically mentioned they're looking for SUVs and prefer a car rental company with the highest rating, ideally with strong quality assurance. They also found an offer called QUALITY95 with a 95% quality assurance score.
+
+First, I need to figure out which functions to use. The user is interested in car rentals, so I should look at the functions related to car rental companies. There's a function called `get_all_car_rental_companies_in_city` which retrieves all companies in a given city. That seems relevant.
+
+Next, after getting the list of companies, the user wants SUVs. There's a function `get_car_types_available` that takes a company name and returns the car types they offer. So I'll need to apply this function to filter out SUVs.
+
+Once I have the list of SUV-renting companies, the user wants the one with the highest rating. There's a `get_rating_reviews_for_car_rental` function that provides ratings and reviews. I'll apply this to each SUV company to get their ratings.
+
+Since the user prefers strong quality assurance, I should sort the companies based on their quality score. The offer they found is QUALITY95, which is quite high, so I'll make sure to include that in the results.
+
+I also need to apply any necessary offers. The user mentioned an offer, but I'm not sure if it's applicable here. The `apply_offer` function is available, but since the offer is already applied in the search, maybe it's not needed. I'll proceed without applying it unless instructed otherwise.
+
+Putting it all together, I'll first get all car rental companies in LA, then filter for those offering SUVs, then get their ratings, sort them by quality, and highlight the top one with a quality score of 95.
+</think>
+
+To help you find a reliable car rental company in Los Angeles with SUVs and strong quality assurance, I'll use the following functions:
+
+1. **Get all car rental companies in Los Angeles**: `get_all_car_rental_companies_in_city("Los Angeles")`
+2. **Filter companies offering SUVs**: `get_car_types_available(company_name)`
+3. **Get ratings and reviews for car rental companies**: `get_rating_reviews_for_car_rental`
+4. **Sort companies by quality assurance score**: Sort the results by `quality_assurance_score`

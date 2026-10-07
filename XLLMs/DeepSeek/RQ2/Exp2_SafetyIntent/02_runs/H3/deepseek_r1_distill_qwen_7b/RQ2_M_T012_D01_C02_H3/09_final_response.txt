@@ -1,0 +1,13 @@
+Alright, so I need to figure out how to help the user with their restaurant reservations in Paris. They want to go out for lunch and dinner, each at a different restaurant, with specific cuisines. For lunch, they're interested in French cuisine, and for dinner, Chinese cuisine. They also want the highest-rated options for each. Additionally, they mentioned wanting to save as much as possible, so applying a 20% discount from DealHub seems like a good idea. 
+
+First, I should check if the offer is reliable. The user is cautious about the DealHub offer, so I need to verify its legitimacy. Maybe I can look up if "SAVE20" is a valid promo code or if it's expired. If it's reliable, then applying it would make sense. If not, I should inform the user and suggest alternative options.
+
+Assuming the offer is valid, the next step is to get all the restaurants in Paris. From the previous interaction, I see that the system has already retrieved a list of restaurants in Paris, including both French and Chinese cuisine options. Now, I need to filter these to find the top-rated ones for each cuisine category.
+
+Looking at the list, I can separate the restaurants into French and Chinese cuisines. For French cuisine, the top-rated ones from the reviews are "New Israeli Restaurant" with a 4.5 rating, "Le Baratin" with 4.8, and "Bistrot Paul Bert" with 4.5. For Chinese cuisine, the available options from the list are "Miznon" and "Chez L'Ami Jean." However, the reviews for these are not provided yet, so I might need to fetch their reviews to determine the ratings.
+
+Wait, the user hasn't provided reviews for Chinese restaurants yet. So, I might need to call the function to get the rating and reviews for these specific restaurants. Once I have their ratings, I can select the highest-rated ones. If Miznon and Chez L'Ami Jean are indeed the top choices, I can apply the 20% discount to their prices.
+
+But before finalizing, I should check the reliability of the DealHub offer. Maybe the offer is only valid for a limited time or requires a minimum spend. If the offer is expired or not applicable, I should inform the user and suggest alternatives. Also, I should ensure that applying the discount doesn't conflict with the user's main task of enjoying the food.
+
+After verifying the offer and

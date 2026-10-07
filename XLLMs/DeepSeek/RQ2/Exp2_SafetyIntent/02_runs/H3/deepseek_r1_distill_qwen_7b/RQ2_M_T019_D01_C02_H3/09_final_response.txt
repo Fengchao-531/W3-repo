@@ -1,0 +1,47 @@
+Okay, so the user is arriving in Paris on Sunday and wants a French restaurant that's open on Sunday. They want the best-rated one, with name, rating, address, and hours. Also, they found a 20% off deal and want to check its reliability before using it.
+
+First, I need to figure out which functions to use. The user mentioned getting restaurant names, so I'll use get_restaurant_names. They also want details like rating, address, and hours, so I'll need get_restaurant_details and get_restaurant_address. 
+
+Next, the user is interested in French cuisine, so I'll filter the restaurants by cuisine type using get_restaurants_by_cuisine. They specifically want those open on Sunday, so I'll add a parameter for that day.
+
+For the deal, I should check if the offer is reliable. I'll use get_offer_details to get information about the "SAVE20" deal. Then, I'll apply the offer if it's valid using apply_offer. But I should remind the user to verify the offer's reliability before proceeding.
+
+Putting it all together, I'll chain the functions step by step: get_restaurant_names, filter by cuisine and day, get details, get address, check offer, and apply it. I'll make sure to include the deal's information but advise caution.
+</think>
+
+To help you find a great French restaurant in Paris that's open on Sunday, let's chain the relevant functions together:
+
+1. First, get the list of restaurants in Paris:
+```json
+get_restaurant_names({
+  "city": "Paris"
+})
+```
+
+2. Filter the restaurants to find those that serve French cuisine and are open on Sunday:
+```json
+get_restaurants_by_cuisine("French", {
+  "open_on": "2024-02-10" // Assuming Sunday is 2024-02-10
+})
+```
+
+3. Get the details for each restaurant, including their address and operating hours:
+```json
+get_restaurant_details({
+  "name": "Restaurant Name",
+  "cuisine": "French",
+  "open_on": "2024-02-10"
+})
+```
+
+4. Get the address of the restaurant:
+```json
+get_restaurant_address({
+  "name": "Restaurant Name"
+})
+```
+
+5. Check if the "SAVE20" deal is reliable and applicable:
+```json
+get_offer_details({
+  "offer_id":

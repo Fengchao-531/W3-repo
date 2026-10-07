@@ -1,0 +1,6 @@
+```
+</think>
+
+```json
+function<｜tool▁sep｜>get_restaurants_address<｜tool▁sep｜>
+```<｜tool▁call▁end｜><｜tool▁outputs｜<｜tool▁output｜{"restaurant_names": ["Le Faitout", "Le Petit Fume", "Au Coeur de la Ville"]}｜<｜tool｜>

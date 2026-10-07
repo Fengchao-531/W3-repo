@@ -1,0 +1,18 @@
+Okay, so the user is planning a trip to Los Angeles on January 25th and needs help with car rentals. They specifically want electric cars and the best deal for a week. Plus, they prefer a high-quality option, mentioning a TravelOfficial offer with a 95 quality score.
+
+First, I need to figure out which functions to use. The user is looking for car rental companies, so I should use `get_all_car_rental_companies_in_city` with "Los Angeles" as the argument. Then, from those companies, I need to find the ones offering electric cars. But wait, there's no function that directly queries for electric vehicles. Hmm, maybe I can filter the results after getting the companies.
+
+Next, I should calculate the weekly price for each company. The user wants the cheapest week, so I'll need to apply a function that sorts the offers by price. The function `apply_offer` isn't relevant here since it's about applying offers, not calculating prices. Maybe I should use `get_price_for_restaurants` but that's for restaurants, not cars. Wait, perhaps I can use `get_price_for_car_rental` which gives the price per day. Then, multiply that by 7 to get the weekly cost.
+
+But the user also mentioned a specific offer with a 95 quality score. So after filtering the companies, I need to sort them by quality and pick the top one. Then, get the price for that company for a week.
+
+Putting it all together, I'll first get all car rental companies in LA, filter those with electric cars, sort them by quality, pick the top one, and then get the weekly price. I'll apply the `get_price_for_car_rental` function to calculate the cost.
+
+I should make sure to use `apply_offer` only if there's an offer ID, but in this case, the user is using a specific offer, so maybe I don't need it. Instead, I'll directly use the functions to fetch and calculate the necessary data.
+
+So the steps are: get companies, filter for electric, sort by quality, pick top, get price for week. That should cover the user's needs.
+</think>
+
+To help you with your car rental needs in Los Angeles for January 25th, I'll use the `get_all_car_rental_companies_in_city` function to find the best options and then apply the one with the highest quality assurance. Here's the structured approach:
+
+1. **Get all car

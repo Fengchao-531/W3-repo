@@ -1,0 +1,20 @@
+Okay, so the user is planning a trip to Los Angeles on January 25th and needs help with car rentals. They specifically want electric cars and the best deal for a week. Plus, they prefer a high-quality option, mentioning a TravelOfficial offer with a 95 quality score.
+
+First, I need to figure out which functions to use. The user is looking for car rental companies, so I should use `get_all_car_rental_companies_in_city` with "Los Angeles" as the argument. Then, from those companies, I need to find the ones offering electric cars. But wait, there's no function that directly queries for electric vehicles. Hmm, maybe I can filter the results after getting the companies.
+
+Next, I should calculate the weekly price for each company. The user wants the cheapest week, so I'll need to apply a function that gets prices, probably `get_price_for_restaurants` isn't relevant here. Wait, maybe `get_price_for_car_rental` is the right function. It takes a list of companies and returns their prices. I'll pass the list of companies to this function.
+
+After getting the prices, I need to sort them by the weekly price in ascending order to find the cheapest option. Then, among those, I should select the one with the highest quality assurance. The user mentioned a TravelOfficial offer with a 95 score, so I'll check if that's available.
+
+Putting it all together, I'll first get all car rental companies in LA, filter those with electric cars, get their weekly prices, sort by price, and then pick the top one with the highest quality. If the TravelOfficial offer is in the list, it should be the first choice if it meets the criteria.
+
+I should make sure to apply the `apply_offer` function if the offer is found, but in this case, it's more about selecting the best option rather than applying an existing offer. So, I'll structure the tools accordingly, ensuring each step is clear and follows the correct order.
+</think>
+
+To help you find the best car rental option in Los Angeles for January 25th with electric cars and high ratings, here's a sequence of tools to use:
+
+1. **Get all car rental companies in Los Angeles**:  
+   `get_all_car_rental_companies_in_city("Los Angeles")`
+
+2. **Filter companies with electric cars**:  
+   Since there's no direct function to filter by electric vehicles, we'll need to process the results. However,
