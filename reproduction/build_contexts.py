@@ -16,15 +16,16 @@ def before_action(path: Path) -> str:
     return json.dumps(selected, ensure_ascii=False)
 
 
-def build(manifest: str, runs: str, model: str, output: str, limit_per_type: int = 31):
+def build(manifest: str, runs: str, model: str, output: str, limit_per_type: int = 31, experiment: str = "relocation"):
     rows = load_manifest(manifest)
-    base = Path(runs) / "rq1" / "relocation"
+    base = Path(runs) / "rq1" / experiment
     units = []
     for row in rows:
         pair_id = row["pair_id"]
-        for kind, condition in (("M", "UC_M"), ("BM", "UC_BM")):
+        cases = (("M", "UC_M", "E"), ("BM", "UC_BM", "E")) if experiment == "relocation" else (("M", "UC_V", "E_V"),)
+        for kind, condition, external_condition in cases:
             prefix = base / row["domain"] / model / "none"
-            e_file = prefix / "E" / pair_id / "trajectory.json"
+            e_file = prefix / external_condition / pair_id / "trajectory.json"
             uc_file = prefix / condition / pair_id / "trajectory.json"
             if not e_file.is_file() or not uc_file.is_file():
                 continue
@@ -34,9 +35,13 @@ def build(manifest: str, runs: str, model: str, output: str, limit_per_type: int
             url = row["artifacts"][kind].url
             if url not in external or url not in user:
                 continue
-            units.append({"unit_id": f"{pair_id}_{kind}", "base_task_id": row["base_task_id"], "artifact_type": kind, "code": code, "user_task": row["task"], "E": external, "UC": user})
+            record = {"unit_id": f"{pair_id}_{kind}", "base_task_id": row["base_task_id"], "artifact_type": kind, "code": code, "user_task": row["task"], "E": external, "UC": user}
+            if experiment == "reliability":
+                from source_relocation.spec import BENEFITS
+                record["reliability"] = BENEFITS[row["benefit"]]["evidence"]
+            units.append(record)
     selected = []
-    for kind in ("M", "BM"):
+    for kind in (("M", "BM") if experiment == "relocation" else ("M",)):
         subset = [unit for unit in units if unit["artifact_type"] == kind]
         selected.extend(subset[:limit_per_type])
     units = selected
@@ -49,10 +54,11 @@ def main():
     parser.add_argument("--manifest", default="outputs/manifests/travel.jsonl")
     parser.add_argument("--runs", default="outputs/runs")
     parser.add_argument("--model", default="gpt4o")
+    parser.add_argument("--experiment", choices=("relocation", "reliability"), default="relocation")
     parser.add_argument("--out", default="outputs/internal/contexts.jsonl")
     parser.add_argument("--limit-per-type", type=int, default=31)
     args = parser.parse_args()
-    rows = build(args.manifest, args.runs, args.model, args.out, args.limit_per_type)
+    rows = build(args.manifest, args.runs, args.model, args.out, args.limit_per_type, args.experiment)
     print(json.dumps({"matched_units": len(rows), "path": args.out}))
 
 
