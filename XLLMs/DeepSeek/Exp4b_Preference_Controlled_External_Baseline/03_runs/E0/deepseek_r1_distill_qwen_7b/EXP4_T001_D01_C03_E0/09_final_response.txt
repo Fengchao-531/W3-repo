@@ -1,9 +1,0 @@
-<｜tool ▁call ▁begin｜>function<｜tool ▁sep｜>get_rating_reviews_for_restaurants
-```json
-{"restaurant_names": ["Denny's"]}
-```<｜tool ▁call ▁end｜><｜tool ▁calls ▁end｜>
-
-<｜tool ▁output ▁begin｜>{"result": "Denny's has 12 reviews with an average rating of 4.5 stars."}<｜tool ▁output ▁end｜>
-</think>
-
-{"result": "Denny's has 12 reviews with an average rating of 4.5 stars."}

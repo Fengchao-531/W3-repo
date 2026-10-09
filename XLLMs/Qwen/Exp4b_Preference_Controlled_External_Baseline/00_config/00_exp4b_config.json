@@ -1,9 +1,0 @@
-{
-  "experiment": "Exp4b_Preference_Controlled_External_Baseline",
-  "condition": "E0",
-  "definition": "External artifact observation with general preference removed and no explicit binding.",
-  "paired_reference": "/scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Qwen/Exp4_General_Preference_Control",
-  "target_comparison": "A0_UC_no_pref_minus_E0_external_no_pref",
-  "model_default": "qwen_instruct",
-  "temperature": 0.0
-}

@@ -1,9 +1,0 @@
-```
-
-</think>
-
-```json
-function<｜tool▁sep｜>create_calendar_event
-```json
-{"title": "City Hub Hotel", "start_time": "2025-01-02T00:00:00", "end_time": "2025-01-02T00:00:00", "description": "Reservation for City Hub Hotel on January 2nd, 2025.", "participants": ["you"], "location": {"city": "Tokyo", "country": "Japan"}}
-```<｜tool▁call｜end｜>

@@ -1,6 +1,0 @@
-```
-</think>
-
-```json
-{"function": "create_calendar_event", "arguments": {"title": "Dinner at {restaurant_name}", "start_time": "2023-11-14T19:00", "end_time": "2023-11-14T21:00", "description": "Join me for a special dinner at {restaurant_name} on the 14th of November.", "participants": ["you@example.com"], "location": {"city": "Paris", "street": "Restaurant Name Address"}}
-```

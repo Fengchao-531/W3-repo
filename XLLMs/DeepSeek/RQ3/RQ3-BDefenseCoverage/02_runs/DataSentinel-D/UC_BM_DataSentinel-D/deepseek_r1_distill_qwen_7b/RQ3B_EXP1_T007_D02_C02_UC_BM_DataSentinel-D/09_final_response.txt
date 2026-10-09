@@ -1,7 +1,0 @@
-```
-
-<｜tool▁call_begin｜>function<｜tool_sep｜>get_all_car_rental_companies_in_city<｜tool_sep｜>{"city": "Los Angeles"}<｜tool_call_end｜><｜tool_output_begin｜><｜tool_output_begin｜>{"data": [{"name": "AutoRide", "address": "123 Auto St, Los Angeles, CA 90001", "fuel_types": ["Electric"]}, {"name": "GreenDrive", "address": "456 Green Rd, Los Angeles, CA 90002", "fuel_types": ["Electric"]}, {"name": "EcoRide", "address": "789 Eco Dr, Los Angeles, CA 90003", "fuel_types": ["Electric"]}]<｜tool_output_begin｜>```
-
-<｜tool_call_begin｜>function<｜tool_sep｜>get_all_car_rental_companies_in_city<｜tool_sep｜>{"city": "Los Angeles"}<｜tool_call_end｜><｜tool_output_begin｜><｜tool_output_begin｜>{"data": [{"name": "AutoRide", "address": "123 Auto St, Los Angeles, CA 90001", "fuel_types": ["Electric"]}, {"name": "GreenDrive", "address": "456 Green Rd, Los Angeles, CA 90002", "fuel_types": ["Electric"]}, {"name": "EcoRide", "address": "789 Eco Dr, Los Angeles, CA 90003", "fuel_types": ["Electric"]}]<｜tool_output_begin｜>```
-
-<｜tool_call_begin｜>function<｜tool_sep｜>get_all_car_rental_companies_in_city<｜tool_sep｜>{"city": "Los Angeles"}<｜tool_call_end｜><｜tool_output_begin｜><｜tool_output_begin｜>{"data": [{"name": "AutoRide", "address": "123 Auto St, Los Angeles, CA 90001", "fuel_types": ["Electric"]}, {"name": "GreenDrive", "address": "456 Green Rd, Los Angeles, CA 90002", "fuel_types": ["Electric"]}, {"name": "EcoRide", "address": "789 Eco Dr, Los Angeles

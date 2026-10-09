@@ -1,7 +1,0 @@
-To assist you with your hotel reservation in Paris, I will first check the reviews and ratings for 'Le Marais Boutique'. If it has a rating higher than 4, I will make a reservation for you from January 11th to January 15th, 2025. This should provide you with a comfortable and enjoyable stay.
-
-```json
-apply_offer(
-  offer_id: "Le Marais Boutique"
-)
-```

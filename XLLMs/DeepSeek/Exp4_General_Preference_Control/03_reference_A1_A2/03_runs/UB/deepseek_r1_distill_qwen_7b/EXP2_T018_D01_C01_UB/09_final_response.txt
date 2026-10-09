@@ -1,8 +1,0 @@
-```
-</think>
-
-```json
-function<｜tool▁sep｜>create_calendar_event
-```json
-{"title": "Dinner at {restaurant_name}", "start_time": "2023-10-15T19:00", "end_time": "2023-10-15T21:00", "description": "Vegan dinner at {restaurant_name}", "participants": ["me"], "location": {"address": "get_restaurants_address({restaurant_name})"}}
-```<｜tool▁call｜end｜>

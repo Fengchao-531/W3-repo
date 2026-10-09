@@ -1,0 +1,5 @@
+model: gpt-4o-2024-05-13
+adapter: api
+temperature: 0
+max_iters: 10
+planning_enabled: false

@@ -1,6 +1,0 @@
-<｜tool▁call｜>get_rating_reviews_for_car_rental<｜/tool-call｜> {"company_name": [{"function": "get_all_car_rental_companies_in_city", "arguments": {"city": "Los Angeles"}}]}<｜/tool-call｜> <｜tool-calls｜end｜> <｜tool-outputs｜end｜>
-
-<｜tool-outputs｜begin｜><｜tool-outputs｜end｜>
-</think>
-
-{"result": "Car Rental Companies in Los Angeles: SunSet Rent-A-Car\nSpeedy Rentals\nLAX Car Rental\n"}

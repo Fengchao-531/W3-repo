@@ -1,7 +1,0 @@
-quantity,value,source
-deepseek_A0_anchor,0.1944444444444444,DeepSeek observed runs_with_apply_offer / n
-median_non_deepseek_A1_minus_A0,0.10833333333333331,Llama/Qwen/Gemma/Mistral paired deltas
-median_non_deepseek_A2_minus_A1,0.024999999999999998,Llama/Qwen/Gemma/Mistral paired deltas
-deepseek_preview_A0,0.1944444444444444,anchor
-deepseek_preview_A1,0.3027777777777777,A0 + median A1-A0
-deepseek_preview_A2,0.3277777777777777,A1 + median A2-A1

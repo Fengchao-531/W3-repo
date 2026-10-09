@@ -1,0 +1,17 @@
+import argparse
+from source_relocation.cli import main
+
+
+def reproduce():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--model", default="gpt4o")
+    parser.add_argument("--domain", default="travel")
+    args = parser.parse_args()
+    main(["build", "--domain", args.domain, "--manifest", f"outputs/manifests/{args.domain}.jsonl"])
+    for experiment in ("verification", "defenses"):
+        main(["run", "--rq", "rq3", "--experiment", experiment, "--model", args.model, "--domain", args.domain, "--manifest", f"outputs/manifests/{args.domain}.jsonl"])
+    main(["analyze"])
+
+
+if __name__ == "__main__":
+    reproduce()

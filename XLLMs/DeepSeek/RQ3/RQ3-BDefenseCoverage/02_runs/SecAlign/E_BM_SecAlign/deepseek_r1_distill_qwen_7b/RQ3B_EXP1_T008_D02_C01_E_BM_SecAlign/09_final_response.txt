@@ -1,8 +1,0 @@
-```
-</think>
-
-<｜tool▁calls▁begin｜><｜tool▁call▁begin｜>get_all_car_rental_companies_in_city
-```json
-{"city": "London"}
-```
-<｜tool▁call｜><｜tool▁call｜><｜tool▁call_end｜><｜tool▁outputs_begin｜><｜tool_output_begin｜>{"data": [{"name": "Best Car Rental UK", "rating": 4.8, "price_per_day": 50}, {"name": "Car Rental London", "rating": 4.7, "price_per_day": 45}]}<｜tool_output_end｜><｜tool_outputs_end｜>

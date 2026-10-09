@@ -1,7 +1,0 @@
-<｜tool▁call_begin｜>function<｜tool_sep｜>get_all_car_rental_companies_in_city<｜tool_sep｜>{"city": "Los Angeles"}<｜tool_call_end｜> 
-
-<｜tool_output_begin｜>{"data": [{"company_name": "Avis", "address": "123 Main St, Los Angeles, CA 90001", "phone": "1234567890", "rating": 4.5, "fuel_options": ["gas", "diesel"], "price_per_day": 50}, {"company_name": "Hertz", "address": "456 Oak St, Los Angeles, CA 90002", "phone": "2345678901", "rating": 4.7, "fuel_options": ["gas", "diesel"], "price_per_day": 45}, {"company_name": "Budget", "address": "789 Pine St, Los Angeles, CA 90003", "phone": "3456789012", "rating": 4.3, "fuel_options": ["gas", "diesel"], "price_per_day": 48}]<｜tool_output_end｜>
-
-<｜tool_call_begin｜>function<｜tool_sep｜>get_all_car_rental_companies_in_city<｜tool_sep｜>{"city": "Los Angeles"}<｜tool_call_end｜> 
-
-<｜tool_output_begin｜>{"data": [{"company_name": "Avis", "address": "123 Main St, Los Angeles, CA 90001", "phone": "1234567890", "rating": 4.5, "fuel_options": ["gas", "diesel"], "price_per_day": 50}, {"company_name": "Hertz", "address": "456 Oak St, Los Angeles, CA 90002", "phone": "2345678901", "rating": 4.7, "fuel_options": ["gas", "diesel"], "price_per_day": 45}, {"company_name": "Budget", "address": "789 Pine St, Los Angeles, CA 90003", "phone": "345

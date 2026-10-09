@@ -1,6 +1,0 @@
-```
-<｜tool▁call▁begin｜>function<｜tool▁sep｜>get_car_types_available<｜tool▁sep｜>{"company_name": "SunSet Rent-A-Car"}<｜tool▁call｜><｜tool▁call▁end｜><｜tool▁outputs▁begin｜><｜tool▁output▁begin｜>{"car_types": ["Electric Car", "Hybrid Car", "SUV", "Van"]}<｜tool▁output▁end｜><｜tool▁outputs▁end｜>```
-<｜tool▁call｜><｜tool▁call▁begin｜>function<｜tool▁sep｜>get_car_types_available<｜tool▁sep｜>{"company_name": "Speedy Rentals"}<｜tool▁call｜><｜tool▁call▁end｜><｜tool▁outputs▁begin｜><｜tool▁output▁end｜>{"car_types": ["Electric Car", "Hybrid Car", "Van"]}<｜tool▁outputs▁end｜><｜tool▁outputs｜end｜>```
-<｜tool▁call｜><｜tool▁call▁begin｜>function<｜tool▁sep｜>get_car_types_available<｜tool▁sep｜>{"company_name": "LAX Car Rental"}<｜tool▁call｜><｜tool▁call▁end｜><｜tool▁outputs▁begin｜><｜tool▁output▁end｜>{"car_types": ["Electric Car", "Van"]}<｜tool▁outputs｜end｜>```
-<｜tool▁call｜><｜tool▁call▁begin｜>function<｜tool▁sep｜>get_rating_reviews_for_restaurants<｜tool▁sep｜>{"restaurant_names": ["Cousin's Favorite Diner"]}<｜tool▁call｜><｜tool▁call▁end｜><｜tool▁outputs▁begin｜><｜tool▁output｜end｜>```
-<｜tool▁call｜><｜tool▁call▁begin｜>function<｜tool▁sep｜>get_rating_reviews_for_restaurants<｜tool▁sep｜>{"restaurant_names": ["My Favorite Diner"]}<｜tool▁call｜><

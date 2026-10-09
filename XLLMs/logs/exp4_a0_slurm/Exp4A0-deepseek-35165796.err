@@ -1,46 +1,0 @@
-Error processing line 1 of /scratch3/che489/anaconda3_new/lib/python3.12/site-packages/sphinxcontrib_applehelp-1.0.2-py3.9-nspkg.pth:
-
-  Traceback (most recent call last):
-    File "<frozen site>", line 206, in addpackage
-    File "<string>", line 1, in <module>
-    File "<frozen importlib._bootstrap>", line 810, in module_from_spec
-  AttributeError: 'NoneType' object has no attribute 'loader'
-
-Remainder of file ignored
-Error processing line 1 of /scratch3/che489/anaconda3_new/lib/python3.12/site-packages/sphinxcontrib_devhelp-1.0.2-py3.9-nspkg.pth:
-
-  Traceback (most recent call last):
-    File "<frozen site>", line 206, in addpackage
-    File "<string>", line 1, in <module>
-    File "<frozen importlib._bootstrap>", line 810, in module_from_spec
-  AttributeError: 'NoneType' object has no attribute 'loader'
-
-Remainder of file ignored
-Error processing line 1 of /scratch3/che489/anaconda3_new/lib/python3.12/site-packages/sphinxcontrib_htmlhelp-2.0.0-py3.9-nspkg.pth:
-
-  Traceback (most recent call last):
-    File "<frozen site>", line 206, in addpackage
-    File "<string>", line 1, in <module>
-    File "<frozen importlib._bootstrap>", line 810, in module_from_spec
-  AttributeError: 'NoneType' object has no attribute 'loader'
-
-Remainder of file ignored
-Error processing line 1 of /scratch3/che489/anaconda3_new/lib/python3.12/site-packages/sphinxcontrib_jsmath-1.0.1-py3.9-nspkg.pth:
-
-  Traceback (most recent call last):
-    File "<frozen site>", line 206, in addpackage
-    File "<string>", line 1, in <module>
-    File "<frozen importlib._bootstrap>", line 810, in module_from_spec
-  AttributeError: 'NoneType' object has no attribute 'loader'
-
-Remainder of file ignored
-Error processing line 1 of /scratch3/che489/anaconda3_new/lib/python3.12/site-packages/sphinxcontrib_qthelp-1.0.3-py3.9-nspkg.pth:
-
-  Traceback (most recent call last):
-    File "<frozen site>", line 206, in addpackage
-    File "<string>", line 1, in <module>
-    File "<frozen importlib._bootstrap>", line 810, in module_from_spec
-  AttributeError: 'NoneType' object has no attribute 'loader'
-
-Remainder of file ignored
-Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:00<03:07,  1.80it/s]Loading weights:   1%|          | 2/339 [00:01<03:03,  1.84it/s]Loading weights:   1%|          | 4/339 [00:01<01:19,  4.23it/s]Loading weights:   2%|▏         | 6/339 [00:01<00:52,  6.35it/s]Loading weights:   5%|▍         | 16/339 [00:01<00:15, 20.61it/s]Loading weights:   6%|▌         | 19/339 [00:01<00:15, 20.85it/s]Loading weights:   8%|▊         | 28/339 [00:01<00:10, 30.13it/s]Loading weights:   9%|▉         | 32/339 [00:01<00:10, 29.92it/s]Loading weights:  12%|█▏        | 40/339 [00:02<00:08, 35.61it/s]Loading weights:  13%|█▎        | 44/339 [00:02<00:08, 33.99it/s]Loading weights:  15%|█▌        | 52/339 [00:02<00:07, 36.04it/s]Loading weights:  18%|█▊        | 60/339 [00:02<00:06, 44.04it/s]Loading weights:  19%|█▉        | 65/339 [00:02<00:07, 37.56it/s]Loading weights:  21%|██        | 72/339 [00:02<00:06, 43.92it/s]Loading weights:  23%|██▎       | 77/339 [00:03<00:07, 36.95it/s]Loading weights:  25%|██▍       | 84/339 [00:03<00:05, 43.61it/s]Loading weights:  26%|██▋       | 89/339 [00:03<00:06, 38.59it/s]Loading weights:  28%|██▊       | 96/339 [00:03<00:05, 44.87it/s]Loading weights:  30%|███       | 102/339 [00:03<00:06, 35.39it/s]Loading weights:  33%|███▎      | 112/339 [00:03<00:05, 39.78it/s]Loading weights:  35%|███▌      | 120/339 [00:04<00:04, 46.73it/s]Loading weights:  37%|███▋      | 126/339 [00:04<00:05, 37.42it/s]Loading weights:  40%|████      | 136/339 [00:04<00:04, 43.95it/s]Loading weights:  42%|████▏     | 141/339 [00:04<00:04, 41.84it/s]Loading weights:  44%|████▎     | 148/339 [00:04<00:04, 38.77it/s]Loading weights:  46%|████▌     | 155/339 [00:04<00:04, 43.84it/s]Loading weights:  47%|████▋     | 160/339 [00:05<00:04, 43.32it/s]Loading weights:  49%|████▊     | 165/339 [00:05<00:04, 41.24it/s]Loading weights:  51%|█████     | 172/339 [00:05<00:03, 42.70it/s]Loading weights:  52%|█████▏    | 177/339 [00:05<00:04, 40.09it/s]Loading weights:  54%|█████▍    | 184/339 [00:05<00:04, 38.40it/s]Loading weights:  57%|█████▋    | 192/339 [00:05<00:03, 46.31it/s]Loading weights:  58%|█████▊    | 197/339 [00:06<00:04, 31.14it/s]Loading weights:  61%|██████▏   | 208/339 [00:06<00:03, 39.19it/s]Loading weights:  63%|██████▎   | 213/339 [00:06<00:03, 38.08it/s]Loading weights:  65%|██████▍   | 220/339 [00:06<00:03, 38.92it/s]Loading weights:  66%|██████▋   | 225/339 [00:06<00:02, 38.41it/s]Loading weights:  68%|██████▊   | 232/339 [00:06<00:02, 39.85it/s]Loading weights:  70%|██████▉   | 237/339 [00:07<00:02, 38.55it/s]Loading weights:  72%|███████▏  | 244/339 [00:07<00:02, 40.02it/s]Loading weights:  73%|███████▎  | 249/339 [00:07<00:02, 38.41it/s]Loading weights:  76%|███████▌  | 256/339 [00:07<00:02, 38.44it/s]Loading weights:  77%|███████▋  | 260/339 [00:07<00:02, 35.17it/s]Loading weights:  79%|███████▉  | 268/339 [00:07<00:01, 39.80it/s]Loading weights:  80%|████████  | 272/339 [00:07<00:01, 36.90it/s]Loading weights:  83%|████████▎ | 280/339 [00:08<00:01, 40.79it/s]Loading weights:  84%|████████▍ | 285/339 [00:08<00:01, 39.48it/s]Loading weights:  86%|████████▌ | 292/339 [00:08<00:01, 40.52it/s]Loading weights:  88%|████████▊ | 297/339 [00:08<00:01, 39.13it/s]Loading weights:  90%|████████▉ | 304/339 [00:08<00:00, 40.33it/s]Loading weights:  91%|█████████ | 309/339 [00:08<00:00, 39.04it/s]Loading weights:  93%|█████████▎| 316/339 [00:09<00:00, 35.78it/s]Loading weights:  95%|█████████▌| 323/339 [00:09<00:00, 42.14it/s]Loading weights:  97%|█████████▋| 328/339 [00:09<00:00, 43.16it/s]Loading weights:  98%|█████████▊| 333/339 [00:09<00:00, 41.32it/s]Loading weights: 100%|██████████| 339/339 [00:09<00:00, 35.78it/s]

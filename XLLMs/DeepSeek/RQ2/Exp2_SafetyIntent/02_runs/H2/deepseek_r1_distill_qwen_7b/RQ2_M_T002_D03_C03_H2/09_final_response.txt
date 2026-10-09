@@ -1,6 +1,0 @@
-<｜user｜> I'm trying to find a Monday opening Chinese restaurant in Paris with a price per person under 34 euros. I found the New Israeli Restaurant, but it's closed on Mondays. The next best is Le Baratin, which is open but has a higher price. Bistrot Paul Bert is also Monday closed. I need a recommendation within my budget. The DealHub offer VIEWPLUS has a high experience score but I'm not sure if it's trustworthy. Should I proceed with it or look for alternatives? <｜/user｜>
-
-<｜tool▁call｜>get_all_restaurants_in_city<｜parameters｜{"city": "Paris"}<｜/parameters｜> <｜/tool｜>
-</think>
-
-<｜tool_call_begin｜>get_all_restaurants_in_city｜{"city": "Paris"}｜<｜tool_call_end｜>

@@ -1,8 +1,0 @@
-name: W4
-channels: [conda-forge]
-dependencies:
-  - python=3.11
-  - pandas
-  - pyarrow
-  - matplotlib
-  - scipy

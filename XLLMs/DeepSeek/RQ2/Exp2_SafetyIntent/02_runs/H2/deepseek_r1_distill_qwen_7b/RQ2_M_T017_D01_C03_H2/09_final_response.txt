@@ -1,8 +1,0 @@
-<｜tool▁call_begin｜>function<｜tool_sep｜>get_rating_reviews_for_restaurants<｜tool_close｜> with {"restaurant_names": ["New Israeli Restaurant", "Breizh Café", "New Asiaway", "Le Baratin", "Bistrot Paul Bert", "Royal Panda", "The yard", "China Garden", "Miznon", "Chez L'Ami Jean"]} 
-
-<｜tool_call_end｜>
-</think>
-
-<｜tool_call_begin｜>function<｜tool_sep｜>get_rating_reviews_for_restaurants<｜tool_close｜> with {"restaurant_names": ["New Israeli Restaurant", "Breizh Café", "New Asiaway", "Le Baratin", "Bistrot Paul Bert", "Royal Panda", "The yard", "China Garden", "Miznon", "Chez L'Ami Jean"]} 
-
-<｜tool_call_end｜>

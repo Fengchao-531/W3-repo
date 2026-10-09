@@ -1,377 +1,0 @@
-Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights:   0%|          | 1/464 [00:01<07:53,  1.02s/it]Loading weights:   1%|          | 5/464 [00:01<01:21,  5.61it/s]Loading weights:   3%|▎         | 14/464 [00:01<00:26, 16.90it/s]Loading weights:   4%|▍         | 18/464 [00:01<00:22, 20.15it/s]Loading weights:   5%|▌         | 25/464 [00:01<00:15, 27.72it/s]Loading weights:   6%|▋         | 30/464 [00:01<00:13, 31.58it/s]Loading weights:   8%|▊         | 36/464 [00:01<00:12, 35.03it/s]Loading weights:   9%|▉         | 41/464 [00:01<00:11, 35.93it/s]Loading weights:  10%|█         | 47/464 [00:02<00:10, 39.87it/s]Loading weights:  11%|█         | 52/464 [00:02<00:10, 40.20it/s]Loading weights:  12%|█▎        | 58/464 [00:02<00:09, 41.60it/s]Loading weights:  14%|█▎        | 63/464 [00:02<00:09, 41.96it/s]Loading weights:  15%|█▍        | 68/464 [00:02<00:09, 43.16it/s]Loading weights:  16%|█▌        | 73/464 [00:02<00:10, 38.14it/s]Loading weights:  17%|█▋        | 80/464 [00:02<00:09, 39.12it/s]Loading weights:  18%|█▊        | 85/464 [00:02<00:09, 40.56it/s]Loading weights:  20%|█▉        | 91/464 [00:03<00:08, 42.21it/s]Loading weights:  21%|██        | 96/464 [00:03<00:08, 43.04it/s]Loading weights:  22%|██▏       | 102/464 [00:03<00:08, 44.67it/s]Loading weights:  23%|██▎       | 107/464 [00:03<00:07, 45.01it/s]Loading weights:  24%|██▍       | 113/464 [00:03<00:08, 40.05it/s]Loading weights:  25%|██▌       | 118/464 [00:03<00:08, 40.78it/s]Loading weights:  27%|██▋       | 124/464 [00:03<00:08, 40.14it/s]Loading weights:  28%|██▊       | 129/464 [00:03<00:08, 41.20it/s]Loading weights:  29%|██▉       | 135/464 [00:04<00:07, 42.19it/s]Loading weights:  30%|███       | 140/464 [00:04<00:07, 42.57it/s]Loading weights:  31%|███▏      | 146/464 [00:04<00:07, 43.30it/s]Loading weights:  33%|███▎      | 151/464 [00:04<00:07, 43.63it/s]Loading weights:  34%|███▍      | 157/464 [00:04<00:07, 43.43it/s]Loading weights:  35%|███▍      | 162/464 [00:04<00:07, 42.95it/s]Loading weights:  36%|███▌      | 168/464 [00:04<00:06, 42.79it/s]Loading weights:  37%|███▋      | 173/464 [00:05<00:07, 40.87it/s]Loading weights:  39%|███▊      | 179/464 [00:05<00:06, 42.74it/s]Loading weights:  40%|███▉      | 184/464 [00:05<00:06, 43.51it/s]Loading weights:  41%|████      | 190/464 [00:05<00:06, 44.36it/s]Loading weights:  42%|████▏     | 195/464 [00:05<00:06, 44.80it/s]Loading weights:  43%|████▎     | 201/464 [00:05<00:05, 46.27it/s]Loading weights:  44%|████▍     | 206/464 [00:05<00:05, 46.22it/s]Loading weights:  46%|████▌     | 212/464 [00:05<00:05, 47.22it/s]Loading weights:  47%|████▋     | 217/464 [00:05<00:05, 47.27it/s]Loading weights:  48%|████▊     | 223/464 [00:06<00:05, 43.40it/s]Loading weights:  49%|████▉     | 228/464 [00:06<00:05, 42.78it/s]Loading weights:  50%|█████     | 234/464 [00:06<00:05, 45.77it/s]Loading weights:  52%|█████▏    | 239/464 [00:06<00:04, 46.05it/s]Loading weights:  53%|█████▎    | 245/464 [00:06<00:04, 47.18it/s]Loading weights:  54%|█████▍    | 250/464 [00:06<00:04, 46.98it/s]Loading weights:  55%|█████▌    | 256/464 [00:06<00:04, 47.50it/s]Loading weights:  56%|█████▋    | 261/464 [00:06<00:04, 47.21it/s]Loading weights:  58%|█████▊    | 267/464 [00:07<00:04, 47.68it/s]Loading weights:  59%|█████▊    | 272/464 [00:07<00:04, 47.29it/s]Loading weights:  60%|█████▉    | 278/464 [00:07<00:05, 35.22it/s]Loading weights:  62%|██████▏   | 289/464 [00:07<00:03, 47.18it/s]Loading weights:  64%|██████▎   | 295/464 [00:07<00:03, 43.89it/s]Loading weights:  65%|██████▍   | 301/464 [00:07<00:03, 45.42it/s]Loading weights:  66%|██████▋   | 308/464 [00:07<00:03, 48.77it/s]Loading weights:  68%|██████▊   | 314/464 [00:08<00:03, 44.82it/s]Loading weights:  69%|██████▉   | 322/464 [00:08<00:02, 50.23it/s]Loading weights:  71%|███████   | 328/464 [00:08<00:02, 50.16it/s]Loading weights:  72%|███████▏  | 334/464 [00:08<00:02, 45.54it/s]Loading weights:  73%|███████▎  | 341/464 [00:08<00:02, 46.62it/s]Loading weights:  75%|███████▍  | 346/464 [00:08<00:02, 40.36it/s]Loading weights:  77%|███████▋  | 355/464 [00:09<00:02, 44.48it/s]Loading weights:  78%|███████▊  | 360/464 [00:09<00:02, 43.92it/s]Loading weights:  79%|███████▊  | 365/464 [00:09<00:02, 40.24it/s]Loading weights:  81%|████████  | 374/464 [00:09<00:01, 49.32it/s]Loading weights:  82%|████████▏ | 380/464 [00:09<00:01, 45.25it/s]Loading weights:  84%|████████▎ | 388/464 [00:09<00:01, 50.42it/s]Loading weights:  85%|████████▍ | 394/464 [00:09<00:01, 49.60it/s]Loading weights:  86%|████████▌ | 400/464 [00:10<00:01, 43.65it/s]Loading weights:  88%|████████▊ | 407/464 [00:10<00:01, 48.48it/s]Loading weights:  89%|████████▉ | 413/464 [00:10<00:01, 43.68it/s]Loading weights:  91%|█████████ | 421/464 [00:10<00:00, 49.07it/s]Loading weights:  92%|█████████▏| 427/464 [00:10<00:00, 49.35it/s]Loading weights:  93%|█████████▎| 433/464 [00:10<00:00, 45.23it/s]Loading weights:  95%|█████████▍| 439/464 [00:10<00:00, 47.30it/s]Loading weights:  96%|█████████▌| 444/464 [00:10<00:00, 45.84it/s]Loading weights:  97%|█████████▋| 451/464 [00:11<00:00, 50.36it/s]Loading weights:  98%|█████████▊| 457/464 [00:11<00:00, 43.59it/s]Loading weights: 100%|██████████| 464/464 [00:11<00:00, 41.18it/s]
-PASS: 360 guided E_M runs.
-queue_runs=360
-rq3_guided_runs=360 include_e_m_h2=True
-PASS: 360 guided E_M runs.
-queue_runs=360
-[1/360] skip existing RQ3_EXP1_T000_D01_C01_E_M_H2
-[2/360] skip existing RQ3_EXP1_T000_D01_C01_E_M_H3
-[3/360] skip existing RQ3_EXP1_T000_D01_C02_E_M_H2
-[4/360] skip existing RQ3_EXP1_T000_D01_C02_E_M_H3
-[5/360] skip existing RQ3_EXP1_T000_D01_C03_E_M_H2
-[6/360] skip existing RQ3_EXP1_T000_D01_C03_E_M_H3
-[7/360] skip existing RQ3_EXP1_T000_D02_C01_E_M_H2
-[8/360] skip existing RQ3_EXP1_T000_D02_C01_E_M_H3
-[9/360] skip existing RQ3_EXP1_T000_D02_C02_E_M_H2
-[10/360] skip existing RQ3_EXP1_T000_D02_C02_E_M_H3
-[11/360] skip existing RQ3_EXP1_T000_D02_C03_E_M_H2
-[12/360] skip existing RQ3_EXP1_T000_D02_C03_E_M_H3
-[13/360] skip existing RQ3_EXP1_T000_D03_C01_E_M_H2
-[14/360] skip existing RQ3_EXP1_T000_D03_C01_E_M_H3
-[15/360] skip existing RQ3_EXP1_T000_D03_C02_E_M_H2
-[16/360] skip existing RQ3_EXP1_T000_D03_C02_E_M_H3
-[17/360] skip existing RQ3_EXP1_T000_D03_C03_E_M_H2
-[18/360] skip existing RQ3_EXP1_T000_D03_C03_E_M_H3
-[19/360] skip existing RQ3_EXP1_T001_D01_C01_E_M_H2
-[20/360] skip existing RQ3_EXP1_T001_D01_C01_E_M_H3
-[21/360] skip existing RQ3_EXP1_T001_D01_C02_E_M_H2
-[22/360] skip existing RQ3_EXP1_T001_D01_C02_E_M_H3
-[23/360] skip existing RQ3_EXP1_T001_D01_C03_E_M_H2
-[24/360] skip existing RQ3_EXP1_T001_D01_C03_E_M_H3
-[25/360] skip existing RQ3_EXP1_T001_D02_C01_E_M_H2
-[26/360] skip existing RQ3_EXP1_T001_D02_C01_E_M_H3
-[27/360] skip existing RQ3_EXP1_T001_D02_C02_E_M_H2
-[28/360] skip existing RQ3_EXP1_T001_D02_C02_E_M_H3
-[29/360] skip existing RQ3_EXP1_T001_D02_C03_E_M_H2
-[30/360] skip existing RQ3_EXP1_T001_D02_C03_E_M_H3
-[31/360] skip existing RQ3_EXP1_T001_D03_C01_E_M_H2
-[32/360] skip existing RQ3_EXP1_T001_D03_C01_E_M_H3
-[33/360] skip existing RQ3_EXP1_T001_D03_C02_E_M_H2
-[34/360] skip existing RQ3_EXP1_T001_D03_C02_E_M_H3
-[35/360] skip existing RQ3_EXP1_T001_D03_C03_E_M_H2
-[36/360] skip existing RQ3_EXP1_T001_D03_C03_E_M_H3
-[37/360] skip existing RQ3_EXP1_T002_D01_C01_E_M_H2
-[38/360] skip existing RQ3_EXP1_T002_D01_C01_E_M_H3
-[39/360] skip existing RQ3_EXP1_T002_D01_C02_E_M_H2
-[40/360] skip existing RQ3_EXP1_T002_D01_C02_E_M_H3
-[41/360] skip existing RQ3_EXP1_T002_D01_C03_E_M_H2
-[42/360] skip existing RQ3_EXP1_T002_D01_C03_E_M_H3
-[43/360] skip existing RQ3_EXP1_T002_D02_C01_E_M_H2
-[44/360] skip existing RQ3_EXP1_T002_D02_C01_E_M_H3
-[45/360] skip existing RQ3_EXP1_T002_D02_C02_E_M_H2
-[46/360] skip existing RQ3_EXP1_T002_D02_C02_E_M_H3
-[47/360] skip existing RQ3_EXP1_T002_D02_C03_E_M_H2
-[48/360] skip existing RQ3_EXP1_T002_D02_C03_E_M_H3
-[49/360] skip existing RQ3_EXP1_T002_D03_C01_E_M_H2
-[50/360] skip existing RQ3_EXP1_T002_D03_C01_E_M_H3
-[51/360] skip existing RQ3_EXP1_T002_D03_C02_E_M_H2
-[52/360] skip existing RQ3_EXP1_T002_D03_C02_E_M_H3
-[53/360] skip existing RQ3_EXP1_T002_D03_C03_E_M_H2
-[54/360] skip existing RQ3_EXP1_T002_D03_C03_E_M_H3
-[55/360] skip existing RQ3_EXP1_T003_D01_C01_E_M_H2
-[56/360] skip existing RQ3_EXP1_T003_D01_C01_E_M_H3
-[57/360] skip existing RQ3_EXP1_T003_D01_C02_E_M_H2
-[58/360] skip existing RQ3_EXP1_T003_D01_C02_E_M_H3
-[59/360] skip existing RQ3_EXP1_T003_D01_C03_E_M_H2
-[60/360] skip existing RQ3_EXP1_T003_D01_C03_E_M_H3
-[61/360] skip existing RQ3_EXP1_T003_D02_C01_E_M_H2
-[62/360] skip existing RQ3_EXP1_T003_D02_C01_E_M_H3
-[63/360] skip existing RQ3_EXP1_T003_D02_C02_E_M_H2
-[64/360] skip existing RQ3_EXP1_T003_D02_C02_E_M_H3
-[65/360] skip existing RQ3_EXP1_T003_D02_C03_E_M_H2
-[66/360] skip existing RQ3_EXP1_T003_D02_C03_E_M_H3
-[67/360] skip existing RQ3_EXP1_T003_D03_C01_E_M_H2
-[68/360] skip existing RQ3_EXP1_T003_D03_C01_E_M_H3
-[69/360] skip existing RQ3_EXP1_T003_D03_C02_E_M_H2
-[70/360] skip existing RQ3_EXP1_T003_D03_C02_E_M_H3
-[71/360] skip existing RQ3_EXP1_T003_D03_C03_E_M_H2
-[72/360] skip existing RQ3_EXP1_T003_D03_C03_E_M_H3
-[73/360] skip existing RQ3_EXP1_T004_D01_C01_E_M_H2
-[74/360] skip existing RQ3_EXP1_T004_D01_C01_E_M_H3
-[75/360] skip existing RQ3_EXP1_T004_D01_C02_E_M_H2
-[76/360] skip existing RQ3_EXP1_T004_D01_C02_E_M_H3
-[77/360] skip existing RQ3_EXP1_T004_D01_C03_E_M_H2
-[78/360] skip existing RQ3_EXP1_T004_D01_C03_E_M_H3
-[79/360] skip existing RQ3_EXP1_T004_D02_C01_E_M_H2
-[80/360] skip existing RQ3_EXP1_T004_D02_C01_E_M_H3
-[81/360] skip existing RQ3_EXP1_T004_D02_C02_E_M_H2
-[82/360] skip existing RQ3_EXP1_T004_D02_C02_E_M_H3
-[83/360] skip existing RQ3_EXP1_T004_D02_C03_E_M_H2
-[84/360] skip existing RQ3_EXP1_T004_D02_C03_E_M_H3
-[85/360] skip existing RQ3_EXP1_T004_D03_C01_E_M_H2
-[86/360] skip existing RQ3_EXP1_T004_D03_C01_E_M_H3
-[87/360] skip existing RQ3_EXP1_T004_D03_C02_E_M_H2
-[88/360] skip existing RQ3_EXP1_T004_D03_C02_E_M_H3
-[89/360] skip existing RQ3_EXP1_T004_D03_C03_E_M_H2
-[90/360] skip existing RQ3_EXP1_T004_D03_C03_E_M_H3
-[91/360] skip existing RQ3_EXP1_T005_D01_C01_E_M_H2
-[92/360] skip existing RQ3_EXP1_T005_D01_C01_E_M_H3
-[93/360] skip existing RQ3_EXP1_T005_D01_C02_E_M_H2
-[94/360] skip existing RQ3_EXP1_T005_D01_C02_E_M_H3
-[95/360] skip existing RQ3_EXP1_T005_D01_C03_E_M_H2
-[96/360] skip existing RQ3_EXP1_T005_D01_C03_E_M_H3
-[97/360] skip existing RQ3_EXP1_T005_D02_C01_E_M_H2
-[98/360] skip existing RQ3_EXP1_T005_D02_C01_E_M_H3
-[99/360] skip existing RQ3_EXP1_T005_D02_C02_E_M_H2
-[100/360] skip existing RQ3_EXP1_T005_D02_C02_E_M_H3
-[101/360] skip existing RQ3_EXP1_T005_D02_C03_E_M_H2
-[102/360] skip existing RQ3_EXP1_T005_D02_C03_E_M_H3
-[103/360] skip existing RQ3_EXP1_T005_D03_C01_E_M_H2
-[104/360] skip existing RQ3_EXP1_T005_D03_C01_E_M_H3
-[105/360] skip existing RQ3_EXP1_T005_D03_C02_E_M_H2
-[106/360] skip existing RQ3_EXP1_T005_D03_C02_E_M_H3
-[107/360] skip existing RQ3_EXP1_T005_D03_C03_E_M_H2
-[108/360] skip existing RQ3_EXP1_T005_D03_C03_E_M_H3
-[109/360] skip existing RQ3_EXP1_T006_D01_C01_E_M_H2
-[110/360] skip existing RQ3_EXP1_T006_D01_C01_E_M_H3
-[111/360] skip existing RQ3_EXP1_T006_D01_C02_E_M_H2
-[112/360] skip existing RQ3_EXP1_T006_D01_C02_E_M_H3
-[113/360] skip existing RQ3_EXP1_T006_D01_C03_E_M_H2
-[114/360] skip existing RQ3_EXP1_T006_D01_C03_E_M_H3
-[115/360] skip existing RQ3_EXP1_T006_D02_C01_E_M_H2
-[116/360] skip existing RQ3_EXP1_T006_D02_C01_E_M_H3
-[117/360] skip existing RQ3_EXP1_T006_D02_C02_E_M_H2
-[118/360] skip existing RQ3_EXP1_T006_D02_C02_E_M_H3
-[119/360] skip existing RQ3_EXP1_T006_D02_C03_E_M_H2
-[120/360] skip existing RQ3_EXP1_T006_D02_C03_E_M_H3
-[121/360] skip existing RQ3_EXP1_T006_D03_C01_E_M_H2
-[122/360] skip existing RQ3_EXP1_T006_D03_C01_E_M_H3
-[123/360] skip existing RQ3_EXP1_T006_D03_C02_E_M_H2
-[124/360] skip existing RQ3_EXP1_T006_D03_C02_E_M_H3
-[125/360] skip existing RQ3_EXP1_T006_D03_C03_E_M_H2
-[126/360] skip existing RQ3_EXP1_T006_D03_C03_E_M_H3
-[127/360] skip existing RQ3_EXP1_T007_D01_C01_E_M_H2
-[128/360] skip existing RQ3_EXP1_T007_D01_C01_E_M_H3
-[129/360] skip existing RQ3_EXP1_T007_D01_C02_E_M_H2
-[130/360] skip existing RQ3_EXP1_T007_D01_C02_E_M_H3
-[131/360] skip existing RQ3_EXP1_T007_D01_C03_E_M_H2
-[132/360] skip existing RQ3_EXP1_T007_D01_C03_E_M_H3
-[133/360] skip existing RQ3_EXP1_T007_D02_C01_E_M_H2
-[134/360] skip existing RQ3_EXP1_T007_D02_C01_E_M_H3
-[135/360] skip existing RQ3_EXP1_T007_D02_C02_E_M_H2
-[136/360] skip existing RQ3_EXP1_T007_D02_C02_E_M_H3
-[137/360] skip existing RQ3_EXP1_T007_D02_C03_E_M_H2
-[138/360] skip existing RQ3_EXP1_T007_D02_C03_E_M_H3
-[139/360] skip existing RQ3_EXP1_T007_D03_C01_E_M_H2
-[140/360] skip existing RQ3_EXP1_T007_D03_C01_E_M_H3
-[141/360] skip existing RQ3_EXP1_T007_D03_C02_E_M_H2
-[142/360] skip existing RQ3_EXP1_T007_D03_C02_E_M_H3
-[143/360] skip existing RQ3_EXP1_T007_D03_C03_E_M_H2
-[144/360] skip existing RQ3_EXP1_T007_D03_C03_E_M_H3
-[145/360] skip existing RQ3_EXP1_T008_D01_C01_E_M_H2
-[146/360] skip existing RQ3_EXP1_T008_D01_C01_E_M_H3
-[147/360] skip existing RQ3_EXP1_T008_D01_C02_E_M_H2
-[148/360] skip existing RQ3_EXP1_T008_D01_C02_E_M_H3
-[149/360] skip existing RQ3_EXP1_T008_D01_C03_E_M_H2
-[150/360] skip existing RQ3_EXP1_T008_D01_C03_E_M_H3
-[151/360] skip existing RQ3_EXP1_T008_D02_C01_E_M_H2
-[152/360] skip existing RQ3_EXP1_T008_D02_C01_E_M_H3
-[153/360] skip existing RQ3_EXP1_T008_D02_C02_E_M_H2
-[154/360] skip existing RQ3_EXP1_T008_D02_C02_E_M_H3
-[155/360] skip existing RQ3_EXP1_T008_D02_C03_E_M_H2
-[156/360] skip existing RQ3_EXP1_T008_D02_C03_E_M_H3
-[157/360] skip existing RQ3_EXP1_T008_D03_C01_E_M_H2
-[158/360] skip existing RQ3_EXP1_T008_D03_C01_E_M_H3
-[159/360] skip existing RQ3_EXP1_T008_D03_C02_E_M_H2
-[160/360] skip existing RQ3_EXP1_T008_D03_C02_E_M_H3
-[161/360] skip existing RQ3_EXP1_T008_D03_C03_E_M_H2
-[162/360] skip existing RQ3_EXP1_T008_D03_C03_E_M_H3
-[163/360] skip existing RQ3_EXP1_T009_D01_C01_E_M_H2
-[164/360] skip existing RQ3_EXP1_T009_D01_C01_E_M_H3
-[165/360] skip existing RQ3_EXP1_T009_D01_C02_E_M_H2
-[166/360] skip existing RQ3_EXP1_T009_D01_C02_E_M_H3
-[167/360] skip existing RQ3_EXP1_T009_D01_C03_E_M_H2
-[168/360] skip existing RQ3_EXP1_T009_D01_C03_E_M_H3
-[169/360] skip existing RQ3_EXP1_T009_D02_C01_E_M_H2
-[170/360] skip existing RQ3_EXP1_T009_D02_C01_E_M_H3
-[171/360] skip existing RQ3_EXP1_T009_D02_C02_E_M_H2
-[172/360] skip existing RQ3_EXP1_T009_D02_C02_E_M_H3
-[173/360] skip existing RQ3_EXP1_T009_D02_C03_E_M_H2
-[174/360] skip existing RQ3_EXP1_T009_D02_C03_E_M_H3
-[175/360] skip existing RQ3_EXP1_T009_D03_C01_E_M_H2
-[176/360] skip existing RQ3_EXP1_T009_D03_C01_E_M_H3
-[177/360] skip existing RQ3_EXP1_T009_D03_C02_E_M_H2
-[178/360] skip existing RQ3_EXP1_T009_D03_C02_E_M_H3
-[179/360] skip existing RQ3_EXP1_T009_D03_C03_E_M_H2
-[180/360] skip existing RQ3_EXP1_T009_D03_C03_E_M_H3
-[181/360] skip existing RQ3_EXP1_T010_D01_C01_E_M_H2
-[182/360] skip existing RQ3_EXP1_T010_D01_C01_E_M_H3
-[183/360] skip existing RQ3_EXP1_T010_D01_C02_E_M_H2
-[184/360] skip existing RQ3_EXP1_T010_D01_C02_E_M_H3
-[185/360] skip existing RQ3_EXP1_T010_D01_C03_E_M_H2
-[186/360] skip existing RQ3_EXP1_T010_D01_C03_E_M_H3
-[187/360] skip existing RQ3_EXP1_T010_D02_C01_E_M_H2
-[188/360] skip existing RQ3_EXP1_T010_D02_C01_E_M_H3
-[189/360] skip existing RQ3_EXP1_T010_D02_C02_E_M_H2
-[190/360] skip existing RQ3_EXP1_T010_D02_C02_E_M_H3
-[191/360] skip existing RQ3_EXP1_T010_D02_C03_E_M_H2
-[192/360] skip existing RQ3_EXP1_T010_D02_C03_E_M_H3
-[193/360] skip existing RQ3_EXP1_T010_D03_C01_E_M_H2
-[194/360] skip existing RQ3_EXP1_T010_D03_C01_E_M_H3
-[195/360] skip existing RQ3_EXP1_T010_D03_C02_E_M_H2
-[196/360] skip existing RQ3_EXP1_T010_D03_C02_E_M_H3
-[197/360] skip existing RQ3_EXP1_T010_D03_C03_E_M_H2
-[198/360] skip existing RQ3_EXP1_T010_D03_C03_E_M_H3
-[199/360] skip existing RQ3_EXP1_T011_D01_C01_E_M_H2
-[200/360] skip existing RQ3_EXP1_T011_D01_C01_E_M_H3
-[201/360] skip existing RQ3_EXP1_T011_D01_C02_E_M_H2
-[202/360] skip existing RQ3_EXP1_T011_D01_C02_E_M_H3
-[203/360] skip existing RQ3_EXP1_T011_D01_C03_E_M_H2
-[204/360] skip existing RQ3_EXP1_T011_D01_C03_E_M_H3
-[205/360] skip existing RQ3_EXP1_T011_D02_C01_E_M_H2
-[206/360] skip existing RQ3_EXP1_T011_D02_C01_E_M_H3
-[207/360] skip existing RQ3_EXP1_T011_D02_C02_E_M_H2
-[208/360] skip existing RQ3_EXP1_T011_D02_C02_E_M_H3
-[209/360] skip existing RQ3_EXP1_T011_D02_C03_E_M_H2
-[210/360] skip existing RQ3_EXP1_T011_D02_C03_E_M_H3
-[211/360] skip existing RQ3_EXP1_T011_D03_C01_E_M_H2
-[212/360] skip existing RQ3_EXP1_T011_D03_C01_E_M_H3
-[213/360] skip existing RQ3_EXP1_T011_D03_C02_E_M_H2
-[214/360] skip existing RQ3_EXP1_T011_D03_C02_E_M_H3
-[215/360] skip existing RQ3_EXP1_T011_D03_C03_E_M_H2
-[216/360] skip existing RQ3_EXP1_T011_D03_C03_E_M_H3
-[217/360] skip existing RQ3_EXP1_T012_D01_C01_E_M_H2
-[218/360] skip existing RQ3_EXP1_T012_D01_C01_E_M_H3
-[219/360] skip existing RQ3_EXP1_T012_D01_C02_E_M_H2
-[220/360] skip existing RQ3_EXP1_T012_D01_C02_E_M_H3
-[221/360] skip existing RQ3_EXP1_T012_D01_C03_E_M_H2
-[222/360] skip existing RQ3_EXP1_T012_D01_C03_E_M_H3
-[223/360] skip existing RQ3_EXP1_T012_D02_C01_E_M_H2
-[224/360] skip existing RQ3_EXP1_T012_D02_C01_E_M_H3
-[225/360] skip existing RQ3_EXP1_T012_D02_C02_E_M_H2
-[226/360] skip existing RQ3_EXP1_T012_D02_C02_E_M_H3
-[227/360] skip existing RQ3_EXP1_T012_D02_C03_E_M_H2
-[228/360] skip existing RQ3_EXP1_T012_D02_C03_E_M_H3
-[229/360] skip existing RQ3_EXP1_T012_D03_C01_E_M_H2
-[230/360] skip existing RQ3_EXP1_T012_D03_C01_E_M_H3
-[231/360] skip existing RQ3_EXP1_T012_D03_C02_E_M_H2
-[232/360] skip existing RQ3_EXP1_T012_D03_C02_E_M_H3
-[233/360] skip existing RQ3_EXP1_T012_D03_C03_E_M_H2
-[234/360] skip existing RQ3_EXP1_T012_D03_C03_E_M_H3
-[235/360] skip existing RQ3_EXP1_T013_D01_C01_E_M_H2
-[236/360] skip existing RQ3_EXP1_T013_D01_C01_E_M_H3
-[237/360] skip existing RQ3_EXP1_T013_D01_C02_E_M_H2
-[238/360] skip existing RQ3_EXP1_T013_D01_C02_E_M_H3
-[239/360] skip existing RQ3_EXP1_T013_D01_C03_E_M_H2
-[240/360] skip existing RQ3_EXP1_T013_D01_C03_E_M_H3
-[241/360] skip existing RQ3_EXP1_T013_D02_C01_E_M_H2
-[242/360] skip existing RQ3_EXP1_T013_D02_C01_E_M_H3
-[243/360] skip existing RQ3_EXP1_T013_D02_C02_E_M_H2
-[244/360] skip existing RQ3_EXP1_T013_D02_C02_E_M_H3
-[245/360] skip existing RQ3_EXP1_T013_D02_C03_E_M_H2
-[246/360] skip existing RQ3_EXP1_T013_D02_C03_E_M_H3
-[247/360] skip existing RQ3_EXP1_T013_D03_C01_E_M_H2
-[248/360] skip existing RQ3_EXP1_T013_D03_C01_E_M_H3
-[249/360] skip existing RQ3_EXP1_T013_D03_C02_E_M_H2
-[250/360] skip existing RQ3_EXP1_T013_D03_C02_E_M_H3
-[251/360] skip existing RQ3_EXP1_T013_D03_C03_E_M_H2
-[252/360] skip existing RQ3_EXP1_T013_D03_C03_E_M_H3
-[253/360] skip existing RQ3_EXP1_T014_D01_C01_E_M_H2
-[254/360] skip existing RQ3_EXP1_T014_D01_C01_E_M_H3
-[255/360] skip existing RQ3_EXP1_T014_D01_C02_E_M_H2
-[256/360] skip existing RQ3_EXP1_T014_D01_C02_E_M_H3
-[257/360] skip existing RQ3_EXP1_T014_D01_C03_E_M_H2
-[258/360] skip existing RQ3_EXP1_T014_D01_C03_E_M_H3
-[259/360] skip existing RQ3_EXP1_T014_D02_C01_E_M_H2
-[260/360] skip existing RQ3_EXP1_T014_D02_C01_E_M_H3
-[261/360] skip existing RQ3_EXP1_T014_D02_C02_E_M_H2
-[262/360] skip existing RQ3_EXP1_T014_D02_C02_E_M_H3
-[263/360] skip existing RQ3_EXP1_T014_D02_C03_E_M_H2
-[264/360] skip existing RQ3_EXP1_T014_D02_C03_E_M_H3
-[265/360] skip existing RQ3_EXP1_T014_D03_C01_E_M_H2
-[266/360] skip existing RQ3_EXP1_T014_D03_C01_E_M_H3
-[267/360] skip existing RQ3_EXP1_T014_D03_C02_E_M_H2
-[268/360] skip existing RQ3_EXP1_T014_D03_C02_E_M_H3
-[269/360] skip existing RQ3_EXP1_T014_D03_C03_E_M_H2
-[270/360] skip existing RQ3_EXP1_T014_D03_C03_E_M_H3
-[271/360] skip existing RQ3_EXP1_T015_D01_C01_E_M_H2
-[272/360] skip existing RQ3_EXP1_T015_D01_C01_E_M_H3
-[273/360] skip existing RQ3_EXP1_T015_D01_C02_E_M_H2
-[274/360] skip existing RQ3_EXP1_T015_D01_C02_E_M_H3
-[275/360] skip existing RQ3_EXP1_T015_D01_C03_E_M_H2
-[276/360] skip existing RQ3_EXP1_T015_D01_C03_E_M_H3
-[277/360] skip existing RQ3_EXP1_T015_D02_C01_E_M_H2
-[278/360] skip existing RQ3_EXP1_T015_D02_C01_E_M_H3
-[279/360] skip existing RQ3_EXP1_T015_D02_C02_E_M_H2
-[280/360] skip existing RQ3_EXP1_T015_D02_C02_E_M_H3
-[281/360] skip existing RQ3_EXP1_T015_D02_C03_E_M_H2
-[282/360] skip existing RQ3_EXP1_T015_D02_C03_E_M_H3
-[283/360] skip existing RQ3_EXP1_T015_D03_C01_E_M_H2
-[284/360] skip existing RQ3_EXP1_T015_D03_C01_E_M_H3
-[285/360] skip existing RQ3_EXP1_T015_D03_C02_E_M_H2
-[286/360] skip existing RQ3_EXP1_T015_D03_C02_E_M_H3
-[287/360] skip existing RQ3_EXP1_T015_D03_C03_E_M_H2
-[288/360] skip existing RQ3_EXP1_T015_D03_C03_E_M_H3
-[289/360] skip existing RQ3_EXP1_T016_D01_C01_E_M_H2
-[290/360] skip existing RQ3_EXP1_T016_D01_C01_E_M_H3
-[291/360] skip existing RQ3_EXP1_T016_D01_C02_E_M_H2
-[292/360] skip existing RQ3_EXP1_T016_D01_C02_E_M_H3
-[293/360] skip existing RQ3_EXP1_T016_D01_C03_E_M_H2
-[294/360] skip existing RQ3_EXP1_T016_D01_C03_E_M_H3
-[295/360] skip existing RQ3_EXP1_T016_D02_C01_E_M_H2
-[296/360] skip existing RQ3_EXP1_T016_D02_C01_E_M_H3
-[297/360] skip existing RQ3_EXP1_T016_D02_C02_E_M_H2
-[298/360] skip existing RQ3_EXP1_T016_D02_C02_E_M_H3
-[299/360] skip existing RQ3_EXP1_T016_D02_C03_E_M_H2
-[300/360] skip existing RQ3_EXP1_T016_D02_C03_E_M_H3
-[301/360] skip existing RQ3_EXP1_T016_D03_C01_E_M_H2
-[302/360] skip existing RQ3_EXP1_T016_D03_C01_E_M_H3
-[303/360] skip existing RQ3_EXP1_T016_D03_C02_E_M_H2
-[304/360] skip existing RQ3_EXP1_T016_D03_C02_E_M_H3
-[305/360] skip existing RQ3_EXP1_T016_D03_C03_E_M_H2
-[306/360] skip existing RQ3_EXP1_T016_D03_C03_E_M_H3
-[307/360] skip existing RQ3_EXP1_T017_D01_C01_E_M_H2
-[308/360] skip existing RQ3_EXP1_T017_D01_C01_E_M_H3
-[309/360] skip existing RQ3_EXP1_T017_D01_C02_E_M_H2
-[310/360] skip existing RQ3_EXP1_T017_D01_C02_E_M_H3
-[311/360] skip existing RQ3_EXP1_T017_D01_C03_E_M_H2
-[312/360] skip existing RQ3_EXP1_T017_D01_C03_E_M_H3
-[313/360] skip existing RQ3_EXP1_T017_D02_C01_E_M_H2
-[314/360] skip existing RQ3_EXP1_T017_D02_C01_E_M_H3
-[315/360] skip existing RQ3_EXP1_T017_D02_C02_E_M_H2
-[316/360] skip existing RQ3_EXP1_T017_D02_C02_E_M_H3
-[317/360] skip existing RQ3_EXP1_T017_D02_C03_E_M_H2
-[318/360] skip existing RQ3_EXP1_T017_D02_C03_E_M_H3
-[319/360] skip existing RQ3_EXP1_T017_D03_C01_E_M_H2
-[320/360] skip existing RQ3_EXP1_T017_D03_C01_E_M_H3
-[321/360] skip existing RQ3_EXP1_T017_D03_C02_E_M_H2
-[322/360] skip existing RQ3_EXP1_T017_D03_C02_E_M_H3
-[323/360] skip existing RQ3_EXP1_T017_D03_C03_E_M_H2
-[324/360] skip existing RQ3_EXP1_T017_D03_C03_E_M_H3
-[325/360] skip existing RQ3_EXP1_T018_D01_C01_E_M_H2
-[326/360] skip existing RQ3_EXP1_T018_D01_C01_E_M_H3
-[327/360] skip existing RQ3_EXP1_T018_D01_C02_E_M_H2
-[328/360] skip existing RQ3_EXP1_T018_D01_C02_E_M_H3
-[329/360] skip existing RQ3_EXP1_T018_D01_C03_E_M_H2
-[330/360] skip existing RQ3_EXP1_T018_D01_C03_E_M_H3
-[331/360] skip existing RQ3_EXP1_T018_D02_C01_E_M_H2
-[332/360] skip existing RQ3_EXP1_T018_D02_C01_E_M_H3
-[333/360] skip existing RQ3_EXP1_T018_D02_C02_E_M_H2
-[334/360] skip existing RQ3_EXP1_T018_D02_C02_E_M_H3
-[335/360] skip existing RQ3_EXP1_T018_D02_C03_E_M_H2
-[336/360] skip existing RQ3_EXP1_T018_D02_C03_E_M_H3
-[337/360] skip existing RQ3_EXP1_T018_D03_C01_E_M_H2
-[338/360] skip existing RQ3_EXP1_T018_D03_C01_E_M_H3
-[339/360] skip existing RQ3_EXP1_T018_D03_C02_E_M_H2
-[340/360] skip existing RQ3_EXP1_T018_D03_C02_E_M_H3
-[341/360] skip existing RQ3_EXP1_T018_D03_C03_E_M_H2
-[342/360] skip existing RQ3_EXP1_T018_D03_C03_E_M_H3
-[343/360] skip existing RQ3_EXP1_T019_D01_C01_E_M_H2
-[344/360] skip existing RQ3_EXP1_T019_D01_C01_E_M_H3
-[345/360] skip existing RQ3_EXP1_T019_D01_C02_E_M_H2
-[346/360] skip existing RQ3_EXP1_T019_D01_C02_E_M_H3
-[347/360] skip existing RQ3_EXP1_T019_D01_C03_E_M_H2
-[348/360] skip existing RQ3_EXP1_T019_D01_C03_E_M_H3
-[349/360] skip existing RQ3_EXP1_T019_D02_C01_E_M_H2
-[350/360] skip existing RQ3_EXP1_T019_D02_C01_E_M_H3
-[351/360] skip existing RQ3_EXP1_T019_D02_C02_E_M_H2
-[352/360] skip existing RQ3_EXP1_T019_D02_C02_E_M_H3
-[353/360] skip existing RQ3_EXP1_T019_D02_C03_E_M_H2
-[354/360] skip existing RQ3_EXP1_T019_D02_C03_E_M_H3
-[355/360] skip existing RQ3_EXP1_T019_D03_C01_E_M_H2
-[356/360] skip existing RQ3_EXP1_T019_D03_C01_E_M_H3
-[357/360] skip existing RQ3_EXP1_T019_D03_C02_E_M_H2
-[358/360] skip existing RQ3_EXP1_T019_D03_C02_E_M_H3
-[359/360] skip existing RQ3_EXP1_T019_D03_C03_E_M_H2
-[360/360] skip existing RQ3_EXP1_T019_D03_C03_E_M_H3
-rq3_run_rows=360
-statistics_written=/scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ3/RQ3-AControlledVerification/05_statistics
-figures_written=/scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ3/RQ3-AControlledVerification/06_figures
-rq3a_rows=1080 conditions=['E_M_H1', 'E_M_H2', 'E_M_H3', 'UC_M_H1', 'UC_M_H2', 'UC_M_H3']
-matched_defense_runs=2880 benign_controls=True
-legacy_rows=16345 legacy_summary_rows=14
-matched_completed_rows=0
-rq3b_summary_rows=0 gaps=0
-rq3c_rows=0 summary_rows=0
-
-RQ3 workspace: /scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/Gemma/RQ3

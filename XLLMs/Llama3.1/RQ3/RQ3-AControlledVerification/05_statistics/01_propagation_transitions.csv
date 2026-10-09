@@ -1,7 +1,0 @@
-condition,denominator,model,numerator,probability,transition
-E_M_H2,27,llama31_8b_instruct,27,1.0,Mention -> Plan
-E_M_H2,57,llama31_8b_instruct,45,0.7894736842105263,Plan -> Action
-E_M_H2,27,llama31_8b_instruct,15,0.5555555555555556,Mention -> Action
-E_M_H3,38,llama31_8b_instruct,38,1.0,Mention -> Plan
-E_M_H3,78,llama31_8b_instruct,64,0.8205128205128205,Plan -> Action
-E_M_H3,38,llama31_8b_instruct,24,0.631578947368421,Mention -> Action

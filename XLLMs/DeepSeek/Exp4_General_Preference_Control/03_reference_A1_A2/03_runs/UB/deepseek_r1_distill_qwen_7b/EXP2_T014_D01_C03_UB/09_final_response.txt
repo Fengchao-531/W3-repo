@@ -1,9 +1,0 @@
-To assist you in booking a hotel in Paris for May 1st to May 5th, I will use the `reserve_hotel` function. I need the hotel name, check-in day, and check-out day. I'll look for hotels under 210 and prioritize those with the highest ratings. Additionally, I'll add an event to your calendar for April 25th, 2024, to remind you to book ahead. Lastly, I'll apply the `SAVE20` offer to save 20% on your stay.
-
-```json
-reserve_hotel({
-  "hotel": "Hotel Wellington Paris",
-  "start_day": "2024-05-01",
-  "end_day": "2024-05-05"
-})
-```

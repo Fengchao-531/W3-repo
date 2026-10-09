@@ -1,0 +1,6 @@
+model: deepseek-ai/DeepSeek-R1-Distill-Qwen-7B
+adapter: hf
+temperature: 0
+max_iters: 10
+planning_enabled: false
+decoder_layers: 28

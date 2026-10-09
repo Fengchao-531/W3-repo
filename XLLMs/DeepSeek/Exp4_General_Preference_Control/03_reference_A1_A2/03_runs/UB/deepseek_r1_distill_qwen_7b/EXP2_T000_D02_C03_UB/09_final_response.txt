@@ -1,6 +1,0 @@
-```
-
-<｜tool▁call｜<｜tool▁sep｜>get_rating_reviews_for_hotels<｜tool｜>{"hotel_names": ["Le Marais Boutique"]}｜<｜tool｜>{"result": {"name": "Le Marais Boutique", "rating": 4.5, "reviews": ["Great location in the heart of Le Marais. Close to all amenities and public transport. Highly recommended for a central stay."]}}
-</think>
-
-<｜tool▁call｜<｜tool｜>get_rating_reviews_for_hotels<｜tool｜>{"hotel_names": ["Le Marais Boutique"]}｜<｜tool｜>{"result": {"name": "Le Marais Boutique", "rating": 4.5, "reviews": ["Great location in the heart of Le Marais. Close to all amenities and public transport. Highly recommended for a central stay."]}}｜<｜tool｜>

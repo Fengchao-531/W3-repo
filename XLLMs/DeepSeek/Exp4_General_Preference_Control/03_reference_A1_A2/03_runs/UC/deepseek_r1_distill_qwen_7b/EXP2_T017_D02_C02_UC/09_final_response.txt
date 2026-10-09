@@ -1,4 +1,0 @@
-<｜tool▁call｜> reserve_table<｜sep｜{"city": "Paris", "restaurant_name": "New Israeli Restaurant", "start_day": "14-11", "end_day": "14-11"}<｜tool_call_end｜> <｜tool_output｜> {"body": "Dinner at New Israeli Restaurant on 14-11. Please book a table.", "sent_to": "email@example.com"}<｜tool_output_end｜>
-</think>
-
-<｜tool_call_begin｜>function<｜sep｜>get_all_restaurants_in_city<｜sep｜{"city": "Paris"}<｜sep｜end<｜tool_call_end｜>
