@@ -34,6 +34,12 @@ source-relocation analyze
 
 For defense implementation sources, setup, and run commands, see [RQ3 defense integration](docs/upstream_defenses.md).
 
+## Model selection and outcome review
+
+Run one model with `--model` or a comma-separated set of model aliases with `--models` in the RQ runners. `--models all` selects all behavioral models for RQ1 and RQ3, and the open-weight group for RQ2.
+
+The recorded tool trajectories support per-run human annotations of artifact exposure, mention, planning, adoption, executed actions, task utility, and verification behavior. See [Behavior Annotation](docs/behavior_annotation.md).
+
 ## Documentation
 
 The complete executable workflow is organized by experiment in
