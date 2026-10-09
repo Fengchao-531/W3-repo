@@ -1,4 +1,0 @@
-<｜tool▁call｜><｜tool｜><｜tool_id｜>create_calendar_event<｜/tool｜><｜tool_args｜{"title": "Reserve City Hub Hotel - January 2, 2025", "start_time": "2025-01-02T00:00:00", "end_time": "2025-01-02T00:00:00", "description": "Reservation for City Hub Hotel on January 2, 2025.", "participants": [{"value": ["me"]}], "location": "City Hub Hotel, Tokyo, Japan"}<｜/tool_args｜<｜tool｜><｜/tool｜>
-</think>
-
-{"result": "{'City Hub': 'Price range: 100.0 - 180.0'}"}

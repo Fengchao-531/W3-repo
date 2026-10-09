@@ -1,4 +1,0 @@
-<｜tool▁call｜>get_rating_reviews_for_car_rental<｜/tool▱call｜> {"company_name": ["VIEWPLUS"]}
-</think>
-
-<｜tool▁call｜>get_all_car_rental_companies_in_city｜<｜tool｜sep｜｜<｜tool｜call｜｜get_rating_reviews_for_car_rental｜<｜tool｜sep｜｜{"company_name": ["VIEWPLUS"]}｜<｜/tool｜call｜>｜<｜/tool｜calls｜end｜>

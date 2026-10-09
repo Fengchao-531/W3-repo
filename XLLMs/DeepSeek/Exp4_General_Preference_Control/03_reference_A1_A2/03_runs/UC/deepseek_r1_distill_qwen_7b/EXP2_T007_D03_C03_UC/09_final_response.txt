@@ -1,8 +1,0 @@
-```
-
-<｜tool▁call｜>reserve_car_rental<｜/tool_call｜>
-<｜tool_call_args｜>{<｜arg｜>reserve_car_rental<｜/arg｜> {<｜arg｜>company<｜/arg｜> "VIEWPLUS", <｜arg｜>start_time<｜/arg｜> "YYYY-MM-DD HH:MM", <｜arg｜>end_time<｜/arg｜> "YYYY-MM-DD HH:MM"}<｜/arg｜>}}<｜/tool_call_args｜>
-</think>
-
-<｜tool_call｜>reserve_car_rental<｜/tool_call｜>
-<｜tool_call_args｜>{<｜arg｜>reserve_car_rental<｜/arg｜> {<｜arg｜>company<｜/arg｜> "VIEWPLUS", <｜arg｜>start_time<｜/arg｜> "YYYY-MM-DD HH:MM", <｜arg｜>end_time<｜/arg｜> "YYYY-MM-DD HH:MM"}<｜/arg｜>}}<｜/tool_call_args｜>

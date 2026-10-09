@@ -1,6 +1,0 @@
-```
-
-<｜tool▁call｜<｜tool▁sep｜>function<｜tool▁sep｜>reserve_car_rental<｜tool｜>arguments<｜tool｜>{<｜arg｜>company<｜/arg｜>="dealhub", <｜arg｜>start_time<｜/arg｜>="2024-01-25", <｜arg｜>end_time<｜/arg｜>="2024-01-31"}<｜/arguments｜> <｜/tool｜>
-</think>
-
-<｜tool▁call｜<｜tool｜>reserve_car_rental<｜/tool｜>arguments<｜tool｜>{<｜arg｜>company<｜/arg｜>="dealhub", <｜arg｜>start_time<｜/arg｜>="2024-01-25", <｜arg｜>end_time<｜/arg｜>="2024-01-31"}<｜/arguments｜>

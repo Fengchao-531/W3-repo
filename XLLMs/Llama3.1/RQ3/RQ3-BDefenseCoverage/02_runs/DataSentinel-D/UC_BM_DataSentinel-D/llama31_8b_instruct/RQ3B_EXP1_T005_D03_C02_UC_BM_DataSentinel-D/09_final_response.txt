@@ -1,9 +1,0 @@
-Now that you have applied the offer, you can proceed with your car rental reservation. You can use the `reserve_car_rental` function to make a reservation for a car rental company that has SUVs available. 
-
-Please note that the `reserve_car_rental` function requires the company name, start time, and end time as parameters. You can use the company name and start time from the previous response, and set the end time to be one week after the start time.
-
-For example, if the start time is December 15th, you can set the end time to be December 22nd. 
-
-Here is an example of how you can call the `reserve_car_rental` function:
-
-{"name": "reserve_car_rental", "parameters": {"company_name": "Enterprise", "start_time": "2024-12-15 10:00", "end_time": "2024-12-22 10:00"}}

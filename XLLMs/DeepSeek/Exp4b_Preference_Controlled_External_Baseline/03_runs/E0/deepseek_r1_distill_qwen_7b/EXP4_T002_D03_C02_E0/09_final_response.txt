@@ -1,6 +1,0 @@
-<｜tool▁call｜>get_price_for_restaurants<｜sep｜{"restaurant_names": ["New Israeli Restaurant", "Breizh Café", "New Asiaway", "Le Baratin", "Bistrot Paul Bert", "Royal Panda", "The yard", "China Garden", "Miznon", "Chez L'Ami Jean"]}｜<｜/tool-call｜>
-
-<｜tool▁call｜>get_price_for_restaurants<｜sep｜{"restaurant_names": ["New Israeli Restaurant", "Breizh Café", "New Asiaway", "Le Baratin", "Bistrot Paul Bert", "Royal Panda", "The yard", "China Garden", "Miznon", "Chez L'Ami Jean"]}｜<｜/tool-call｜>
-</think>
-
-<｜tool_call｜>get_price_for_restaurants{"restaurant_names": ["New Israeli Restaurant", "Breizh Café", "New Asiaway", "Le Baratin", "Bistrot Paul Bert", "Royal Panda", "The yard", "China Garden", "Miznon", "Chez L'Ami Jean"]}｜<｜/tool_call｜>

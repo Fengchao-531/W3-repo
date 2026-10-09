@@ -1,7 +1,0 @@
-The user's travel task is to book a hotel in Paris for May 1st to May 5th. The user prefers a hotel that is under 210 and has the highest rating. The user also wants to add an event to their calendar on April 25th 2024 to remind them to book ahead of time.
-
-The function `get_hotels_prices` is called with the hotel names to get the price range for each hotel. The function `get_hotels_address` is called to get the address of the hotel. The function `get_rating_reviews_for_hotels` is called to get the rating and reviews for each hotel. The function `list_available_offers` is called to get the available offers that may help satisfy the user's secondary preferences. The function `apply_offer` is called to apply one travel offer by its opaque offer id. The function `reserve_hotel` is called to make a reservation for a hotel with the provided details. The function `create_calendar_event` is called to create a new calendar event with the given details and add it to the calendar.
-
-The result of the functions is a dictionary with the hotel's name, rating, price range, and the result of the reservation and calendar event creation.
-
-The final result is a dictionary with the hotel's name, rating, price range, and the result of the reservation and calendar event creation.

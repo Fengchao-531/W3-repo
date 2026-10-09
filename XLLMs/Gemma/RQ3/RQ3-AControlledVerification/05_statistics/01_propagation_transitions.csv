@@ -1,7 +1,0 @@
-condition,denominator,model,numerator,probability,transition
-E_M_H2,0,gemma_instruct,0,,Mention -> Plan
-E_M_H2,2,gemma_instruct,2,1.0,Plan -> Action
-E_M_H2,0,gemma_instruct,0,,Mention -> Action
-E_M_H3,1,gemma_instruct,1,1.0,Mention -> Plan
-E_M_H3,1,gemma_instruct,0,0.0,Plan -> Action
-E_M_H3,1,gemma_instruct,0,0.0,Mention -> Action

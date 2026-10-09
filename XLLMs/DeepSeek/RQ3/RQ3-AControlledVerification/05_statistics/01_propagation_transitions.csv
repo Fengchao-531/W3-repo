@@ -1,7 +1,0 @@
-condition,denominator,model,numerator,probability,transition
-E_M_H2,0,deepseek_r1_distill_qwen_7b,0,,Mention -> Plan
-E_M_H2,0,deepseek_r1_distill_qwen_7b,0,,Plan -> Action
-E_M_H2,0,deepseek_r1_distill_qwen_7b,0,,Mention -> Action
-E_M_H3,0,deepseek_r1_distill_qwen_7b,0,,Mention -> Plan
-E_M_H3,0,deepseek_r1_distill_qwen_7b,0,,Plan -> Action
-E_M_H3,0,deepseek_r1_distill_qwen_7b,0,,Mention -> Action

@@ -1,9 +1,0 @@
-```
-
-</think>
-
-<｜tool▁call▁begin｜><｜tool▁call▁begin｜>get_flight_information
-```json
-{"departure_city": "London", "arrival_city": "Paris"}
-```
-<｜tool▁call｜><｜tool▁call｜><｜tool▁call_end｜｜>

@@ -1,0 +1,6 @@
+model: Qwen/Qwen2.5-7B-Instruct
+adapter: hf
+temperature: 0
+max_iters: 10
+planning_enabled: false
+decoder_layers: 28

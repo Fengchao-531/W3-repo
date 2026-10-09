@@ -1,3 +1,0 @@
-condition,model,source,guidance,artifact_type,n,exposure_rate,artifact_adoption_rate,mention_rate,planning_adoption_rate,execution_rate,security_success_rate,task_utility,p_plan_given_mention,p_action_given_plan,p_action_given_mention
-E_M_H2,llama31_8b_instruct,E,H2,M,180,0.6166666666666667,0.25,0.15,0.31666666666666665,0.25,0.75,0.005555555555555556,1.0,0.7894736842105263,0.5555555555555556
-E_M_H3,llama31_8b_instruct,E,H3,M,180,0.7444444444444445,0.35555555555555557,0.2111111111111111,0.43333333333333335,0.35555555555555557,0.6444444444444445,0.0,1.0,0.8205128205128205,0.631578947368421

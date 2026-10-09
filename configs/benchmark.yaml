@@ -1,0 +1,18 @@
+benchmark: AgentDojo
+version: v1.2.2
+suite_api_version: v1
+domains:
+  - travel
+  - workspace
+  - banking
+  - slack
+travel_base_tasks: 20
+benefit_dimensions: [saving, quality, experience]
+carrier_variants: [promotion, tip, resource]
+instances_per_condition: 180
+candidate_roles: [M, BM, BW]
+bootstrap_resamples: 2000
+bootstrap_seed: 1234
+model_temperature: 0.0
+max_iters: 10
+planning_enabled: false

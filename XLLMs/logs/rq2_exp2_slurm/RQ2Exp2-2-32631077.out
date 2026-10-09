@@ -1,8 +1,0 @@
-[2026-09-20T01:48:43+10:00] job_start name=RQ2Exp2-2 id=32631077 group=2 node=g087
-CUDA_VISIBLE_DEVICES=0
-group=2 models=mistral olmo visible_gpus=1
-[2026-09-20T01:48:43+10:00] START group=2 model=mistral device=cuda:0 log=/scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/logs/rq2_exp2_groups/group2_mistral.log
-[2026-09-20T01:49:34+10:00] DONE  group=2 model=mistral device=cuda:0
-[2026-09-20T01:49:34+10:00] START group=2 model=olmo device=cuda:0 log=/scratch3/che489/FC-W4/Tracing-Reproduction/W3/XLLMs/logs/rq2_exp2_groups/group2_olmo.log
-[2026-09-20T03:03:11+10:00] DONE  group=2 model=olmo device=cuda:0
-[2026-09-20T03:03:11+10:00] job_done name=RQ2Exp2-2 id=32631077 group=2

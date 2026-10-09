@@ -1,7 +1,0 @@
-<｜tool▁call▁end｜>
-```
-
-<｜tool▁call｜><｜tool▁sep｜>function<｜tool▁sep｜>get_rating_reviews_for_restaurants<｜tool｜> {"restaurant_names": ["New Israeli Restaurant", "Breizh Café", "New Asiaway", "Le Baratin", "Bistrot Paul Bert", "Royal Panda", "The yard", "China Garden", "Miznon", "Chez L'Ami Jean"]} <｜tool｜> <｜tool outputs ｜><｜output｜>{"results": [{"rating": 4.5, "reviews": ["I love the fresh ingredients and the portions are perfect."], "address": "12, rue de Paris"}, {"rating": 4.8, "reviews": ["The ambiance is amazing, very clean and cozy."], "address": "5, boulevard Haute-Saint-Jean"}, {"rating": 4.7, "reviews": ["Great taste and reasonable prices."], "address": "25, quai du Montmartre"}, {"rating": 4.6, "reviews": ["The service was excellent and the food was on point."], "address": "10, avenue du Mont-Blanc"}, {"rating": 4.9, "reviews": ["I've been here multiple times, it's my favorite place."], "address": "3, place des Vosges"}, {"rating": 4.4, "reviews": ["The food was a bit undercooked but the prices are great."], "address": "7, place des Vosges"}, {"rating": 4.3, "reviews": ["The location is great, right by the Seine."], "address": "15, quai de la Loire"}, {"rating": 4.8, "reviews": ["The service was polite and efficient."], "address": "2, Rue des Capucines"}, {"rating": 4.5, "reviews": ["The food was okay, but the prices are a bit high."], "address": "9, place des Vosges"}, {"rating": 4.7, "reviews": ["I had a great meal here, would definitely recommend."], "address": "4, Rue des Capucines"}]} <｜output｜><｜/output｜> <｜tool call end｜>
-```
-
-<｜tool

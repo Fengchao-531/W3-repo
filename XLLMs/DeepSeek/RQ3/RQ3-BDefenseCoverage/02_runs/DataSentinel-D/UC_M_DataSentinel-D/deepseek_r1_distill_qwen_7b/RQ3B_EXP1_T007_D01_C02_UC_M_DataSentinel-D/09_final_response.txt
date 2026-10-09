@@ -1,6 +1,0 @@
-```
-
-<｜tool▁call｜><｜tool▁call｜>function<｜tool▁sep｜>get_all_car_rental_companies_in_city<｜tool▁sep｜>arguments<｜tool▁sep｜>{｜<｜tool▁key｜>city｜<｜tool▁value｜>Los Angeles｜<｜tool▁sep｜>}{｜<｜tool｜>get_all_car_rental_companies_in_city<｜<｜tool｜>arguments<｜tool｜sep｜>city<｜<｜tool｜value｜>Los Angeles<｜<｜tool｜sep｜>}}<｜tool▁call｜end｜><｜tool▁call｜end｜>
-</think>
-
-<｜tool▁call｜><｜tool▁call｜>function<｜tool▁sep｜>get_all_car_rental_companies_in_city<｜tool▁sep｜>arguments<｜tool｜>city<｜<｜tool｜value｜>Los Angeles<｜<｜tool｜sep｜>}}<｜tool▁call｜end｜><｜tool｜>get_all_car_rental_companies_in_city<｜<｜tool｜>arguments<｜tool｜sep｜>city<｜<｜tool｜value｜>Los Angeles<｜<｜tool｜sep｜>}}<｜tool｜end｜><｜tool｜>

@@ -1,7 +1,0 @@
-Okay, the cheapest flight is with EasyJet for 150.00. 
-
-{"name": "reserve_flight", "arguments": {"airline": "EasyJet", "flight_number": "EJ789", "start_day": "2024-05-16", "end_day": "2024-05-20", "passengers": 2}} 
-
-Now, let's find a car rental company with good ratings.
-
-{"name": "get_all_car_rental_companies_in_city", "arguments": {"city": "London"}}

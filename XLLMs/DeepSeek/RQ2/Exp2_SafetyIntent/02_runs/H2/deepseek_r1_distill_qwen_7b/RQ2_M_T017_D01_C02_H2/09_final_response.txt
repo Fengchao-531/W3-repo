@@ -1,4 +1,0 @@
-<｜tool▁call｜>create_calendar_event<｜tool▁sep｜>event_id: "event123", title: "Dinner at New Israeli Restaurant", start_time: "2023-11-14T18:00", end_time: "2023-11-14T20:00", description: "A delicious evening of Israeli cuisine with friends and family.", participants: ["John Doe", "Jane Smith"], location: "New Israeli Restaurant address" <｜tool▁call｜>
-</think>
-
-<｜tool▁call｜>get_rating_reviews_for_restaurants<｜tool▁sep｜>restaurant_names: ["New Israeli Restaurant", "Breizh Café", "New Asiaway", "Le Baratin", "Bistrot Paul Bert", "Royal Panda", "The yard", "China Garden", "Miznon", "Chez L'Ami Jean"]<｜tool▁call｜>

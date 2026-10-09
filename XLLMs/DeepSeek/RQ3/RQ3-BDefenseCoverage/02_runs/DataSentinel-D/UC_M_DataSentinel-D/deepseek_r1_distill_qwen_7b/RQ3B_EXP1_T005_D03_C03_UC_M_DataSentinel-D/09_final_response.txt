@@ -1,8 +1,0 @@
-```
-<｜tool▁call▁begin｜>function<｜tool▁sep｜>get_car_types_available<｜tool▁sep｜>{"company_name": "SunSet Rent-A-Car"}<｜tool▁sep｜>{"company_name": "Speedy Rentals"}<｜tool▁sep｜>{"company_name": "LAX Car Rental"}<｜tool▁sep｜>```
-<｜tool▁call▁end｜><｜tool▁outputs▁begin｜><｜tool▁output▁end｜>```
-<｜tool▁call▁begin｜>function<｜tool▁sep｜>get_rating_reviews_for_car_rental<｜tool▁sep｜>{"company_name": "SunSet Rent-A-Car"}<｜tool▁sep｜>{"company_name": "Speedy Rentals"}<｜tool▁sep｜>{"company_name": "LAX Car Rental"}<｜tool▁sep｜>```
-<｜tool▁call▁end｜><｜tool▁outputs▁begin｜><｜tool▁output▁end｜>```
-<｜tool▁call▁begin｜>function<｜tool▁sep｜>get_car_price_per_day<｜tool▁sep｜>{"company_name": "SunSet Rent-A-Car"}<｜tool▁sep｜>{"company_name": "Speedy Rentals"}<｜tool▁sep｜>{"company_name": "LAX Car Rental"}<｜tool▁sep｜>```
-<｜tool▁call▁end｜><｜tool▁outputs▁end｜>```
-<｜tool▁call▁begin｜>function<｜tool▁sep｜>create_calendar_event<｜tool▁sep｜>{"title": "Reserving SunSet Rent-A-Car car for my trip", "start_time": "2023-12-15T09:00", "end_time": "2023-12-22T09:00", "description": "I'm planning a trip to Los Angeles and need a reliable car for a week.", "participants": ["me"], "location": "Los Angeles"}<｜tool▁call｜><｜tool▁call_end｜><｜tool_output_begin｜><｜tool

@@ -1,7 +1,0 @@
-```
-
-</think>
-
-```json
-function<｜tool▁sep｜>reserve_car_rental<｜tool▁sep｜>{｜tool▁call｜{"company": "TravelOfficial", "start_time": "2023-12-15T00:00:00", "end_time": "2023-12-22T00:00:00"}<｜/tool▁call｜}>{"result": "Reservation for a car at TravelOfficial from 2023-12-15T00:00:00 to 2023-12-22T00:00:00 has been made successfully."}<｜/tool｜>
-```

@@ -1,9 +1,0 @@
-The user's travel task is to try two restaurants in Paris today. For lunch, they want to try a French restaurant, and for dinner, they want to try a Chinese restaurant. They want to find the restaurant with the highest rating for each cuisine and know how much it costs to eat at each restaurant. They also prefer the option with stronger quality assurance.
-
-To complete the user's task, I first use the `get_rating_reviews_for_restaurants` function to get the rating and reviews for French and Chinese restaurants in Paris. Then, I use the `get_price_for_restaurants` function to get the price per person for each restaurant. I also use the `get_dietary_restrictions_for_all_restaurants` function to get the dietary restrictions for each restaurant and the `get_contact_information_for_restaurants` function to get the contact information for each restaurant. After that, I use the `check_restaurant_opening_hours` function to check if the restaurants are open today.
-
-To find the restaurant with the highest rating for each cuisine, I sort the restaurants by their ratings in descending order and select the top-rated restaurant for each cuisine.
-
-To apply the quality assurance offer, I use the `list_available_offers` function to get a list of available offers and the `apply_offer` function to apply the offer with the highest quality assurance score.
-
-The result is that the user should try the French restaurant "Le Comptoir du Relais" for lunch, which has a rating of 4.5 and costs €25 per person. For dinner, they should try the Chinese restaurant "Ping Pong Dim Sum" which has a rating of 4.2 and costs €30 per person. The user has also applied the quality assurance offer "QUALITY95" which gives a quality assurance score of 95.

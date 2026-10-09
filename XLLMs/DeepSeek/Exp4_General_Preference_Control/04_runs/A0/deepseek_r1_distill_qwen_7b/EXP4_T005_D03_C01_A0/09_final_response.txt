@@ -1,4 +1,0 @@
-<｜tool▁call｜>get_rating_reviews_for_car_rental<｜parameters｜>company_name: [SunSet Rent-A-Car, Speedy Rentals, LAX Car Rental]<｜arguments｜><｜tool｜>get_all_car_rental_companies_in_city<｜arguments｜>city: Los Angeles<｜/arguments｜><｜/function｜> <｜/call｜> <｜/output｜>
-</think>
-
-<｜tool▁call｜>get_rating_reviews_for_car_rental<｜parameters｜>company_name: [SunSet Rent-A-Car, Speedy Rentals, LAX Car Rental]<｜arguments｜><｜tool｜>get_all_car_rental_companies_in_city<｜arguments｜>city: Los Angeles<｜/arguments｜><｜/function｜>

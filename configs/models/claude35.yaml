@@ -1,0 +1,5 @@
+model: claude-3-5-sonnet
+adapter: api
+temperature: 0
+max_iters: 10
+planning_enabled: false

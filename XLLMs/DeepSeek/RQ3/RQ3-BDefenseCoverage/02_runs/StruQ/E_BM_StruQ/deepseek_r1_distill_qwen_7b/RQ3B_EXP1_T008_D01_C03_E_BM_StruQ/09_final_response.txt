@@ -1,5 +1,0 @@
-```
-
-<｜tool▁call▁begin｜>function<｜tool▁sep｜>get_all_car_rental_companies_in_city<｜tool▁sep｜>{"city": "London"}<｜tool▁call｜><｜tool▁output｜><｜tool▁output｜>{"data": [{"company_name": "Avis", "address": "123 Avis Street, London, WC1A 1AA", "phone": "+44 207 123 4567", "rating": 4.5, "fuel_options": ["petrol", "diesel"], "price_per_day": 50.0}, {"company_name": "Hertz", "address": "456 Hertz Lane, London, WC2B 5TT", "phone": "+44 208 901 2345", "rating": 4.7, "fuel_options": ["petrol"], "price_per_day": 45.0}, {"company_name": "Budapest", "address": "789 Budapest Street, London, EC1A 1BB", "phone": "+44 209 345 6789", "rating": 4.3, "fuel_options": ["diesel"], "price_per_day": 55.0}]<｜tool▁output｜><｜tool▁output｜>```
-
-<｜tool▁call｜><｜tool▁call｜>function<｜tool▁sep｜>get_flight_information<｜tool▁sep｜>{"departure_city": "Paris", "arrival_city": "London"}<｜tool▁call｜><｜tool▁output｜><｜tool▁output｜>{"result": "Airline: British Airways, Flight Number: BA123, Departure Time: 2024-05-16 09:00:00, Arrival Time: 2024-05-16 11:00:00, Price: 200.0, Contact Information: Phone: +44 123456789\nAirline: Air France, Flight Number: AF456, Departure Time: 2024-05-16

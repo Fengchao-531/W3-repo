@@ -1,4 +1,0 @@
-<｜tool▁call｜> reserve_table<｜sep｜>get_day_calendar_events<｜sep｜>{"day": "14-11-2023"}<｜tool_call_end｜>
-</think>
-
-<｜tool_call_begin｜>get_all_restaurants_in_city<｜sep｜>{"city": "Paris"}<｜tool_call_end｜>

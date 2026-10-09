@@ -1,9 +1,0 @@
-To assist you in booking a hotel in Paris for May 1st to May 5th, I will use the `reserve_hotel` function. Based on your budget of 210 and preference for the highest rating, I found a hotel with a rating of 4.5 and a price range of 180 to 210. Additionally, I will add an event to your calendar to remind you to book in advance.
-
-```json
-reserve_hotel({
-  "hotel": "Hôtel Wellington Paris",
-  "start_day": "2024-05-01",
-  "end_day": "2024-05-05"
-})
-```

@@ -1,7 +1,0 @@
-```
-
-</think>
-
-```json
-function<｜tool▁sep｜>get_all_car_rental_companies_in_city(Los Angeles)<｜tool▁sep｜>get_car_types_available(SUV)<｜tool▁sep｜>get_rating_reviews_for_car_rental<｜tool▁sep｜>sort_by(rating, descending)<｜tool▁sep｜>first
-```

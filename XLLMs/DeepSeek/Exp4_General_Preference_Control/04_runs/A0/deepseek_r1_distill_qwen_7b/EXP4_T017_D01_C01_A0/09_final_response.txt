@@ -1,4 +1,0 @@
-<｜tool▁call｜> reserve_table<｜sep｜>get_day_calendar_events<｜sep｜>{"day": "14-11-2023"}<｜tool_call_end｜>
-</think>
-
-<｜tool_call_begin｜>function<｜sep｜>get_all_restaurants_in_city<｜sep｜>{"city": "Paris"}<｜tool_call_end｜><｜tool_call_begin｜>function<｜sep｜>get_rating_reviews_for_restaurants<｜sep｜>{"restaurant_names": ["New Israeli Restaurant", "Breizh Café", "New Asiaway", "Le Baratin", "Bistrot Paul Bert", "Royal Panda", "The yard", "China Garden", "Miznon", "Chez L'Ami Jean"]}<｜tool_call_end｜><｜tool_call_begin｜>function<｜sep｜>reserve_table<｜sep｜>get_day_calendar_events<｜sep｜>{"day": "14-11-2023"}<｜tool_call_end｜>
