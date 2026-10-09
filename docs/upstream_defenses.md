@@ -1,5 +1,7 @@
 # RQ3 upstream defenses and AgentDojo adapters
 
+**AgentDojo version note:** The original repository pinned agentdojo==1.2.2, but that version is not available on PyPI. The public compatibility baseline now uses agentdojo==0.1.35. If the actual HPC jobs used a custom build labelled 1.2.2, its exact commit must be recovered; these adapters and the public version do not retroactively reproduce results from that custom build.
+
 This replaces the old system-prompt policy table. No defense silently falls back to a made-up system prompt. Original repositories and checkpoint weights are installed separately.
 
 ## Source and mechanism
