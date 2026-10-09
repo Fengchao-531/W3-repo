@@ -9,6 +9,7 @@ def commands(args):
     contexts = f"outputs/internal/{args.domain}_contexts.jsonl"
     reliability = f"outputs/internal/{args.domain}_reliability_contexts.jsonl"
     from source_relocation.models import select_models
+    rq1_context_model = select_models(args.rq1_model, getattr(args, "rq1_models", None))[0]
     rq2_selected = select_models(args.rq2_model, getattr(args, "rq2_models", None), internal=True)
     rq2_dir = f"outputs/internal/{args.rq2_model}" if not getattr(args, "rq2_models", None) else "outputs/internal"
     rq2_figure_model = rq2_selected[0]
@@ -19,10 +20,10 @@ def commands(args):
          "--manifest", manifest, "--runs", "outputs/runs/rq1/relocation",
          "--out", "outputs/analysis/rq2_exposure.csv"],
         [sys.executable, "reproduction/build_contexts.py",
-         "--manifest", manifest, "--model", args.rq1_model,
+         "--manifest", manifest, "--model", rq1_context_model,
          "--experiment", "relocation", "--out", contexts],
         [sys.executable, "reproduction/build_contexts.py",
-         "--manifest", manifest, "--model", args.rq1_model,
+         "--manifest", manifest, "--model", rq1_context_model,
          "--experiment", "reliability", "--out", reliability],
         [sys.executable, "reproduction/reproduce_rq2.py",
          "--model", args.rq2_model, "--contexts", contexts,
