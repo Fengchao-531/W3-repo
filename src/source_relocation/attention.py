@@ -1,6 +1,6 @@
 import torch
 
-REGIONS = ("bos", "forced_decision", "generated_prefix", "target_artifact", "source_marker", "surrounding_context", "external_content", "user_task", "other_trajectory", "other")
+REGIONS = ("bos", "forced_decision", "generated_prefix", "target_artifact", "source_marker", "surrounding_context", "reliability_evidence", "external_content", "user_task", "other_trajectory", "other")
 
 
 def span_indices(tokenizer, text: str, substrings: list[str]) -> set[int]:
@@ -19,10 +19,22 @@ def assign_regions(tokenizer, text: str, artifact: str, user_task: str, source_l
     categories = ["other"] * len(tokens)
     if categories:
         categories[0] = "bos"
-    mapping = [("user_task", [user_task]), ("surrounding_context", [reliability] if reliability else []), ("source_marker", [source_label] if source_label else []), ("forced_decision", [decision_prefix]), ("target_artifact", [artifact])]
+    mapping = [
+        ("user_task", [user_task]),
+        ("reliability_evidence", [reliability] if reliability else []),
+        ("source_marker", [source_label] if source_label else []),
+        ("forced_decision", [decision_prefix]),
+    ]
     for category, substrings in mapping:
         for index in span_indices(tokenizer, text, [s for s in substrings if s]):
             categories[index] = category
+    artifact_indices = span_indices(tokenizer, text, [artifact])
+    for index in artifact_indices:
+        for neighbor in range(max(0, index - 12), min(len(categories), index + 13)):
+            if categories[neighbor] == "other":
+                categories[neighbor] = "surrounding_context"
+    for index in artifact_indices:
+        categories[index] = "target_artifact"
     return categories
 
 
