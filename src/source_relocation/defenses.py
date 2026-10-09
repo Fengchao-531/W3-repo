@@ -143,19 +143,35 @@ class ActionDefense:
         self.events = []
         self.middleware = None
         if method == "causalarmor":
-            from causal_armor import CausalArmorConfig, CausalArmorMiddleware
-            from causal_armor.providers.openai import OpenAIActionProvider, OpenAISanitizerProvider
-            from causal_armor.providers.vllm import VLLMProxyProvider
-            self.middleware = CausalArmorMiddleware(
-                action_provider=OpenAIActionProvider(model=required("W3_CAUSAL_ACTION_MODEL")),
-                proxy_provider=VLLMProxyProvider(base_url=required("W3_CAUSAL_PROXY_URL")),
-                sanitizer_provider=OpenAISanitizerProvider(model=required("W3_CAUSAL_SANITIZER_MODEL")),
-                config=CausalArmorConfig(margin_tau=float(os.getenv("W3_CAUSAL_MARGIN_TAU", "0"))),
-            )
+            # Fail during initialization if model/provider settings were omitted.
+            required("W3_CAUSAL_ACTION_MODEL")
+            required("W3_CAUSAL_PROXY_URL")
+            required("W3_CAUSAL_SANITIZER_MODEL")
+
+    def _initialize_causalarmor(self, runtime):
+        from causal_armor import CausalArmorConfig, CausalArmorMiddleware
+        from causal_armor.providers.openai import OpenAIActionProvider, OpenAISanitizerProvider
+        from causal_armor.providers.vllm import VLLMProxyProvider
+        tools = [
+            {"type": "function", "function": {
+                "name": tool.name, "description": tool.description,
+                "parameters": tool.parameters.model_json_schema(),
+            }} for tool in runtime.functions.values()
+        ]
+        self.middleware = CausalArmorMiddleware(
+            action_provider=OpenAIActionProvider(
+                model=required("W3_CAUSAL_ACTION_MODEL"), tools=tools,
+            ),
+            proxy_provider=VLLMProxyProvider(base_url=required("W3_CAUSAL_PROXY_URL")),
+            sanitizer_provider=OpenAISanitizerProvider(model=required("W3_CAUSAL_SANITIZER_MODEL")),
+            config=CausalArmorConfig(margin_tau=float(os.getenv("W3_CAUSAL_MARGIN_TAU", "0"))),
+        )
 
     def query(self, query, runtime, env, messages, extra_args):
-        if self.middleware is None or not messages or messages[-1]["role"] != "assistant":
+        if self.method != "causalarmor" or not messages or messages[-1]["role"] != "assistant":
             return query, runtime, env, messages, extra_args
+        if self.middleware is None:
+            self._initialize_causalarmor(runtime)
         proposed = messages[-1].get("tool_calls") or []
         if not proposed:
             return query, runtime, env, messages, extra_args
