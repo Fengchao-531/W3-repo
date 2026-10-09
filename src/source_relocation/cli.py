@@ -60,6 +60,29 @@ def analyze_internal(args):
     probe = InternalProbe(MODEL_IDS.get(args.model, args.model))
     values = []
     for row in read_contexts(args.contexts):
+        if args.experiment == "sweep":
+            for component in ("attention", "mlp"):
+                for layer in range(args.first_layer, args.last_layer + 1):
+                    patch = bidirectional_patch(probe, row["E"], row["UC"], row["code"], component, layer)
+                    values.append({"unit_id": row["unit_id"], "base_task_id": row["base_task_id"], "artifact_type": row["artifact_type"], **patch})
+            continue
+        if args.experiment == "headsets":
+            import random
+            from .tracing import evaluate_head_sets
+            selection = json.loads(Path(args.headsets).read_text(encoding="utf-8"))["selected"]
+            top = [tuple(pair) for pair in selection["top"]]
+            counteracting = tuple(selection["counteracting"])
+            n_heads = probe.model.config.num_attention_heads
+            full = [(layer, head) for layer in range(args.first_layer, args.last_layer + 1) for head in range(n_heads)]
+            rng = random.Random(args.random_seed)
+            random_set = rng.sample(full, len(top))
+            combinations = {
+                "Top3": top, "Top3_counteracting": list(dict.fromkeys([*top, counteracting])),
+                "FullWindow": full, "Random3": random_set,
+            }
+            result_set = evaluate_head_sets(probe, [row], combinations)
+            values.extend({"base_task_id": row["base_task_id"], "artifact_type": row["artifact_type"], **value} for value in result_set)
+            continue
         if args.experiment == "representation":
             result = matched_gap(probe, row["E"], row["UC"], row["code"])
         elif args.experiment == "patching":
@@ -134,12 +157,14 @@ def main(argv=None):
     a.set_defaults(func=collect)
     i = sub.add_parser("internal")
     i.add_argument("--model", default="llama31")
-    i.add_argument("--experiment", choices=("representation", "patching", "heads", "code_control", "attention", "heldout"), required=True)
+    i.add_argument("--experiment", choices=("representation", "patching", "sweep", "heads", "headsets", "code_control", "attention", "heldout"), required=True)
     i.add_argument("--contexts", required=True)
     i.add_argument("--component", choices=("attention", "mlp"), default="attention")
     i.add_argument("--layer", type=int, default=25)
     i.add_argument("--head", type=int)
     i.add_argument("--heads", default="25:0,25:1,25:2")
+    i.add_argument("--headsets", default="outputs/internal/selected_heads.json")
+    i.add_argument("--random-seed", type=int, default=1234)
     i.add_argument("--first-layer", type=int, default=20)
     i.add_argument("--last-layer", type=int, default=27)
     i.add_argument("--out", default="outputs/internal/results.jsonl")
