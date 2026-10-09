@@ -28,9 +28,11 @@ source-relocation run --rq rq1 --experiment source_label --model gpt4o
 python reproduction/build_contexts.py --model gpt4o
 source-relocation internal --experiment representation --model llama31 --contexts outputs/internal/contexts.jsonl
 source-relocation run --rq rq3 --experiment verification --model gpt4o
-source-relocation run --rq rq3 --experiment defenses --model gpt4o
+source-relocation run --rq rq3 --experiment defenses --model gpt4o --defense datasentinel
 source-relocation analyze
 ```
+
+For defense implementation sources, setup, and run commands, see [RQ3 defense integration](docs/upstream_defenses.md).
 
 ## Documentation
 
