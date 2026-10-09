@@ -30,10 +30,12 @@ The default travel design uses 20 base tasks × 3 benefit dimensions ×
 | 1.5 | Exp5 reliability | E / E+V and UC / UC+V | experiments/rq1/reliability.py |
 | 1.6 | Source label | textual external vs user-provided attribution | experiments/rq1/source_label.py |
 | 1.7 | Matched statistical analysis | paired adoption rate differences and task-cluster CI | analysis/rq1_controls.py |
+| 1.8 | Joint utility and paired candidate switches | adoption with task completion; E to UC selection changes | analysis/rq1_joint.py |
 
 ```bash
 python reproduction/reproduce_rq1.py --model gpt4o --domain travel
 python analysis/rq1_controls.py --runs outputs/runs/rq1
+python analysis/rq1_joint.py --runs outputs/runs/rq1/relocation
 ```
 
 The RQ1 runner executes all six experiments and produces source-condition
