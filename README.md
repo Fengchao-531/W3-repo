@@ -28,9 +28,11 @@ source-relocation run --rq rq1 --experiment source_label --model gpt4o
 python reproduction/build_contexts.py --model gpt4o
 source-relocation internal --experiment representation --model llama31 --contexts outputs/internal/contexts.jsonl
 source-relocation run --rq rq3 --experiment verification --model gpt4o
-source-relocation run --rq rq3 --experiment defenses --model gpt4o
+source-relocation run --rq rq3 --experiment defenses --model gpt4o --defense datasentinel
 source-relocation analyze
 ```
+
+The RQ3 defense experiment requires **original upstream implementations and their checkpoints**, not the previous system-prompt approximations. See [docs/upstream_defenses.md](docs/upstream_defenses.md) before running; the trained-model defenses are not interchangeable with GPT-4o. The example above requires DataSentinel's own code, configuration, checkpoint, and dependencies. No manuscript result is automatically reproduced by the adapters.
 
 ## Documentation
 
