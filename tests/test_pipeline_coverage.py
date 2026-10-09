@@ -81,8 +81,9 @@ def test_end_to_end_invocation_order():
     )
     plan = commands(args)
     paths = [line[1] for line in plan]
-    assert paths[:5] == [
+    assert paths[:6] == [
         "reproduction/reproduce_rq1.py",
+        "analysis/rq2_exposure.py",
         "reproduction/build_contexts.py",
         "reproduction/build_contexts.py",
         "reproduction/reproduce_rq2.py",
