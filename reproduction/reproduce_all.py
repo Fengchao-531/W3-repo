@@ -11,6 +11,9 @@ def commands(args):
     plan = [
         [sys.executable, "reproduction/reproduce_rq1.py",
          "--model", args.rq1_model, "--domain", args.domain],
+        [sys.executable, "analysis/rq2_exposure.py",
+         "--manifest", manifest, "--runs", "outputs/runs/rq1/relocation",
+         "--out", "outputs/analysis/rq2_exposure.csv"],
         [sys.executable, "reproduction/build_contexts.py",
          "--manifest", manifest, "--model", args.rq1_model,
          "--experiment", "relocation", "--out", contexts],
