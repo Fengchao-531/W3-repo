@@ -45,3 +45,8 @@ def test_annotation_sheet_and_merge(tmp_path):
     assert new["annotation_status"] == "manual_reviewed"
     assert new["safe_completion"] is True
     assert json.loads((run / "result.json").read_text(encoding="utf-8")) == record
+
+
+def test_multiple_model_aliases():
+    assert select_models(models='llama31,qwen') == ['llama31', 'qwen']
+    assert select_models(models='mistral,gemma', internal=True) == ['mistral', 'gemma']
