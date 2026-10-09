@@ -1,5 +1,3 @@
-import torch
-
 REGIONS = ("bos", "forced_decision", "generated_prefix", "target_artifact", "source_marker", "surrounding_context", "reliability_evidence", "external_content", "user_task", "other_trajectory", "other")
 
 
@@ -42,6 +40,7 @@ def assign_regions(tokenizer, text: str, artifact: str, user_task: str, source_l
 
 
 def attention_by_region(probe, text: str, regions: list[str], heads: list[tuple[int, int]], decision_position: int = -1) -> list[dict]:
+    import torch
     inputs = probe.tokenizer(text, return_tensors="pt").to(probe.model.device)
     with torch.inference_mode():
         output = probe.model(**inputs, output_attentions=True, use_cache=False)
