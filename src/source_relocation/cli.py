@@ -126,7 +126,10 @@ def collect_deployed(args):
         for label in ("E1", "E2", "E3", "C1", "C2", "C3"):
             for term in ("applicable", "violation"):
                 k = label + "_" + term
-                row[k] = str(row.get(k, "")).lower() in ("1", "true", "yes")
+                value = str(row.get(k, "")).strip().lower()
+                if value not in ("1", "true", "yes", "0", "false", "no"):
+                    raise ValueError(f"Explicit boolean annotation required: {k}")
+                row[k] = value in ("1", "true", "yes")
     report = round_average(summarize_deployment(data))
     Path(args.out).parent.mkdir(parents=True, exist_ok=True)
     pd.DataFrame(report).to_csv(args.out, index=False)
