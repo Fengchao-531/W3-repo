@@ -20,4 +20,4 @@ jobs:
       - name: Compile source code
         run: python -m compileall -q src tests
       - name: Run code and experiment pipeline tests
-        run: pytest -q tests
+        run: python -m pytest -q tests
