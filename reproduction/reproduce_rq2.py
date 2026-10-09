@@ -94,6 +94,7 @@ def execute(args):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", default="llama31")
+    parser.add_argument("--models")
     parser.add_argument("--contexts", required=True)
     parser.add_argument("--reliability-contexts")
     parser.add_argument("--outdir", default="outputs/internal/llama31")
@@ -107,6 +108,21 @@ def main():
     args = parser.parse_args()
     if args.sweep_first > args.sweep_last or args.window_first > args.window_last:
         parser.error("Layer range start exceeds end")
+    if args.models:
+        from argparse import Namespace
+        from source_relocation.models import select_models
+        depths = {"llama31": 32, "qwen": 28, "gemma": 42, "mistral": 36, "deepseek": 28}
+        for name in select_models(args.model, args.models, internal=True):
+            options = Namespace(**vars(args))
+            options.model = name
+            options.models = None
+            options.outdir = str(Path(args.outdir) / name)
+            last = depths[name] - 1
+            options.sweep_last = min(args.sweep_last, last)
+            options.window_last = min(args.window_last, last)
+            options.window_first = min(args.window_first, options.window_last)
+            execute(options)
+        return
     execute(args)
 
 
