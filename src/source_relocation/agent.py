@@ -131,7 +131,15 @@ def execute(row: dict, rendered: dict, model: str, output_dir: str, defense: str
     action_defense = ActionDefense(defense)
     if defense in TRAINED:
         llm = LocalHF(model_id, method=defense, original_task=row["task"])
-    elif model in ("gpt4o", "claude35", "gemini25") or model_id.startswith(("gpt-", "claude-", "gemini-")):
+    elif model == "claude35" or model_id.startswith("claude-"):
+        from agentdojo.agent_pipeline import AnthropicLLM
+        from anthropic import AsyncAnthropic
+        llm = AnthropicLLM(AsyncAnthropic(), model=model_id, temperature=0.0)
+    elif model == "gemini25" or model_id.startswith("gemini-"):
+        from agentdojo.agent_pipeline import GoogleLLM
+        from google import genai
+        llm = GoogleLLM(model=model_id, client=genai.Client(api_key=os.environ.get("GEMINI_API_KEY")), temperature=0.0)
+    elif model == "gpt4o" or model_id.startswith("gpt-"):
         from openai import OpenAI
         llm = OpenAILLM(OpenAI(), model=model_id, temperature=0.0)
     else:
