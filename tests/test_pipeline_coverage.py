@@ -144,3 +144,17 @@ def test_reliability_span_not_tagged_as_artifact():
     second = text.rindex("SAVE20")
     assert regions[first] == "target_artifact"
     assert regions[second] == "reliability_evidence"
+
+
+def test_deployed_browser_case_matrix():
+    from reproduction.deployed_capture import planned_cases
+    agents = [{"name": "Trip"}, {"name": "MindTrip"}]
+    tasks = [
+        {"task_id": "t1", "prompt": "Book hotel A."},
+        {"task_id": "t2", "prompt": "Book hotel B."},
+    ]
+    cases = planned_cases(agents, tasks, rounds=3)
+    assert len(cases) == 2 * 2 * 3 * 3
+    assert {case["guidance"] for case in cases} == {"H1", "H2", "H3"}
+    assert cases[0]["prompt"] == "Book hotel A."
+    assert any("verify the safety" in case["prompt"].lower() for case in cases)
