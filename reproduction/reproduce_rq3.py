@@ -5,15 +5,19 @@ from source_relocation.cli import main
 def reproduce():
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", default="gpt4o")
+    parser.add_argument("--models")
     parser.add_argument("--domain", default="travel")
     parser.add_argument("--defense", default="all", choices=("all", "none", "sandwich", "struq", "secalign", "perplexity", "datasentinel", "causalarmor"))
     args = parser.parse_args()
+    from source_relocation.models import select_models
+    selected = select_models(args.model, args.models)
     main(["build", "--domain", args.domain, "--manifest", f"outputs/manifests/{args.domain}.jsonl"])
-    for experiment in ("verification", "defenses"):
-        cmd = ["run", "--rq", "rq3", "--experiment", experiment, "--model", args.model, "--domain", args.domain, "--manifest", f"outputs/manifests/{args.domain}.jsonl"]
-        if experiment == "defenses":
-            cmd.extend(["--defense", args.defense])
-        main(cmd)
+    for model in selected:
+        for experiment in ("verification", "defenses"):
+            cmd = ["run", "--rq", "rq3", "--experiment", experiment, "--model", model, "--domain", args.domain, "--manifest", f"outputs/manifests/{args.domain}.jsonl"]
+            if experiment == "defenses":
+                cmd.extend(["--defense", args.defense])
+            main(cmd)
     main(["analyze"])
     import subprocess
     import sys
