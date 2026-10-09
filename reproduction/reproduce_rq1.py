@@ -5,11 +5,15 @@ from source_relocation.cli import main
 def reproduce():
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", default="gpt4o")
+    parser.add_argument("--models")
     parser.add_argument("--domain", default="travel")
     args = parser.parse_args()
+    from source_relocation.models import select_models
+    selected = select_models(args.model, args.models)
     main(["build", "--domain", args.domain, "--manifest", f"outputs/manifests/{args.domain}.jsonl"])
-    for experiment in ("relocation", "position", "preference", "instruction", "reliability", "source_label"):
-        main(["run", "--rq", "rq1", "--experiment", experiment, "--model", args.model, "--domain", args.domain, "--manifest", f"outputs/manifests/{args.domain}.jsonl"])
+    for model in selected:
+        for experiment in ("relocation", "position", "preference", "instruction", "reliability", "source_label"):
+            main(["run", "--rq", "rq1", "--experiment", experiment, "--model", model, "--domain", args.domain, "--manifest", f"outputs/manifests/{args.domain}.jsonl"])
     main(["analyze"])
     import subprocess
     import sys
