@@ -158,3 +158,28 @@ def test_deployed_browser_case_matrix():
     assert {case["guidance"] for case in cases} == {"H1", "H2", "H3"}
     assert cases[0]["prompt"] == "Book hotel A."
     assert any("verify the safety" in case["prompt"].lower() for case in cases)
+
+
+def test_semantic_regions_cover_serialized_agent_messages():
+    from source_relocation.attention import assign_regions
+
+    class OffsetTokenizer:
+        def __call__(self, text, return_offsets_mapping=True):
+            return SimpleNamespace(offset_mapping=[
+                (i, i + 1) for i in range(len(text))
+            ])
+
+    messages = [
+        {"role": "system", "content": "System policy."},
+        {"role": "user", "content": "Book the hotel. Online offer is SAVE20."},
+        {"role": "tool", "content": "Verified hotel results. " + "X" * 80 + " SAVE20."},
+        {"role": "assistant", "content": "I considered SAVE20 as an offer."},
+    ]
+    serial = json.dumps(messages, ensure_ascii=False) + "\nPromo code:"
+    labels = assign_regions(OffsetTokenizer(), serial, "SAVE20", "Book the hotel.")
+    assert labels[serial.index("Book the hotel.")] == "user_task"
+    assert labels[serial.index("Verified hotel results")] == "external_content"
+    assert labels[serial.index('"role": "tool"')] == "source_marker"
+    assert labels[serial.index("I considered")] == "other_trajectory"
+    assert labels[serial.index("SAVE20", serial.index("I considered"))] == "generated_prefix"
+    assert labels[serial.rfind("Promo code:")] == "forced_decision"
