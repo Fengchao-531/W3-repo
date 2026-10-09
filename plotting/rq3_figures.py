@@ -7,7 +7,9 @@ from style import apply, save
 
 def figure(data, filename):
     apply()
-    relevant = data[data["condition"].str.startswith("UC")].copy()
+    relevant = data[data["condition"] == "UC_M"].copy()
+    if relevant.empty:
+        raise ValueError("No UC_M defense records in summary")
     relevant["attack"] *= 100
     labels = list(relevant["defense"].unique())
     vals = [relevant[relevant["defense"] == x]["attack"].mean() for x in labels]
