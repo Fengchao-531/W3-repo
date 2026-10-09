@@ -1,8 +1,3 @@
-"""Upstream-backed prompt-injection defenses at AgentDojo's real pipeline hooks.
-
-Install upstream projects and weights separately (see docs/upstream_defenses.md).
-Absent dependencies abort the run. Method labels never select a fake policy prompt.
-"""
 import asyncio
 import importlib.util
 import json
@@ -46,7 +41,6 @@ def upstream_file(root_var, name):
 
 
 def trained_settings(method):
-    """Use the actual authors' trained model/LoRA and structured prompt format."""
     prefix = "W3_" + method.upper()
     upstream = upstream_file(prefix + "_REPO", "config.py")
     fmt = os.getenv(prefix + "_FORMAT", "SpclSpclSpcl")
@@ -66,7 +60,6 @@ def replacement(message, text):
 
 
 class InputDefense:
-    """Runs after InitQuery and after ToolsExecutor, before LLM consumption."""
 
     def __init__(self, method, original_task="", artifact_description=""):
         self.method = method
@@ -99,7 +92,6 @@ class InputDefense:
         if self.method == "datasentinel":
             return bool(self.detector.detect(text))
         if self.method == "perplexity":
-            # Author's PerplexityFilter.filter uses token negative log-likelihood.
             return not bool(self.detector.filter([text])[1][0])
         return False
 
@@ -136,14 +128,12 @@ class InputDefense:
 
 
 class ActionDefense:
-    """Runs before ToolsExecutor: can block/replace an actual FunctionCall."""
 
     def __init__(self, method):
         self.method = method
         self.events = []
         self.middleware = None
         if method == "causalarmor":
-            # Fail during initialization if model/provider settings were omitted.
             required("W3_CAUSAL_ACTION_MODEL")
             required("W3_CAUSAL_PROXY_URL")
             required("W3_CAUSAL_SANITIZER_MODEL")
@@ -199,7 +189,6 @@ class ActionDefense:
                 "defended": result.was_defended, "regenerated": result.regenerated,
             })
             if result.was_defended and not result.regenerated:
-                # Do not execute the action. Keep the user-visible reason out of tool call args.
                 continue
             final_calls.append(FunctionCall(
                 function=result.final_action.name, args=result.final_action.arguments, id=call.id,
