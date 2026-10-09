@@ -100,6 +100,8 @@ def execute(row: dict, rendered: dict, model: str, output_dir: str, defense: str
             with self.torch.inference_mode():
                 result = self.model.generate(tokens, max_new_tokens=512, do_sample=False, pad_token_id=self.tokenizer.eos_token_id)
             generated = self.tokenizer.decode(result[0, tokens.shape[1]:], skip_special_tokens=True).strip()
+            from agentdojo.functions_runtime import FunctionCall
+            from agentdojo.types import text_content_block_from_string
             try:
                 obj = json.loads(generated)
                 fn = obj.get("function", obj)
@@ -108,9 +110,9 @@ def execute(row: dict, rendered: dict, model: str, output_dir: str, defense: str
                 if isinstance(arguments, str):
                     arguments = json.loads(arguments)
                 if name in {item["function"]["name"] for item in tools}:
-                    new = {"role": "assistant", "content": [], "tool_calls": [{"id": "call_0", "function": name, "args": arguments}]}
+                    new = {"role": "assistant", "content": [], "tool_calls": [FunctionCall(id="call_0", function=name, args=arguments)]}
                 else:
-                    new = {"role": "assistant", "content": [{"type": "text", "text": generated}]}
+                    new = {"role": "assistant", "content": [text_content_block_from_string(generated)], "tool_calls": None}
             except (ValueError, AttributeError, TypeError):
                 new = {"role": "assistant", "content": [{"type": "text", "text": generated}]}
             return query, runtime, env, [*messages, new], extra_args or {}
@@ -138,7 +140,7 @@ def execute(row: dict, rendered: dict, model: str, output_dir: str, defense: str
         SystemMessage(SYSTEM_PROMPT), InitQuery(), input_defense, llm,
         ToolsExecutionLoop([action_defense, ToolsExecutor(), input_defense, llm], max_iters=10),
     ])
-    pipeline.name = model_id
+    pipeline.name = llm.name if hasattr(llm, "name") else model_id
     _, _, task_env, messages, _ = pipeline.query(task.PROMPT, runtime, task_env)
     output = model_output_from_messages(messages) or []
     trace = functions_stack_trace_from_messages(messages)
