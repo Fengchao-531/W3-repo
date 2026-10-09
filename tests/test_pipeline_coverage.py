@@ -107,3 +107,40 @@ def test_experiment_files_present():
         "reproduction/reproduce_rq2.py", "reproduction/reproduce_all.py",
     ):
         assert (root / file).is_file()
+
+
+def test_base_task_count_creates_180_configurations(tmp_path, monkeypatch):
+    from source_relocation import manifest
+    from source_relocation.cli import build
+    tasks = [
+        {"id": f"task-{i:02d}", "prompt": "Book the requested hotel."}
+        for i in range(25)
+    ]
+    monkeypatch.setattr(manifest, "load_tasks", lambda *args: tasks)
+    output = tmp_path / "travel.jsonl"
+    build(SimpleNamespace(
+        tasks_jsonl=None, domain="travel", benchmark_version="v1",
+        base_tasks=20, manifest=str(output),
+    ))
+    assert len(output.read_text(encoding="utf-8").splitlines()) == 180
+
+
+def test_reliability_span_not_tagged_as_artifact():
+    from source_relocation.attention import assign_regions
+
+    class OffsetTokenizer:
+        def __call__(self, text, return_offsets_mapping=True):
+            return SimpleNamespace(offset_mapping=[
+                (i, i + 1) for i in range(len(text))
+            ])
+
+    reliab = "The official promotion does not list SAVE20."
+    text = "Book. SAVE20 appears. " + reliab + " Promo code:"
+    regions = assign_regions(
+        OffsetTokenizer(), text, "SAVE20", "Book.",
+        reliability=reliab,
+    )
+    first = text.index("SAVE20")
+    second = text.rindex("SAVE20")
+    assert regions[first] == "target_artifact"
+    assert regions[second] == "reliability_evidence"
