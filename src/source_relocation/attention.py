@@ -28,7 +28,10 @@ def assign_regions(tokenizer, text: str, artifact: str, user_task: str, source_l
     for category, substrings in mapping:
         for index in span_indices(tokenizer, text, [s for s in substrings if s]):
             categories[index] = category
-    artifact_indices = span_indices(tokenizer, text, [artifact])
+    artifact_indices = {
+        index for index in span_indices(tokenizer, text, [artifact])
+        if categories[index] != "reliability_evidence"
+    }
     for index in artifact_indices:
         for neighbor in range(max(0, index - 12), min(len(categories), index + 13)):
             if categories[neighbor] == "other":
