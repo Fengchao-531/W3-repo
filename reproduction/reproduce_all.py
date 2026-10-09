@@ -8,9 +8,13 @@ def commands(args):
     manifest = f"outputs/manifests/{args.domain}.jsonl"
     contexts = f"outputs/internal/{args.domain}_contexts.jsonl"
     reliability = f"outputs/internal/{args.domain}_reliability_contexts.jsonl"
+    from source_relocation.models import select_models
+    rq2_selected = select_models(args.rq2_model, getattr(args, "rq2_models", None), internal=True)
+    rq2_dir = f"outputs/internal/{args.rq2_model}" if not getattr(args, "rq2_models", None) else "outputs/internal"
+    rq2_figure_model = rq2_selected[0]
     plan = [
         [sys.executable, "reproduction/reproduce_rq1.py",
-         "--model", args.rq1_model, "--domain", args.domain],
+         "--model", args.rq1_model, "--domain", args.domain] + (["--models", args.rq1_models] if getattr(args, "rq1_models", None) else []),
         [sys.executable, "analysis/rq2_exposure.py",
          "--manifest", manifest, "--runs", "outputs/runs/rq1/relocation",
          "--out", "outputs/analysis/rq2_exposure.csv"],
@@ -23,16 +27,16 @@ def commands(args):
         [sys.executable, "reproduction/reproduce_rq2.py",
          "--model", args.rq2_model, "--contexts", contexts,
          "--reliability-contexts", reliability,
-         "--outdir", f"outputs/internal/{args.rq2_model}",
+         "--outdir", rq2_dir,
          "--sweep-first", str(args.sweep_first),
          "--sweep-last", str(args.sweep_last),
          "--window-first", str(args.window_first),
-         "--window-last", str(args.window_last)],
+         "--window-last", str(args.window_last)] + (["--models", args.rq2_models] if getattr(args, "rq2_models", None) else []),
         [sys.executable, "reproduction/reproduce_rq3.py",
          "--model", args.rq3_model, "--domain", args.domain,
-         "--defense", args.defense],
+         "--defense", args.defense] + (["--models", args.rq3_models] if getattr(args, "rq3_models", None) else []),
         [sys.executable, "reproduction/reproduce_figures.py",
-         "--rq2-input", f"outputs/internal/{args.rq2_model}/representation.jsonl"],
+         "--rq2-input", f"outputs/internal/{rq2_figure_model}/representation.jsonl"],
         [sys.executable, "reproduction/reproduce_tables.py"],
     ]
     if args.deployed_input:
