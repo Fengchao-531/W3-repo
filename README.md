@@ -36,6 +36,16 @@ For defense implementation sources, setup, and run commands, see [RQ3 defense in
 
 ## Documentation
 
+The complete executable workflow is organized by experiment in
+[Experiment Execution Order](docs/experiment_execution_order.md).
+
+Preview the full command sequence:
+
+```bash
+python reproduction/reproduce_all.py --print-commands
+```
+
+
 Detailed protocols are provided in `docs/installation.md`, `docs/experimental_setup.md`, `docs/model_configuration.md`, `docs/evaluation_metrics.md`, `docs/reproduction_guide.md`, and `docs/figures_and_tables.md`.
 
 Generated datasets, local task trajectories, model-internal activations, figure exports, and statistics are stored in `outputs/` and excluded from version control.
