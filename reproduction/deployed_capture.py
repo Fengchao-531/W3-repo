@@ -62,7 +62,7 @@ def collect(agents, tasks, output, rounds=3, headless=True):
                         field.press("Enter")
                     page.wait_for_function(
                         """({selector, before}) => document.querySelectorAll(selector).length > before""",
-                        {"selector": config["response_selector"], "before": before},
+                        arg={"selector": config["response_selector"], "before": before},
                         timeout=int(config.get("timeout_ms", 60000)),
                     )
                     answer = page.locator(config["response_selector"]).last.inner_text()
