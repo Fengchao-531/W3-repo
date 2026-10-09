@@ -13,6 +13,10 @@ def save_jsonl(rows, path):
 def build(args):
     from .manifest import load_tasks, make_manifest, save_manifest
     tasks = load_tasks(args.tasks_jsonl, args.domain, args.benchmark_version)
+    if args.base_tasks is not None:
+        if len(tasks) < args.base_tasks:
+            raise ValueError(f"Requested {args.base_tasks} base tasks, found {len(tasks)}")
+        tasks = tasks[:args.base_tasks]
     rows = make_manifest(tasks, args.domain)
     save_manifest(rows, args.manifest)
     print(json.dumps({"manifest": args.manifest, "base_tasks": len(tasks), "matched_units": len(rows)}))
@@ -134,6 +138,7 @@ def main(argv=None):
     sub = parser.add_subparsers(dest="command", required=True)
     b = sub.add_parser("build")
     b.add_argument("--tasks-jsonl")
+    b.add_argument("--base-tasks", type=int, default=20)
     b.add_argument("--domain", choices=("travel", "workspace", "banking", "slack"), default="travel")
     b.add_argument("--benchmark-version", default="v1")
     b.add_argument("--manifest", default="outputs/manifests/travel.jsonl")
