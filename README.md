@@ -32,7 +32,7 @@ source-relocation run --rq rq3 --experiment defenses --model gpt4o --defense dat
 source-relocation analyze
 ```
 
-The RQ3 defense experiment requires **original upstream implementations and their checkpoints**, not the previous system-prompt approximations. See [docs/upstream_defenses.md](docs/upstream_defenses.md) before running; the trained-model defenses are not interchangeable with GPT-4o. The example above requires DataSentinel's own code, configuration, checkpoint, and dependencies. No manuscript result is automatically reproduced by the adapters.
+For defense implementation sources, setup, and run commands, see [RQ3 defense integration](docs/upstream_defenses.md).
 
 ## Documentation
 
