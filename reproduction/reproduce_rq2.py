@@ -112,15 +112,23 @@ def main():
         from argparse import Namespace
         from source_relocation.models import select_models
         depths = {"llama31": 32, "qwen": 28, "gemma": 42, "mistral": 36, "deepseek": 28}
+        windows = {"llama31": (25, 28), "qwen": (24, 27), "gemma": (38, 41), "mistral": (32, 35), "deepseek": (24, 27)}
         for name in select_models(args.model, args.models, internal=True):
             options = Namespace(**vars(args))
             options.model = name
             options.models = None
             options.outdir = str(Path(args.outdir) / name)
             last = depths[name] - 1
-            options.sweep_last = min(args.sweep_last, last)
-            options.window_last = min(args.window_last, last)
-            options.window_first = min(args.window_first, options.window_last)
+            if name != "llama31" and args.sweep_last == 32:
+                options.sweep_first = max(0, last - 12)
+                options.sweep_last = last
+            else:
+                options.sweep_last = min(args.sweep_last, last)
+            if name != "llama31" and (args.window_first, args.window_last) == (25, 28):
+                options.window_first, options.window_last = windows[name]
+            else:
+                options.window_last = min(args.window_last, last)
+                options.window_first = min(args.window_first, options.window_last)
             execute(options)
         return
     execute(args)
