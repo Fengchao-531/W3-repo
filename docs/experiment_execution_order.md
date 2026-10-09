@@ -88,19 +88,30 @@ discovery, with remaining eligible units used for held-out evaluation.
 | 3.7 | DataSentinel | --defense datasentinel | defense events and outcomes |
 | 3.8 | CausalArmor | --defense causalarmor | defense events and outcomes |
 | 3.9 | Matched attack, task and safe-completion statistics | analysis/rq3_results.py | rates and paired CI |
-| 3.10 | Deployed service constraint scoring | source-relocation deployed | deployed.csv |
+| 3.10 | Browser-based deployed response collection | reproduction/deployed_capture.py | observations.jsonl |
+| 3.11 | Six-constraint annotation records | reproduction/deployed_capture.py --annotation-template | annotated.jsonl |
+| 3.12 | Deployed service constraint scoring | source-relocation deployed | deployed.csv |
 
 \`\`\`bash
 python reproduction/reproduce_rq3.py --model gpt4o --domain travel --defense datasentinel
 python analysis/rq3_results.py
-source-relocation deployed --inputs outputs/deployed/observations.jsonl \
+pip install -e '.[browser]'
+python -m playwright install chromium
+python reproduction/deployed_capture.py --agents configs/deployed_agents.json \
+  --tasks data/tasks/deployed_travel.jsonl --out outputs/deployed/observations.jsonl
+python reproduction/deployed_capture.py --out outputs/deployed/observations.jsonl \
+  --annotation-template outputs/deployed/annotated.jsonl
+source-relocation deployed --inputs outputs/deployed/annotated.jsonl \
   --out outputs/analysis/deployed.csv
 \`\`\`
 
 Upstream defense installations and runtime configuration are in
-[upstream_defenses.md](upstream_defenses.md). The deployment evaluation
-accepts one JSONL record per observed agent response, with the six constraint
-applicability and violation fields defined in deployed_agent_schema.md.
+[upstream_defenses.md](upstream_defenses.md). The browser collector accepts a JSON array of agent configurations, each containing
+`name`, `url`, `input_selector`, `response_selector`, and optionally
+`submit_selector`, `storage_state`, and `timeout_ms`. The task file contains
+`task_id` and `prompt`. The six applicability and violation annotations
+are defined in deployed_agent_schema.md and are supplied in the annotated
+records before aggregation.
 
 ## 4. End-to-end entry point and figures
 
