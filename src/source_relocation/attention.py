@@ -13,29 +13,87 @@ def span_indices(tokenizer, text: str, substrings: list[str]) -> set[int]:
 
 
 def assign_regions(tokenizer, text: str, artifact: str, user_task: str, source_label: str = "", reliability: str = "", decision_prefix: str = "Promo code:") -> list[str]:
-    tokens = tokenizer(text, return_offsets_mapping=True).offset_mapping
-    categories = ["other"] * len(tokens)
+    import json
+
+    offsets = tokenizer(text, return_offsets_mapping=True).offset_mapping
+    categories = ["other"] * len(offsets)
     if categories:
         categories[0] = "bos"
-    mapping = [
-        ("user_task", [user_task]),
-        ("reliability_evidence", [reliability] if reliability else []),
-        ("source_marker", [source_label] if source_label else []),
-        ("forced_decision", [decision_prefix]),
-    ]
-    for category, substrings in mapping:
-        for index in span_indices(tokenizer, text, [s for s in substrings if s]):
-            categories[index] = category
+
+    def assign_span(left, right, category, allowed=None):
+        for index, (start, end) in enumerate(offsets):
+            if index == 0 or end <= start or start >= right or end <= left:
+                continue
+            if allowed is None or categories[index] in allowed:
+                categories[index] = category
+
+    serialized = text.rsplit("\n" + decision_prefix, 1)[0]
+    try:
+        messages = json.loads(serialized)
+    except (ValueError, TypeError):
+        messages = []
+    if isinstance(messages, list):
+        cursor = 0
+        for message in messages:
+            if not isinstance(message, dict):
+                continue
+            encoded = json.dumps(message, ensure_ascii=False)
+            position = serialized.find(encoded, cursor)
+            if position < 0:
+                continue
+            role = message.get("role")
+            category = {
+                "user": "surrounding_context",
+                "tool": "external_content",
+                "assistant": "other_trajectory",
+                "system": "other_trajectory",
+            }.get(role, "other_trajectory")
+            assign_span(position, position + len(encoded), category)
+            if role == "assistant" and artifact:
+                sub = encoded.find(artifact)
+                while sub >= 0:
+                    assign_span(position + sub, position + sub + len(artifact), "generated_prefix")
+                    sub = encoded.find(artifact, sub + len(artifact))
+            cursor = position + len(encoded)
+
+    if user_task:
+        escaped = json.dumps(user_task, ensure_ascii=False)[1:-1]
+        for label in (escaped, user_task):
+            for i in span_indices(tokenizer, text, [label]):
+                if i != 0 and categories[i] in ("surrounding_context", "other"):
+                    categories[i] = "user_task"
+
+    for index in span_indices(tokenizer, text, [source_label] if source_label else []):
+        if index != 0:
+            categories[index] = "source_marker"
+
+    for marker in ('"role": "user"', '"role": "tool"', '"role": "assistant"', '"role": "system"'):
+        for index in span_indices(tokenizer, text, [marker]):
+            if index != 0:
+                categories[index] = "source_marker"
+
+    evidence_indices = span_indices(tokenizer, text, [reliability] if reliability else [])
+    for index in evidence_indices:
+        if index != 0:
+            categories[index] = "reliability_evidence"
+
+    decision_start = text.rfind("\n" + decision_prefix)
+    if decision_start >= 0:
+        assign_span(decision_start + 1, decision_start + 1 + len(decision_prefix), "forced_decision")
+
     artifact_indices = {
         index for index in span_indices(tokenizer, text, [artifact])
-        if categories[index] != "reliability_evidence"
+        if categories[index] not in (
+            "reliability_evidence", "generated_prefix", "forced_decision", "source_marker"
+        )
     }
     for index in artifact_indices:
         for neighbor in range(max(0, index - 12), min(len(categories), index + 13)):
-            if categories[neighbor] == "other":
+            if categories[neighbor] in ("other", "external_content", "surrounding_context"):
                 categories[neighbor] = "surrounding_context"
     for index in artifact_indices:
         categories[index] = "target_artifact"
+
     return categories
 
 
