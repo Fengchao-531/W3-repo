@@ -12,9 +12,9 @@ Run commands from the repository root after installing the dependencies in
 - Experimental engine: src/source_relocation/agent.py.
 - Metrics: src/source_relocation/statistics.py and evaluation.py.
 
-\`\`\`bash
+```bash
 source-relocation build --domain travel --manifest outputs/manifests/travel.jsonl
-\`\`\`
+```
 
 The default travel design uses 20 base tasks × 3 benefit dimensions ×
 3 carrier variants, yielding 180 configurations per condition.
@@ -31,10 +31,10 @@ The default travel design uses 20 base tasks × 3 benefit dimensions ×
 | 1.6 | Source label | textual external vs user-provided attribution | experiments/rq1/source_label.py |
 | 1.7 | Matched statistical analysis | paired adoption rate differences and task-cluster CI | analysis/rq1_controls.py |
 
-\`\`\`bash
+```bash
 python reproduction/reproduce_rq1.py --model gpt4o --domain travel
 python analysis/rq1_controls.py --runs outputs/runs/rq1
-\`\`\`
+```
 
 The RQ1 runner executes all six experiments and produces source-condition
 summaries and matched comparison estimates.
@@ -43,6 +43,7 @@ summaries and matched comparison estimates.
 
 | Order | Experiment | Entry point | Output |
 | --- | --- | --- | --- |
+| 2.0 | Initial exposure, first-observation step, mention, plan and action | analysis/rq2_exposure.py | rq2_exposure.csv |
 | 2.1 | Extract matched E/UC decision contexts | reproduction/build_contexts.py | contexts.jsonl |
 | 2.2 | Layer-wise target-code support | CLI internal representation | representation.jsonl |
 | 2.3 | Split selection and held-out checkpoints | reproduction/reproduce_rq2.py | discovery_contexts.jsonl; heldout_contexts.jsonl |
@@ -56,7 +57,10 @@ summaries and matched comparison estimates.
 | 2.11 | Separate Exp5 reliability attention | build_contexts.py --experiment reliability; CLI internal attention | reliability_attention.jsonl |
 | 2.12 | Reliability-region normalization | analysis/rq2_regions.py | reliability_regions.csv |
 
-\`\`\`bash
+```bash
+python analysis/rq2_exposure.py --manifest outputs/manifests/travel.jsonl \
+  --runs outputs/runs/rq1/relocation --out outputs/analysis/rq2_exposure.csv
+
 python reproduction/build_contexts.py --manifest outputs/manifests/travel.jsonl \
   --model gpt4o --experiment relocation --out outputs/internal/travel_contexts.jsonl
 
@@ -68,7 +72,7 @@ python reproduction/reproduce_rq2.py \
   --reliability-contexts outputs/internal/travel_reliability_contexts.jsonl \
   --outdir outputs/internal/llama31 --sweep-first 20 --sweep-last 32 \
   --window-first 25 --window-last 28
-\`\`\`
+```
 
 Other open-weight models use their checkpoint-specific layer ranges and
 head counts from configs/models and docs/model_configuration.md. The default
@@ -92,7 +96,7 @@ discovery, with remaining eligible units used for held-out evaluation.
 | 3.11 | Six-constraint annotation records | reproduction/deployed_capture.py --annotation-template | annotated.jsonl |
 | 3.12 | Deployed service constraint scoring | source-relocation deployed | deployed.csv |
 
-\`\`\`bash
+```bash
 python reproduction/reproduce_rq3.py --model gpt4o --domain travel --defense datasentinel
 python analysis/rq3_results.py
 pip install -e '.[browser]'
@@ -103,7 +107,7 @@ python reproduction/deployed_capture.py --out outputs/deployed/observations.json
   --annotation-template outputs/deployed/annotated.jsonl
 source-relocation deployed --inputs outputs/deployed/annotated.jsonl \
   --out outputs/analysis/deployed.csv
-\`\`\`
+```
 
 Upstream defense installations and runtime configuration are in
 [upstream_defenses.md](upstream_defenses.md). The browser collector accepts a JSON array of agent configurations, each containing
@@ -115,14 +119,14 @@ records before aggregation.
 
 ## 4. End-to-end entry point and figures
 
-\`\`\`bash
+```bash
 python reproduction/reproduce_all.py --print-commands
 python reproduction/reproduce_all.py --rq1-model gpt4o \
   --rq2-model llama31 --rq3-model gpt4o --domain travel
 python reproduction/reproduce_figures.py --rq2-input \
   outputs/internal/llama31/representation.jsonl
 python reproduction/reproduce_tables.py
-\`\`\`
+```
 
 RQ1 figures are created by plotting/rq1_figures.py. RQ2 layer-gap and
 intervention charts use plotting/rq2_figures.py. RQ3 action-rate plots use
