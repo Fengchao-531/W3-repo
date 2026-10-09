@@ -1,6 +1,6 @@
-# Tricking Agents into Accepting Malicious Information
+# Source Relocation Agent Evaluation
 
-Reproduction toolkit for the AAMAS 2027 study of source relocation in LLM-based agents. The implementation organizes controlled AgentDojo evaluations, artifact placement, model analysis, defenses, safety guidance, and deployed-agent outcome analysis around RQ1, RQ2, and RQ3.
+Code and configuration for evaluating source relocation in tool-using language-model agents. The implementation includes controlled environments, matched artifact placement, behavioral measurements, internal analyses, safety guidance, and defense interfaces.
 
 ## Installation
 
