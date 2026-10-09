@@ -114,7 +114,7 @@ def execute(row: dict, rendered: dict, model: str, output_dir: str, defense: str
                 else:
                     new = {"role": "assistant", "content": [text_content_block_from_string(generated)], "tool_calls": None}
             except (ValueError, AttributeError, TypeError):
-                new = {"role": "assistant", "content": [{"type": "text", "text": generated}]}
+                new = {"role": "assistant", "content": [text_content_block_from_string(generated)], "tool_calls": None}
             return query, runtime, env, [*messages, new], extra_args or {}
 
     task = Task(base_task, rendered["prompt"])
