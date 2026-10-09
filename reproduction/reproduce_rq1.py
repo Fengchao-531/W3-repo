@@ -14,6 +14,7 @@ def reproduce():
     import subprocess
     import sys
     subprocess.run([sys.executable, "analysis/rq1_controls.py"], check=True)
+    subprocess.run([sys.executable, "analysis/rq1_joint.py"], check=True)
 
 
 if __name__ == "__main__":
