@@ -167,7 +167,7 @@ def execute(row: dict, rendered: dict, model: str, output_dir: str, defense: str
               "defense_events": [*input_defense.events, *action_defense.events],
               "defense_impl": "upstream" if defense in ("struq", "secalign", "perplexity", "datasentinel", "causalarmor") else ("upstream-sandwich-format" if defense == "sandwich" else "none"),
               "actual_model_id": llm.name if hasattr(llm, "name") else model_id,
-              "events": state["events"], "prompt": rendered["prompt"], "final_response": final}
+              "events": state["events"], "preliminary_signals": signals, "annotation_status": "automatic", "prompt": rendered["prompt"], "final_response": final}
     path = Path(output_dir)
     path.mkdir(parents=True, exist_ok=True)
     (path / "result.json").write_text(json.dumps(record, ensure_ascii=False, indent=2), encoding="utf-8")
