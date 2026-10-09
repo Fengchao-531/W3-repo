@@ -1,0 +1,22 @@
+name: Upstream defense adapter smoke tests
+
+on:
+  push:
+    branches:
+      - fix/rq3-upstream-defense-adapters
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install lightweight project and tests
+        run: pip install -e '.[test]'
+      - name: Compile source code
+        run: python -m compileall -q src tests
+      - name: Run defense setup and adapter unit tests
+        run: pytest -q tests/test_defense_hooks.py
