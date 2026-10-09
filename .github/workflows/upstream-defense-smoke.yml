@@ -15,7 +15,7 @@ jobs:
         with:
           python-version: "3.11"
       - name: Install lightweight project and tests
-        run: pip install -e '.[test]'
+        run: pip install -e '.[agent,test]'
       - name: Compile source code
         run: python -m compileall -q src tests
       - name: Run defense setup and adapter unit tests
