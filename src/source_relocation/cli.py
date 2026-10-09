@@ -30,7 +30,9 @@ def run(args):
     for row in manifest:
         for case in cases:
             rendered = render_condition(row, case, row["task"])
-            defenses = DEFENSES if args.rq == "rq3" and args.experiment == "defenses" else ("none",)
+            defenses = (
+                DEFENSES if args.defense == "all" else (args.defense,)
+            ) if args.rq == "rq3" and args.experiment == "defenses" else ("none",)
             for defense in defenses:
                 out = Path(args.outputs) / args.rq / args.experiment / args.domain / args.model / defense / rendered["condition"] / row["pair_id"]
                 if (out / "result.json").exists() and not args.force and not args.preview:
@@ -122,6 +124,7 @@ def main(argv=None):
     r.add_argument("--manifest", default="outputs/manifests/travel.jsonl")
     r.add_argument("--outputs", default="outputs/runs")
     r.add_argument("--limit", type=int)
+    r.add_argument("--defense", choices=("all", "none", "sandwich", "struq", "secalign", "perplexity", "datasentinel", "causalarmor"), default="all")
     r.add_argument("--force", action="store_true")
     r.add_argument("--preview", action="store_true")
     r.set_defaults(func=run)
